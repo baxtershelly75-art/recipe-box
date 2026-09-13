@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#efe4cf">
+  <title>Shelly's Recipe Box</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">SHELLY'S</p>
+      <h1>Recipe Box</h1>
+      <p class="subtitle">Simple food. Clear steps. No recipe-blog nonsense.</p>
+    </div>
+    <button id="favoritesBtn" class="secondary-btn" type="button">♥ Favorites</button>
+  </header>
+
+  <main id="app" class="shell">
+    <section id="homeView" class="view active">
+      <div class="hero-card">
+        <h2>I know what I want</h2>
+        <label class="sr-only" for="searchInput">Search recipes</label>
+        <input id="searchInput" class="search-input" type="search" autocomplete="off" placeholder="Try cabbage, bread pudding, cheap, 15 minutes…">
+        <button id="searchBtn" class="primary-btn" type="button">SEARCH RECIPES</button>
+      </div>
+
+      <div class="hero-card browse-card">
+        <h2>I'm not sure</h2>
+        <p>Pick what sounds useful right now.</p>
+        <div id="browseChips" class="chips" aria-label="Browse filters"></div>
+      </div>
+
+      <section class="section-block">
+        <div class="section-heading">
+          <h2>Recently viewed</h2>
+        </div>
+        <div id="recentGrid" class="recipe-grid"></div>
+      </section>
+    </section>
+
+    <section id="resultsView" class="view">
+      <button class="back-link" data-action="home" type="button">← HOME</button>
+      <div class="section-heading results-heading">
+        <div><p class="eyebrow">RESULTS</p><h2 id="resultsTitle">Recipes</h2></div>
+        <span id="resultsCount" class="count-badge"></span>
+      </div>
+      <div id="resultsGrid" class="recipe-grid"></div>
+      <button id="showMoreBtn" class="secondary-btn wide hidden" type="button">SHOW MORE</button>
+    </section>
+
+    <section id="detailView" class="view">
+      <button class="back-link" data-action="back-results" type="button">← BACK</button>
+      <article id="recipeDetail" class="detail-card"></article>
+    </section>
+
+    <section id="cookView" class="view cook-view" aria-live="polite">
+      <div class="cook-topbar">
+        <button id="exitCookBtn" class="secondary-btn" type="button">EXIT</button>
+        <span id="cookProgress" class="count-badge"></span>
+      </div>
+      <div class="cook-panel">
+        <p id="cookRecipeTitle" class="cook-recipe-title"></p>
+        <h2 id="cookStep" class="cook-step"></h2>
+        <div id="timerPanel" class="timer-panel hidden">
+          <button id="startTimerBtn" class="timer-start" type="button">START TIMER</button>
+          <div id="timerRunning" class="timer-running hidden">
+            <div id="timerDisplay" class="timer-display">00:00</div>
+            <div class="timer-actions">
+              <button id="pauseTimerBtn" class="secondary-btn" type="button">PAUSE</button>
+              <button id="addMinuteBtn" class="secondary-btn" type="button">+1 MIN</button>
+              <button id="resetTimerBtn" class="secondary-btn" type="button">RESET</button>
+            </div>
+            <p id="timerDoneText" class="timer-done hidden">Timer finished — check the food before moving on.</p>
+          </div>
+        </div>
+        <div class="cook-controls">
+          <button id="cookBackBtn" class="secondary-btn cook-button" type="button">BACK</button>
+          <button id="cookNextBtn" class="primary-btn cook-button" type="button">DONE / NEXT</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>
