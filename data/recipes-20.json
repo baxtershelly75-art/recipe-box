@@ -1,0 +1,142 @@
+[
+  {
+    "id": "small-batch-oatmeal-raisin-cookies",
+    "title": "Small-Batch Oatmeal Raisin Cookies",
+    "aliases": ["oatmeal cookies small batch", "six oatmeal cookies"],
+    "description": "A small pan of soft oatmeal cookies with raisins or chocolate chips.",
+    "servings": 6,
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "totalMinutes": 22,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["baking sheet", "medium bowl"],
+    "ingredients": [
+      {"amount": 4, "unit": "tbsp", "item": "butter, softened", "optional": false},
+      {"amount": 0.25, "unit": "cup", "item": "brown sugar", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "granulated sugar", "optional": false},
+      {"amount": 1, "unit": "", "item": "egg yolk", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "vanilla", "optional": false},
+      {"amount": 0.33, "unit": "cup", "item": "all-purpose flour", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "rolled oats", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "cinnamon", "optional": false},
+      {"amount": 0.125, "unit": "tsp", "item": "baking soda", "optional": false},
+      {"amount": 0.25, "unit": "cup", "item": "raisins or chocolate chips", "optional": false}
+    ],
+    "substitutions": [],
+    "steps": [
+      {"text": "Heat oven to 350°F and line a baking sheet."},
+      {"text": "Beat 4 tablespoons softened butter with 1/4 cup brown sugar and 2 tablespoons granulated sugar. Mix in 1 egg yolk and 1/2 teaspoon vanilla."},
+      {"text": "Stir in 1/3 cup flour, 1/2 cup oats, 1/4 teaspoon cinnamon, and 1/8 teaspoon baking soda. Fold in 1/4 cup raisins or chocolate chips."},
+      {"text": "Divide into 6 mounds and bake 10–12 minutes, until the edges are set but centers still look soft."}
+    ],
+    "cookSteps": [
+      {"text": "Heat oven to 350°F and line a baking sheet."},
+      {"text": "Beat 4 tablespoons softened butter with 1/4 cup brown sugar and 2 tablespoons granulated sugar. Mix in 1 egg yolk and 1/2 teaspoon vanilla."},
+      {"text": "Stir in 1/3 cup flour, 1/2 cup oats, 1/4 teaspoon cinnamon, and 1/8 teaspoon baking soda. Fold in 1/4 cup raisins or chocolate chips."},
+      {"text": "Divide into 6 mounds and bake 10–12 minutes, until the edges are set but centers still look soft."}
+    ],
+    "storage": "Refrigerate leftovers in a covered container up to 3 days.",
+    "tags": ["dessert", "baking", "sweet", "small batch"]
+  },
+  {
+    "id": "peanut-butter-mug-cake",
+    "title": "Peanut Butter Mug Cake",
+    "aliases": ["microwave peanut butter cake", "single serve dessert"],
+    "description": "A warm single-serving peanut butter cake mixed and cooked right in a mug.",
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 1,
+    "totalMinutes": 6,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["12-oz microwave-safe mug"],
+    "ingredients": [
+      {"amount": 3, "unit": "tbsp", "item": "all-purpose flour", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "brown sugar", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "baking powder", "optional": false},
+      {"amount": 3, "unit": "tbsp", "item": "milk", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "peanut butter", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "vanilla", "optional": false}
+    ],
+    "substitutions": [],
+    "steps": [
+      {"text": "In a 12-oz microwave-safe mug, stir together 3 tablespoons flour, 2 tablespoons brown sugar, and 1/4 teaspoon baking powder."},
+      {"text": "Stir in 3 tablespoons milk, 2 tablespoons peanut butter, and 1/4 teaspoon vanilla until smooth."},
+      {"text": "Microwave 50–70 seconds, stopping when the top looks set but still soft. Let stand 1 minute before eating."}
+    ],
+    "cookSteps": [
+      {"text": "In a 12-oz microwave-safe mug, stir together 3 tablespoons flour, 2 tablespoons brown sugar, and 1/4 teaspoon baking powder."},
+      {"text": "Stir in 3 tablespoons milk, 2 tablespoons peanut butter, and 1/4 teaspoon vanilla until smooth."},
+      {"text": "Microwave 50–70 seconds, stopping when the top looks set but still soft. Let stand 1 minute before eating."}
+    ],
+    "storage": "Refrigerate leftovers in a covered container up to 3 days.",
+    "tags": ["dessert", "sweet", "small batch", "10-minute", "very easy"]
+  },
+  {
+    "id": "baked-cinnamon-banana-boats",
+    "title": "Baked Cinnamon Banana Boats",
+    "aliases": ["baked bananas", "easy banana dessert"],
+    "description": "Warm bananas with cinnamon and a little brown sugar, baked until soft and caramel-like.",
+    "servings": 2,
+    "prepMinutes": 5,
+    "cookMinutes": 12,
+    "totalMinutes": 17,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["small baking dish"],
+    "ingredients": [
+      {"amount": 2, "unit": "", "item": "ripe bananas", "optional": false},
+      {"amount": 2, "unit": "tsp", "item": "brown sugar", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "cinnamon", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "chocolate chips or chopped nuts", "optional": true}
+    ],
+    "substitutions": [],
+    "steps": [
+      {"text": "Heat oven to 400°F. Split 2 bananas lengthwise through the peel without cutting all the way through the bottom peel."},
+      {"text": "Sprinkle each banana with 1 teaspoon brown sugar and a pinch of the 1/4 teaspoon cinnamon. Add optional chocolate chips or nuts."},
+      {"text": "Place in a small baking dish and bake 10–12 minutes, until very soft and syrupy."}
+    ],
+    "cookSteps": [
+      {"text": "Heat oven to 400°F. Split 2 bananas lengthwise through the peel without cutting all the way through the bottom peel."},
+      {"text": "Sprinkle each banana with 1 teaspoon brown sugar and a pinch of the 1/4 teaspoon cinnamon. Add optional chocolate chips or nuts."},
+      {"text": "Place in a small baking dish and bake 10–12 minutes, until very soft and syrupy."}
+    ],
+    "storage": "Refrigerate leftovers in a covered container up to 3 days.",
+    "tags": ["dessert", "sweet", "use it up", "20-minute", "very easy"]
+  },
+  {
+    "id": "garlic-butter-noodles",
+    "title": "Garlic Butter Noodles",
+    "aliases": ["butter noodles", "easy noodles"],
+    "description": "A fast pantry bowl of tender noodles with butter, garlic, and Parmesan.",
+    "servings": 3,
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "totalMinutes": 15,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["medium pot", "skillet"],
+    "ingredients": [
+      {"amount": 8, "unit": "oz", "item": "spaghetti or egg noodles", "optional": false},
+      {"amount": 3, "unit": "tbsp", "item": "butter", "optional": false},
+      {"amount": 2, "unit": "cloves", "item": "garlic, minced", "optional": false},
+      {"amount": 0.25, "unit": "cup", "item": "grated Parmesan", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "black pepper", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "salt", "optional": false}
+    ],
+    "substitutions": ["Use any pasta shape.", "Skip Parmesan and add a splash of soy sauce for a different pantry version."],
+    "steps": [
+      {"text": "Boil the noodles in salted water until tender; reserve 1/4 cup pasta water and drain."},
+      {"text": "Melt 3 tablespoons butter in a skillet over medium-low heat. Add 2 minced garlic cloves and cook about 30 seconds without browning."},
+      {"text": "Add the drained noodles, 1/4 cup Parmesan, black pepper, and a splash of pasta water. Toss until glossy and serve."}
+    ],
+    "cookSteps": [
+      {"text": "Boil the noodles in salted water until tender; reserve 1/4 cup pasta water and drain."},
+      {"text": "Melt 3 tablespoons butter in a skillet over medium-low heat. Add 2 minced garlic cloves and cook about 30 seconds without browning."},
+      {"text": "Add the drained noodles, 1/4 cup Parmesan, black pepper, and a splash of pasta water. Toss until glossy and serve."}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["15-minute", "pasta", "cheap", "very easy", "pantry meal", "dinner", "comfort food"]
+  }
+]
