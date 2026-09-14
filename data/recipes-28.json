@@ -1,0 +1,150 @@
+[
+  {
+    "id": "savory-baked-oatmeal-eggs-spinach",
+    "title": "Savory Baked Oatmeal with Eggs & Spinach",
+    "aliases": [
+      "savory oats bake",
+      "egg spinach oatmeal bake"
+    ],
+    "description": "A soft, cheesy baked oatmeal that works for breakfast or an easy supper.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": [
+      "8-inch baking dish",
+      "bowl"
+    ],
+    "ingredients": [
+      {"amount": 2, "unit": "cups", "item": "old-fashioned oats", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "milk", "optional": false},
+      {"amount": 3, "unit": "", "item": "large eggs", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "baby spinach, chopped", "optional": false},
+      {"amount": 0.75, "unit": "cup", "item": "shredded cheddar cheese", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "salt", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "black pepper", "optional": false}
+    ],
+    "substitutions": [
+      "Use frozen spinach, thawed and squeezed dry.",
+      "Use another mild shredded cheese."
+    ],
+    "steps": [
+      {"text": "Heat oven to 375°F and grease an 8-inch baking dish."},
+      {"text": "Whisk milk, eggs, salt, and pepper. Stir in oats, chopped spinach, and 1/2 cup cheese."},
+      {"text": "Pour into the dish, top with remaining 1/4 cup cheese, and bake 28–30 minutes until the center is set."}
+    ],
+    "cookSteps": [
+      {"text": "Heat oven to 375°F and grease an 8-inch baking dish."},
+      {"text": "Whisk 2 cups milk, 3 eggs, 1/2 teaspoon salt, and 1/4 teaspoon black pepper. Stir in 2 cups oats, 2 cups chopped spinach, and 1/2 cup cheese."},
+      {"text": "Pour into the dish, top with the remaining 1/4 cup cheese, and bake 28–30 minutes until the center is set.", "timerMinutes": 28}
+    ],
+    "storage": "Refrigerate up to 4 days. Reheat slices in the microwave.",
+    "tags": ["breakfast", "baking", "cheap", "comfort food", "vegetable"]
+  },
+  {
+    "id": "egg-in-a-hole-cheese-toast",
+    "title": "Cheesy Egg-in-a-Hole Toast",
+    "aliases": ["egg in toast", "egg in a basket"],
+    "description": "Crisp buttered toast with a soft egg cooked right in the middle.",
+    "servings": 1,
+    "prepMinutes": 3,
+    "cookMinutes": 7,
+    "totalMinutes": 10,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["skillet", "small cutter or glass"],
+    "ingredients": [
+      {"amount": 1, "unit": "slice", "item": "bread", "optional": false},
+      {"amount": 1, "unit": "", "item": "large egg", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "butter", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "shredded cheese", "optional": true},
+      {"amount": 1, "unit": "pinch", "item": "salt and black pepper", "optional": false}
+    ],
+    "substitutions": ["Skip the cheese.", "Use any sandwich bread."],
+    "steps": [
+      {"text": "Cut a 2- to 3-inch hole from the center of the bread."},
+      {"text": "Melt butter in a skillet over medium heat. Add bread and the cutout."},
+      {"text": "Crack the egg into the hole, season, and cook 2–3 minutes. Flip and cook 1–2 minutes more; add cheese near the end if using."}
+    ],
+    "cookSteps": [
+      {"text": "Cut a 2- to 3-inch hole from 1 slice of bread."},
+      {"text": "Melt 1 teaspoon butter in a skillet over medium heat. Add the bread and the cutout."},
+      {"text": "Crack 1 egg into the hole, season with a pinch of salt and black pepper, and cook 2–3 minutes.", "timerMinutes": 2},
+      {"text": "Flip carefully and cook 1–2 minutes more. Add 2 tablespoons cheese during the last minute if using.", "timerMinutes": 1}
+    ],
+    "storage": "Best eaten right away.",
+    "tags": ["10-minute", "breakfast", "very easy", "cheap", "small batch"]
+  },
+  {
+    "id": "vegetable-cheddar-frittata",
+    "title": "Vegetable Cheddar Frittata",
+    "aliases": ["easy veggie frittata", "egg vegetable bake"],
+    "description": "A simple skillet-baked egg dish that uses up stray vegetables.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["oven-safe skillet", "bowl"],
+    "ingredients": [
+      {"amount": 6, "unit": "", "item": "large eggs", "optional": false},
+      {"amount": 0.25, "unit": "cup", "item": "milk", "optional": false},
+      {"amount": 1.5, "unit": "cups", "item": "chopped mixed vegetables", "optional": false},
+      {"amount": 0.75, "unit": "cup", "item": "shredded cheddar cheese", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "oil", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "salt", "optional": false}
+    ],
+    "substitutions": ["Use cooked leftover vegetables.", "Use mozzarella, Swiss, or pepper jack instead of cheddar."],
+    "steps": [
+      {"text": "Heat oven to 375°F."},
+      {"text": "Cook vegetables in oil in an oven-safe skillet over medium heat for 5–7 minutes until just tender."},
+      {"text": "Whisk eggs, milk, and salt. Pour over vegetables, sprinkle with cheese, and bake 12–15 minutes until just set."}
+    ],
+    "cookSteps": [
+      {"text": "Heat oven to 375°F."},
+      {"text": "Cook 1 1/2 cups chopped vegetables in 1 tablespoon oil in an oven-safe skillet over medium heat for 5–7 minutes until just tender.", "timerMinutes": 5},
+      {"text": "Whisk 6 eggs with 1/4 cup milk and 1/2 teaspoon salt. Pour over the vegetables and sprinkle with 3/4 cup cheese."},
+      {"text": "Bake 12–15 minutes until the center is just set.", "timerMinutes": 12}
+    ],
+    "storage": "Refrigerate up to 4 days. Good warm or cold.",
+    "tags": ["30-minute", "breakfast", "use it up", "vegetable", "cheap"]
+  },
+  {
+    "id": "tomato-rice-skillet-beans",
+    "title": "Tomato Rice & Bean Skillet",
+    "aliases": ["beans and rice skillet", "tomato bean rice"],
+    "description": "A filling pantry skillet with rice, tomatoes, beans, and warm spices.",
+    "servings": 4,
+    "prepMinutes": 5,
+    "cookMinutes": 25,
+    "totalMinutes": 30,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["large skillet with lid"],
+    "ingredients": [
+      {"amount": 1, "unit": "cup", "item": "long-grain white rice", "optional": false},
+      {"amount": 1, "unit": "can", "item": "diced tomatoes, 14 to 15 ounces", "optional": false},
+      {"amount": 1, "unit": "can", "item": "black beans, drained and rinsed", "optional": false},
+      {"amount": 1.5, "unit": "cups", "item": "water or broth", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "chili powder", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "ground cumin", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "shredded cheese", "optional": true}
+    ],
+    "substitutions": ["Use pinto beans or kidney beans.", "Use canned tomatoes with green chiles for more heat."],
+    "steps": [
+      {"text": "Combine rice, tomatoes, beans, water or broth, chili powder, and cumin in a large skillet."},
+      {"text": "Bring to a boil, cover, reduce heat to low, and cook 18 minutes."},
+      {"text": "Turn off heat and rest covered 5 minutes. Fluff and top with cheese if using."}
+    ],
+    "cookSteps": [
+      {"text": "Combine 1 cup rice, 1 can diced tomatoes, 1 can black beans, 1 1/2 cups water or broth, 1 teaspoon chili powder, and 1/2 teaspoon cumin in a large skillet."},
+      {"text": "Bring to a boil, cover, reduce heat to low, and cook 18 minutes.", "timerMinutes": 18},
+      {"text": "Turn off heat and rest covered 5 minutes. Fluff and top with 1/2 cup cheese if using.", "timerMinutes": 5}
+    ],
+    "storage": "Refrigerate up to 4 days or freeze up to 2 months.",
+    "tags": ["30-minute", "one-pot", "pantry", "cheap", "rice", "dinner", "comfort food"]
+  }
+]
