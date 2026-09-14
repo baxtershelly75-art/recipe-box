@@ -1,0 +1,141 @@
+[
+  {
+    "id": "breakfast-quesadilla",
+    "title": "Breakfast Quesadilla",
+    "aliases": ["egg quesadilla", "breakfast tortilla"],
+    "description": "Scrambled egg and cheese folded into a crisp tortilla.",
+    "servings": 1,
+    "prepMinutes": 4,
+    "cookMinutes": 8,
+    "totalMinutes": 12,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["skillet"],
+    "ingredients": [
+      {"amount": 1, "unit": "", "item": "large flour tortilla", "optional": false},
+      {"amount": 2, "unit": "", "item": "large eggs", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "shredded cheese", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "butter", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "salsa", "optional": true}
+    ],
+    "substitutions": ["Add a spoonful of leftover vegetables or beans.", "Use any melting cheese."],
+    "steps": [
+      {"text": "Melt butter in a skillet and scramble 2 eggs until barely set; move them to a plate."},
+      {"text": "Put the tortilla in the skillet. Sprinkle cheese over half, add eggs, and fold."},
+      {"text": "Cook 2 minutes per side until crisp and melted. Serve with salsa if desired."}
+    ],
+    "cookSteps": [
+      {"text": "Melt butter in a skillet and scramble 2 eggs until barely set; move them to a plate."},
+      {"text": "Put the tortilla in the skillet. Sprinkle cheese over half, add eggs, and fold."},
+      {"text": "Cook 2 minutes per side until crisp and melted. Serve with salsa if desired."}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["15-minute", "breakfast", "very easy", "cheap", "sandwich"]
+  },
+  {
+    "id": "slow-cooker-chicken-tacos",
+    "title": "Slow Cooker Chicken Tacos",
+    "aliases": ["crockpot chicken tacos", "shredded chicken tacos"],
+    "description": "Dump-and-go salsa chicken that shreds easily for tacos.",
+    "servings": 6,
+    "prepMinutes": 5,
+    "cookMinutes": 240,
+    "totalMinutes": 245,
+    "effort": "very easy",
+    "cost": "$$",
+    "equipment": ["slow cooker"],
+    "ingredients": [
+      {"amount": 2, "unit": "lb", "item": "boneless chicken breasts or thighs", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "salsa", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "ground cumin", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "chili powder", "optional": false},
+      {"amount": 12, "unit": "", "item": "small tortillas", "optional": false}
+    ],
+    "substitutions": ["Use mild or hot salsa to control heat.", "Serve over rice instead of tortillas."],
+    "steps": [
+      {"text": "Put chicken in the slow cooker. Pour 2 cups salsa over it and sprinkle with cumin and chili powder."},
+      {"text": "Cover and cook on LOW for about 4 hours, until the chicken shreds easily."},
+      {"text": "Shred the chicken directly in the sauce and serve in tortillas."}
+    ],
+    "cookSteps": [
+      {"text": "Put chicken in the slow cooker. Pour 2 cups salsa over it and sprinkle with cumin and chili powder."},
+      {"text": "Cover and cook on LOW for about 4 hours, until the chicken shreds easily."},
+      {"text": "Shred the chicken directly in the sauce and serve in tortillas."}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["crockpot", "slow cooker", "very easy", "dinner"]
+  },
+  {
+    "id": "hamburger-potato-casserole",
+    "title": "Hamburger Potato Casserole",
+    "aliases": ["ground beef potato casserole", "beef potato bake"],
+    "description": "Layers of seasoned ground beef, thin potatoes, and creamy sauce.",
+    "servings": 6,
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "totalMinutes": 75,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": ["9x13-inch baking dish", "skillet"],
+    "ingredients": [
+      {"amount": 1, "unit": "lb", "item": "ground beef or turkey", "optional": false},
+      {"amount": 2, "unit": "lb", "item": "potatoes, thinly sliced", "optional": false},
+      {"amount": 1, "unit": "can", "item": "cream of mushroom soup, 10.5 oz", "optional": false},
+      {"amount": 0.75, "unit": "cup", "item": "milk", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "shredded cheddar", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "salt", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "black pepper", "optional": false}
+    ],
+    "substitutions": ["Ground turkey works well.", "Cream of chicken soup can replace mushroom."],
+    "steps": [
+      {"text": "Heat oven to 375°F. Brown the ground meat and drain excess fat."},
+      {"text": "Whisk soup with 3/4 cup milk."},
+      {"text": "Layer half the potatoes, half the meat, and half the soup mixture in a greased 9x13-inch dish; repeat."},
+      {"text": "Cover tightly and bake 45 minutes. Uncover, add cheddar, and bake 15 minutes more until potatoes are tender."}
+    ],
+    "cookSteps": [
+      {"text": "Heat oven to 375°F. Brown the ground meat and drain excess fat."},
+      {"text": "Whisk soup with 3/4 cup milk."},
+      {"text": "Layer half the potatoes, half the meat, and half the soup mixture in a greased 9x13-inch dish; repeat."},
+      {"text": "Cover tightly and bake 45 minutes. Uncover, add cheddar, and bake 15 minutes more until potatoes are tender."}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["casserole", "comfort food", "dinner"]
+  },
+  {
+    "id": "broccoli-cheddar-rice-casserole",
+    "title": "Broccoli Cheddar Rice Casserole",
+    "aliases": ["broccoli rice casserole", "cheesy rice casserole"],
+    "description": "Creamy rice, broccoli, and cheddar baked until bubbly.",
+    "servings": 6,
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["2-quart baking dish", "bowl"],
+    "ingredients": [
+      {"amount": 3, "unit": "cups", "item": "cooked rice", "optional": false},
+      {"amount": 3, "unit": "cups", "item": "broccoli florets, cooked or thawed", "optional": false},
+      {"amount": 1, "unit": "can", "item": "cream of mushroom or chicken soup, 10.5 oz", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "milk", "optional": false},
+      {"amount": 1.5, "unit": "cups", "item": "shredded cheddar", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "garlic powder", "optional": false}
+    ],
+    "substitutions": ["Use leftover rice.", "Frozen broccoli is perfect here."],
+    "steps": [
+      {"text": "Heat oven to 375°F."},
+      {"text": "Mix cooked rice, broccoli, soup, milk, garlic powder, and 1 cup cheddar."},
+      {"text": "Spread in a greased baking dish and top with remaining 1/2 cup cheddar."},
+      {"text": "Bake 25–30 minutes until hot and bubbly."}
+    ],
+    "cookSteps": [
+      {"text": "Heat oven to 375°F."},
+      {"text": "Mix cooked rice, broccoli, soup, milk, garlic powder, and 1 cup cheddar."},
+      {"text": "Spread in a greased baking dish and top with remaining 1/2 cup cheddar."},
+      {"text": "Bake 25–30 minutes until hot and bubbly.", "timerMinutes": 25}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["casserole", "rice", "vegetable", "comfort food", "use it up", "very easy"]
+  }
+]
