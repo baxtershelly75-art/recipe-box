@@ -1,0 +1,142 @@
+[
+  {
+    "id": "tuna-melt",
+    "title": "Classic Tuna Melt",
+    "aliases": ["tuna sandwich", "open face tuna melt"],
+    "description": "Creamy tuna salad and melted cheese on crisp toast.",
+    "servings": 2,
+    "prepMinutes": 8,
+    "cookMinutes": 7,
+    "totalMinutes": 15,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["baking sheet", "broiler or toaster oven"],
+    "ingredients": [
+      {"amount": 1, "unit": "can", "item": "tuna, drained, 5 oz", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "mayonnaise", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "diced celery or pickle", "optional": true},
+      {"amount": 4, "unit": "slices", "item": "bread", "optional": false},
+      {"amount": 4, "unit": "slices", "item": "cheddar cheese", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "black pepper", "optional": false}
+    ],
+    "substitutions": ["Use plain Greek yogurt for part of the mayo.", "Skip celery/pickle if you want it plain."],
+    "steps": [
+      {"text": "Mix drained tuna with 2 tablespoons mayonnaise, optional celery or pickle, and black pepper."},
+      {"text": "Toast 4 bread slices lightly."},
+      {"text": "Spread tuna over toast and top each with cheese."},
+      {"text": "Broil 1–2 minutes, watching closely, until cheese bubbles and melts."}
+    ],
+    "cookSteps": [
+      {"text": "Mix drained tuna with 2 tablespoons mayonnaise, optional celery or pickle, and black pepper."},
+      {"text": "Toast 4 bread slices lightly."},
+      {"text": "Spread tuna over toast and top each with cheese."},
+      {"text": "Broil 1–2 minutes, watching closely, until cheese bubbles and melts.", "timerMinutes": 1}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["15-minute", "sandwich", "pantry meal", "cheap", "very easy", "lunch"]
+  },
+  {
+    "id": "egg-salad-sandwiches",
+    "title": "Simple Egg Salad Sandwiches",
+    "aliases": ["egg salad", "egg sandwich"],
+    "description": "Creamy, lightly seasoned egg salad for sandwiches or toast.",
+    "servings": 3,
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "totalMinutes": 22,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["small pot", "bowl"],
+    "ingredients": [
+      {"amount": 6, "unit": "", "item": "large eggs", "optional": false},
+      {"amount": 3, "unit": "tbsp", "item": "mayonnaise", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "yellow mustard", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "salt", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "black pepper", "optional": false},
+      {"amount": 6, "unit": "slices", "item": "bread", "optional": false}
+    ],
+    "substitutions": ["Add diced pickle or celery if you like crunch.", "Serve over lettuce instead of bread."],
+    "steps": [
+      {"text": "Cover 6 eggs with water in a pot. Bring to a boil, cover, turn off heat, and let stand 10 minutes."},
+      {"text": "Cool eggs under cold water, peel, and chop."},
+      {"text": "Mix eggs with mayonnaise, mustard, salt, and pepper."},
+      {"text": "Spoon onto bread and make sandwiches."}
+    ],
+    "cookSteps": [
+      {"text": "Cover 6 eggs with water in a pot. Bring to a boil, cover, turn off heat, and let stand 10 minutes."},
+      {"text": "Cool eggs under cold water, peel, and chop."},
+      {"text": "Mix eggs with mayonnaise, mustard, salt, and pepper."},
+      {"text": "Spoon onto bread and make sandwiches."}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["30-minute", "breakfast", "sandwich", "cheap", "very easy", "lunch"]
+  },
+  {
+    "id": "banana-oat-pancakes",
+    "title": "Banana Oat Pancakes",
+    "aliases": ["banana pancakes", "oat pancakes"],
+    "description": "Soft small-batch pancakes sweetened mostly with ripe banana.",
+    "servings": 2,
+    "prepMinutes": 7,
+    "cookMinutes": 10,
+    "totalMinutes": 17,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["bowl", "skillet"],
+    "ingredients": [
+      {"amount": 1, "unit": "", "item": "ripe banana", "optional": false},
+      {"amount": 1, "unit": "", "item": "large egg", "optional": false},
+      {"amount": 0.75, "unit": "cup", "item": "milk", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "quick oats", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "baking powder", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "cinnamon", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "butter or oil", "optional": false}
+    ],
+    "substitutions": ["Blend oats for a smoother batter, or leave them whole.", "Any milk works."],
+    "steps": [
+      {"text": "Mash 1 ripe banana in a bowl. Whisk in egg and 3/4 cup milk."},
+      {"text": "Stir in 1 cup oats, baking powder, and cinnamon. Let stand 3 minutes."},
+      {"text": "Heat a lightly buttered skillet over medium. Cook small pancakes 2–3 minutes per side until set."}
+    ],
+    "cookSteps": [
+      {"text": "Mash 1 ripe banana in a bowl. Whisk in egg and 3/4 cup milk."},
+      {"text": "Stir in 1 cup oats, baking powder, and cinnamon. Let stand 3 minutes."},
+      {"text": "Heat a lightly buttered skillet over medium. Cook small pancakes 2–3 minutes per side until set.", "timerMinutes": 2}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["30-minute", "breakfast", "small batch", "use it up", "banana", "cheap"]
+  },
+  {
+    "id": "apple-cinnamon-oatmeal",
+    "title": "Apple Cinnamon Oatmeal",
+    "aliases": ["apple oatmeal", "stovetop oatmeal"],
+    "description": "Warm oatmeal with tender apple and cinnamon.",
+    "servings": 2,
+    "prepMinutes": 5,
+    "cookMinutes": 8,
+    "totalMinutes": 13,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["small saucepan"],
+    "ingredients": [
+      {"amount": 1, "unit": "cup", "item": "old-fashioned oats", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "milk or water", "optional": false},
+      {"amount": 1, "unit": "", "item": "apple, diced", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "cinnamon", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "brown sugar", "optional": true}
+    ],
+    "substitutions": ["Use pear instead of apple.", "Add raisins if on hand."],
+    "steps": [
+      {"text": "Put oats, milk or water, diced apple, and cinnamon in a saucepan."},
+      {"text": "Bring to a gentle simmer and cook 6–8 minutes, stirring often, until creamy and the apple is tender."},
+      {"text": "Sweeten with brown sugar if desired and serve."}
+    ],
+    "cookSteps": [
+      {"text": "Put oats, milk or water, diced apple, and cinnamon in a saucepan."},
+      {"text": "Bring to a gentle simmer and cook 6–8 minutes, stirring often, until creamy and the apple is tender.", "timerMinutes": 6},
+      {"text": "Sweeten with brown sugar if desired and serve."}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["15-minute", "breakfast", "cheap", "very easy", "sweet"]
+  }
+]
