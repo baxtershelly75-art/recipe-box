@@ -1,0 +1,137 @@
+[
+  {
+    "id": "lentil-taco-soup",
+    "title": "Lentil Taco Soup",
+    "aliases": ["lentil chili", "taco lentil soup"],
+    "description": "Hearty lentils, beans, corn, and tomatoes with mild taco flavor.",
+    "servings": 6,
+    "prepMinutes": 10,
+    "cookMinutes": 35,
+    "totalMinutes": 45,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["large pot"],
+    "ingredients": [
+      {"amount": 1, "unit": "cup", "item": "brown or green lentils, rinsed", "optional": false},
+      {"amount": 1, "unit": "can", "item": "black beans, drained, 15 oz", "optional": false},
+      {"amount": 1, "unit": "can", "item": "diced tomatoes, 14.5 oz", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "frozen corn", "optional": false},
+      {"amount": 5, "unit": "cups", "item": "broth", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "chili powder", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "ground cumin", "optional": false}
+    ],
+    "substitutions": ["Use pinto beans instead of black beans.", "Add shredded cheese at serving if desired."],
+    "steps": [
+      {"text": "Combine lentils, beans, tomatoes, corn, broth, chili powder, and cumin in a pot."},
+      {"text": "Bring to a boil, reduce to a simmer, and cook 30–35 minutes until lentils are tender."},
+      {"text": "Taste and add salt if needed. Serve as-is or with cheese."}
+    ],
+    "cookSteps": [
+      {"text": "Combine lentils, beans, tomatoes, corn, broth, chili powder, and cumin in a pot."},
+      {"text": "Bring to a boil, reduce to a simmer, and cook 30–35 minutes until lentils are tender.", "timerMinutes": 30},
+      {"text": "Taste and add salt if needed. Serve as-is or with cheese."}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["soup", "stew", "cheap", "pantry meal", "vegetarian", "dinner"]
+  },
+  {
+    "id": "honey-garlic-carrots",
+    "title": "Honey Garlic Carrots",
+    "aliases": ["glazed carrots", "sweet carrots"],
+    "description": "Tender carrots glazed with butter, honey, and garlic.",
+    "servings": 4,
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "totalMinutes": 20,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["large skillet"],
+    "ingredients": [
+      {"amount": 1, "unit": "lb", "item": "carrots, sliced", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "butter", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "honey", "optional": false},
+      {"amount": 1, "unit": "clove", "item": "garlic, minced", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "salt", "optional": false}
+    ],
+    "substitutions": ["Maple syrup can replace honey.", "Baby carrots can be used whole; cook a bit longer."],
+    "steps": [
+      {"text": "Put carrots in a skillet with 1/3 cup water and salt. Cover and simmer 8–10 minutes until nearly tender."},
+      {"text": "Uncover and add butter, honey, and garlic."},
+      {"text": "Cook 3–5 minutes, stirring, until the liquid becomes a shiny glaze."}
+    ],
+    "cookSteps": [
+      {"text": "Put carrots in a skillet with 1/3 cup water and salt. Cover and simmer 8–10 minutes until nearly tender.", "timerMinutes": 8},
+      {"text": "Uncover and add butter, honey, and garlic."},
+      {"text": "Cook 3–5 minutes, stirring, until the liquid becomes a shiny glaze.", "timerMinutes": 3}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["vegetable", "side", "30-minute", "cheap", "very easy"]
+  },
+  {
+    "id": "skillet-cabbage-apples",
+    "title": "Skillet Cabbage & Apples",
+    "aliases": ["cabbage apples", "fried cabbage with apples"],
+    "description": "Soft savory cabbage with sweet apple and a touch of butter.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "totalMinutes": 25,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["large skillet"],
+    "ingredients": [
+      {"amount": 0.5, "unit": "head", "item": "green cabbage, sliced", "optional": false},
+      {"amount": 1, "unit": "", "item": "apple, thinly sliced", "optional": false},
+      {"amount": 1, "unit": "", "item": "onion, sliced", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "butter", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "apple cider vinegar", "optional": true},
+      {"amount": 0.5, "unit": "tsp", "item": "salt", "optional": false}
+    ],
+    "substitutions": ["Skip vinegar if you do not have it.", "Use pear instead of apple."],
+    "steps": [
+      {"text": "Melt 2 tablespoons butter in a large skillet. Add onion and cabbage with salt."},
+      {"text": "Cook 8 minutes, stirring often."},
+      {"text": "Add sliced apple and cook 5–7 minutes more until cabbage is soft and apple is tender. Stir in vinegar if using."}
+    ],
+    "cookSteps": [
+      {"text": "Melt 2 tablespoons butter in a large skillet. Add onion and cabbage with salt."},
+      {"text": "Cook 8 minutes, stirring often."},
+      {"text": "Add sliced apple and cook 5–7 minutes more until cabbage is soft and apple is tender. Stir in vinegar if using.", "timerMinutes": 5}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["vegetable", "side", "cabbage", "use it up", "cheap", "very easy"]
+  },
+  {
+    "id": "crispy-roasted-chickpeas",
+    "title": "Crispy Roasted Chickpeas",
+    "aliases": ["roasted chickpeas", "chickpea snack"],
+    "description": "Crunchy seasoned chickpeas for snacking or topping salads.",
+    "servings": 4,
+    "prepMinutes": 5,
+    "cookMinutes": 30,
+    "totalMinutes": 35,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["sheet pan"],
+    "ingredients": [
+      {"amount": 1, "unit": "can", "item": "chickpeas, drained and rinsed, 15 oz", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "oil", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "garlic powder", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "paprika", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "salt", "optional": false}
+    ],
+    "substitutions": ["Use any favorite dry seasoning blend."],
+    "steps": [
+      {"text": "Heat oven to 425°F. Pat chickpeas very dry."},
+      {"text": "Toss chickpeas with oil, garlic powder, paprika, and salt on a sheet pan."},
+      {"text": "Roast 25–30 minutes, shaking the pan once, until crisp. Cool a few minutes before eating."}
+    ],
+    "cookSteps": [
+      {"text": "Heat oven to 425°F. Pat chickpeas very dry."},
+      {"text": "Toss chickpeas with oil, garlic powder, paprika, and salt on a sheet pan."},
+      {"text": "Roast 25–30 minutes, shaking the pan once, until crisp. Cool a few minutes before eating.", "timerMinutes": 25}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["sheet-pan", "pantry meal", "cheap", "very easy", "vegetable", "snack"]
+  }
+]
