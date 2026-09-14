@@ -1,0 +1,147 @@
+[
+  {
+    "id": "chicken-noodle-casserole",
+    "title": "Chicken Noodle Casserole",
+    "aliases": ["chicken pasta casserole", "leftover chicken casserole"],
+    "description": "Creamy noodles, chicken, peas, and a crunchy top.",
+    "servings": 6,
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": ["9x13-inch baking dish", "large pot"],
+    "ingredients": [
+      {"amount": 8, "unit": "oz", "item": "egg noodles", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "cooked shredded chicken", "optional": false},
+      {"amount": 1, "unit": "can", "item": "cream of chicken soup, 10.5 oz", "optional": false},
+      {"amount": 0.75, "unit": "cup", "item": "milk", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "frozen peas", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "shredded cheddar", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "breadcrumbs", "optional": true}
+    ],
+    "substitutions": ["Use cooked turkey instead of chicken.", "Skip breadcrumbs if you want it extra simple."],
+    "steps": [
+      {"text": "Heat oven to 375°F. Boil noodles until just tender and drain."},
+      {"text": "Mix noodles, chicken, soup, milk, peas, and 1/2 cup cheddar."},
+      {"text": "Spread into a greased 9x13-inch dish. Top with remaining cheese and optional breadcrumbs."},
+      {"text": "Bake 25–30 minutes until bubbling and golden at the edges."}
+    ],
+    "cookSteps": [
+      {"text": "Heat oven to 375°F. Boil noodles until just tender and drain."},
+      {"text": "Mix noodles, chicken, soup, milk, peas, and 1/2 cup cheddar."},
+      {"text": "Spread into a greased 9x13-inch dish. Top with remaining cheese and optional breadcrumbs."},
+      {"text": "Bake 25–30 minutes until bubbling and golden at the edges.", "timerMinutes": 25}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["casserole", "pasta", "comfort food", "use it up", "dinner"]
+  },
+  {
+    "id": "stuffed-pepper-skillet",
+    "title": "Stuffed Pepper Skillet",
+    "aliases": ["unstuffed peppers", "ground beef pepper rice"],
+    "description": "All the flavor of stuffed peppers without stuffing anything.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "totalMinutes": 35,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": ["large skillet with lid"],
+    "ingredients": [
+      {"amount": 1, "unit": "lb", "item": "ground beef or turkey", "optional": false},
+      {"amount": 2, "unit": "", "item": "bell peppers, chopped", "optional": false},
+      {"amount": 1, "unit": "", "item": "onion, chopped", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "uncooked long-grain rice", "optional": false},
+      {"amount": 1, "unit": "can", "item": "diced tomatoes, 14.5 oz", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "broth", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "Italian seasoning", "optional": false},
+      {"amount": 0.75, "unit": "cup", "item": "shredded cheese", "optional": true}
+    ],
+    "substitutions": ["Use ground turkey.", "Skip cheese or use mozzarella/cheddar."],
+    "steps": [
+      {"text": "Brown the ground meat with peppers and onion in a large skillet."},
+      {"text": "Stir in rice, diced tomatoes with juice, broth, and Italian seasoning."},
+      {"text": "Cover and simmer 18–20 minutes, stirring once, until rice is tender."},
+      {"text": "Sprinkle with cheese if using; cover 2 minutes to melt."}
+    ],
+    "cookSteps": [
+      {"text": "Brown the ground meat with peppers and onion in a large skillet."},
+      {"text": "Stir in rice, diced tomatoes with juice, broth, and Italian seasoning."},
+      {"text": "Cover and simmer 18–20 minutes, stirring once, until rice is tender.", "timerMinutes": 18},
+      {"text": "Sprinkle with cheese if using; cover 2 minutes to melt."}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["one-pan", "rice", "dinner", "30-minute", "comfort food"]
+  },
+  {
+    "id": "white-bean-tomato-soup",
+    "title": "White Bean Tomato Soup",
+    "aliases": ["bean tomato soup", "pantry bean soup"],
+    "description": "A fast pantry soup with white beans, tomatoes, and Italian seasoning.",
+    "servings": 4,
+    "prepMinutes": 7,
+    "cookMinutes": 20,
+    "totalMinutes": 27,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["soup pot"],
+    "ingredients": [
+      {"amount": 2, "unit": "cans", "item": "white beans, drained and rinsed, 15 oz each", "optional": false},
+      {"amount": 1, "unit": "can", "item": "diced tomatoes, 14.5 oz", "optional": false},
+      {"amount": 3, "unit": "cups", "item": "vegetable or chicken broth", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "Italian seasoning", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "garlic powder", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "baby spinach", "optional": true}
+    ],
+    "substitutions": ["Use chickpeas or kidney beans.", "Frozen spinach can replace fresh."],
+    "steps": [
+      {"text": "Put beans, tomatoes, broth, Italian seasoning, and garlic powder in a pot."},
+      {"text": "Bring to a simmer and cook 15–20 minutes."},
+      {"text": "Stir in spinach for the final 2 minutes if using. Taste and season."}
+    ],
+    "cookSteps": [
+      {"text": "Put beans, tomatoes, broth, Italian seasoning, and garlic powder in a pot."},
+      {"text": "Bring to a simmer and cook 15–20 minutes.", "timerMinutes": 15},
+      {"text": "Stir in spinach for the final 2 minutes if using. Taste and season."}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["30-minute", "soup", "pantry meal", "cheap", "very easy", "vegetarian"]
+  },
+  {
+    "id": "corn-potato-chowder",
+    "title": "Easy Corn Potato Chowder",
+    "aliases": ["corn chowder", "potato corn soup"],
+    "description": "Creamy potato and corn soup made with everyday ingredients.",
+    "servings": 6,
+    "prepMinutes": 12,
+    "cookMinutes": 30,
+    "totalMinutes": 42,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["soup pot"],
+    "ingredients": [
+      {"amount": 1.5, "unit": "lb", "item": "potatoes, diced", "optional": false},
+      {"amount": 3, "unit": "cups", "item": "frozen corn", "optional": false},
+      {"amount": 1, "unit": "", "item": "onion, diced", "optional": false},
+      {"amount": 4, "unit": "cups", "item": "broth", "optional": false},
+      {"amount": 1.5, "unit": "cups", "item": "milk", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "butter", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "flour", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "salt", "optional": false}
+    ],
+    "substitutions": ["Use canned corn, drained.", "Add diced ham if you have leftovers."],
+    "steps": [
+      {"text": "Simmer potatoes, onion, corn, broth, and salt for 20 minutes until potatoes are tender."},
+      {"text": "In a small bowl whisk milk with flour until smooth."},
+      {"text": "Stir milk mixture and butter into the soup. Simmer 5–8 minutes, stirring, until slightly thickened."}
+    ],
+    "cookSteps": [
+      {"text": "Simmer potatoes, onion, corn, broth, and salt for 20 minutes until potatoes are tender.", "timerMinutes": 20},
+      {"text": "In a small bowl whisk milk with flour until smooth."},
+      {"text": "Stir milk mixture and butter into the soup. Simmer 5–8 minutes, stirring, until slightly thickened.", "timerMinutes": 5}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["soup", "cheap", "comfort food", "vegetable"]
+  }
+]
