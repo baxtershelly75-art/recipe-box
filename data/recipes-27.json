@@ -1,0 +1,100 @@
+[
+  {
+    "id": "microwave-cinnamon-apple",
+    "title": "Microwave Cinnamon Apple",
+    "aliases": ["microwave apple dessert", "warm apple"],
+    "description": "A warm cinnamon apple dessert for one in minutes.",
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 3,
+    "totalMinutes": 8,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["microwave-safe bowl"],
+    "ingredients": [
+      {"amount": 1, "unit": "", "item": "apple, diced", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "butter", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "brown sugar", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "cinnamon", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "oats", "optional": true}
+    ],
+    "substitutions": ["Use pear instead of apple.", "Skip oats or add a spoonful of granola after cooking."],
+    "steps": [
+      {"text": "Put diced apple in a microwave-safe bowl with butter, brown sugar, cinnamon, and optional oats."},
+      {"text": "Cover loosely and microwave 2 minutes. Stir."},
+      {"text": "Microwave 30–60 seconds more until the apple is tender. Let stand 1 minute before eating."}
+    ],
+    "cookSteps": [
+      {"text": "Put diced apple in a microwave-safe bowl with butter, brown sugar, cinnamon, and optional oats."},
+      {"text": "Cover loosely and microwave 2 minutes. Stir."},
+      {"text": "Microwave 30–60 seconds more until the apple is tender. Let stand 1 minute before eating."}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["10-minute", "dessert", "sweet", "small batch", "very easy", "use it up"]
+  },
+  {
+    "id": "peanut-butter-banana-toast",
+    "title": "Peanut Butter Banana Toast",
+    "aliases": ["banana toast", "peanut butter toast"],
+    "description": "Warm toast with peanut butter, banana, and cinnamon.",
+    "servings": 1,
+    "prepMinutes": 3,
+    "cookMinutes": 2,
+    "totalMinutes": 5,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["toaster"],
+    "ingredients": [
+      {"amount": 2, "unit": "slices", "item": "bread", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "peanut butter", "optional": false},
+      {"amount": 1, "unit": "", "item": "banana, sliced", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "cinnamon", "optional": true}
+    ],
+    "substitutions": ["Use almond or sunflower butter if preferred."],
+    "steps": [
+      {"text": "Toast 2 slices of bread."},
+      {"text": "Spread each with 1 tablespoon peanut butter."},
+      {"text": "Top with sliced banana and a pinch of cinnamon."}
+    ],
+    "cookSteps": [
+      {"text": "Toast 2 slices of bread."},
+      {"text": "Spread each with 1 tablespoon peanut butter."},
+      {"text": "Top with sliced banana and a pinch of cinnamon."}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["10-minute", "breakfast", "very easy", "cheap", "small batch", "use it up", "sweet"]
+  },
+  {
+    "id": "leftover-mashed-potato-cakes",
+    "title": "Leftover Mashed Potato Cakes",
+    "aliases": ["potato patties", "mashed potato pancakes"],
+    "description": "Crisp little skillet cakes that turn leftover mashed potatoes into lunch or a side.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "totalMinutes": 20,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["bowl", "skillet"],
+    "ingredients": [
+      {"amount": 2, "unit": "cups", "item": "cold leftover mashed potatoes", "optional": false},
+      {"amount": 1, "unit": "", "item": "large egg", "optional": false},
+      {"amount": 0.33, "unit": "cup", "item": "all-purpose flour", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "shredded cheese", "optional": true},
+      {"amount": 1, "unit": "tbsp", "item": "oil", "optional": false}
+    ],
+    "substitutions": ["Skip cheese.", "Use breadcrumbs instead of some of the flour if the potatoes are very soft."],
+    "steps": [
+      {"text": "Mix 2 cups cold mashed potatoes with egg, flour, and optional cheese."},
+      {"text": "Shape into 8 small patties. If sticky, dust your hands with flour."},
+      {"text": "Heat oil in a skillet over medium. Cook patties 3–4 minutes per side until deeply golden and hot through."}
+    ],
+    "cookSteps": [
+      {"text": "Mix 2 cups cold mashed potatoes with egg, flour, and optional cheese."},
+      {"text": "Shape into 8 small patties. If sticky, dust your hands with flour."},
+      {"text": "Heat oil in a skillet over medium. Cook patties 3–4 minutes per side until deeply golden and hot through.", "timerMinutes": 3}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["30-minute", "use it up", "leftovers", "cheap", "side", "comfort food"]
+  }
+]
