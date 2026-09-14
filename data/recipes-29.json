@@ -1,0 +1,138 @@
+[
+  {
+    "id": "creamy-corn-pasta",
+    "title": "Creamy Corn Pasta",
+    "aliases": ["corn pasta", "creamy sweet corn noodles"],
+    "description": "Quick pasta coated in a creamy corn sauce with Parmesan.",
+    "servings": 4,
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "totalMinutes": 20,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["pot", "skillet"],
+    "ingredients": [
+      {"amount": 8, "unit": "oz", "item": "pasta", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "corn kernels", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "milk", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "grated Parmesan", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "butter", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "black pepper", "optional": false}
+    ],
+    "substitutions": ["Use frozen or canned drained corn.", "Use half-and-half for a richer sauce."],
+    "steps": [
+      {"text": "Cook pasta until tender; reserve 1/2 cup pasta water and drain."},
+      {"text": "Melt butter in a skillet. Add corn and cook 3 minutes."},
+      {"text": "Add milk and Parmesan, then toss in pasta. Add a splash of reserved water until creamy."}
+    ],
+    "cookSteps": [
+      {"text": "Cook 8 ounces pasta until tender. Before draining, save 1/2 cup pasta water."},
+      {"text": "Melt 1 tablespoon butter in a skillet. Add 2 cups corn and cook 3 minutes.", "timerMinutes": 3},
+      {"text": "Add 1/2 cup milk and 1/2 cup Parmesan. Toss in the drained pasta and add a splash of pasta water until creamy. Finish with 1/4 teaspoon black pepper."}
+    ],
+    "storage": "Refrigerate up to 4 days. Reheat with a splash of milk.",
+    "tags": ["15-minute", "pasta", "cheap", "vegetable", "dinner", "comfort food"]
+  },
+  {
+    "id": "lemony-chickpea-couscous",
+    "title": "Lemony Chickpea Couscous",
+    "aliases": ["chickpea couscous bowl", "quick couscous beans"],
+    "description": "A bright pantry meal with fluffy couscous, chickpeas, lemon, and herbs.",
+    "servings": 4,
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "totalMinutes": 15,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["saucepan with lid", "bowl"],
+    "ingredients": [
+      {"amount": 1, "unit": "cup", "item": "couscous", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "water or broth", "optional": false},
+      {"amount": 1, "unit": "can", "item": "chickpeas, drained and rinsed", "optional": false},
+      {"amount": 1, "unit": "", "item": "lemon, juiced", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "olive oil", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "chopped parsley or dried herbs", "optional": true}
+    ],
+    "substitutions": ["Use white beans instead of chickpeas.", "Use bottled lemon juice in a pinch."],
+    "steps": [
+      {"text": "Bring water or broth to a boil. Stir in couscous, cover, remove from heat, and rest 5 minutes."},
+      {"text": "Fluff couscous and stir in chickpeas, lemon juice, olive oil, and herbs."},
+      {"text": "Taste and season with salt and pepper."}
+    ],
+    "cookSteps": [
+      {"text": "Bring 1 cup water or broth to a boil. Stir in 1 cup couscous, cover, remove from heat, and rest 5 minutes.", "timerMinutes": 5},
+      {"text": "Fluff the couscous and stir in 1 can chickpeas, the juice of 1 lemon, 2 tablespoons olive oil, and 2 tablespoons herbs if using."},
+      {"text": "Taste and season with salt and pepper."}
+    ],
+    "storage": "Refrigerate up to 4 days. Good cold or reheated.",
+    "tags": ["15-minute", "pantry", "very easy", "cheap", "use it up", "dinner"]
+  },
+  {
+    "id": "sheet-pan-maple-mustard-carrots-chickpeas",
+    "title": "Sheet-Pan Maple Mustard Carrots & Chickpeas",
+    "aliases": ["roasted carrots chickpeas", "maple mustard chickpeas"],
+    "description": "Sweet-savory roasted carrots and chickpeas that make an easy vegetarian dinner or side.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["sheet pan", "bowl"],
+    "ingredients": [
+      {"amount": 1, "unit": "lb", "item": "carrots, sliced", "optional": false},
+      {"amount": 1, "unit": "can", "item": "chickpeas, drained and dried", "optional": false},
+      {"amount": 1.5, "unit": "tbsp", "item": "maple syrup", "optional": false},
+      {"amount": 1.5, "unit": "tbsp", "item": "mustard", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "oil", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "salt", "optional": false}
+    ],
+    "substitutions": ["Use honey instead of maple syrup.", "Use Dijon or yellow mustard."],
+    "steps": [
+      {"text": "Heat oven to 425°F."},
+      {"text": "Toss carrots and chickpeas with maple syrup, mustard, oil, and salt."},
+      {"text": "Spread on a sheet pan and roast 25–30 minutes, stirring once, until carrots are tender and chickpeas are browned."}
+    ],
+    "cookSteps": [
+      {"text": "Heat oven to 425°F."},
+      {"text": "Toss 1 pound sliced carrots and 1 can chickpeas with 1 1/2 tablespoons maple syrup, 1 1/2 tablespoons mustard, 1 tablespoon oil, and 1/2 teaspoon salt."},
+      {"text": "Spread on a sheet pan and roast 25–30 minutes, stirring once, until the carrots are tender and the chickpeas are browned.", "timerMinutes": 25}
+    ],
+    "storage": "Refrigerate up to 4 days. Reheat in the oven, air fryer, or microwave.",
+    "tags": ["sheet-pan", "vegetable", "cheap", "dinner", "pantry"]
+  },
+  {
+    "id": "cabbage-white-bean-skillet",
+    "title": "Cabbage & White Bean Skillet",
+    "aliases": ["cabbage bean skillet", "white beans cabbage"],
+    "description": "Tender cabbage and creamy white beans in a simple garlicky skillet.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "totalMinutes": 25,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["large skillet"],
+    "ingredients": [
+      {"amount": 0.5, "unit": "head", "item": "green cabbage, thinly sliced", "optional": false},
+      {"amount": 1, "unit": "can", "item": "white beans, drained and rinsed", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "oil or butter", "optional": false},
+      {"amount": 2, "unit": "cloves", "item": "garlic, minced", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "broth or water", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "lemon juice", "optional": true}
+    ],
+    "substitutions": ["Use chickpeas instead of white beans.", "Use bagged coleslaw mix for the cabbage."],
+    "steps": [
+      {"text": "Heat oil or butter in a large skillet over medium heat. Add cabbage and cook 8 minutes."},
+      {"text": "Add garlic, white beans, and broth. Cover and cook 5 minutes."},
+      {"text": "Uncover, cook until most liquid is gone, and finish with lemon juice if using."}
+    ],
+    "cookSteps": [
+      {"text": "Heat 2 tablespoons oil or butter in a large skillet over medium heat. Add 1/2 head thinly sliced cabbage and cook 8 minutes, stirring occasionally.", "timerMinutes": 8},
+      {"text": "Add 2 minced garlic cloves, 1 can white beans, and 1/2 cup broth or water. Cover and cook 5 minutes.", "timerMinutes": 5},
+      {"text": "Uncover and cook until most liquid is gone. Finish with 1 tablespoon lemon juice if using."}
+    ],
+    "storage": "Refrigerate up to 4 days.",
+    "tags": ["30-minute", "one-pot", "cabbage", "vegetable", "cheap", "pantry", "use it up"]
+  }
+]
