@@ -1,0 +1,9 @@
+{
+  "name": "Shelly's Recipe Box",
+  "short_name": "Recipe Box",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#efe4cf",
+  "theme_color": "#efe4cf",
+  "description": "A simple, readable recipe box with one-step cooking mode."
+}
