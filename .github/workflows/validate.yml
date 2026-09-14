@@ -1,0 +1,21 @@
+name: Validate Recipe Box
+
+on:
+  push:
+    branches: [main, 'content-*', 'import-*']
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate recipe data
+        run: node tests/validate-recipes.mjs
+      - name: Check search, scaling, timers, and cook steps
+        run: node tests/core-tests.mjs
+      - name: Check category coverage
+        run: node tests/library-coverage.mjs
