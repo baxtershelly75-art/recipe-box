@@ -7,7 +7,7 @@ const state = {
 const $ = sel => document.querySelector(sel);
 const views = ['#homeView','#resultsView','#detailView','#cookView'];
 const browseTags = ['15-minute','very easy','cheap','crockpot','one-pot','comfort food','use it up','small batch','sweet','breakfast','dinner','vegetable','pantry'];
-const recipeDataFiles = Array.from({length:35},(_,i)=>`./data/recipes-${String(i+1).padStart(2,'0')}.json`);
+const recipeDataFiles = Array.from({length:37},(_,i)=>`./data/recipes-${String(i+1).padStart(2,'0')}.json`);
 
 function showView(id) { views.forEach(v => $(v).classList.toggle('active', v === id)); window.scrollTo({top:0,behavior:'instant'}); }
 function norm(s='') { return s.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim(); }
