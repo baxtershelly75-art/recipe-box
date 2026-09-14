@@ -1,0 +1,137 @@
+[
+  {
+    "id": "broccoli-cheddar-egg-muffins",
+    "title": "Broccoli Cheddar Egg Muffins",
+    "aliases": ["egg cups broccoli cheese", "breakfast egg muffins"],
+    "description": "Portable baked egg cups with broccoli and cheddar.",
+    "servings": 6,
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["muffin tin", "bowl"],
+    "ingredients": [
+      {"amount": 6, "unit": "", "item": "large eggs", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "finely chopped cooked broccoli", "optional": false},
+      {"amount": 0.75, "unit": "cup", "item": "shredded cheddar cheese", "optional": false},
+      {"amount": 0.25, "unit": "cup", "item": "milk", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "salt", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "black pepper", "optional": false}
+    ],
+    "substitutions": ["Use cooked spinach or peppers instead of broccoli.", "Use another shredded cheese."],
+    "steps": [
+      {"text": "Heat oven to 350°F and grease 6 muffin cups."},
+      {"text": "Whisk eggs, milk, salt, and pepper. Stir in broccoli and cheese."},
+      {"text": "Divide among cups and bake 18–20 minutes until puffed and set."}
+    ],
+    "cookSteps": [
+      {"text": "Heat oven to 350°F and grease 6 muffin cups."},
+      {"text": "Whisk 6 eggs with 1/4 cup milk, 1/4 teaspoon salt, and 1/4 teaspoon black pepper. Stir in 1 cup cooked broccoli and 3/4 cup cheddar."},
+      {"text": "Divide among the cups and bake 18–20 minutes until puffed and set.", "timerMinutes": 18}
+    ],
+    "storage": "Refrigerate up to 4 days. Reheat 20–30 seconds in the microwave.",
+    "tags": ["30-minute", "breakfast", "small batch", "vegetable", "use it up"]
+  },
+  {
+    "id": "brown-sugar-cinnamon-toast",
+    "title": "Brown Sugar Cinnamon Toast",
+    "aliases": ["cinnamon sugar toast", "sweet toast"],
+    "description": "Crisp buttery toast with a caramelized cinnamon-brown-sugar top.",
+    "servings": 2,
+    "prepMinutes": 3,
+    "cookMinutes": 7,
+    "totalMinutes": 10,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["sheet pan or toaster oven"],
+    "ingredients": [
+      {"amount": 4, "unit": "slices", "item": "bread", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "butter, softened", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "brown sugar", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "cinnamon", "optional": false}
+    ],
+    "substitutions": ["Use white sugar if needed.", "Use stale bread; it crisps especially well."],
+    "steps": [
+      {"text": "Heat broiler or toaster oven."},
+      {"text": "Mix butter, brown sugar, and cinnamon. Spread over bread."},
+      {"text": "Broil or toast 2–4 minutes until bubbling and crisp at the edges. Watch closely."}
+    ],
+    "cookSteps": [
+      {"text": "Heat the broiler or toaster oven."},
+      {"text": "Mix 2 tablespoons softened butter with 2 tablespoons brown sugar and 1/2 teaspoon cinnamon. Spread over 4 slices bread."},
+      {"text": "Broil or toast 2–4 minutes until bubbling and crisp at the edges. Stay nearby so the sugar does not burn.", "timerMinutes": 2}
+    ],
+    "storage": "Best eaten fresh.",
+    "tags": ["10-minute", "sweet", "breakfast", "dessert", "cheap", "use it up", "stale bread"]
+  },
+  {
+    "id": "one-pot-spinach-lemon-rice",
+    "title": "One-Pot Spinach Lemon Rice",
+    "aliases": ["spinach rice", "lemon rice skillet"],
+    "description": "Fluffy lemony rice with spinach folded in at the end.",
+    "servings": 4,
+    "prepMinutes": 5,
+    "cookMinutes": 25,
+    "totalMinutes": 30,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["saucepan with lid"],
+    "ingredients": [
+      {"amount": 1, "unit": "cup", "item": "long-grain white rice", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "broth or water", "optional": false},
+      {"amount": 3, "unit": "cups", "item": "baby spinach", "optional": false},
+      {"amount": 1, "unit": "", "item": "lemon, zested and juiced", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "butter or olive oil", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "salt", "optional": false}
+    ],
+    "substitutions": ["Use frozen spinach, thawed and squeezed dry.", "Use bottled lemon juice plus a pinch of dried herbs."],
+    "steps": [
+      {"text": "Combine rice, broth or water, butter or oil, and salt in a saucepan. Bring to a boil."},
+      {"text": "Cover, reduce heat to low, and cook 18 minutes."},
+      {"text": "Remove from heat, stir in spinach, lemon zest, and lemon juice, cover, and rest 5 minutes."}
+    ],
+    "cookSteps": [
+      {"text": "Combine 1 cup rice, 2 cups broth or water, 1 tablespoon butter or oil, and 1/2 teaspoon salt in a saucepan. Bring to a boil."},
+      {"text": "Cover, reduce heat to low, and cook 18 minutes.", "timerMinutes": 18},
+      {"text": "Remove from heat. Stir in 3 cups spinach plus the zest and juice of 1 lemon. Cover and rest 5 minutes.", "timerMinutes": 5}
+    ],
+    "storage": "Refrigerate up to 4 days.",
+    "tags": ["30-minute", "one-pot", "rice", "vegetable", "cheap", "dinner"]
+  },
+  {
+    "id": "chocolate-peanut-butter-oat-bars",
+    "title": "Small-Batch Chocolate Peanut Butter Oat Bars",
+    "aliases": ["peanut butter oat bars", "small batch snack bars"],
+    "description": "Soft chewy oat bars with peanut butter and a little chocolate.",
+    "servings": 8,
+    "prepMinutes": 8,
+    "cookMinutes": 18,
+    "totalMinutes": 26,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["8-inch loaf pan or small baking dish", "bowl"],
+    "ingredients": [
+      {"amount": 1, "unit": "cup", "item": "old-fashioned oats", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "peanut butter", "optional": false},
+      {"amount": 0.25, "unit": "cup", "item": "brown sugar", "optional": false},
+      {"amount": 1, "unit": "", "item": "large egg", "optional": false},
+      {"amount": 0.25, "unit": "cup", "item": "milk", "optional": false},
+      {"amount": 0.25, "unit": "cup", "item": "chocolate chips", "optional": true}
+    ],
+    "substitutions": ["Use another nut or seed butter.", "Use raisins instead of chocolate chips."],
+    "steps": [
+      {"text": "Heat oven to 350°F and line or grease a small baking dish."},
+      {"text": "Stir together oats, peanut butter, brown sugar, egg, and milk. Fold in chocolate chips if using."},
+      {"text": "Press into the dish and bake 16–18 minutes until set around the edges. Cool before slicing."}
+    ],
+    "cookSteps": [
+      {"text": "Heat oven to 350°F and line or grease a small baking dish."},
+      {"text": "Stir together 1 cup oats, 1/2 cup peanut butter, 1/4 cup brown sugar, 1 egg, and 1/4 cup milk. Fold in 1/4 cup chocolate chips if using."},
+      {"text": "Press into the dish and bake 16–18 minutes until set around the edges.", "timerMinutes": 16},
+      {"text": "Cool before slicing so the bars hold together."}
+    ],
+    "storage": "Store covered at room temperature 2 days or refrigerate up to 5 days.",
+    "tags": ["30-minute", "small batch", "baking", "sweet", "dessert", "cheap"]
+  }
+]
