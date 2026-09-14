@@ -1,6 +1,6 @@
-import fs from 'node:fs';
 import assert from 'node:assert/strict';
-const recipes=JSON.parse(fs.readFileSync(new URL('../data/recipes.json',import.meta.url)));
+import { loadRecipes } from './load-recipes.mjs';
+const recipes=loadRecipes();
 assert.ok(recipes.length>=100,`expected at least 100 recipes in slice 04, got ${recipes.length}`);
 const text=r=>[r.title,...r.aliases,r.description,...r.tags,...r.ingredients.map(i=>i.item)].join(' ').toLowerCase();
 const needs={
