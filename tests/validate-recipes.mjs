@@ -1,4 +1,4 @@
-import { loadRecipes } from './load-recipes.mjs';
+import { loadRecipes, RECIPE_FILES } from './load-recipes.mjs';
 const recipes=loadRecipes();
 const required=['id','title','aliases','description','servings','prepMinutes','cookMinutes','totalMinutes','effort','cost','equipment','ingredients','steps','cookSteps','storage','tags'];
 let errors=[]; const ids=new Set(), titles=new Set();
@@ -15,4 +15,4 @@ for(const r of recipes){
  for(const s of r.cookSteps){ if(!s.text) errors.push(`${r.title}: empty cook step`); if(s.timerMinutes!==undefined && !(s.timerMinutes>0)) errors.push(`${r.title}: invalid timer`); }
 }
 if(errors.length){ console.error(errors.join('\n')); process.exit(1); }
-console.log(`OK: ${recipes.length} recipes validated across 31 data chunks`);
+console.log(`OK: ${recipes.length} recipes validated across ${RECIPE_FILES.length} data chunks`);
