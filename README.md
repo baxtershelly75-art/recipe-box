@@ -22,7 +22,7 @@ node tests/library-coverage.mjs
 
 ## Current library
 
-Slice 04 contains 107 normalized recipes with broad category coverage. This is still below the 300–500 recipe V1 finish line.
+The current working branch contains 123 normalized recipes with broad category coverage. This is still below the 300–500 recipe V1 finish line.
 
 ## Hosting target
 
