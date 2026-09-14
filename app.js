@@ -7,6 +7,7 @@ const state = {
 const $ = sel => document.querySelector(sel);
 const views = ['#homeView','#resultsView','#detailView','#cookView'];
 const browseTags = ['15-minute','very easy','cheap','crockpot','one-pot','comfort food','use it up','small batch','sweet','breakfast','dinner','vegetable','pantry'];
+const recipeDataFiles = Array.from({length:27},(_,i)=>`./data/recipes-${String(i+1).padStart(2,'0')}.json`);
 
 function showView(id) { views.forEach(v => $(v).classList.toggle('active', v === id)); window.scrollTo({top:0,behavior:'instant'}); }
 function norm(s='') { return s.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim(); }
@@ -97,5 +98,18 @@ function bind(){
   $('#addMinuteBtn').addEventListener('click',()=>{state.timerRemaining+=60;updateTimerDisplay()});
   $('#resetTimerBtn').addEventListener('click',()=>{clearTimer();state.timerRemaining=state.timerOriginal;updateTimerDisplay();$('#pauseTimerBtn').textContent='PAUSE';$('#startTimerBtn').classList.remove('hidden');$('#timerRunning').classList.add('hidden');$('#timerDoneText').classList.add('hidden')});
 }
-async function init(){ const res=await fetch('./data/recipes.json'); state.recipes=await res.json(); renderBrowse();renderRecent();bind(); if('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(()=>{}); }
-init();
+async function init(){
+  const chunks=await Promise.all(recipeDataFiles.map(async file=>{
+    const res=await fetch(file);
+    if(!res.ok) throw new Error(`Could not load ${file}`);
+    return res.json();
+  }));
+  state.recipes=chunks.flat();
+  renderBrowse();renderRecent();bind();
+  if('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(()=>{});
+}
+init().catch(error=>{
+  console.error(error);
+  const home=document.querySelector('#homeView');
+  if(home) home.insertAdjacentHTML('beforeend','<p role="alert"><strong>Recipe Box could not load its recipe library. Please refresh and try again.</strong></p>');
+});
