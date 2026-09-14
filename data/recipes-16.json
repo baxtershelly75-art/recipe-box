@@ -1,0 +1,408 @@
+[
+  {
+    "id": "warm-ham-swiss-sliders",
+    "title": "Warm Ham & Swiss Sliders",
+    "aliases": [
+      "ham sliders",
+      "ham and swiss sandwiches",
+      "hot ham and cheese"
+    ],
+    "description": "Soft little sandwiches with warm ham, melted Swiss, and a buttery mustard glaze—easy enough for lunch, cozy enough for supper.",
+    "servings": 6,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "totalMinutes": 25,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": [
+      "9x13-inch baking dish",
+      "small bowl",
+      "foil"
+    ],
+    "ingredients": [
+      {
+        "amount": 12,
+        "unit": "small rolls",
+        "item": "soft dinner rolls or slider buns"
+      },
+      {
+        "amount": 8,
+        "unit": "oz",
+        "item": "thin-sliced deli ham"
+      },
+      {
+        "amount": 6,
+        "unit": "slices",
+        "item": "Swiss cheese"
+      },
+      {
+        "amount": 3,
+        "unit": "tbsp",
+        "item": "butter",
+        "notes": "melted"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "Dijon or yellow mustard"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "brown sugar"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "onion powder"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "poppy seeds"
+      }
+    ],
+    "substitutions": [
+      "Use turkey instead of ham.",
+      "Use cheddar or provolone instead of Swiss.",
+      "Any soft pull-apart rolls work."
+    ],
+    "steps": [
+      {
+        "text": "Heat the oven to 350°F. Lightly butter or spray a 9x13-inch baking dish."
+      },
+      {
+        "text": "Without separating the 12 rolls, slice the whole slab horizontally. Put the bottom half in the baking dish."
+      },
+      {
+        "text": "Layer 8 oz deli ham evenly over the rolls, then add 6 slices Swiss cheese. Put the top half of the rolls back on."
+      },
+      {
+        "text": "Mix 3 tbsp melted butter, 1 tbsp mustard, 1 tsp brown sugar, 1/2 tsp onion powder, and optional 1 tsp poppy seeds. Brush or spoon it over the tops."
+      },
+      {
+        "text": "Cover loosely with foil and bake 10 minutes, until the cheese starts melting.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Remove the foil and bake about 5 more minutes, until the tops are lightly golden and the cheese is fully melted.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Cut into 12 sliders and serve warm."
+      }
+    ],
+    "storage": "Refrigerate leftovers up to 3 days. Reheat covered at 325°F or briefly in the microwave.",
+    "tags": [
+      "lunch",
+      "dinner",
+      "sandwich",
+      "wraps-sandwiches",
+      "very easy",
+      "cheap",
+      "comfort food",
+      "kid friendly",
+      "party food"
+    ]
+  },
+  {
+    "id": "crispy-bean-cheese-burritos",
+    "title": "Crispy Bean & Cheese Burritos",
+    "aliases": [
+      "bean burritos",
+      "crispy burritos",
+      "refried bean burrito"
+    ],
+    "description": "Crisp skillet burritos filled with creamy beans and melted cheese, made from inexpensive pantry basics.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "totalMinutes": 20,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": [
+      "large skillet",
+      "spatula"
+    ],
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "large",
+        "item": "flour tortillas"
+      },
+      {
+        "amount": 1,
+        "unit": "can",
+        "item": "refried beans",
+        "notes": "about 15 to 16 oz"
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "shredded cheddar or Mexican-blend cheese"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "chili powder"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "oil"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "salsa"
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "sour cream"
+      }
+    ],
+    "substitutions": [
+      "Use mashed black beans instead of refried beans.",
+      "Use corn tortillas only if they are large and flexible enough to roll without cracking.",
+      "Add leftover cooked rice if you want a larger burrito."
+    ],
+    "steps": [
+      {
+        "text": "Warm the 1 can refried beans with 1/2 tsp chili powder until easy to spread."
+      },
+      {
+        "text": "Lay out 4 large tortillas. Spread about one-fourth of the beans down the center of each, leaving room at the ends."
+      },
+      {
+        "text": "Sprinkle about 1/4 cup shredded cheese over the beans in each tortilla. Add optional salsa sparingly so the burritos do not get soggy."
+      },
+      {
+        "text": "Fold in the sides, then roll each tortilla tightly into a burrito."
+      },
+      {
+        "text": "Heat 1 tbsp oil in a large skillet over medium heat. Put the burritos seam-side down in the pan."
+      },
+      {
+        "text": "Cook 2 to 3 minutes per side, turning carefully, until golden and crisp all around and the cheese is melted inside."
+      },
+      {
+        "text": "Let the burritos rest 2 minutes before cutting. Serve with optional sour cream or extra salsa."
+      }
+    ],
+    "storage": "Refrigerate up to 3 days. Re-crisp in a skillet or air fryer; the microwave softens the tortilla.",
+    "tags": [
+      "20 minutes",
+      "quick meal",
+      "cheap",
+      "very easy",
+      "pantry",
+      "vegetarian",
+      "lunch",
+      "dinner",
+      "wraps-sandwiches",
+      "comfort food"
+    ]
+  },
+  {
+    "id": "egg-salad-toasts",
+    "title": "Egg Salad Toasts",
+    "aliases": [
+      "egg salad",
+      "egg salad sandwich",
+      "eggs on toast"
+    ],
+    "description": "Simple creamy egg salad piled on toast for a fast lunch or light supper.",
+    "servings": 2,
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": [
+      "medium bowl",
+      "fork",
+      "toaster"
+    ],
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "large",
+        "item": "hard-boiled eggs",
+        "notes": "peeled"
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "mayonnaise"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "mustard"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "salt"
+      },
+      {
+        "amount": 0.125,
+        "unit": "tsp",
+        "item": "black pepper"
+      },
+      {
+        "amount": 4,
+        "unit": "slices",
+        "item": "bread"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "finely chopped pickle or relish"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "finely chopped green onion"
+      }
+    ],
+    "substitutions": [
+      "Use plain Greek yogurt for half the mayonnaise.",
+      "Serve in a wrap or lettuce cup instead of on toast.",
+      "Paprika or dill can replace the green onion."
+    ],
+    "steps": [
+      {
+        "text": "Put 4 peeled hard-boiled eggs in a medium bowl and mash them with a fork until mostly chopped with a few small pieces left."
+      },
+      {
+        "text": "Stir in 2 tbsp mayonnaise, 1 tsp mustard, 1/4 tsp salt, 1/8 tsp black pepper, and any optional pickle or green onion."
+      },
+      {
+        "text": "Taste and add a little more salt, pepper, mustard, or mayonnaise if needed."
+      },
+      {
+        "text": "Toast 4 slices bread until as crisp as you like."
+      },
+      {
+        "text": "Divide the egg salad among the 4 toast slices and serve right away."
+      }
+    ],
+    "storage": "Keep egg salad refrigerated in a covered container up to 3 days. Toast bread just before serving.",
+    "tags": [
+      "10 minutes",
+      "quick meal",
+      "very easy",
+      "cheap",
+      "breakfast",
+      "lunch",
+      "eggs",
+      "sandwich",
+      "wraps-sandwiches"
+    ]
+  },
+  {
+    "id": "creamy-cucumber-dill-salad",
+    "title": "Creamy Cucumber Dill Salad",
+    "aliases": [
+      "cucumber salad",
+      "creamy cucumber salad",
+      "dill cucumber salad"
+    ],
+    "description": "Cool sliced cucumbers in a simple creamy dill dressing—fresh, inexpensive, and especially good beside warm comfort food.",
+    "servings": 4,
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": [
+      "large bowl",
+      "small bowl",
+      "knife"
+    ],
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "medium",
+        "item": "cucumbers",
+        "notes": "thinly sliced"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "sour cream"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "white vinegar or apple cider vinegar"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "sugar"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "dried dill"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "salt"
+      },
+      {
+        "amount": 0.125,
+        "unit": "tsp",
+        "item": "black pepper"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "amount": 0.25,
+        "unit": "small",
+        "item": "red onion",
+        "notes": "very thinly sliced"
+      }
+    ],
+    "substitutions": [
+      "Use plain Greek yogurt instead of sour cream.",
+      "Use 1 tbsp fresh chopped dill instead of dried dill.",
+      "A pinch of garlic powder can be added if you like."
+    ],
+    "steps": [
+      {
+        "text": "Thinly slice 2 medium cucumbers and optional 1/4 small red onion. Put them in a large bowl."
+      },
+      {
+        "text": "In a small bowl, stir together 1/4 cup sour cream, 1 tbsp vinegar, 1 tsp sugar, 1/2 tsp dried dill, 1/4 tsp salt, and 1/8 tsp black pepper."
+      },
+      {
+        "text": "Pour the dressing over the cucumbers and toss until evenly coated."
+      },
+      {
+        "text": "Serve immediately for the crispest texture, or chill 10 to 20 minutes first if you prefer it colder."
+      }
+    ],
+    "storage": "Refrigerate up to 2 days. The cucumbers release water as they sit, so stir before serving.",
+    "tags": [
+      "15 minutes",
+      "very easy",
+      "cheap",
+      "vegetable side",
+      "side",
+      "vegetarian",
+      "fresh",
+      "no cook"
+    ]
+  }
+]
