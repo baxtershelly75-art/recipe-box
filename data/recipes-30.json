@@ -1,0 +1,135 @@
+[
+  {
+    "id": "tuna-white-bean-salad",
+    "title": "Tuna & White Bean Salad",
+    "aliases": ["tuna bean salad", "pantry tuna lunch"],
+    "description": "A fast no-cook lunch with tuna, white beans, lemon, and a little crunch.",
+    "servings": 3,
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["bowl"],
+    "ingredients": [
+      {"amount": 1, "unit": "can", "item": "tuna, drained", "optional": false},
+      {"amount": 1, "unit": "can", "item": "white beans, drained and rinsed", "optional": false},
+      {"amount": 0.25, "unit": "cup", "item": "finely chopped celery or cucumber", "optional": true},
+      {"amount": 2, "unit": "tbsp", "item": "olive oil", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "lemon juice", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "black pepper", "optional": false}
+    ],
+    "substitutions": ["Use chickpeas instead of white beans.", "Use mayonnaise instead of olive oil for a creamier version."],
+    "steps": [
+      {"text": "Combine tuna, white beans, and optional celery or cucumber in a bowl."},
+      {"text": "Add olive oil, lemon juice, and black pepper."},
+      {"text": "Stir gently and serve on toast, crackers, lettuce, or by itself."}
+    ],
+    "cookSteps": [
+      {"text": "Combine 1 can drained tuna, 1 can white beans, and 1/4 cup chopped celery or cucumber if using."},
+      {"text": "Add 2 tablespoons olive oil, 1 tablespoon lemon juice, and 1/4 teaspoon black pepper."},
+      {"text": "Stir gently and serve on toast, crackers, lettuce, or by itself."}
+    ],
+    "storage": "Refrigerate promptly and use within 3 days.",
+    "tags": ["10-minute", "no-cook", "pantry", "very easy", "cheap", "lunch"]
+  },
+  {
+    "id": "apple-peanut-butter-oatmeal",
+    "title": "Apple Peanut Butter Oatmeal",
+    "aliases": ["peanut butter apple oats", "apple oats"],
+    "description": "Warm oatmeal with tender apple and a swirl of peanut butter.",
+    "servings": 1,
+    "prepMinutes": 3,
+    "cookMinutes": 7,
+    "totalMinutes": 10,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["small saucepan"],
+    "ingredients": [
+      {"amount": 0.5, "unit": "cup", "item": "old-fashioned oats", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "milk or water", "optional": false},
+      {"amount": 0.5, "unit": "", "item": "apple, diced small", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "peanut butter", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "cinnamon", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "brown sugar or maple syrup", "optional": true}
+    ],
+    "substitutions": ["Use pear instead of apple.", "Use another nut or seed butter."],
+    "steps": [
+      {"text": "Combine oats, milk or water, diced apple, and cinnamon in a small saucepan."},
+      {"text": "Simmer 5–7 minutes, stirring often, until thick and the apple is tender."},
+      {"text": "Stir in peanut butter and optional sweetener."}
+    ],
+    "cookSteps": [
+      {"text": "Combine 1/2 cup oats, 1 cup milk or water, 1/2 diced apple, and 1/4 teaspoon cinnamon in a small saucepan."},
+      {"text": "Simmer 5–7 minutes, stirring often, until thick and the apple is tender.", "timerMinutes": 5},
+      {"text": "Stir in 1 tablespoon peanut butter and 1 teaspoon brown sugar or maple syrup if using."}
+    ],
+    "storage": "Best fresh; refrigerate up to 3 days and reheat with extra liquid.",
+    "tags": ["10-minute", "breakfast", "sweet", "cheap", "small batch", "very easy"]
+  },
+  {
+    "id": "small-batch-banana-oat-cookies",
+    "title": "Small-Batch Banana Oat Cookies",
+    "aliases": ["banana oatmeal cookies", "2 ingredient oat cookies"],
+    "description": "Soft little cookies made from ripe banana and oats with optional add-ins.",
+    "servings": 6,
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "totalMinutes": 20,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["bowl", "sheet pan"],
+    "ingredients": [
+      {"amount": 1, "unit": "", "item": "very ripe banana", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "old-fashioned oats", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "cinnamon", "optional": true},
+      {"amount": 2, "unit": "tbsp", "item": "chocolate chips or raisins", "optional": true}
+    ],
+    "substitutions": ["Use quick oats for a softer texture.", "Skip all add-ins for a two-ingredient version."],
+    "steps": [
+      {"text": "Heat oven to 350°F and line a small sheet pan."},
+      {"text": "Mash banana very smooth, then stir in oats and optional cinnamon and add-ins."},
+      {"text": "Scoop 6 mounds, flatten slightly, and bake 13–15 minutes until set and lightly browned."}
+    ],
+    "cookSteps": [
+      {"text": "Heat oven to 350°F and line a small sheet pan."},
+      {"text": "Mash 1 ripe banana very smooth. Stir in 1 cup oats plus 1/2 teaspoon cinnamon and 2 tablespoons chocolate chips or raisins if using."},
+      {"text": "Scoop 6 mounds, flatten slightly, and bake 13–15 minutes until set and lightly browned.", "timerMinutes": 13}
+    ],
+    "storage": "Keep covered at room temperature 1 day or refrigerate up to 4 days.",
+    "tags": ["30-minute", "small batch", "baking", "sweet", "use it up", "cheap", "dessert"]
+  },
+  {
+    "id": "quick-creamy-polenta-bowls",
+    "title": "Quick Creamy Polenta Bowls",
+    "aliases": ["easy polenta bowl", "cornmeal porridge dinner"],
+    "description": "Creamy cornmeal topped simply with cheese, beans, or leftover vegetables.",
+    "servings": 4,
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "totalMinutes": 20,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["saucepan", "whisk"],
+    "ingredients": [
+      {"amount": 1, "unit": "cup", "item": "quick-cooking polenta or cornmeal", "optional": false},
+      {"amount": 4, "unit": "cups", "item": "water or broth", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "butter", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "grated Parmesan or shredded cheese", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "cooked beans or leftover vegetables", "optional": true}
+    ],
+    "substitutions": ["Use regular cornmeal; cook longer as package directs.", "Use any mild cheese."],
+    "steps": [
+      {"text": "Bring water or broth to a boil."},
+      {"text": "Whisk in polenta slowly and cook, stirring often, until thick and tender."},
+      {"text": "Stir in butter and cheese. Spoon into bowls and top with beans or leftover vegetables if using."}
+    ],
+    "cookSteps": [
+      {"text": "Bring 4 cups water or broth to a boil."},
+      {"text": "Slowly whisk in 1 cup quick-cooking polenta and cook, stirring often, about 10 minutes until thick and tender.", "timerMinutes": 10},
+      {"text": "Stir in 1 tablespoon butter and 1/2 cup cheese. Spoon into bowls and top with 1 cup beans or leftover vegetables if using."}
+    ],
+    "storage": "Refrigerate up to 4 days. Reheat with extra water or milk.",
+    "tags": ["15-minute", "one-pot", "cheap", "comfort food", "pantry", "use it up"]
+  }
+]
