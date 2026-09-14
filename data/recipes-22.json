@@ -1,0 +1,142 @@
+[
+  {
+    "id": "sheet-pan-sausage-green-beans",
+    "title": "Sheet-Pan Sausage & Green Beans",
+    "aliases": ["sausage green beans", "sheet pan sausage"],
+    "description": "Smoky sausage and green beans with crisp-edged potatoes.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40,
+    "effort": "very easy",
+    "cost": "$$",
+    "equipment": ["sheet pan"],
+    "ingredients": [
+      {"amount": 12, "unit": "oz", "item": "smoked sausage, sliced", "optional": false},
+      {"amount": 1, "unit": "lb", "item": "baby potatoes, halved", "optional": false},
+      {"amount": 12, "unit": "oz", "item": "green beans, trimmed", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "oil", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "garlic powder", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "black pepper", "optional": false}
+    ],
+    "substitutions": ["Use broccoli instead of green beans.", "Turkey sausage works well."],
+    "steps": [
+      {"text": "Heat oven to 425°F."},
+      {"text": "Toss potatoes with 1 tablespoon oil, garlic powder, and pepper. Roast for 15 minutes."},
+      {"text": "Add sliced sausage and green beans with the remaining 1 tablespoon oil. Toss and roast 15 more minutes until potatoes are tender."}
+    ],
+    "cookSteps": [
+      {"text": "Heat oven to 425°F."},
+      {"text": "Toss potatoes with 1 tablespoon oil, garlic powder, and pepper. Roast for 15 minutes.", "timerMinutes": 15},
+      {"text": "Add sliced sausage and green beans with the remaining 1 tablespoon oil. Toss and roast 15 more minutes until potatoes are tender."}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["sheet-pan", "dinner", "very easy", "30-minute"]
+  },
+  {
+    "id": "lemon-garlic-broccoli-pasta",
+    "title": "Lemon Garlic Broccoli Pasta",
+    "aliases": ["broccoli pasta", "lemon pasta"],
+    "description": "Bright pasta with tender broccoli, garlic, lemon, and Parmesan.",
+    "servings": 4,
+    "prepMinutes": 8,
+    "cookMinutes": 15,
+    "totalMinutes": 23,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["large pot", "skillet"],
+    "ingredients": [
+      {"amount": 8, "unit": "oz", "item": "pasta", "optional": false},
+      {"amount": 3, "unit": "cups", "item": "broccoli florets", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "olive oil", "optional": false},
+      {"amount": 2, "unit": "cloves", "item": "garlic, minced", "optional": false},
+      {"amount": 1, "unit": "", "item": "lemon", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "grated Parmesan", "optional": false}
+    ],
+    "substitutions": ["Frozen broccoli is fine.", "Use a splash of bottled lemon juice if needed."],
+    "steps": [
+      {"text": "Boil pasta. During the final 3 minutes, add 3 cups broccoli to the same pot; reserve 1/2 cup cooking water and drain."},
+      {"text": "Heat 2 tablespoons olive oil with garlic in the empty pot for 30 seconds."},
+      {"text": "Return pasta and broccoli. Add juice from 1 lemon, Parmesan, and enough pasta water to make it glossy. Toss and serve."}
+    ],
+    "cookSteps": [
+      {"text": "Boil pasta. During the final 3 minutes, add 3 cups broccoli to the same pot; reserve 1/2 cup cooking water and drain."},
+      {"text": "Heat 2 tablespoons olive oil with garlic in the empty pot for 30 seconds."},
+      {"text": "Return pasta and broccoli. Add juice from 1 lemon, Parmesan, and enough pasta water to make it glossy. Toss and serve."}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["30-minute", "pasta", "vegetable", "cheap", "dinner"]
+  },
+  {
+    "id": "one-pot-sausage-orzo",
+    "title": "One-Pot Sausage Orzo",
+    "aliases": ["sausage orzo", "one pot orzo"],
+    "description": "Creamy orzo with browned sausage and spinach in one pan.",
+    "servings": 4,
+    "prepMinutes": 8,
+    "cookMinutes": 22,
+    "totalMinutes": 30,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": ["large skillet"],
+    "ingredients": [
+      {"amount": 12, "unit": "oz", "item": "Italian sausage, casings removed", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "orzo", "optional": false},
+      {"amount": 2.5, "unit": "cups", "item": "chicken broth", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "baby spinach", "optional": false},
+      {"amount": 0.25, "unit": "cup", "item": "grated Parmesan", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "Italian seasoning", "optional": false}
+    ],
+    "substitutions": ["Use turkey sausage.", "Frozen chopped spinach can replace fresh."],
+    "steps": [
+      {"text": "Brown 12 ounces sausage in a large skillet, breaking it into crumbles."},
+      {"text": "Stir in 1 cup orzo and Italian seasoning for 1 minute."},
+      {"text": "Add 2 1/2 cups broth. Simmer uncovered 12–14 minutes, stirring often, until orzo is tender."},
+      {"text": "Stir in spinach until wilted, then Parmesan."}
+    ],
+    "cookSteps": [
+      {"text": "Brown 12 ounces sausage in a large skillet, breaking it into crumbles."},
+      {"text": "Stir in 1 cup orzo and Italian seasoning for 1 minute.", "timerMinutes": 1},
+      {"text": "Add 2 1/2 cups broth. Simmer uncovered 12–14 minutes, stirring often, until orzo is tender.", "timerMinutes": 12},
+      {"text": "Stir in spinach until wilted, then Parmesan."}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["one-pot", "30-minute", "pasta", "dinner", "comfort food"]
+  },
+  {
+    "id": "cabbage-egg-noodle-skillet",
+    "title": "Cabbage & Egg Noodle Skillet",
+    "aliases": ["haluski style noodles", "cabbage noodles"],
+    "description": "Soft buttery cabbage and onions tossed with egg noodles.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["large pot", "large skillet"],
+    "ingredients": [
+      {"amount": 8, "unit": "oz", "item": "egg noodles", "optional": false},
+      {"amount": 0.5, "unit": "head", "item": "green cabbage, thinly sliced", "optional": false},
+      {"amount": 1, "unit": "", "item": "onion, sliced", "optional": false},
+      {"amount": 3, "unit": "tbsp", "item": "butter", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "salt", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "black pepper", "optional": false}
+    ],
+    "substitutions": ["Add sliced smoked sausage if desired.", "Use wide pasta if egg noodles are unavailable."],
+    "steps": [
+      {"text": "Boil 8 ounces egg noodles until tender; drain."},
+      {"text": "Melt 3 tablespoons butter in a large skillet. Add onion and cabbage with salt and pepper."},
+      {"text": "Cook cabbage 12–15 minutes, stirring often, until soft and lightly golden."},
+      {"text": "Toss in the drained noodles and heat through."}
+    ],
+    "cookSteps": [
+      {"text": "Boil 8 ounces egg noodles until tender; drain."},
+      {"text": "Melt 3 tablespoons butter in a large skillet. Add onion and cabbage with salt and pepper."},
+      {"text": "Cook cabbage 12–15 minutes, stirring often, until soft and lightly golden.", "timerMinutes": 12},
+      {"text": "Toss in the drained noodles and heat through."}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["30-minute", "cabbage", "pasta", "cheap", "comfort food", "use it up", "dinner"]
+  }
+]
