@@ -15,4 +15,4 @@ for(const r of recipes){
  for(const s of r.cookSteps){ if(!s.text) errors.push(`${r.title}: empty cook step`); if(s.timerMinutes!==undefined && !(s.timerMinutes>0)) errors.push(`${r.title}: invalid timer`); }
 }
 if(errors.length){ console.error(errors.join('\n')); process.exit(1); }
-console.log(`OK: ${recipes.length} recipes validated across 27 data chunks`);
+console.log(`OK: ${recipes.length} recipes validated across 31 data chunks`);
