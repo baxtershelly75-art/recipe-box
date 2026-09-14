@@ -1,6 +1,6 @@
 import { loadRecipes, RECIPE_FILES } from './load-recipes.mjs';
 const recipes=loadRecipes();
-const required=['id','title','aliases','description','servings','prepMinutes','cookMinutes','totalMinutes','effort','cost','equipment','ingredients','steps','cookSteps','storage','tags'];
+const required=['id','title','aliases','description','servings','prepMinutes','cookMinutes','totalMinutes','effort','cost','equipment','ingredients','steps','storage','tags'];
 let errors=[]; const ids=new Set(), titles=new Set();
 for(const r of recipes){
  for(const k of required) if(r[k]===undefined || r[k]===null) errors.push(`${r.id||r.title||'unknown recipe'}: missing ${k}`);
@@ -10,12 +10,13 @@ for(const r of recipes){
  if(!Array.isArray(r.ingredients) || !r.ingredients.length) errors.push(`${r.title||r.id}: no ingredients`);
  else for(const [i,ing] of r.ingredients.entries()) if(ing.amount===undefined || !ing.item) errors.push(`${r.title||r.id}: bad ingredient ${i}`);
  if(!Array.isArray(r.steps) || !r.steps.length) errors.push(`${r.title||r.id}: missing steps`);
- if(!Array.isArray(r.cookSteps) || !r.cookSteps.length) errors.push(`${r.title||r.id}: missing cook steps`);
+ const cookFlow = Array.isArray(r.cookSteps) && r.cookSteps.length ? r.cookSteps : r.steps;
+ if(!Array.isArray(cookFlow) || !cookFlow.length) errors.push(`${r.title||r.id}: no usable cook flow`);
  if(Array.isArray(r.tags)){
   if(r.tags.includes('15-minute') && r.totalMinutes>20) errors.push(`${r.title}: unrealistic 15-minute tag`);
   if(r.tags.includes('10-minute') && r.totalMinutes>12) errors.push(`${r.title}: unrealistic 10-minute tag`);
  }
- if(Array.isArray(r.cookSteps)) for(const s of r.cookSteps){ if(!s.text) errors.push(`${r.title||r.id}: empty cook step`); if(s.timerMinutes!==undefined && !(s.timerMinutes>0)) errors.push(`${r.title||r.id}: invalid timer`); }
+ if(Array.isArray(cookFlow)) for(const s of cookFlow){ if(!s.text) errors.push(`${r.title||r.id}: empty cook step`); if(s.timerMinutes!==undefined && !(s.timerMinutes>0)) errors.push(`${r.title||r.id}: invalid timer`); }
 }
 if(errors.length){ console.error(errors.join('\n')); process.exit(1); }
 console.log(`OK: ${recipes.length} recipes validated across ${RECIPE_FILES.length} data chunks`);
