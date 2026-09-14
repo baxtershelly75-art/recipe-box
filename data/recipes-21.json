@@ -1,0 +1,138 @@
+[
+  {
+    "id": "tomato-basil-grilled-cheese",
+    "title": "Tomato Basil Grilled Cheese",
+    "aliases": ["grilled cheese with tomato", "tomato sandwich"],
+    "description": "Crisp buttery bread with gooey cheese, tomato, and a little basil.",
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 7,
+    "totalMinutes": 12,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["skillet"],
+    "ingredients": [
+      {"amount": 2, "unit": "slices", "item": "sandwich bread", "optional": false},
+      {"amount": 2, "unit": "slices", "item": "cheddar or American cheese", "optional": false},
+      {"amount": 3, "unit": "slices", "item": "tomato", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "butter, softened", "optional": false},
+      {"amount": 2, "unit": "leaves", "item": "basil, torn", "optional": true}
+    ],
+    "substitutions": ["Use mozzarella, Swiss, or provolone.", "Dried basil works in a pinch."],
+    "steps": [
+      {"text": "Butter the outside of both bread slices with 1 tablespoon butter."},
+      {"text": "Layer cheese, tomato, and basil between the unbuttered sides."},
+      {"text": "Cook in a skillet over medium-low heat for 3–4 minutes per side, pressing gently, until golden and the cheese is melted."}
+    ],
+    "cookSteps": [
+      {"text": "Butter the outside of both bread slices with 1 tablespoon butter."},
+      {"text": "Layer cheese, tomato, and basil between the unbuttered sides."},
+      {"text": "Cook in a skillet over medium-low heat for 3–4 minutes per side, pressing gently, until golden and the cheese is melted.", "timerMinutes": 3}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["15-minute", "sandwich", "cheap", "very easy", "lunch", "comfort food"]
+  },
+  {
+    "id": "black-bean-quesadillas",
+    "title": "Black Bean Quesadillas",
+    "aliases": ["bean quesadilla", "cheese quesadilla"],
+    "description": "Crispy tortillas filled with seasoned black beans and melted cheese.",
+    "servings": 2,
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "totalMinutes": 15,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["skillet"],
+    "ingredients": [
+      {"amount": 4, "unit": "", "item": "small flour tortillas", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "black beans, drained and rinsed", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "shredded cheese", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "ground cumin", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "oil", "optional": false}
+    ],
+    "substitutions": ["Pinto beans work too.", "Add leftover corn or salsa if available."],
+    "steps": [
+      {"text": "Mash 1 cup black beans lightly with 1/2 teaspoon cumin."},
+      {"text": "Divide beans and 1 cup cheese between 2 tortillas; top with the remaining tortillas."},
+      {"text": "Heat 1 teaspoon oil in a skillet and cook each quesadilla 2–3 minutes per side until crisp and melted. Cut into wedges."}
+    ],
+    "cookSteps": [
+      {"text": "Mash 1 cup black beans lightly with 1/2 teaspoon cumin."},
+      {"text": "Divide beans and 1 cup cheese between 2 tortillas; top with the remaining tortillas."},
+      {"text": "Heat 1 teaspoon oil in a skillet and cook each quesadilla 2–3 minutes per side until crisp and melted. Cut into wedges.", "timerMinutes": 2}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["15-minute", "cheap", "very easy", "pantry meal", "dinner", "sandwich"]
+  },
+  {
+    "id": "creamy-tomato-tortellini",
+    "title": "Creamy Tomato Tortellini",
+    "aliases": ["tomato tortellini", "easy tortellini"],
+    "description": "Refrigerated tortellini simmered in a quick creamy tomato sauce.",
+    "servings": 4,
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "totalMinutes": 20,
+    "effort": "very easy",
+    "cost": "$$",
+    "equipment": ["large skillet"],
+    "ingredients": [
+      {"amount": 20, "unit": "oz", "item": "refrigerated cheese tortellini", "optional": false},
+      {"amount": 1, "unit": "can", "item": "tomato sauce, 15 oz", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "heavy cream or half-and-half", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "Italian seasoning", "optional": false},
+      {"amount": 0.25, "unit": "cup", "item": "grated Parmesan", "optional": false}
+    ],
+    "substitutions": ["Frozen tortellini works; add a few extra minutes.", "Milk plus 1 tablespoon cream cheese can replace cream."],
+    "steps": [
+      {"text": "Put tomato sauce, 1/2 cup cream, and Italian seasoning in a large skillet; bring to a gentle simmer."},
+      {"text": "Add 20 ounces tortellini, cover, and simmer 8–10 minutes, stirring once or twice, until tender."},
+      {"text": "Stir in 1/4 cup Parmesan and serve."}
+    ],
+    "cookSteps": [
+      {"text": "Put tomato sauce, 1/2 cup cream, and Italian seasoning in a large skillet; bring to a gentle simmer."},
+      {"text": "Add 20 ounces tortellini, cover, and simmer 8–10 minutes, stirring once or twice, until tender.", "timerMinutes": 8},
+      {"text": "Stir in 1/4 cup Parmesan and serve."}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["30-minute", "pasta", "one-pan", "very easy", "dinner", "comfort food"]
+  },
+  {
+    "id": "sheet-pan-chicken-fajitas",
+    "title": "Sheet-Pan Chicken Fajitas",
+    "aliases": ["chicken fajitas", "sheet pan fajitas"],
+    "description": "Chicken strips, peppers, and onions roasted together for easy fajitas.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 22,
+    "totalMinutes": 32,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": ["sheet pan"],
+    "ingredients": [
+      {"amount": 1.25, "unit": "lb", "item": "boneless chicken breast or thighs, sliced", "optional": false},
+      {"amount": 2, "unit": "", "item": "bell peppers, sliced", "optional": false},
+      {"amount": 1, "unit": "", "item": "onion, sliced", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "oil", "optional": false},
+      {"amount": 2, "unit": "tsp", "item": "chili powder", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "ground cumin", "optional": false},
+      {"amount": 8, "unit": "", "item": "small tortillas", "optional": false}
+    ],
+    "substitutions": ["Use frozen pepper-and-onion strips to cut prep.", "Serve over rice instead of tortillas."],
+    "steps": [
+      {"text": "Heat oven to 425°F."},
+      {"text": "Toss chicken, peppers, onion, 2 tablespoons oil, chili powder, and cumin on a sheet pan."},
+      {"text": "Roast for 20–22 minutes, stirring once, until the chicken is cooked through and vegetables are tender."},
+      {"text": "Warm tortillas and fill with the chicken and vegetables."}
+    ],
+    "cookSteps": [
+      {"text": "Heat oven to 425°F."},
+      {"text": "Toss chicken, peppers, onion, 2 tablespoons oil, chili powder, and cumin on a sheet pan."},
+      {"text": "Roast for 20–22 minutes, stirring once, until the chicken is cooked through and vegetables are tender.", "timerMinutes": 20},
+      {"text": "Warm tortillas and fill with the chicken and vegetables."}
+    ],
+    "storage": "Refrigerate leftovers promptly and use within 3–4 days.",
+    "tags": ["sheet-pan", "30-minute", "dinner", "easy"]
+  }
+]
