@@ -1,6 +1,6 @@
-import fs from 'node:fs';
 import assert from 'node:assert/strict';
-const recipes=JSON.parse(fs.readFileSync(new URL('../data/recipes.json',import.meta.url)));
+import { loadRecipes } from './load-recipes.mjs';
+const recipes=loadRecipes();
 const norm=s=>(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 const searchText=r=>norm([r.title,...r.aliases,r.description,...r.ingredients.map(i=>i.item),...r.tags].join(' '));
 for(const q of ['stew beef','cabbage','stale bread','something sweet','15 minutes','cheap','crockpot','small batch','use it up']){
