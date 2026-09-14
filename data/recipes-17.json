@@ -1,0 +1,407 @@
+[
+  {
+    "id": "skillet-zucchini-parmesan",
+    "title": "Skillet Zucchini with Parmesan",
+    "aliases": [
+      "sauteed zucchini",
+      "zucchini parmesan",
+      "easy zucchini side"
+    ],
+    "description": "Tender golden zucchini finished with Parmesan for an easy vegetable side that takes about 15 minutes.",
+    "servings": 4,
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "totalMinutes": 15,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": [
+      "large skillet",
+      "spatula"
+    ],
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "medium",
+        "item": "zucchini",
+        "notes": "sliced into half-moons"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "olive oil or butter"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "garlic powder"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "salt"
+      },
+      {
+        "amount": 0.125,
+        "unit": "tsp",
+        "item": "black pepper"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "grated Parmesan cheese"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "lemon juice"
+      }
+    ],
+    "substitutions": [
+      "Use yellow summer squash for some or all of the zucchini.",
+      "Use nutritional yeast instead of Parmesan for a dairy-free finish.",
+      "Italian seasoning can replace the garlic powder."
+    ],
+    "steps": [
+      {
+        "text": "Slice 2 medium zucchini into about 1/2-inch half-moons so they cook quickly without turning mushy."
+      },
+      {
+        "text": "Heat 1 tbsp olive oil or butter in a large skillet over medium-high heat."
+      },
+      {
+        "text": "Add the zucchini in a fairly even layer. Sprinkle with 1/2 tsp garlic powder, 1/4 tsp salt, and 1/8 tsp black pepper."
+      },
+      {
+        "text": "Cook 6 to 8 minutes, stirring only every couple of minutes, until the zucchini is tender with browned edges."
+      },
+      {
+        "text": "Turn off the heat. Sprinkle with 1/4 cup grated Parmesan and optional 1 tsp lemon juice. Toss once and serve."
+      }
+    ],
+    "storage": "Refrigerate up to 3 days. Reheat in a skillet for the best texture.",
+    "tags": [
+      "15 minutes",
+      "quick side",
+      "very easy",
+      "cheap",
+      "vegetable side",
+      "side",
+      "one pan",
+      "vegetarian"
+    ]
+  },
+  {
+    "id": "maple-roasted-sweet-potatoes",
+    "title": "Maple Roasted Sweet Potatoes",
+    "aliases": [
+      "roasted sweet potatoes",
+      "maple sweet potatoes",
+      "sweet potato side"
+    ],
+    "description": "Caramelized roasted sweet potato cubes with a light maple-butter glaze—simple, cozy, and not overly sweet.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": [
+      "sheet pan",
+      "large bowl"
+    ],
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "lb",
+        "item": "sweet potatoes",
+        "notes": "peeled and cut into 1-inch cubes"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "olive oil"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "maple syrup"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "melted butter"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "salt"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "ground cinnamon"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "amount": 1,
+        "unit": "pinch",
+        "item": "cayenne pepper"
+      }
+    ],
+    "substitutions": [
+      "Use brown sugar instead of maple syrup.",
+      "Use all olive oil instead of butter if preferred.",
+      "Pumpkin pie spice can replace the cinnamon."
+    ],
+    "steps": [
+      {
+        "text": "Heat the oven to 425°F. Line a sheet pan if you want easier cleanup."
+      },
+      {
+        "text": "Cut 2 lb sweet potatoes into roughly 1-inch cubes so they roast at the same rate."
+      },
+      {
+        "text": "Toss the sweet potatoes with 1 tbsp olive oil, 1 tbsp maple syrup, 1 tbsp melted butter, 1/2 tsp salt, 1/4 tsp cinnamon, and optional pinch cayenne."
+      },
+      {
+        "text": "Spread the sweet potatoes in one layer on the sheet pan with a little room between pieces."
+      },
+      {
+        "text": "Roast 15 minutes, then turn the pieces with a spatula.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Roast 12 to 15 minutes more, until browned at the edges and easily pierced with a fork.",
+        "timerMinutes": 13
+      },
+      {
+        "text": "Taste and add a small pinch more salt if needed. Serve warm."
+      }
+    ],
+    "storage": "Refrigerate up to 4 days. Reheat in a hot oven, skillet, or air fryer to restore browned edges.",
+    "tags": [
+      "vegetable side",
+      "side",
+      "sheet pan",
+      "cheap",
+      "easy",
+      "comfort food",
+      "vegetarian",
+      "holiday"
+    ]
+  },
+  {
+    "id": "buttery-corn-peppers",
+    "title": "Buttery Corn & Peppers",
+    "aliases": [
+      "corn and peppers",
+      "skillet corn",
+      "corn side dish"
+    ],
+    "description": "Sweet corn and colorful peppers cooked quickly in butter for a bright, inexpensive side dish.",
+    "servings": 4,
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "totalMinutes": 15,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": [
+      "large skillet",
+      "spatula"
+    ],
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "cups",
+        "item": "corn kernels",
+        "notes": "frozen and thawed, canned and drained, or fresh"
+      },
+      {
+        "amount": 1,
+        "unit": "medium",
+        "item": "bell pepper",
+        "notes": "diced"
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "butter"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "salt"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "black pepper"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "smoked paprika"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "chopped parsley or green onion"
+      }
+    ],
+    "substitutions": [
+      "Use any color bell pepper.",
+      "Use olive oil instead of butter.",
+      "Add a handful of diced zucchini if it needs using up."
+    ],
+    "steps": [
+      {
+        "text": "Dice 1 medium bell pepper into small pieces."
+      },
+      {
+        "text": "Melt 2 tbsp butter in a large skillet over medium-high heat."
+      },
+      {
+        "text": "Add the diced bell pepper and cook about 3 minutes, until it starts to soften."
+      },
+      {
+        "text": "Add 3 cups corn, 1/2 tsp salt, 1/4 tsp black pepper, and optional 1/4 tsp smoked paprika."
+      },
+      {
+        "text": "Cook 5 to 6 minutes, stirring occasionally, until the corn is hot and gets a few lightly browned spots."
+      },
+      {
+        "text": "Turn off the heat and stir in optional parsley or green onion. Serve hot."
+      }
+    ],
+    "storage": "Refrigerate up to 4 days. Reheat in a skillet or microwave.",
+    "tags": [
+      "15 minutes",
+      "very easy",
+      "cheap",
+      "vegetable side",
+      "side",
+      "one pan",
+      "pantry",
+      "vegetarian"
+    ]
+  },
+  {
+    "id": "one-pot-sausage-tomato-orzo",
+    "title": "One-Pot Sausage Tomato Orzo",
+    "aliases": [
+      "sausage orzo",
+      "tomato orzo",
+      "one pot sausage pasta"
+    ],
+    "description": "A cozy one-pot dinner with browned sausage, tender orzo, tomatoes, and spinach in a lightly creamy sauce.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": [
+      "large deep skillet or Dutch oven",
+      "wooden spoon"
+    ],
+    "ingredients": [
+      {
+        "amount": 12,
+        "unit": "oz",
+        "item": "Italian sausage",
+        "notes": "casings removed if needed"
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "dry orzo"
+      },
+      {
+        "amount": 1,
+        "unit": "can",
+        "item": "diced tomatoes",
+        "notes": "14 to 15 oz, with juices"
+      },
+      {
+        "amount": 2,
+        "unit": "cups",
+        "item": "chicken broth"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "Italian seasoning"
+      },
+      {
+        "amount": 2,
+        "unit": "cups",
+        "item": "baby spinach"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "grated Parmesan"
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "heavy cream or half-and-half"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "red pepper flakes"
+      }
+    ],
+    "substitutions": [
+      "Use turkey or chicken sausage instead of pork sausage.",
+      "Use chopped kale instead of spinach; simmer it a few minutes longer.",
+      "Use vegetable broth if preferred."
+    ],
+    "steps": [
+      {
+        "text": "Put 12 oz Italian sausage in a large deep skillet over medium heat. Break it into small pieces and cook 6 to 8 minutes, until browned and no pink remains."
+      },
+      {
+        "text": "If there is more than about 1 tbsp fat in the pan, spoon off the extra."
+      },
+      {
+        "text": "Stir in 1 cup dry orzo and 1/2 tsp Italian seasoning. Cook 1 minute so the orzo is coated in the pan juices."
+      },
+      {
+        "text": "Add 1 can diced tomatoes with juices and 2 cups chicken broth. Stir well and scrape any browned bits from the bottom."
+      },
+      {
+        "text": "Bring to a gentle simmer, then lower the heat to medium-low. Cook 10 to 12 minutes, stirring every couple of minutes so the orzo does not stick, until tender and saucy.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Stir in 2 cups baby spinach and optional 1/4 cup cream. Cook 1 to 2 minutes, until the spinach wilts."
+      },
+      {
+        "text": "Turn off the heat and stir in 1/4 cup grated Parmesan. Taste before adding extra salt because sausage, broth, and Parmesan are already salty."
+      },
+      {
+        "text": "Let the orzo stand 2 minutes to thicken slightly, then serve."
+      }
+    ],
+    "storage": "Refrigerate up to 4 days. The orzo thickens as it sits; loosen leftovers with a splash of broth or water while reheating.",
+    "tags": [
+      "30 minutes",
+      "one pot",
+      "one pan",
+      "dinner",
+      "pasta",
+      "comfort food",
+      "easy",
+      "family meal"
+    ]
+  }
+]
