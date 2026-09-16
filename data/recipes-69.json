@@ -1,0 +1,132 @@
+[
+  {
+    "id": "one-pot-creamy-cabbage-white-bean-noodles",
+    "title": "One-Pot Creamy Cabbage & White Bean Noodles",
+    "aliases": ["cabbage noodles", "white bean pasta", "cheap cabbage dinner"],
+    "description": "Tender cabbage, white beans, and noodles cook together into a mild, creamy pantry dinner with no specialty ingredients.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["large pot or deep skillet with lid"],
+    "ingredients": [
+      {"amount": 8, "unit": "oz", "item": "egg noodles or short pasta", "optional": false},
+      {"amount": 4, "unit": "cups", "item": "thinly sliced green cabbage", "optional": false},
+      {"amount": 1, "unit": "15-oz can", "item": "white beans, drained and rinsed", "optional": false},
+      {"amount": 3, "unit": "cups", "item": "vegetable or chicken broth", "optional": false},
+      {"amount": 0.75, "unit": "cup", "item": "milk", "optional": false},
+      {"amount": 0.75, "unit": "cup", "item": "shredded cheddar cheese", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "garlic powder", "optional": true}
+    ],
+    "substitutions": ["Use chickpeas instead of white beans.", "Use Monterey Jack instead of cheddar.", "Use small pasta shapes if you do not have egg noodles."],
+    "steps": [{"text": "Cook the cabbage and noodles together."}, {"text": "Add beans, milk, and cheese."}],
+    "cookSteps": [
+      {"text": "Put 4 cups sliced cabbage, 3 cups broth, and 1/2 teaspoon garlic powder if using in a large pot. Bring to a boil, cover, and cook 5 minutes to start softening the cabbage.", "timerMinutes": 5},
+      {"text": "Stir in 8 ounces egg noodles. Cook uncovered, stirring often, for about 8 minutes or until the noodles are tender. Add a small splash of water if the pot gets dry before the noodles are done.", "timerMinutes": 8},
+      {"text": "Stir in 1 drained 15-ounce can white beans and 3/4 cup milk. Cook 3–4 minutes, stirring, until the beans are hot and the sauce is creamy.", "timerMinutes": 4},
+      {"text": "Remove from the heat and stir in 3/4 cup shredded cheddar until melted. Season with salt and pepper to taste and serve."}
+    ],
+    "storage": "Refrigerate up to 4 days. Reheat gently with a splash of milk or broth until steaming hot.",
+    "tags": ["one-pot", "cabbage", "white beans", "noodles", "pasta", "30 minutes", "cheap", "easy", "pantry meal", "meatless", "comfort food"]
+  },
+  {
+    "id": "turkey-apple-cheddar-skillet-melts",
+    "title": "Turkey, Apple & Cheddar Skillet Melts",
+    "aliases": ["turkey apple sandwich", "deli turkey melt", "quick turkey lunch"],
+    "description": "Deli turkey, crisp apple, and cheddar turn ordinary bread into a warm skillet lunch in about 15 minutes.",
+    "servings": 2,
+    "prepMinutes": 7,
+    "cookMinutes": 8,
+    "totalMinutes": 15,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["large skillet"],
+    "ingredients": [
+      {"amount": 4, "unit": "slices", "item": "sandwich bread", "optional": false},
+      {"amount": 6, "unit": "oz", "item": "deli turkey", "optional": false},
+      {"amount": 0.5, "unit": "medium", "item": "apple, thinly sliced", "optional": false},
+      {"amount": 4, "unit": "slices", "item": "cheddar cheese", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "softened butter", "optional": false},
+      {"amount": 2, "unit": "tsp", "item": "mustard", "optional": true}
+    ],
+    "substitutions": ["Use ham instead of turkey.", "Use a pear instead of apple.", "Use mayonnaise instead of mustard or leave it out."],
+    "steps": [{"text": "Build the turkey, apple, and cheddar sandwiches."}, {"text": "Toast them in a skillet."}],
+    "cookSteps": [
+      {"text": "Lay out 4 slices bread. Spread 2 teaspoons mustard over the inside faces if using. Divide 6 ounces deli turkey, 1/2 thinly sliced apple, and 4 slices cheddar between 2 sandwiches."},
+      {"text": "Spread the outsides of the sandwiches with 1 tablespoon softened butter total."},
+      {"text": "Heat a large skillet over medium-low. Cook the sandwiches 3–4 minutes per side, pressing gently, until the bread is golden and the cheddar is melted.", "timerMinutes": 8},
+      {"text": "Let the melts stand 1 minute, then cut and serve."}
+    ],
+    "storage": "Best eaten right away. Refrigerate any leftover cooked sandwich up to 2 days and reheat in a skillet or toaster oven until hot.",
+    "tags": ["15 minutes", "turkey", "deli turkey", "apple", "cheddar", "sandwich", "lunch", "very easy", "cheap", "skillet"]
+  },
+  {
+    "id": "leftover-roasted-vegetable-cheddar-pasta",
+    "title": "Leftover Roasted Vegetable & Cheddar Pasta",
+    "aliases": ["use up roasted vegetables", "leftover veggie pasta", "quick vegetable noodles"],
+    "description": "Leftover roasted vegetables become a fast creamy pasta instead of disappearing into the back of the fridge.",
+    "servings": 3,
+    "prepMinutes": 4,
+    "cookMinutes": 11,
+    "totalMinutes": 15,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["medium pot", "colander"],
+    "ingredients": [
+      {"amount": 6, "unit": "oz", "item": "short pasta", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "chopped leftover roasted vegetables", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "milk", "optional": false},
+      {"amount": 0.75, "unit": "cup", "item": "shredded cheddar cheese", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "garlic powder", "optional": true}
+    ],
+    "substitutions": ["Use cooked rice instead of pasta and warm everything in a skillet.", "Use Monterey Jack instead of cheddar.", "Any mix of roasted broccoli, carrots, cauliflower, zucchini, potatoes, or peppers works."],
+    "steps": [{"text": "Cook the pasta."}, {"text": "Warm the vegetables and make the quick cheese sauce."}],
+    "cookSteps": [
+      {"text": "Cook 6 ounces short pasta in boiling salted water according to the package directions until tender, about 8–10 minutes. Before draining, scoop out 1/4 cup pasta water."},
+      {"text": "Drain the pasta and return it to the pot with 2 cups chopped leftover roasted vegetables, 1/2 cup milk, and 1/4 teaspoon garlic powder if using."},
+      {"text": "Cook over medium-low heat for 2–3 minutes, stirring, until the vegetables are steaming hot."},
+      {"text": "Remove from the heat and stir in 3/4 cup shredded cheddar. Add a little reserved pasta water if needed to loosen the sauce. Season to taste and serve."}
+    ],
+    "storage": "Use vegetables only while they are still within their original safe refrigerated storage window. Refrigerate the finished pasta up to 3 days and reheat until steaming hot.",
+    "tags": ["15 minutes", "leftovers", "food-rescue", "use it up", "vegetables", "pasta", "cheddar", "very easy", "cheap", "dinner"]
+  },
+  {
+    "id": "small-batch-caramel-banana-bread-cups",
+    "title": "Small-Batch Caramel Banana Bread Cups",
+    "aliases": ["banana bread cups", "small batch banana dessert", "something sweet banana"],
+    "description": "One ripe banana makes six soft little banana bread cups with a simple brown-sugar caramel drizzle.",
+    "servings": 6,
+    "prepMinutes": 10,
+    "cookMinutes": 18,
+    "totalMinutes": 28,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["mixing bowl", "6-cup muffin pan", "small saucepan"],
+    "ingredients": [
+      {"amount": 1, "unit": "large", "item": "very ripe banana", "optional": false},
+      {"amount": 1, "unit": "large", "item": "egg", "optional": false},
+      {"amount": 0.25, "unit": "cup", "item": "melted butter or neutral oil", "optional": false},
+      {"amount": 0.25, "unit": "cup", "item": "brown sugar", "optional": false},
+      {"amount": 0.75, "unit": "cup", "item": "all-purpose flour", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "baking powder", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "cinnamon", "optional": true},
+      {"amount": 2, "unit": "tbsp", "item": "brown sugar for sauce", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "heavy cream or milk for sauce", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "butter for sauce", "optional": false}
+    ],
+    "substitutions": ["Use milk instead of heavy cream for a lighter, thinner sauce.", "Leave out the cinnamon if you prefer plain banana flavor.", "Use neutral oil instead of melted butter in the batter."],
+    "steps": [{"text": "Mix and bake six banana cups."}, {"text": "Make the quick brown-sugar sauce."}],
+    "cookSteps": [
+      {"text": "Heat the oven to 350°F. Grease 6 cups of a muffin pan."},
+      {"text": "Mash 1 large ripe banana. Stir in 1 egg, 1/4 cup melted butter or oil, and 1/4 cup brown sugar until combined."},
+      {"text": "Stir in 3/4 cup flour, 1/2 teaspoon baking powder, and 1/4 teaspoon cinnamon if using just until no dry flour remains. Divide among 6 muffin cups."},
+      {"text": "Bake 16–18 minutes, until the tops spring back lightly and a toothpick comes out without wet batter.", "timerMinutes": 18},
+      {"text": "While the cups cool, put 2 tablespoons brown sugar, 2 tablespoons heavy cream or milk, and 1 tablespoon butter in a small saucepan. Bring to a gentle bubble over medium-low heat and stir for 1–2 minutes until smooth."},
+      {"text": "Spoon the warm brown-sugar sauce over the banana cups and serve."}
+    ],
+    "storage": "Store the banana cups covered at room temperature for 2 days or refrigerate up to 5 days. Refrigerate leftover sauce and warm it gently before serving.",
+    "tags": ["small-batch", "banana", "dessert", "baking", "something sweet", "brown sugar", "caramel", "easy", "cheap"]
+  }
+]
