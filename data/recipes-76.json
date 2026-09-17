@@ -95,5 +95,41 @@
     ],
     "storage": "Refrigerate covered up to 4 days. Reheat gently with a splash of milk, stirring often, until steaming hot and creamy again.",
     "tags": ["macaroni and cheese", "mac and cheese", "pasta", "cheddar", "comfort food", "dinner", "side", "family meal", "cheap"]
+  },
+  {
+    "id": "pigs-in-a-blanket",
+    "title": "Pigs in a Blanket",
+    "aliases": ["hot dogs in crescent rolls", "crescent roll hot dogs", "hot dogs and rolls", "wrapped hot dogs"],
+    "description": "Classic pigs in a blanket made with hot dogs wrapped in refrigerated crescent-roll dough and baked until golden.",
+    "servings": 8,
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "totalMinutes": 20,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["baking sheet"],
+    "ingredients": [
+      {"amount": 8, "unit": "", "item": "hot dogs", "optional": false},
+      {"amount": 1, "unit": "8-count can", "item": "refrigerated crescent-roll dough", "optional": false}
+    ],
+    "substitutions": [
+      "Use turkey or chicken hot dogs if you prefer.",
+      "If your crescent-roll package has a different baking temperature, follow the package temperature and use the recipe timing as a guide.",
+      "For smaller bites, cut each hot dog and dough triangle in half before wrapping."
+    ],
+    "steps": [
+      {"text": "Separate the crescent-roll dough into triangles."},
+      {"text": "Wrap one dough triangle around each hot dog."},
+      {"text": "Bake until the rolls are puffed and golden brown."}
+    ],
+    "cookSteps": [
+      {"text": "Heat the oven to 375°F. Line a baking sheet with parchment paper if you want easier cleanup."},
+      {"text": "Open {{dough}} refrigerated crescent-roll dough and separate it into 8 triangles.", "quantities": [{"key": "dough", "ingredientIndex": 1}]},
+      {"text": "Place one of the {{hotDogs}} hot dogs along the wide end of each dough triangle. Roll the dough around the hot dog toward the point, then place seam-side down on the baking sheet.", "quantities": [{"key": "hotDogs", "ingredientIndex": 0}]},
+      {"text": "Bake for 12–15 minutes, until the crescent rolls are puffed and golden brown. Start checking at 12 minutes.", "timerMinutes": 12},
+      {"text": "Let them cool for 2–3 minutes before serving; the hot dogs inside will be very hot."}
+    ],
+    "storage": "Refrigerate leftovers in a covered container up to 3 days. Reheat in the oven, toaster oven, or air fryer until hot so the rolls stay crisp.",
+    "tags": ["pigs in a blanket", "hot dogs", "crescent rolls", "easy", "quick", "lunch", "dinner", "snack", "family meal", "cheap"]
   }
 ]
