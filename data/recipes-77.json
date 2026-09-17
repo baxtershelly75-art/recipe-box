@@ -1,0 +1,325 @@
+[
+  {
+    "id": "lentil-vegetable-pottage",
+    "title": "Lentil & Vegetable Pottage",
+    "aliases": ["lentil pottage", "vegetable pottage", "slow cooker lentil pottage"],
+    "description": "A thick, cozy lentil-and-vegetable pottage made from inexpensive pantry staples and frozen vegetables.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 240,
+    "totalMinutes": 250,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["small slow cooker", "measuring cups and spoons"],
+    "ingredients": [
+      {"amount": 1, "unit": "cup", "item": "brown or green lentils, rinsed", "optional": false},
+      {"amount": 4, "unit": "cups", "item": "vegetable or chicken broth", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "frozen mixed vegetables", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "onion powder", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "dried thyme", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "black pepper", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "salt, plus more to taste", "optional": false}
+    ],
+    "substitutions": [
+      "Use whatever frozen vegetables you have on hand.",
+      "Use water plus bouillon instead of broth.",
+      "Stir in a handful of spinach during the last 10 minutes if you have some to use up."
+    ],
+    "steps": [
+      {"text": "Put the lentils, broth, vegetables, and seasonings in the slow cooker."},
+      {"text": "Cook until the lentils are very tender and the pottage is thick."},
+      {"text": "Taste, adjust the seasoning, and serve hot."}
+    ],
+    "cookSteps": [
+      {"text": "Add {{lentils}} rinsed lentils, {{broth}} broth, {{vegetables}} frozen mixed vegetables, onion powder, thyme, black pepper, and salt to the slow cooker. Stir well.", "quantities": [{"key": "lentils", "ingredientIndex": 0}, {"key": "broth", "ingredientIndex": 1}, {"key": "vegetables", "ingredientIndex": 2}]},
+      {"text": "Cover and cook on HIGH for about 4 hours, until the lentils are very tender. You can also cook on LOW for 6–7 hours.", "timerMinutes": 240},
+      {"text": "Stir well. If you want it thicker, mash a few spoonfuls of lentils against the side of the cooker and stir them back in. If it is too thick, add a splash of broth or water."},
+      {"text": "Taste and add more salt or pepper if needed. Serve hot."}
+    ],
+    "storage": "Refrigerate covered up to 4 days or freeze up to 3 months. Add a splash of broth or water when reheating if it thickens too much.",
+    "tags": ["pottage", "lentils", "vegetarian", "slow cooker", "cheap", "easy", "comfort food", "meal prep"]
+  },
+  {
+    "id": "split-pea-carrot-pottage",
+    "title": "Split Pea & Carrot Pottage",
+    "aliases": ["split pea pottage", "pea pottage", "carrot pottage"],
+    "description": "A soft, thick split-pea pottage with carrots and gentle savory seasoning.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 240,
+    "totalMinutes": 250,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["small slow cooker"],
+    "ingredients": [
+      {"amount": 1, "unit": "cup", "item": "dried green split peas, rinsed", "optional": false},
+      {"amount": 4, "unit": "cups", "item": "vegetable or chicken broth", "optional": false},
+      {"amount": 1.5, "unit": "cups", "item": "sliced carrots, fresh or frozen", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "onion powder", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "dried thyme", "optional": true},
+      {"amount": 0.25, "unit": "tsp", "item": "black pepper", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "salt, plus more to taste", "optional": false}
+    ],
+    "substitutions": [
+      "Add a small amount of finely diced ham if you want a smoky version.",
+      "Use frozen peas and carrots in place of the sliced carrots for a different texture.",
+      "Use water plus bouillon instead of broth."
+    ],
+    "steps": [
+      {"text": "Combine the split peas, broth, carrots, and seasonings."},
+      {"text": "Slow-cook until the peas collapse into a thick, creamy pottage."},
+      {"text": "Stir, season, and serve."}
+    ],
+    "cookSteps": [
+      {"text": "Put {{peas}} rinsed split peas, {{broth}} broth, {{carrots}} carrots, onion powder, thyme if using, black pepper, and salt into the slow cooker. Stir.", "quantities": [{"key": "peas", "ingredientIndex": 0}, {"key": "broth", "ingredientIndex": 1}, {"key": "carrots", "ingredientIndex": 2}]},
+      {"text": "Cover and cook on HIGH for about 4 hours, or on LOW for 6–7 hours, until the peas are very soft and the mixture is thick.", "timerMinutes": 240},
+      {"text": "Stir vigorously to make the pottage creamier. Add a little broth or water if you want it looser."},
+      {"text": "Taste and adjust salt and pepper before serving."}
+    ],
+    "storage": "Refrigerate up to 4 days or freeze up to 3 months. Split-pea pottage thickens as it sits, so loosen it with broth or water when reheating.",
+    "tags": ["pottage", "split peas", "carrots", "slow cooker", "cheap", "easy", "comfort food"]
+  },
+  {
+    "id": "white-bean-rosemary-pottage",
+    "title": "White Bean & Rosemary Pottage",
+    "aliases": ["white bean pottage", "bean pottage", "rosemary bean pottage"],
+    "description": "A creamy-tasting white-bean pottage made without cream, with rosemary and simple pantry seasonings.",
+    "servings": 3,
+    "prepMinutes": 5,
+    "cookMinutes": 120,
+    "totalMinutes": 125,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["small slow cooker", "potato masher or sturdy spoon"],
+    "ingredients": [
+      {"amount": 2, "unit": "15-oz cans", "item": "white beans, drained and rinsed", "optional": false},
+      {"amount": 2.5, "unit": "cups", "item": "vegetable or chicken broth", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "frozen diced carrots or mixed vegetables", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "dried rosemary, crushed", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "onion powder", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "black pepper", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "salt, plus more to taste", "optional": false}
+    ],
+    "substitutions": [
+      "Use cannellini, Great Northern, or navy beans.",
+      "Use thyme instead of rosemary.",
+      "Add a handful of spinach during the last 10 minutes."
+    ],
+    "steps": [
+      {"text": "Combine the beans, broth, vegetables, and seasonings."},
+      {"text": "Cook until everything is hot and tender."},
+      {"text": "Mash some of the beans to thicken the pottage."}
+    ],
+    "cookSteps": [
+      {"text": "Add {{beans}} white beans, {{broth}} broth, {{vegetables}} vegetables, rosemary, onion powder, black pepper, and salt to the slow cooker. Stir.", "quantities": [{"key": "beans", "ingredientIndex": 0}, {"key": "broth", "ingredientIndex": 1}, {"key": "vegetables", "ingredientIndex": 2}]},
+      {"text": "Cover and cook on HIGH for about 2 hours, or on LOW for 3–4 hours, until the vegetables are tender and everything is hot.", "timerMinutes": 120},
+      {"text": "Mash about one-third of the beans right in the cooker, then stir. This makes the broth thick and creamy without adding cream."},
+      {"text": "Taste and adjust the seasoning. Add a splash of broth if the pottage is thicker than you like."}
+    ],
+    "storage": "Refrigerate up to 4 days or freeze up to 3 months. Reheat gently with a splash of broth or water.",
+    "tags": ["pottage", "white beans", "vegetarian", "slow cooker", "cheap", "easy", "pantry meal"]
+  },
+  {
+    "id": "chickpea-tomato-spinach-pottage",
+    "title": "Chickpea, Tomato & Spinach Pottage",
+    "aliases": ["chickpea pottage", "tomato pottage", "spinach pottage"],
+    "description": "A bright, savory chickpea pottage with tomatoes and spinach that still feels hearty and filling.",
+    "servings": 4,
+    "prepMinutes": 5,
+    "cookMinutes": 150,
+    "totalMinutes": 155,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["small slow cooker"],
+    "ingredients": [
+      {"amount": 2, "unit": "15-oz cans", "item": "chickpeas, drained and rinsed", "optional": false},
+      {"amount": 1, "unit": "14.5-oz can", "item": "diced tomatoes", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "vegetable or chicken broth", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "frozen spinach", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "garlic powder", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "Italian seasoning", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "black pepper", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "salt, plus more to taste", "optional": false}
+    ],
+    "substitutions": [
+      "Use white beans instead of chickpeas.",
+      "Use frozen kale instead of spinach.",
+      "For a smoother texture, mash some of the chickpeas before serving."
+    ],
+    "steps": [
+      {"text": "Add everything except the spinach to the slow cooker."},
+      {"text": "Cook until the flavors blend and the chickpeas are tender."},
+      {"text": "Stir in the spinach near the end and serve."}
+    ],
+    "cookSteps": [
+      {"text": "Add {{chickpeas}} chickpeas, {{tomatoes}} diced tomatoes, {{broth}} broth, garlic powder, Italian seasoning, black pepper, and salt to the slow cooker. Stir.", "quantities": [{"key": "chickpeas", "ingredientIndex": 0}, {"key": "tomatoes", "ingredientIndex": 1}, {"key": "broth", "ingredientIndex": 2}]},
+      {"text": "Cover and cook on HIGH for about 2 1/2 hours, or on LOW for 4–5 hours.", "timerMinutes": 150},
+      {"text": "Stir in {{spinach}} frozen spinach. Cover and cook 10 more minutes, until the spinach is hot.", "quantities": [{"key": "spinach", "ingredientIndex": 3}], "timerMinutes": 10},
+      {"text": "Mash a few chickpeas with the back of a spoon if you want a thicker pottage. Taste and adjust the seasoning."}
+    ],
+    "storage": "Refrigerate up to 4 days or freeze up to 3 months. Reheat until steaming hot.",
+    "tags": ["pottage", "chickpeas", "tomatoes", "spinach", "vegetarian", "slow cooker", "cheap", "easy"]
+  },
+  {
+    "id": "barley-mushroom-pottage",
+    "title": "Barley & Mushroom Pottage",
+    "aliases": ["barley pottage", "mushroom pottage", "vegetable barley pottage"],
+    "description": "A deeply savory barley-and-mushroom pottage with a pleasantly chewy texture and rich broth.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 240,
+    "totalMinutes": 250,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["small slow cooker"],
+    "ingredients": [
+      {"amount": 0.75, "unit": "cup", "item": "pearl barley, rinsed", "optional": false},
+      {"amount": 4, "unit": "cups", "item": "vegetable or beef-style broth", "optional": false},
+      {"amount": 8, "unit": "oz", "item": "sliced mushrooms, fresh or frozen", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "frozen mixed vegetables", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "onion powder", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "dried thyme", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "black pepper", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "salt, plus more to taste", "optional": false}
+    ],
+    "substitutions": [
+      "Use extra mixed vegetables if you do not have mushrooms.",
+      "Use vegetable broth for a fully vegetarian version.",
+      "Add a spoonful of grated Parmesan at serving time if you want a richer finish."
+    ],
+    "steps": [
+      {"text": "Combine the barley, broth, mushrooms, vegetables, and seasonings."},
+      {"text": "Slow-cook until the barley is tender and the broth has thickened."},
+      {"text": "Taste and serve."}
+    ],
+    "cookSteps": [
+      {"text": "Add {{barley}} rinsed pearl barley, {{broth}} broth, {{mushrooms}} mushrooms, {{vegetables}} mixed vegetables, onion powder, thyme, black pepper, and salt to the slow cooker. Stir.", "quantities": [{"key": "barley", "ingredientIndex": 0}, {"key": "broth", "ingredientIndex": 1}, {"key": "mushrooms", "ingredientIndex": 2}, {"key": "vegetables", "ingredientIndex": 3}]},
+      {"text": "Cover and cook on HIGH for about 4 hours, or on LOW for 6–7 hours, until the barley is tender.", "timerMinutes": 240},
+      {"text": "Stir well. The barley should make the broth naturally thick and spoonable. Add a little broth or water if needed."},
+      {"text": "Taste and adjust the salt and pepper before serving."}
+    ],
+    "storage": "Refrigerate up to 4 days or freeze up to 3 months. Barley continues to absorb liquid, so add broth when reheating.",
+    "tags": ["pottage", "barley", "mushrooms", "slow cooker", "cheap", "comfort food", "vegetarian"]
+  },
+  {
+    "id": "potato-cabbage-pottage",
+    "title": "Potato & Cabbage Pottage",
+    "aliases": ["potato pottage", "cabbage pottage", "potato cabbage soup"],
+    "description": "A humble, filling potato-and-cabbage pottage that cooks down soft and comforting.",
+    "servings": 4,
+    "prepMinutes": 15,
+    "cookMinutes": 210,
+    "totalMinutes": 225,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["small slow cooker", "potato masher or sturdy spoon"],
+    "ingredients": [
+      {"amount": 3, "unit": "cups", "item": "peeled potatoes, cut into small cubes", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "thinly sliced cabbage", "optional": false},
+      {"amount": 3.5, "unit": "cups", "item": "vegetable or chicken broth", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "onion powder", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "dried thyme", "optional": true},
+      {"amount": 0.25, "unit": "tsp", "item": "black pepper", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "salt, plus more to taste", "optional": false}
+    ],
+    "substitutions": [
+      "Use frozen diced potatoes to save chopping time.",
+      "Add sliced carrots with the potatoes for a sweeter version.",
+      "Stir in a little milk at the end if you want a creamier pottage."
+    ],
+    "steps": [
+      {"text": "Combine the potatoes, cabbage, broth, and seasonings."},
+      {"text": "Cook until the potatoes and cabbage are very tender."},
+      {"text": "Mash some of the potatoes to thicken the pottage."}
+    ],
+    "cookSteps": [
+      {"text": "Add {{potatoes}} potatoes, {{cabbage}} cabbage, {{broth}} broth, onion powder, thyme if using, black pepper, and salt to the slow cooker. Stir.", "quantities": [{"key": "potatoes", "ingredientIndex": 0}, {"key": "cabbage", "ingredientIndex": 1}, {"key": "broth", "ingredientIndex": 2}]},
+      {"text": "Cover and cook on HIGH for about 3 1/2 hours, or on LOW for 6 hours, until the potatoes are very tender.", "timerMinutes": 210},
+      {"text": "Mash some of the potatoes directly in the cooker, leaving plenty of soft pieces intact. Stir until the broth becomes thicker."},
+      {"text": "Taste and adjust the seasoning. Add a splash of broth if you want it thinner."}
+    ],
+    "storage": "Refrigerate up to 4 days. This pottage can be frozen, though the potatoes may become slightly softer after thawing.",
+    "tags": ["pottage", "potatoes", "cabbage", "slow cooker", "cheap", "easy", "comfort food"]
+  },
+  {
+    "id": "sweet-potato-red-lentil-pottage",
+    "title": "Sweet Potato & Red Lentil Pottage",
+    "aliases": ["red lentil pottage", "sweet potato pottage", "orange lentil pottage"],
+    "description": "A soft, naturally creamy red-lentil pottage with sweet potato and warm, mild seasoning.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 180,
+    "totalMinutes": 190,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["small slow cooker"],
+    "ingredients": [
+      {"amount": 1, "unit": "cup", "item": "red lentils, rinsed", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "peeled sweet potato, cut into small cubes", "optional": false},
+      {"amount": 4, "unit": "cups", "item": "vegetable or chicken broth", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "onion powder", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "ground cumin", "optional": true},
+      {"amount": 0.25, "unit": "tsp", "item": "black pepper", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "salt, plus more to taste", "optional": false}
+    ],
+    "substitutions": [
+      "Use regular potatoes instead of sweet potatoes for a less sweet version.",
+      "Leave out the cumin for a very plain, gentle flavor.",
+      "Stir in frozen spinach during the last 10 minutes if desired."
+    ],
+    "steps": [
+      {"text": "Combine the lentils, sweet potato, broth, and seasonings."},
+      {"text": "Cook until everything is very soft."},
+      {"text": "Stir until creamy and season to taste."}
+    ],
+    "cookSteps": [
+      {"text": "Add {{lentils}} rinsed red lentils, {{sweetPotato}} sweet potato, {{broth}} broth, onion powder, cumin if using, black pepper, and salt to the slow cooker. Stir.", "quantities": [{"key": "lentils", "ingredientIndex": 0}, {"key": "sweetPotato", "ingredientIndex": 1}, {"key": "broth", "ingredientIndex": 2}]},
+      {"text": "Cover and cook on HIGH for about 3 hours, or on LOW for 5–6 hours, until the sweet potato is very soft and the lentils have broken down.", "timerMinutes": 180},
+      {"text": "Stir well; the red lentils should make the pottage naturally creamy. Mash a few sweet-potato pieces if you want it even smoother."},
+      {"text": "Taste and adjust salt and pepper before serving."}
+    ],
+    "storage": "Refrigerate up to 4 days or freeze up to 3 months. Add broth or water when reheating if needed.",
+    "tags": ["pottage", "red lentils", "sweet potatoes", "vegetarian", "slow cooker", "cheap", "easy"]
+  },
+  {
+    "id": "creamy-corn-potato-pottage",
+    "title": "Creamy Corn & Potato Pottage",
+    "aliases": ["corn pottage", "potato corn pottage", "creamy pottage"],
+    "description": "A mild corn-and-potato pottage finished with a little milk for a cozy, chowder-like texture.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 220,
+    "totalMinutes": 230,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["small slow cooker", "potato masher or sturdy spoon"],
+    "ingredients": [
+      {"amount": 3, "unit": "cups", "item": "peeled potatoes, cut into small cubes", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "frozen corn", "optional": false},
+      {"amount": 3, "unit": "cups", "item": "vegetable or chicken broth", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "onion powder", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "black pepper", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "salt, plus more to taste", "optional": false},
+      {"amount": 0.75, "unit": "cup", "item": "milk", "optional": false}
+    ],
+    "substitutions": [
+      "Use canned corn, drained, instead of frozen corn.",
+      "Use unsweetened plain oat milk if you prefer a dairy-free version.",
+      "Add finely diced ham at the beginning if you want a ham-and-corn version."
+    ],
+    "steps": [
+      {"text": "Cook the potatoes and corn in broth until very tender."},
+      {"text": "Mash some of the potatoes to thicken the pottage."},
+      {"text": "Stir in milk at the end and heat gently."}
+    ],
+    "cookSteps": [
+      {"text": "Add {{potatoes}} potatoes, {{corn}} corn, {{broth}} broth, onion powder, black pepper, and salt to the slow cooker. Stir.", "quantities": [{"key": "potatoes", "ingredientIndex": 0}, {"key": "corn", "ingredientIndex": 1}, {"key": "broth", "ingredientIndex": 2}]},
+      {"text": "Cover and cook on HIGH for about 3 1/2 hours, or on LOW for 6 hours, until the potatoes are very tender.", "timerMinutes": 210},
+      {"text": "Mash about one-third of the potatoes in the cooker and stir to thicken the broth."},
+      {"text": "Stir in {{milk}} milk. Cover and heat for 10 more minutes, just until hot; do not let it boil hard.", "quantities": [{"key": "milk", "ingredientIndex": 6}], "timerMinutes": 10},
+      {"text": "Taste and adjust the salt and pepper. Serve hot."}
+    ],
+    "storage": "Refrigerate up to 4 days. Reheat gently, stirring often; add a splash of milk or broth if it becomes too thick.",
+    "tags": ["pottage", "corn", "potatoes", "slow cooker", "creamy", "cheap", "easy", "comfort food"]
+  }
+]
