@@ -1,4 +1,4 @@
-const CACHE = 'recipe-box-v1-32';
+const CACHE = 'recipe-box-v1-33';
 const RECIPE_ASSETS = Array.from({length:75},(_,i)=>`./data/recipes-${String(i+1).padStart(2,'0')}.json`);
 const ASSETS = ['./','./index.html','./styles.css','./app.js','./kitchen-fractions.js','./recipe-extra-loader.js','./recipe-helpers.js','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png',...RECIPE_ASSETS,'./data/recipes-76.json'];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS))));
