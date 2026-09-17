@@ -1,0 +1,129 @@
+[
+  {
+    "id": "slow-cooker-chicken-noodle-soup",
+    "title": "Slow Cooker Chicken & Noodle Soup",
+    "aliases": ["crockpot chicken noodle soup", "easy chicken soup", "chicken noodle crockpot"],
+    "description": "A familiar chicken noodle soup that cooks mostly unattended with ordinary freezer and pantry ingredients.",
+    "servings": 6,
+    "prepMinutes": 10,
+    "cookMinutes": 375,
+    "totalMinutes": 385,
+    "effort": "very easy",
+    "cost": "$$",
+    "equipment": ["5- to 6-quart slow cooker"],
+    "ingredients": [
+      {"amount": 1.5, "unit": "lb", "item": "boneless skinless chicken thighs or breasts", "optional": false},
+      {"amount": 4, "unit": "cups", "item": "chicken broth", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "water", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "frozen mixed vegetables", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "dried Italian seasoning", "optional": true},
+      {"amount": 3, "unit": "cups", "item": "wide egg noodles", "optional": false}
+    ],
+    "substitutions": ["Use frozen peas and carrots instead of mixed vegetables.", "Use leftover cooked chicken; add it during the final 30 minutes instead of at the beginning.", "Use small pasta shells instead of egg noodles."],
+    "steps": [{"text": "Slow-cook the chicken, broth, and vegetables."}, {"text": "Shred the chicken and cook the noodles at the end."}],
+    "cookSteps": [
+      {"text": "Put 1 1/2 pounds chicken, 4 cups chicken broth, 2 cups water, 2 cups frozen mixed vegetables, and 1 teaspoon Italian seasoning if using into the slow cooker."},
+      {"text": "Cover and cook on LOW for 6 hours, until the chicken is fully cooked and tender.", "timerMinutes": 360},
+      {"text": "Move the chicken to a plate, shred it with two forks, and return it to the slow cooker."},
+      {"text": "Stir in 3 cups egg noodles. Cover and cook on HIGH for 12–15 minutes, checking near the end, until the noodles are tender.", "timerMinutes": 15},
+      {"text": "Taste, season with salt and pepper as needed, and serve hot."}
+    ],
+    "storage": "Refrigerate up to 4 days. The noodles soften as they sit; add a splash of broth or water when reheating until steaming hot.",
+    "tags": ["slow cooker", "crockpot", "chicken", "noodles", "soup", "very easy", "comfort food", "dinner", "freezer vegetables"]
+  },
+  {
+    "id": "sheet-pan-tilapia-broccoli-potatoes",
+    "title": "Sheet-Pan Lemon Tilapia, Broccoli & Potatoes",
+    "aliases": ["lemon pepper tilapia", "easy fish dinner", "tilapia sheet pan"],
+    "description": "Thin potato pieces get a head start, then tilapia and broccoli finish on the same pan for an easy fish dinner.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": ["large sheet pan", "parchment paper or foil"],
+    "ingredients": [
+      {"amount": 1, "unit": "lb", "item": "small potatoes, cut into thin wedges", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "olive or vegetable oil", "optional": false},
+      {"amount": 4, "unit": "fillets", "item": "tilapia, about 4 to 5 oz each", "optional": false},
+      {"amount": 4, "unit": "cups", "item": "broccoli florets", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "lemon pepper seasoning", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "lemon juice", "optional": true}
+    ],
+    "substitutions": ["Use frozen broccoli; add it with the fish and expect a little extra moisture.", "Use another thin white-fish fillet in place of tilapia.", "Use garlic pepper plus a squeeze of lemon if you do not have lemon pepper."],
+    "steps": [{"text": "Roast the potatoes first."}, {"text": "Add seasoned tilapia and broccoli and finish together."}],
+    "cookSteps": [
+      {"text": "Heat the oven to 425°F. Line a large sheet pan. Toss 1 pound thin potato wedges with 1 tablespoon oil and spread them on the pan."},
+      {"text": "Roast the potatoes for 15 minutes.", "timerMinutes": 15},
+      {"text": "Toss 4 cups broccoli with the remaining 1 tablespoon oil. Move the potatoes aside and add the broccoli and 4 tilapia fillets to the pan."},
+      {"text": "Sprinkle the tilapia and vegetables with 1 teaspoon lemon pepper. Drizzle the fish with 1 tablespoon lemon juice if using."},
+      {"text": "Roast 12–15 minutes more, until the potatoes and broccoli are tender and the fish is opaque and flakes easily.", "timerMinutes": 15}
+    ],
+    "storage": "Refrigerate leftovers up to 3 days. Reheat gently until hot; fish is best reheated only once.",
+    "tags": ["sheet-pan", "tilapia", "fish", "lemon pepper", "broccoli", "potatoes", "easy", "dinner", "normal ingredients"]
+  },
+  {
+    "id": "leftover-meatballs-cheesy-orzo",
+    "title": "Leftover Meatballs & Cheesy Orzo Skillet",
+    "aliases": ["use up meatballs", "leftover meatball dinner", "quick meatball orzo"],
+    "description": "A few cooked meatballs stretch into a creamy tomato-orzo skillet for a practical leftover dinner.",
+    "servings": 3,
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "totalMinutes": 20,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["large skillet with lid"],
+    "ingredients": [
+      {"amount": 8, "unit": "small", "item": "cooked leftover meatballs, halved", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "dry orzo", "optional": false},
+      {"amount": 1.5, "unit": "cups", "item": "chicken or vegetable broth", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "plain pasta sauce", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "frozen peas", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "shredded mozzarella or cheddar", "optional": false}
+    ],
+    "substitutions": ["Use cooked sliced sausage instead of meatballs.", "Use frozen mixed vegetables instead of peas.", "Use Parmesan plus a little extra milk instead of shredded cheese."],
+    "steps": [{"text": "Simmer orzo with sauce and broth."}, {"text": "Warm the leftover meatballs and finish with cheese."}],
+    "cookSteps": [
+      {"text": "Put 1 cup dry orzo, 1 1/2 cups broth, and 1 cup pasta sauce in a large skillet and bring to a simmer."},
+      {"text": "Cover and simmer 8 minutes, stirring twice so the orzo does not stick.", "timerMinutes": 8},
+      {"text": "Stir in 8 halved cooked meatballs and 1/2 cup frozen peas. Cover and cook 4–5 minutes, until the orzo is tender and the meatballs are steaming hot.", "timerMinutes": 5},
+      {"text": "Remove from the heat, stir in 1/2 cup shredded cheese, and serve."}
+    ],
+    "storage": "Use the meatballs within their original safe refrigerated storage window. Refrigerate the finished skillet up to 3 days and reheat until steaming hot.",
+    "tags": ["leftovers", "food-rescue", "use it up", "meatballs", "orzo", "one-pot", "20 minutes", "very easy", "cheap", "comfort food"]
+  },
+  {
+    "id": "small-batch-caramel-apple-crisp",
+    "title": "Small-Batch Caramel Apple Crisp",
+    "aliases": ["two serving apple crisp", "small apple dessert", "something sweet apples"],
+    "description": "One apple becomes a warm two-serving crisp with a simple brown-sugar oat topping and optional caramel drizzle.",
+    "servings": 2,
+    "prepMinutes": 8,
+    "cookMinutes": 22,
+    "totalMinutes": 30,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["2 small ramekins or one small baking dish", "small bowl"],
+    "ingredients": [
+      {"amount": 1, "unit": "large", "item": "apple, peeled or unpeeled and diced", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "lemon juice", "optional": true},
+      {"amount": 0.25, "unit": "cup", "item": "old-fashioned oats", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "all-purpose flour", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "brown sugar", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "butter, softened", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "caramel sauce", "optional": true}
+    ],
+    "substitutions": ["Use a ripe pear instead of the apple.", "Use quick oats if that is what you have.", "Skip the caramel sauce; the brown-sugar topping is sweet on its own."],
+    "steps": [{"text": "Fill the ramekins with apple."}, {"text": "Add oat topping and bake until bubbly."}],
+    "cookSteps": [
+      {"text": "Heat the oven to 375°F. Divide 1 diced apple between 2 small ramekins and toss with 1 teaspoon lemon juice if using."},
+      {"text": "In a small bowl, mash together 1/4 cup oats, 2 tablespoons flour, 2 tablespoons brown sugar, and 2 tablespoons softened butter until crumbly."},
+      {"text": "Scatter the topping over the apple. Bake 20–22 minutes, until the apple is tender and the topping is browned.", "timerMinutes": 22},
+      {"text": "Cool 5 minutes, then drizzle each serving with up to 1 tablespoon caramel sauce if using."}
+    ],
+    "storage": "Refrigerate covered up to 3 days. Reheat gently before serving if desired.",
+    "tags": ["small-batch", "apple", "dessert", "something sweet", "baking", "30 minutes", "easy", "cheap", "oats", "caramel"]
+  }
+]
