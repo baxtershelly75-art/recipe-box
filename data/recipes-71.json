@@ -1,0 +1,128 @@
+[
+  {
+    "id": "one-pot-creamy-tomato-spinach-ravioli",
+    "title": "One-Pot Creamy Tomato & Spinach Ravioli",
+    "aliases": ["quick ravioli dinner", "tomato spinach ravioli", "easy pasta dinner"],
+    "description": "Refrigerated cheese ravioli cooks right in a simple tomato sauce with spinach for a low-effort weeknight dinner.",
+    "servings": 4,
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "totalMinutes": 20,
+    "effort": "very easy",
+    "cost": "$$",
+    "equipment": ["large deep skillet with lid"],
+    "ingredients": [
+      {"amount": 20, "unit": "oz", "item": "refrigerated cheese ravioli", "optional": false},
+      {"amount": 1, "unit": "24-oz jar", "item": "plain pasta sauce", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "water", "optional": false},
+      {"amount": 3, "unit": "cups", "item": "baby spinach", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "milk", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "shredded mozzarella", "optional": true}
+    ],
+    "substitutions": ["Use frozen ravioli and add a few extra minutes of covered cooking.", "Use chopped frozen spinach, thawed and squeezed dry.", "Leave out mozzarella for an even simpler dinner."],
+    "steps": [{"text": "Simmer the ravioli in tomato sauce."}, {"text": "Stir in spinach and milk."}],
+    "cookSteps": [
+      {"text": "Put 1 jar pasta sauce and 1 cup water in a large deep skillet and bring to a gentle simmer."},
+      {"text": "Add 20 ounces refrigerated cheese ravioli. Cover and simmer 8–10 minutes, stirring gently once or twice, until the ravioli are tender.", "timerMinutes": 10},
+      {"text": "Stir in 3 cups baby spinach and 1/2 cup milk. Cook uncovered 2–3 minutes, until the spinach wilts and the sauce is hot."},
+      {"text": "Sprinkle with 1/2 cup mozzarella if using, cover for 1–2 minutes to melt, then serve."}
+    ],
+    "storage": "Refrigerate up to 3 days. Reheat gently with a splash of water or milk until steaming hot.",
+    "tags": ["one-pot", "ravioli", "pasta", "spinach", "tomato", "20 minutes", "very easy", "dinner", "comfort food"]
+  },
+  {
+    "id": "ham-cheddar-apple-pinwheels",
+    "title": "Ham, Cheddar & Apple Pinwheels",
+    "aliases": ["ham tortilla pinwheels", "quick ham lunch", "apple cheddar wrap"],
+    "description": "Ham, cheddar, and crisp apple roll into soft tortillas for a no-cook lunch that is easy to pack or make at home.",
+    "servings": 2,
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["cutting board", "knife"],
+    "ingredients": [
+      {"amount": 2, "unit": "large", "item": "flour tortillas", "optional": false},
+      {"amount": 4, "unit": "oz", "item": "deli ham", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "shredded cheddar", "optional": false},
+      {"amount": 0.5, "unit": "small", "item": "apple, cut into very thin matchsticks", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "cream cheese or mayonnaise", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "mustard", "optional": true}
+    ],
+    "substitutions": ["Use deli turkey instead of ham.", "Use a pear instead of apple.", "Use mayonnaise if you do not have cream cheese."],
+    "steps": [{"text": "Fill and roll the tortillas."}, {"text": "Slice into easy-to-eat pinwheels."}],
+    "cookSteps": [
+      {"text": "Lay out 2 large tortillas. Spread each with 1 tablespoon cream cheese or mayonnaise and 1/2 teaspoon mustard if using."},
+      {"text": "Divide 4 ounces deli ham, 1/2 cup shredded cheddar, and 1/2 small apple cut into thin matchsticks between the tortillas."},
+      {"text": "Roll each tortilla up tightly. Place seam-side down and slice each roll into 5 or 6 pinwheels."},
+      {"text": "Serve right away, or chill until lunch."}
+    ],
+    "storage": "Refrigerate tightly covered up to 24 hours for best texture.",
+    "tags": ["10 minutes", "no-cook", "ham", "deli ham", "apple", "cheddar", "wrap", "sandwich", "lunch", "very easy", "cheap"]
+  },
+  {
+    "id": "leftover-baked-potato-broccoli-soup",
+    "title": "Leftover Baked Potato & Broccoli Soup",
+    "aliases": ["use up baked potatoes", "leftover potato soup", "quick broccoli potato soup"],
+    "description": "Cold baked potatoes turn into a quick creamy broccoli soup instead of becoming a forgotten leftover.",
+    "servings": 3,
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "totalMinutes": 20,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["medium saucepan", "potato masher or fork"],
+    "ingredients": [
+      {"amount": 2, "unit": "large", "item": "cooked leftover baked potatoes", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "frozen broccoli florets", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "chicken or vegetable broth", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "milk", "optional": false},
+      {"amount": 0.75, "unit": "cup", "item": "shredded cheddar", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "garlic powder", "optional": true}
+    ],
+    "substitutions": ["Use leftover boiled or roasted potatoes.", "Use frozen cauliflower instead of broccoli.", "Use Monterey Jack instead of cheddar."],
+    "steps": [{"text": "Simmer the broccoli and leftover potatoes."}, {"text": "Mash lightly and finish with milk and cheese."}],
+    "cookSteps": [
+      {"text": "Cut 2 cooked baked potatoes into chunks. Put them in a saucepan with 2 cups frozen broccoli, 2 cups broth, and 1/4 teaspoon garlic powder if using."},
+      {"text": "Bring to a simmer and cook 8–10 minutes, until the broccoli is tender and everything is steaming hot.", "timerMinutes": 10},
+      {"text": "Mash some of the potatoes and broccoli with a potato masher or fork, leaving plenty of texture."},
+      {"text": "Stir in 1 cup milk and heat gently for 2–3 minutes. Remove from the heat, stir in 3/4 cup cheddar, season to taste, and serve."}
+    ],
+    "storage": "Use leftover potatoes only while they are within their original safe refrigerated storage window. Refrigerate the finished soup up to 3 days and reheat until steaming hot.",
+    "tags": ["leftovers", "food-rescue", "use it up", "potatoes", "broccoli", "soup", "20 minutes", "very easy", "cheap", "comfort food"]
+  },
+  {
+    "id": "small-batch-chocolate-chip-bread-pudding-mugs",
+    "title": "Small-Batch Chocolate Chip Bread Pudding Mugs",
+    "aliases": ["stale bread dessert", "bread pudding mugs", "small batch chocolate dessert"],
+    "description": "A few slices of stale bread become two warm chocolate-chip bread puddings without making a full pan.",
+    "servings": 2,
+    "prepMinutes": 8,
+    "cookMinutes": 18,
+    "totalMinutes": 26,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["mixing bowl", "2 oven-safe mugs or small ramekins", "small baking pan"],
+    "ingredients": [
+      {"amount": 3, "unit": "cups", "item": "cubed stale sandwich bread or brioche", "optional": false},
+      {"amount": 1, "unit": "large", "item": "egg", "optional": false},
+      {"amount": 0.75, "unit": "cup", "item": "milk", "optional": false},
+      {"amount": 3, "unit": "tbsp", "item": "brown sugar", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "vanilla extract", "optional": true},
+      {"amount": 0.25, "unit": "tsp", "item": "cinnamon", "optional": true},
+      {"amount": 3, "unit": "tbsp", "item": "chocolate chips", "optional": false}
+    ],
+    "substitutions": ["Use raisins instead of chocolate chips.", "Use white or wheat sandwich bread, brioche, or soft dinner rolls.", "Leave out cinnamon or vanilla if you do not have them."],
+    "steps": [{"text": "Soak stale bread in a simple custard."}, {"text": "Bake two little bread puddings."}],
+    "cookSteps": [
+      {"text": "Heat the oven to 350°F. Lightly grease 2 oven-safe mugs or small ramekins and set them on a small baking pan."},
+      {"text": "Whisk 1 egg, 3/4 cup milk, 3 tablespoons brown sugar, and the vanilla and cinnamon if using in a mixing bowl."},
+      {"text": "Fold in 3 cups stale bread cubes and 3 tablespoons chocolate chips. Let the mixture stand 5 minutes so the bread can absorb the custard.", "timerMinutes": 5},
+      {"text": "Divide between the 2 mugs or ramekins. Bake 16–18 minutes, until puffed and set in the center.", "timerMinutes": 18},
+      {"text": "Cool for 5 minutes before eating; the centers stay very hot."}
+    ],
+    "storage": "Refrigerate covered up to 3 days. Reheat gently until hot throughout.",
+    "tags": ["small-batch", "stale bread", "food-rescue", "use it up", "bread pudding", "chocolate", "dessert", "something sweet", "baking", "easy", "cheap"]
+  }
+]
