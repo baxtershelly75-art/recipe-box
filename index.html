@@ -17,7 +17,7 @@
       <h1>Recipe Box</h1>
       <p class="subtitle">Simple food. Clear steps. No recipe-blog nonsense.</p>
     </div>
-    <button id="favoritesBtn" class="secondary-btn" type="button">♥ Favorites</button>
+    <div class="header-actions">\n      <button id="favoritesBtn" class="secondary-btn" type="button">♥ Favorites</button>\n      <button id="groceryBtn" class="secondary-btn" type="button">🛒 Grocery List</button>\n    </div>
   </header>
 
   <main id="app" class="shell">
@@ -49,11 +49,11 @@
         <div><p class="eyebrow">RESULTS</p><h2 id="resultsTitle">Recipes</h2></div>
         <span id="resultsCount" class="count-badge"></span>
       </div>
-      <div id="resultsGrid" class="recipe-grid"></div>
+      <div id="favoriteGroceryTools" class="favorite-grocery-tools hidden">\n        <p>Select the favorite recipes you want to shop for.</p>\n        <button id="addSelectedToGroceryBtn" class="primary-btn" type="button">ADD SELECTED TO GROCERY LIST</button>\n      </div>\n      <div id="resultsGrid" class="recipe-grid"></div>
       <button id="showMoreBtn" class="secondary-btn wide hidden" type="button">SHOW MORE</button>
     </section>
 
-    <section id="detailView" class="view">
+    <section id="groceryView" class="view">\n      <button class="back-link" data-action="grocery-home" type="button">← HOME</button>\n      <div class="section-heading"><div><p class="eyebrow">SHOPPING</p><h2>Grocery List</h2></div></div>\n      <div class="grocery-card">\n        <form id="groceryAddForm" class="grocery-add-form">\n          <label class="sr-only" for="groceryItemInput">Add grocery item</label>\n          <input id="groceryItemInput" class="search-input" type="text" autocomplete="off" placeholder="Add coffee creamer, bread, etc.">\n          <button class="primary-btn" type="submit">ADD ITEM</button>\n        </form>\n        <div id="groceryList" class="grocery-list"></div>\n        <div class="grocery-actions">\n          <button id="shareGroceryBtn" class="primary-btn" type="button">SHARE GROCERY LIST</button>\n          <button id="clearGroceryBtn" class="secondary-btn" type="button">CLEAR GROCERY LIST</button>\n        </div>\n        <p id="groceryMessage" class="grocery-message" aria-live="polite"></p>\n      </div>\n    </section>\n\n    <section id="detailView" class="view">
       <button class="back-link" data-action="back-results" type="button">← BACK</button>
       <article id="recipeDetail" class="detail-card"></article>
     </section>
