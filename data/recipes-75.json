@@ -1,0 +1,153 @@
+[
+  {
+    "id": "one-pot-ham-pea-cheddar-pasta",
+    "title": "One-Pot Ham, Pea & Cheddar Pasta",
+    "aliases": ["ham pea pasta", "easy ham noodles", "leftover ham dinner"],
+    "description": "Pasta, diced ham, peas, and cheddar come together in one pot for a simple comfort meal that is especially handy for leftover ham.",
+    "servings": 4,
+    "prepMinutes": 5,
+    "cookMinutes": 20,
+    "totalMinutes": 25,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["large saucepan with lid"],
+    "ingredients": [
+      {"amount": 8, "unit": "oz", "item": "short pasta", "optional": false},
+      {"amount": 2.5, "unit": "cups", "item": "chicken broth", "optional": false},
+      {"amount": 1.5, "unit": "cups", "item": "diced cooked ham", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "frozen peas", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "shredded cheddar", "optional": false},
+      {"amount": 0.25, "unit": "cup", "item": "milk", "optional": true}
+    ],
+    "substitutions": ["Use cooked turkey instead of ham.", "Use frozen broccoli instead of peas.", "Use Monterey Jack instead of cheddar."],
+    "steps": [{"text": "Cook the pasta in broth."}, {"text": "Warm the ham and peas, then finish with cheddar."}],
+    "cookSteps": [
+      {"text": "Put 8 ounces short pasta and 2 1/2 cups chicken broth in a large saucepan. Bring to a boil, then reduce to a lively simmer."},
+      {"text": "Cook 10–12 minutes, stirring often, until the pasta is nearly tender and only a little liquid remains.", "timerMinutes": 12},
+      {"text": "Stir in 1 1/2 cups diced cooked ham and 1 cup frozen peas. Cover and cook 3–4 minutes, until everything is steaming hot."},
+      {"text": "Remove from the heat. Stir in 1 cup shredded cheddar and up to 1/4 cup milk if you want it creamier. Season to taste and serve."}
+    ],
+    "storage": "Refrigerate up to 4 days, within the original safe storage window for the ham. Reheat until steaming hot with a splash of milk or water.",
+    "tags": ["one-pot", "ham", "leftovers", "peas", "pasta", "cheddar", "very easy", "cheap", "comfort food", "dinner"]
+  },
+  {
+    "id": "turkey-cucumber-cheddar-toasties",
+    "title": "Turkey, Cucumber & Cheddar Toasties",
+    "aliases": ["quick turkey sandwich", "deli turkey toast", "10 minute lunch"],
+    "description": "Warm cheddar toast topped with deli turkey and cool cucumber makes a quick lunch with ordinary fridge ingredients.",
+    "servings": 2,
+    "prepMinutes": 5,
+    "cookMinutes": 5,
+    "totalMinutes": 10,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["toaster or toaster oven"],
+    "ingredients": [
+      {"amount": 4, "unit": "slices", "item": "sandwich bread", "optional": false},
+      {"amount": 4, "unit": "oz", "item": "deli turkey", "optional": false},
+      {"amount": 4, "unit": "slices", "item": "cheddar cheese", "optional": false},
+      {"amount": 0.5, "unit": "medium", "item": "cucumber, thinly sliced", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "mayonnaise or plain yogurt", "optional": true}
+    ],
+    "substitutions": ["Use deli ham instead of turkey.", "Use Monterey Jack instead of cheddar.", "Use thin apple slices instead of cucumber for a sweet-crisp version."],
+    "steps": [{"text": "Toast the bread with cheddar."}, {"text": "Add turkey and cucumber and serve."}],
+    "cookSteps": [
+      {"text": "Top 4 slices sandwich bread with 4 slices cheddar. Toast until the bread is crisp and the cheese is melted, about 3–5 minutes."},
+      {"text": "Divide 4 ounces deli turkey and the thin slices from 1/2 cucumber over 2 cheese toasts."},
+      {"text": "Add 1 tablespoon mayonnaise or yogurt to each sandwich if using, top with the remaining cheese toasts, and serve."}
+    ],
+    "storage": "Best assembled fresh. Keep turkey and cucumber refrigerated and make only what you plan to eat so the toast stays crisp.",
+    "tags": ["10 minutes", "sandwich", "deli turkey", "cucumber", "cheddar", "very easy", "cheap", "quick lunch", "normal ingredients"]
+  },
+  {
+    "id": "leftover-roast-vegetable-egg-rice",
+    "title": "Leftover Roasted Vegetable & Egg Rice Bowl",
+    "aliases": ["use up roasted vegetables", "leftover veggie rice bowl", "quick egg rice"],
+    "description": "Leftover roasted vegetables, rice, and a fried egg become a fast bowl that rescues odds and ends from the fridge.",
+    "servings": 2,
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "totalMinutes": 15,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["large skillet"],
+    "ingredients": [
+      {"amount": 2, "unit": "cups", "item": "cold cooked rice", "optional": false},
+      {"amount": 1.5, "unit": "cups", "item": "leftover roasted vegetables, chopped", "optional": false},
+      {"amount": 2, "unit": "large", "item": "eggs", "optional": false},
+      {"amount": 2, "unit": "tsp", "item": "oil or butter", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "soy sauce", "optional": true}
+    ],
+    "substitutions": ["Use leftover cooked potatoes instead of rice and make a hash.", "Use frozen mixed vegetables if you do not have roasted vegetables.", "Top with shredded cheddar instead of soy sauce."],
+    "steps": [{"text": "Heat the rice and leftover vegetables."}, {"text": "Fry the eggs and put one on each bowl."}],
+    "cookSteps": [
+      {"text": "Heat 1 teaspoon oil or butter in a large skillet over medium-high heat. Add 2 cups cold cooked rice and 1 1/2 cups chopped roasted vegetables."},
+      {"text": "Cook 5–6 minutes, stirring often, until the rice and vegetables are steaming hot. Stir in 1 tablespoon soy sauce if using."},
+      {"text": "Move the rice mixture to 2 bowls. Add the remaining 1 teaspoon oil or butter to the skillet and crack in 2 eggs."},
+      {"text": "Cook the eggs 2–3 minutes, or until done the way you like. Put 1 egg on each rice bowl and serve."}
+    ],
+    "storage": "Best eaten right away. Use the rice and vegetables within their original safe refrigerated storage windows and reheat them until steaming hot.",
+    "tags": ["15 minutes", "leftovers", "food-rescue", "use it up", "rice", "vegetables", "eggs", "very easy", "cheap", "quick meal"]
+  },
+  {
+    "id": "small-batch-chocolate-banana-oat-cookies",
+    "title": "Small-Batch Chocolate Banana Oat Cookies",
+    "aliases": ["banana oat cookies", "small batch chocolate cookies", "use up banana dessert"],
+    "description": "One ripe banana turns oats and chocolate chips into a tiny batch of soft cookies with almost no cleanup.",
+    "servings": 2,
+    "prepMinutes": 8,
+    "cookMinutes": 12,
+    "totalMinutes": 20,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["small bowl", "baking sheet"],
+    "ingredients": [
+      {"amount": 1, "unit": "medium", "item": "very ripe banana", "optional": false},
+      {"amount": 0.75, "unit": "cup", "item": "old-fashioned oats", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "peanut butter", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "chocolate chips", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "ground cinnamon", "optional": true}
+    ],
+    "substitutions": ["Use quick oats for a softer texture.", "Use sunflower-seed butter instead of peanut butter.", "Use raisins instead of chocolate chips."],
+    "steps": [{"text": "Mash and mix everything in one bowl."}, {"text": "Bake small spoonfuls until set."}],
+    "cookSteps": [
+      {"text": "Heat the oven to 350°F and line or lightly grease a baking sheet."},
+      {"text": "Mash 1 very ripe banana in a small bowl. Stir in 3/4 cup oats, 2 tablespoons peanut butter, 2 tablespoons chocolate chips, and 1/4 teaspoon cinnamon if using."},
+      {"text": "Drop 6 small mounds onto the baking sheet and flatten each slightly with the back of a spoon."},
+      {"text": "Bake 10–12 minutes, until the cookies are set and lightly browned at the edges.", "timerMinutes": 12},
+      {"text": "Cool 5 minutes before eating."}
+    ],
+    "storage": "Refrigerate in a covered container up to 3 days. These stay soft rather than crisp.",
+    "tags": ["small-batch", "banana", "oats", "chocolate", "dessert", "something sweet", "very easy", "cheap", "use it up"]
+  },
+  {
+    "id": "slow-cooker-lentil-carrot-potato-soup",
+    "title": "Slow Cooker Lentil, Carrot & Potato Soup",
+    "aliases": ["crockpot lentil soup", "cheap slow cooker soup", "lentils potatoes carrots"],
+    "description": "Lentils, carrots, and potatoes simmer into an inexpensive hands-off soup made from basic pantry and produce staples.",
+    "servings": 5,
+    "prepMinutes": 15,
+    "cookMinutes": 360,
+    "totalMinutes": 375,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["slow cooker"],
+    "ingredients": [
+      {"amount": 1, "unit": "cup", "item": "brown or green lentils, rinsed", "optional": false},
+      {"amount": 1, "unit": "lb", "item": "potatoes, diced", "optional": false},
+      {"amount": 3, "unit": "medium", "item": "carrots, sliced", "optional": false},
+      {"amount": 6, "unit": "cups", "item": "vegetable or chicken broth", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "garlic powder", "optional": true},
+      {"amount": 1, "unit": "tsp", "item": "dried Italian seasoning", "optional": true}
+    ],
+    "substitutions": ["Use sweet potatoes instead of white potatoes.", "Add 2 cups chopped cabbage for the last hour.", "Use water plus bouillon instead of boxed broth."],
+    "steps": [{"text": "Put everything in the slow cooker."}, {"text": "Cook until the lentils and vegetables are tender."}],
+    "cookSteps": [
+      {"text": "Put 1 cup rinsed lentils, 1 pound diced potatoes, 3 sliced carrots, 6 cups broth, 1 teaspoon garlic powder if using, and 1 teaspoon Italian seasoning if using into the slow cooker."},
+      {"text": "Cover and cook on LOW for about 6 hours, until the lentils, potatoes, and carrots are tender.", "timerMinutes": 360},
+      {"text": "Stir well, taste, season with salt and pepper as needed, and serve."}
+    ],
+    "storage": "Refrigerate up to 4 days or freeze up to 3 months. The soup thickens as it stands; add broth or water when reheating.",
+    "tags": ["slow cooker", "crockpot", "lentils", "potatoes", "carrots", "soup", "very easy", "cheap", "pantry meal", "comfort food"]
+  }
+]
