@@ -1,0 +1,123 @@
+[
+  {
+    "id": "one-pot-turkey-cabbage-rice",
+    "title": "One-Pot Turkey, Cabbage & Cheddar Rice",
+    "aliases": ["ground turkey cabbage rice", "cheap turkey skillet", "cabbage dinner"],
+    "description": "Ground turkey, cabbage, and rice cook together in one skillet, with cheddar stirred in at the end for an affordable comfort dinner.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "totalMinutes": 35,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["large deep skillet with lid"],
+    "ingredients": [
+      {"amount": 1, "unit": "lb", "item": "ground turkey", "optional": false},
+      {"amount": 3, "unit": "cups", "item": "thinly sliced green cabbage", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "long-grain white rice", "optional": false},
+      {"amount": 2.25, "unit": "cups", "item": "chicken broth", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "garlic powder", "optional": true},
+      {"amount": 0.75, "unit": "cup", "item": "shredded cheddar", "optional": false}
+    ],
+    "substitutions": ["Use ground chicken instead of turkey.", "Use bagged coleslaw mix instead of slicing cabbage.", "Use Monterey Jack instead of cheddar."],
+    "steps": [{"text": "Brown the turkey and soften the cabbage."}, {"text": "Simmer the rice in the same skillet and finish with cheese."}],
+    "cookSteps": [
+      {"text": "Put 1 pound ground turkey in a large deep skillet over medium heat. Cook 5–6 minutes, breaking it into small pieces, until no pink remains."},
+      {"text": "Stir in 3 cups sliced cabbage and 1/2 teaspoon garlic powder if using. Cook 3 minutes, until the cabbage starts to soften."},
+      {"text": "Stir in 1 cup white rice and 2 1/4 cups chicken broth. Bring to a simmer, cover, and reduce the heat to low."},
+      {"text": "Cook covered for 15–17 minutes, until the rice is tender and the liquid is absorbed.", "timerMinutes": 17},
+      {"text": "Remove from the heat, stir in 3/4 cup shredded cheddar, season to taste, and serve."}
+    ],
+    "storage": "Refrigerate up to 4 days. Reheat until steaming hot, adding a splash of broth or water if the rice seems dry.",
+    "tags": ["one-pot", "ground turkey", "cabbage", "rice", "cheddar", "cheap", "easy", "dinner", "comfort food", "normal ingredients"]
+  },
+  {
+    "id": "egg-spinach-cheddar-toast-pockets",
+    "title": "Egg, Spinach & Cheddar Toast Pockets",
+    "aliases": ["quick egg sandwich", "breakfast toast pockets", "15 minute eggs"],
+    "description": "Soft scrambled egg, spinach, and cheddar tuck into toasted bread for a quick breakfast, lunch, or light dinner.",
+    "servings": 2,
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "totalMinutes": 15,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["small skillet", "toaster"],
+    "ingredients": [
+      {"amount": 4, "unit": "slices", "item": "sandwich bread", "optional": false},
+      {"amount": 3, "unit": "large", "item": "eggs", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "baby spinach", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "shredded cheddar", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "butter or oil", "optional": false}
+    ],
+    "substitutions": ["Use frozen chopped spinach, thawed and squeezed dry.", "Use Monterey Jack or mozzarella instead of cheddar.", "Use tortillas instead of toast and roll the filling into wraps."],
+    "steps": [{"text": "Toast the bread and scramble the eggs with spinach."}, {"text": "Fill the toast with egg and cheddar."}],
+    "cookSteps": [
+      {"text": "Toast 4 slices sandwich bread while you cook the eggs."},
+      {"text": "Beat 3 eggs. Heat 1 teaspoon butter or oil in a small skillet over medium-low heat, add 1 cup spinach, and cook about 1 minute until wilted."},
+      {"text": "Pour in the eggs and cook, stirring gently, for 2–3 minutes until softly set. Stir in 1/2 cup shredded cheddar and remove from the heat."},
+      {"text": "Divide the egg mixture between 2 slices of toast, top with the remaining toast, and serve warm."}
+    ],
+    "storage": "Best eaten right away. Refrigerate leftover egg filling up to 3 days and reheat until steaming hot before assembling fresh toast.",
+    "tags": ["15 minutes", "eggs", "breakfast", "sandwich", "spinach", "cheddar", "very easy", "cheap", "quick meal"]
+  },
+  {
+    "id": "leftover-chicken-corn-noodle-bowls",
+    "title": "Leftover Chicken, Corn & Noodle Bowls",
+    "aliases": ["use up chicken", "quick chicken noodles", "leftover chicken dinner"],
+    "description": "Leftover cooked chicken and frozen corn turn instant-style noodles into a more complete quick meal without a special sauce.",
+    "servings": 2,
+    "prepMinutes": 5,
+    "cookMinutes": 10,
+    "totalMinutes": 15,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["medium saucepan"],
+    "ingredients": [
+      {"amount": 4, "unit": "oz", "item": "dry ramen noodles or thin wheat noodles", "optional": false},
+      {"amount": 1.5, "unit": "cups", "item": "cooked leftover chicken, shredded", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "frozen corn", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "chicken broth", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "soy sauce", "optional": true}
+    ],
+    "substitutions": ["Use leftover turkey instead of chicken.", "Use frozen peas or mixed vegetables instead of corn.", "Use spaghetti broken in half; allow extra cooking time as directed on the package."],
+    "steps": [{"text": "Simmer the noodles and corn in broth."}, {"text": "Warm the leftover chicken and season."}],
+    "cookSteps": [
+      {"text": "Bring 2 cups chicken broth to a simmer in a medium saucepan. Add 4 ounces noodles and 1 cup frozen corn."},
+      {"text": "Cook according to the noodle package, usually 3–5 minutes, until the noodles are tender.", "timerMinutes": 5},
+      {"text": "Stir in 1 1/2 cups shredded cooked chicken and 1 tablespoon soy sauce if using. Simmer 2–3 minutes, until the chicken is steaming hot."},
+      {"text": "Divide the noodles, chicken, corn, and broth between 2 bowls and serve."}
+    ],
+    "storage": "Use the chicken within its original safe refrigerated storage window. Refrigerate the finished noodles up to 3 days; the noodles will soften in the broth.",
+    "tags": ["15 minutes", "leftovers", "food-rescue", "use it up", "chicken", "noodles", "corn", "very easy", "cheap", "quick dinner"]
+  },
+  {
+    "id": "small-batch-peanut-butter-banana-pudding",
+    "title": "Small-Batch Peanut Butter Banana Pudding Cups",
+    "aliases": ["two serving banana pudding", "quick banana dessert", "something sweet peanut butter"],
+    "description": "Banana, peanut butter, vanilla pudding, and crushed cookies make two easy chilled dessert cups with no baking.",
+    "servings": 2,
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["small bowl", "2 cups or small jars"],
+    "ingredients": [
+      {"amount": 1, "unit": "cup", "item": "prepared vanilla pudding", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "peanut butter", "optional": false},
+      {"amount": 1, "unit": "medium", "item": "banana, sliced", "optional": false},
+      {"amount": 4, "unit": "cookies", "item": "vanilla wafers or graham cracker squares, crushed", "optional": false}
+    ],
+    "substitutions": ["Use chocolate pudding instead of vanilla.", "Use sunflower-seed butter if peanut butter is not suitable.", "Use crushed cereal instead of cookies for a less-sweet crunch."],
+    "steps": [{"text": "Stir peanut butter into pudding."}, {"text": "Layer with banana and cookie crumbs."}],
+    "cookSteps": [
+      {"text": "Stir 2 tablespoons peanut butter into 1 cup prepared vanilla pudding until mostly smooth."},
+      {"text": "Divide half of the pudding between 2 cups. Add half of 1 sliced banana and half of the crumbs from 4 cookies."},
+      {"text": "Repeat the layers with the remaining pudding, banana, and cookie crumbs."},
+      {"text": "Eat right away for crisp crumbs, or chill up to 30 minutes for a softer pudding-cup texture."}
+    ],
+    "storage": "Best the day it is made because banana darkens and cookie crumbs soften. Refrigerate covered and eat within 24 hours.",
+    "tags": ["small-batch", "10 minutes", "no-cook", "banana", "peanut butter", "dessert", "something sweet", "very easy", "cheap"]
+  }
+]
