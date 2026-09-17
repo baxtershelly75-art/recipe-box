@@ -1,7 +1,7 @@
 // Load recipe additions kept outside the original 75 launch chunks.
 (async function loadExtraRecipes() {
   try {
-    const files = ['./data/recipes-76.json', './data/recipes-77.json', './data/recipes-78.json', './data/recipes-79.json', './data/recipes-80.json'];
+    const files = ['./data/recipes-76.json', './data/recipes-77.json', './data/recipes-78.json', './data/recipes-79.json', './data/recipes-80.json', './data/recipes-81.json'];
     const responses = await Promise.all(files.map(path => fetch(path)));
     for (let i = 0; i < responses.length; i += 1) {
       if (!responses[i].ok) throw new Error(`Could not load ${files[i]}`);
