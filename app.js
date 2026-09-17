@@ -5,7 +5,7 @@ const state = {
 };
 
 const $ = sel => document.querySelector(sel);
-const views = ['#homeView', '#resultsView', '#detailView', '#cookView'];
+const views = ['#homeView', '#resultsView', '#groceryView', '#detailView', '#cookView'];
 const browseTags = ['15-minute', 'very easy', 'cheap', 'crockpot', 'one-pot', 'comfort food', 'use it up', 'small batch', 'sweet', 'breakfast', 'dinner', 'vegetable', 'pantry'];
 const recipeDataFiles = Array.from({ length: 75 }, (_, i) => `./data/recipes-${String(i + 1).padStart(2, '0')}.json`);
 
@@ -71,7 +71,7 @@ function renderBrowse() {
   });
 }
 
-function recipeCard(r) {
+function recipeCard(r, grocerySelect = false) {
   return `
     <article class="recipe-card">
       <h3>${r.title}</h3>
@@ -166,6 +166,90 @@ function openFavorites() {
   state.shown = 8;
   renderResults();
   showView('#resultsView');
+}
+
+function getGroceryList() {
+  try { return JSON.parse(localStorage.getItem('recipeBoxGroceryList') || '[]'); }
+  catch { return []; }
+}
+
+function saveGroceryList(items) {
+  localStorage.setItem('recipeBoxGroceryList', JSON.stringify(items));
+}
+
+function groceryKey(item, unit = '') {
+  return `${norm(item)}|${norm(unit)}`;
+}
+
+function addRecipesToGroceryList(recipeIds) {
+  const list = getGroceryList();
+  const byKey = new Map();
+  list.forEach((item, index) => {
+    if (item.source !== 'manual') byKey.set(groceryKey(item.item, item.unit), index);
+  });
+  recipeIds.forEach(id => {
+    const recipe = state.recipes.find(r => r.id === id);
+    if (!recipe) return;
+    recipe.ingredients.forEach(ingredient => {
+      if (ingredient.optional) return;
+      const key = groceryKey(ingredient.item, ingredient.unit);
+      if (byKey.has(key)) {
+        const existing = list[byKey.get(key)];
+        existing.amount = Number(existing.amount || 0) + Number(ingredient.amount || 0);
+        existing.checked = false;
+      } else {
+        byKey.set(key, list.length);
+        list.push({ id: `recipe-${Date.now()}-${list.length}`, item: ingredient.item, amount: Number(ingredient.amount || 0), unit: ingredient.unit || '', checked: false, source: 'recipe' });
+      }
+    });
+  });
+  saveGroceryList(list);
+  renderGroceryList();
+}
+
+function groceryItemText(item) {
+  if (item.source === 'manual') return item.item;
+  const amount = item.amount ? formatAmount(item.amount) : '';
+  return `${amount}${item.unit ? ` ${item.unit}` : ''} ${item.item}`.trim();
+}
+
+function renderGroceryList() {
+  const list = getGroceryList();
+  $('#groceryList').innerHTML = list.length ? list.map((item, index) => `
+    <label class="grocery-row ${item.checked ? 'checked' : ''}">
+      <input type="checkbox" data-grocery-index="${index}" ${item.checked ? 'checked' : ''}>
+      <span>${groceryItemText(item)}</span>
+    </label>`).join('') : '<p class="empty">Your grocery list is empty.</p>';
+  $('#groceryList').querySelectorAll('[data-grocery-index]').forEach(box => {
+    box.addEventListener('change', () => {
+      const next = getGroceryList();
+      if (!next[Number(box.dataset.groceryIndex)]) return;
+      next[Number(box.dataset.groceryIndex)].checked = box.checked;
+      saveGroceryList(next);
+      renderGroceryList();
+    });
+  });
+}
+
+function openGroceryList() {
+  renderGroceryList();
+  $('#groceryMessage').textContent = '';
+  showView('#groceryView');
+}
+
+async function shareGroceryList() {
+  const remaining = getGroceryList().filter(item => !item.checked);
+  if (!remaining.length) {
+    $('#groceryMessage').textContent = 'Everything is checked off — there is nothing left to share.';
+    return;
+  }
+  const text = ['Grocery List', '', ...remaining.map(item => `☐ ${groceryItemText(item)}`)].join('\n');
+  if (navigator.share) {
+    try { await navigator.share({ title: 'Grocery List', text }); }
+    catch (err) { if (err.name !== 'AbortError') $('#groceryMessage').textContent = 'Sharing was not available. Try again from another browser.'; }
+  } else {
+    $('#groceryMessage').textContent = 'This browser does not offer its share menu. Your grocery list is still saved here.';
+  }
 }
 
 function openRecipe(id) {
@@ -355,11 +439,38 @@ $('#searchInput').addEventListener('keydown', e => {
   if (e.key === 'Enter') searchRecipes($('#searchInput').value);
 });
 $('#favoritesBtn').addEventListener('click', openFavorites);
+$('#groceryBtn').addEventListener('click', openGroceryList);
+$('#addSelectedToGroceryBtn').addEventListener('click', () => {
+  const ids = [...document.querySelectorAll('[data-grocery-recipe-id]:checked')].map(box => box.dataset.groceryRecipeId);
+  if (!ids.length) return;
+  addRecipesToGroceryList(ids);
+  openGroceryList();
+});
+$('#groceryAddForm').addEventListener('submit', e => {
+  e.preventDefault();
+  const input = $('#groceryItemInput');
+  const item = input.value.trim();
+  if (!item) return;
+  const list = getGroceryList();
+  list.push({ id: `manual-${Date.now()}`, item, checked: false, source: 'manual' });
+  saveGroceryList(list);
+  input.value = '';
+  renderGroceryList();
+  input.focus();
+});
+$('#shareGroceryBtn').addEventListener('click', shareGroceryList);
+$('#clearGroceryBtn').addEventListener('click', () => {
+  if (!getGroceryList().length) return;
+  if (!window.confirm('Clear this grocery list? Your recipes and favorites will not be changed.')) return;
+  saveGroceryList([]);
+  renderGroceryList();
+  $('#groceryMessage').textContent = 'Grocery list cleared. Favorites and recipes are untouched.';
+});
 $('#showMoreBtn').addEventListener('click', () => {
   state.shown += 8;
   renderResults();
 });
-document.querySelector('[data-action="home"]').addEventListener('click', () => showView('#homeView'));
+document.querySelector('[data-action="home"]').addEventListener('click', () => showView('#homeView'));\ndocument.querySelector('[data-action="grocery-home"]').addEventListener('click', () => showView('#homeView'));
 document.querySelector('[data-action="back-results"]').addEventListener('click', () => showView('#resultsView'));
 $('#exitCookBtn').addEventListener('click', () => {
   clearTimerInterval();
