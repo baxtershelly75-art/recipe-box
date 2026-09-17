@@ -11,30 +11,18 @@
     "effort": "very easy",
     "cost": "$",
     "equipment": ["5- to 6-quart slow cooker"],
-    "ingredients": [
-      {"amount": 4, "unit": "cups", "item": "chopped green cabbage", "optional": false},
-      {"amount": 1.5, "unit": "lb", "item": "russet or yellow potatoes, cut in 1-inch pieces", "optional": false},
-      {"amount": 2, "unit": "cups", "item": "diced cooked ham", "optional": false},
-      {"amount": 1, "unit": "medium", "item": "onion, chopped", "optional": false},
-      {"amount": 5, "unit": "cups", "item": "chicken broth", "optional": false},
-      {"amount": 0.5, "unit": "tsp", "item": "garlic powder", "optional": true},
-      {"amount": 0.5, "unit": "tsp", "item": "black pepper", "optional": true}
-    ],
-    "substitutions": ["Use smoked turkey instead of ham.", "Use frozen diced potatoes if that makes prep easier.", "Add 1 drained can white beans for a heartier soup."],
-    "steps": [{"text": "Put everything in the slow cooker."}, {"text": "Cook until the potatoes and cabbage are tender."}],
-    "cookSteps": [
-      {"text": "Put 4 cups chopped cabbage, 1 1/2 pounds potatoes, 2 cups diced cooked ham, 1 chopped onion, 5 cups chicken broth, and the garlic powder and pepper if using into the slow cooker."},
-      {"text": "Cover and cook on LOW for about 6 hours, or until the potatoes are tender and the cabbage is soft.", "timerMinutes": 360},
-      {"text": "Stir well. Taste before adding salt because ham and broth can already be salty. Ladle into bowls and serve."}
-    ],
+    "ingredients": [{"amount":4,"unit":"cups","item":"chopped green cabbage","optional":false},{"amount":1.5,"unit":"lb","item":"russet or yellow potatoes, cut in 1-inch pieces","optional":false},{"amount":2,"unit":"cups","item":"diced cooked ham","optional":false},{"amount":1,"unit":"medium","item":"onion, chopped","optional":false},{"amount":5,"unit":"cups","item":"chicken broth","optional":false},{"amount":0.5,"unit":"tsp","item":"garlic powder","optional":true},{"amount":0.5,"unit":"tsp","item":"black pepper","optional":true}],
+    "substitutions": ["Use smoked turkey instead of ham.","Use frozen diced potatoes if that makes prep easier.","Add 1 drained can white beans for a heartier soup."],
+    "steps": [{"text":"Put everything in the slow cooker."},{"text":"Cook until the potatoes and cabbage are tender."}],
+    "cookSteps": [{"text":"Put 4 cups chopped cabbage, 1 1/2 pounds potatoes, 2 cups diced cooked ham, 1 chopped onion, 5 cups chicken broth, and the garlic powder and pepper if using into the slow cooker."},{"text":"Cover and cook on LOW for about 6 hours, or until the potatoes are tender and the cabbage is soft.","timerMinutes":360},{"text":"Stir well. Taste before adding salt because ham and broth can already be salty. Ladle into bowls and serve."}],
     "storage": "Refrigerate up to 4 days or freeze up to 2 months. Reheat until steaming hot.",
-    "tags": ["crockpot", "slow cooker", "ham", "cabbage", "potatoes", "soup", "leftovers", "use it up", "very easy", "cheap", "comfort food"]
+    "tags": ["crockpot","slow cooker","ham","cabbage","potatoes","soup","leftovers","use it up","very easy","cheap","comfort food"]
   },
   {
-    "id": "sheet-pan-sausage-cabbage-apples",
-    "title": "Sheet-Pan Sausage, Cabbage & Apples",
-    "aliases": ["sausage cabbage sheet pan", "apple sausage dinner", "easy cabbage dinner"],
-    "description": "Smoky sausage, sweet apple, and tender browned cabbage roast together on one pan for a simple cool-weather dinner.",
+    "id": "sheet-pan-sausage-cabbage-pears",
+    "title": "Sheet-Pan Sausage, Cabbage & Pears",
+    "aliases": ["sausage cabbage sheet pan", "pear sausage dinner", "easy cabbage dinner"],
+    "description": "Smoky sausage, sweet pear, and tender browned cabbage roast together on one pan for a simple cool-weather dinner.",
     "servings": 4,
     "prepMinutes": 10,
     "cookMinutes": 25,
@@ -42,87 +30,37 @@
     "effort": "easy",
     "cost": "$$",
     "equipment": ["large sheet pan"],
-    "ingredients": [
-      {"amount": 12, "unit": "oz", "item": "fully cooked smoked sausage, sliced", "optional": false},
-      {"amount": 5, "unit": "cups", "item": "chopped green cabbage", "optional": false},
-      {"amount": 2, "unit": "medium", "item": "apples, cored and cut in wedges", "optional": false},
-      {"amount": 1.5, "unit": "tbsp", "item": "oil", "optional": false},
-      {"amount": 1, "unit": "tbsp", "item": "mustard", "optional": true},
-      {"amount": 0.5, "unit": "tsp", "item": "garlic powder", "optional": true}
-    ],
-    "substitutions": ["Use turkey or chicken smoked sausage.", "Use pears instead of apples.", "Leave out mustard if you prefer a milder flavor."],
-    "steps": [{"text": "Season the sausage, cabbage, and apples."}, {"text": "Roast everything on one pan."}],
-    "cookSteps": [
-      {"text": "Heat the oven to 425°F. Put 12 ounces sliced smoked sausage, 5 cups chopped cabbage, and 2 wedged apples on a large sheet pan."},
-      {"text": "Drizzle with 1 1/2 tablespoons oil. Add 1 tablespoon mustard and 1/2 teaspoon garlic powder if using, then toss well and spread into an even layer."},
-      {"text": "Roast 20 minutes. Stir, then roast another 5 minutes or until the cabbage edges are browned and the apples are tender.", "timerMinutes": 25},
-      {"text": "Serve hot. Add salt and pepper only after tasting the sausage."}
-    ],
+    "ingredients": [{"amount":12,"unit":"oz","item":"fully cooked smoked sausage, sliced","optional":false},{"amount":5,"unit":"cups","item":"chopped green cabbage","optional":false},{"amount":2,"unit":"medium","item":"firm pears, cored and cut in wedges","optional":false},{"amount":1.5,"unit":"tbsp","item":"oil","optional":false},{"amount":1,"unit":"tbsp","item":"mustard","optional":true},{"amount":0.5,"unit":"tsp","item":"garlic powder","optional":true}],
+    "substitutions": ["Use turkey or chicken smoked sausage.","Use firm apples instead of pears.","Leave out mustard if you prefer a milder flavor."],
+    "steps": [{"text":"Season the sausage, cabbage, and pears."},{"text":"Roast everything on one pan."}],
+    "cookSteps": [{"text":"Heat the oven to 425°F. Put 12 ounces sliced smoked sausage, 5 cups chopped cabbage, and 2 wedged firm pears on a large sheet pan."},{"text":"Drizzle with 1 1/2 tablespoons oil. Add 1 tablespoon mustard and 1/2 teaspoon garlic powder if using, then toss well and spread into an even layer."},{"text":"Roast 20 minutes. Stir, then roast another 5 minutes or until the cabbage edges are browned and the pears are tender.","timerMinutes":25},{"text":"Serve hot. Add salt and pepper only after tasting the sausage."}],
     "storage": "Refrigerate up to 4 days. Reheat on a sheet pan or in a skillet until steaming hot.",
-    "tags": ["sheet-pan", "sausage", "cabbage", "apple", "easy", "dinner", "one pan", "comfort food"]
+    "tags": ["sheet-pan","sausage","cabbage","pear","easy","dinner","one pan","comfort food"]
   },
   {
     "id": "leftover-taco-meat-cheesy-rice-skillet",
     "title": "Leftover Taco Meat & Cheesy Rice Skillet",
-    "aliases": ["leftover taco meat", "taco rice", "use up taco meat"],
+    "aliases": ["leftover taco meat","taco rice","use up taco meat"],
     "description": "Leftover taco meat and cooked rice become a hot cheesy skillet meal in about 15 minutes.",
-    "servings": 3,
-    "prepMinutes": 5,
-    "cookMinutes": 10,
-    "totalMinutes": 15,
-    "effort": "very easy",
-    "cost": "$",
-    "equipment": ["large skillet with lid"],
-    "ingredients": [
-      {"amount": 2, "unit": "cups", "item": "cooked rice", "optional": false},
-      {"amount": 1.5, "unit": "cups", "item": "cooked leftover taco meat", "optional": false},
-      {"amount": 0.75, "unit": "cup", "item": "salsa", "optional": false},
-      {"amount": 0.5, "unit": "cup", "item": "water", "optional": false},
-      {"amount": 1, "unit": "cup", "item": "shredded cheddar cheese", "optional": false},
-      {"amount": 1, "unit": "cup", "item": "frozen corn", "optional": true}
-    ],
-    "substitutions": ["Use cooked ground turkey, beef, chicken, or beans seasoned for tacos.", "Use canned diced tomatoes instead of salsa and season to taste.", "Use Monterey Jack instead of cheddar."],
-    "steps": [{"text": "Heat the rice, taco meat, and salsa."}, {"text": "Melt cheese over the top."}],
-    "cookSteps": [
-      {"text": "Put 2 cups cooked rice, 1 1/2 cups cooked taco meat, 3/4 cup salsa, 1/2 cup water, and 1 cup frozen corn if using in a large skillet."},
-      {"text": "Cook over medium heat for 6–7 minutes, stirring often, until everything is steaming hot. Add another splash of water if the rice looks dry.", "timerMinutes": 7},
-      {"text": "Sprinkle 1 cup shredded cheddar over the top. Cover for 2–3 minutes, until the cheese melts.", "timerMinutes": 3},
-      {"text": "Spoon into bowls and serve."}
-    ],
+    "servings": 3,"prepMinutes":5,"cookMinutes":10,"totalMinutes":15,"effort":"very easy","cost":"$","equipment":["large skillet with lid"],
+    "ingredients": [{"amount":2,"unit":"cups","item":"cooked rice","optional":false},{"amount":1.5,"unit":"cups","item":"cooked leftover taco meat","optional":false},{"amount":0.75,"unit":"cup","item":"salsa","optional":false},{"amount":0.5,"unit":"cup","item":"water","optional":false},{"amount":1,"unit":"cup","item":"shredded cheddar cheese","optional":false},{"amount":1,"unit":"cup","item":"frozen corn","optional":true}],
+    "substitutions": ["Use cooked ground turkey, beef, chicken, or beans seasoned for tacos.","Use canned diced tomatoes instead of salsa and season to taste.","Use Monterey Jack instead of cheddar."],
+    "steps": [{"text":"Heat the rice, taco meat, and salsa."},{"text":"Melt cheese over the top."}],
+    "cookSteps": [{"text":"Put 2 cups cooked rice, 1 1/2 cups cooked taco meat, 3/4 cup salsa, 1/2 cup water, and 1 cup frozen corn if using in a large skillet."},{"text":"Cook over medium heat for 6–7 minutes, stirring often, until everything is steaming hot. Add another splash of water if the rice looks dry.","timerMinutes":7},{"text":"Sprinkle 1 cup shredded cheddar over the top. Cover for 2–3 minutes, until the cheese melts.","timerMinutes":3},{"text":"Spoon into bowls and serve."}],
     "storage": "Use the taco meat and rice only while they are within their original safe refrigerated storage windows. Refrigerate the finished skillet up to 3 days and reheat until steaming hot.",
-    "tags": ["15 minutes", "leftovers", "food-rescue", "use it up", "taco meat", "rice", "skillet", "very easy", "cheap", "dinner"]
+    "tags": ["15 minutes","leftovers","food-rescue","use it up","taco meat","rice","skillet","very easy","cheap","dinner"]
   },
   {
     "id": "small-batch-brown-sugar-apple-cookies",
     "title": "Small-Batch Brown Sugar Apple Cookies",
-    "aliases": ["apple cookies", "small batch cookies", "something sweet apple"],
+    "aliases": ["apple cookies","small batch cookies","something sweet apple"],
     "description": "A single apple makes a small tray of soft brown-sugar cookies with familiar pantry ingredients.",
-    "servings": 8,
-    "prepMinutes": 10,
-    "cookMinutes": 12,
-    "totalMinutes": 22,
-    "effort": "easy",
-    "cost": "$",
-    "equipment": ["mixing bowl", "sheet pan", "parchment paper or greased pan"],
-    "ingredients": [
-      {"amount": 3, "unit": "tbsp", "item": "softened butter", "optional": false},
-      {"amount": 0.25, "unit": "cup", "item": "packed brown sugar", "optional": false},
-      {"amount": 1, "unit": "large", "item": "egg yolk", "optional": false},
-      {"amount": 0.5, "unit": "cup", "item": "all-purpose flour", "optional": false},
-      {"amount": 0.25, "unit": "tsp", "item": "baking soda", "optional": false},
-      {"amount": 0.25, "unit": "tsp", "item": "cinnamon", "optional": true},
-      {"amount": 0.5, "unit": "cup", "item": "peeled finely diced apple", "optional": false}
-    ],
-    "substitutions": ["Leave out cinnamon for plain brown-sugar apple cookies.", "Use a firm pear instead of apple.", "Chill very juicy diced fruit on a paper towel for a few minutes before mixing it in."],
-    "steps": [{"text": "Mix a small batch of apple cookie dough."}, {"text": "Bake until the edges are set."}],
-    "cookSteps": [
-      {"text": "Heat the oven to 350°F. Line or lightly grease a sheet pan."},
-      {"text": "Stir 3 tablespoons softened butter and 1/4 cup packed brown sugar until creamy. Mix in 1 egg yolk."},
-      {"text": "Stir in 1/2 cup flour, 1/4 teaspoon baking soda, and 1/4 teaspoon cinnamon if using. Fold in 1/2 cup finely diced apple."},
-      {"text": "Drop 8 rounded spoonfuls onto the pan and flatten them slightly. Bake 10–12 minutes, until the edges are set and lightly browned.", "timerMinutes": 12},
-      {"text": "Cool on the pan for 5 minutes before moving the cookies."}
-    ],
+    "servings":8,"prepMinutes":10,"cookMinutes":12,"totalMinutes":22,"effort":"easy","cost":"$","equipment":["mixing bowl","sheet pan","parchment paper or greased pan"],
+    "ingredients": [{"amount":3,"unit":"tbsp","item":"softened butter","optional":false},{"amount":0.25,"unit":"cup","item":"packed brown sugar","optional":false},{"amount":1,"unit":"large","item":"egg yolk","optional":false},{"amount":0.5,"unit":"cup","item":"all-purpose flour","optional":false},{"amount":0.25,"unit":"tsp","item":"baking soda","optional":false},{"amount":0.25,"unit":"tsp","item":"cinnamon","optional":true},{"amount":0.5,"unit":"cup","item":"peeled finely diced apple","optional":false}],
+    "substitutions": ["Leave out cinnamon for plain brown-sugar apple cookies.","Use a firm pear instead of apple.","Chill very juicy diced fruit on a paper towel for a few minutes before mixing it in."],
+    "steps": [{"text":"Mix a small batch of apple cookie dough."},{"text":"Bake until the edges are set."}],
+    "cookSteps": [{"text":"Heat the oven to 350°F. Line or lightly grease a sheet pan."},{"text":"Stir 3 tablespoons softened butter and 1/4 cup packed brown sugar until creamy. Mix in 1 egg yolk."},{"text":"Stir in 1/2 cup flour, 1/4 teaspoon baking soda, and 1/4 teaspoon cinnamon if using. Fold in 1/2 cup finely diced apple."},{"text":"Drop 8 rounded spoonfuls onto the pan and flatten them slightly. Bake 10–12 minutes, until the edges are set and lightly browned.","timerMinutes":12},{"text":"Cool on the pan for 5 minutes before moving the cookies."}],
     "storage": "Store covered at room temperature for 1 day or refrigerate up to 4 days because the fresh apple keeps the cookies moist.",
-    "tags": ["small-batch", "apple", "cookies", "dessert", "baking", "something sweet", "brown sugar", "easy", "cheap"]
+    "tags": ["small-batch","apple","cookies","dessert","baking","something sweet","brown sugar","easy","cheap"]
   }
 ]
