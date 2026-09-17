@@ -22,7 +22,7 @@ node tests/library-coverage.mjs
 
 ## Current library
 
-The current `main` branch contains 300 normalized recipes with broad category coverage, meeting the minimum 300–500 recipe V1 launch target.
+The current `main` branch contains 301 normalized recipes with broad category coverage, meeting the minimum 300–500 recipe V1 launch target.
 
 ## Hosting target
 
