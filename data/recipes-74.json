@@ -1,0 +1,127 @@
+[
+  {
+    "id": "slow-cooker-beef-potato-pea-stew",
+    "title": "Slow Cooker Beef, Potato & Pea Stew",
+    "aliases": ["stew beef potatoes", "crockpot beef stew", "easy beef stew"],
+    "description": "A simple slow-cooker stew with tender beef, potatoes, carrots, and peas using ordinary grocery-store ingredients.",
+    "servings": 5,
+    "prepMinutes": 15,
+    "cookMinutes": 420,
+    "totalMinutes": 435,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": ["slow cooker"],
+    "ingredients": [
+      {"amount": 1.5, "unit": "lb", "item": "beef stew meat", "optional": false},
+      {"amount": 1.5, "unit": "lb", "item": "potatoes, cut into 1-inch pieces", "optional": false},
+      {"amount": 3, "unit": "medium", "item": "carrots, sliced", "optional": false},
+      {"amount": 3, "unit": "cups", "item": "beef broth", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "garlic powder", "optional": true},
+      {"amount": 1, "unit": "cup", "item": "frozen peas", "optional": false}
+    ],
+    "substitutions": ["Use baby carrots cut in half instead of sliced carrots.", "Use low-sodium broth if preferred.", "Use frozen mixed vegetables instead of peas."],
+    "steps": [{"text": "Put the beef, potatoes, carrots, and broth in the slow cooker."}, {"text": "Cook until tender, then stir in peas."}],
+    "cookSteps": [
+      {"text": "Put 1 1/2 pounds beef stew meat, 1 1/2 pounds potatoes, 3 sliced carrots, 3 cups beef broth, and 1 teaspoon garlic powder if using into the slow cooker."},
+      {"text": "Cover and cook on LOW for about 7 hours, until the beef and potatoes are tender.", "timerMinutes": 420},
+      {"text": "Stir in 1 cup frozen peas, cover, and cook 10 more minutes until the peas are hot."},
+      {"text": "Taste, season with salt and pepper as needed, and serve."}
+    ],
+    "storage": "Refrigerate up to 4 days or freeze up to 3 months. Reheat until steaming hot.",
+    "tags": ["slow cooker", "crockpot", "stew beef", "beef", "potatoes", "peas", "comfort food", "easy", "dinner", "normal ingredients"]
+  },
+  {
+    "id": "sheet-pan-turkey-meatballs-broccoli-potatoes",
+    "title": "Sheet-Pan Turkey Meatballs, Broccoli & Potatoes",
+    "aliases": ["turkey meatball sheet pan", "meatballs broccoli potatoes", "easy sheet pan dinner"],
+    "description": "Premade turkey meatballs roast with potatoes and broccoli for a low-effort dinner with almost no cleanup.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40,
+    "effort": "very easy",
+    "cost": "$$",
+    "equipment": ["large sheet pan"],
+    "ingredients": [
+      {"amount": 1, "unit": "lb", "item": "small potatoes, quartered", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "oil", "optional": false},
+      {"amount": 12, "unit": "oz", "item": "fully cooked turkey meatballs", "optional": false},
+      {"amount": 4, "unit": "cups", "item": "broccoli florets", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "garlic powder", "optional": true}
+    ],
+    "substitutions": ["Use chicken meatballs instead of turkey meatballs.", "Use cauliflower florets instead of broccoli.", "Use sweet potato cubes instead of white potatoes."],
+    "steps": [{"text": "Start the potatoes first."}, {"text": "Add meatballs and broccoli and roast until hot and tender."}],
+    "cookSteps": [
+      {"text": "Heat the oven to 425°F. Toss 1 pound quartered potatoes with 2 teaspoons of the oil and spread them on a large sheet pan."},
+      {"text": "Roast the potatoes for 15 minutes.", "timerMinutes": 15},
+      {"text": "Add 12 ounces cooked turkey meatballs and 4 cups broccoli. Toss the broccoli with the remaining 1 teaspoon oil and 1/2 teaspoon garlic powder if using."},
+      {"text": "Roast everything 12–15 minutes more, until the potatoes and broccoli are tender and the meatballs are steaming hot.", "timerMinutes": 15},
+      {"text": "Season to taste and serve."}
+    ],
+    "storage": "Refrigerate up to 4 days. Reheat until the meatballs are steaming hot.",
+    "tags": ["sheet-pan", "turkey meatballs", "broccoli", "potatoes", "very easy", "dinner", "low effort", "normal ingredients"]
+  },
+  {
+    "id": "leftover-rice-egg-cheddar-cups",
+    "title": "Leftover Rice, Egg & Cheddar Cups",
+    "aliases": ["use up rice", "rice egg muffins", "leftover rice breakfast"],
+    "description": "Leftover rice, eggs, and cheddar bake into savory little cups for breakfast, lunch, or a snackable dinner.",
+    "servings": 3,
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["6-cup muffin pan", "mixing bowl"],
+    "ingredients": [
+      {"amount": 1.5, "unit": "cups", "item": "cold cooked rice", "optional": false},
+      {"amount": 4, "unit": "large", "item": "eggs", "optional": false},
+      {"amount": 0.75, "unit": "cup", "item": "shredded cheddar", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "frozen peas, thawed", "optional": true},
+      {"amount": 1, "unit": "tsp", "item": "oil or cooking spray for pan", "optional": false}
+    ],
+    "substitutions": ["Use cooked quinoa instead of rice.", "Use chopped cooked broccoli instead of peas.", "Use Monterey Jack instead of cheddar."],
+    "steps": [{"text": "Mix the leftover rice with eggs and cheese."}, {"text": "Bake in muffin cups until set."}],
+    "cookSteps": [
+      {"text": "Heat the oven to 375°F and lightly grease 6 muffin cups with 1 teaspoon oil or cooking spray."},
+      {"text": "In a bowl, mix 1 1/2 cups cold cooked rice, 4 eggs, 3/4 cup shredded cheddar, and 1/2 cup thawed peas if using."},
+      {"text": "Divide the mixture evenly among the 6 prepared muffin cups."},
+      {"text": "Bake 18–20 minutes, until the centers are set and the edges are lightly golden.", "timerMinutes": 20},
+      {"text": "Cool 5 minutes, loosen the edges, and serve warm."}
+    ],
+    "storage": "Refrigerate up to 3 days. Reheat until steaming hot. Use rice that was cooled promptly and kept refrigerated.",
+    "tags": ["leftovers", "food-rescue", "use it up", "rice", "eggs", "cheddar", "breakfast", "very easy", "cheap"]
+  },
+  {
+    "id": "small-batch-cinnamon-toast-bread-pudding",
+    "title": "Small-Batch Cinnamon Toast Bread Pudding",
+    "aliases": ["stale bread dessert", "two serving bread pudding", "cinnamon toast pudding"],
+    "description": "A small pan of cozy cinnamon bread pudding turns a few slices of stale sandwich bread into dessert for two.",
+    "servings": 2,
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "totalMinutes": 35,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": ["small baking dish", "mixing bowl"],
+    "ingredients": [
+      {"amount": 3, "unit": "slices", "item": "stale sandwich bread, cubed", "optional": false},
+      {"amount": 1, "unit": "large", "item": "egg", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "milk", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "brown sugar", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "ground cinnamon", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "vanilla extract", "optional": true}
+    ],
+    "substitutions": ["Use brioche or leftover rolls instead of sandwich bread.", "Use white sugar instead of brown sugar.", "Add 2 tablespoons raisins if you like them."],
+    "steps": [{"text": "Soak the stale bread in cinnamon custard."}, {"text": "Bake until puffed and set."}],
+    "cookSteps": [
+      {"text": "Heat the oven to 350°F and lightly grease a small baking dish. Put 3 slices cubed stale bread in the dish."},
+      {"text": "Whisk 1 egg, 1/2 cup milk, 2 tablespoons brown sugar, 1/2 teaspoon cinnamon, and 1/2 teaspoon vanilla if using."},
+      {"text": "Pour the custard over the bread, press the bread down gently, and let it stand 5 minutes."},
+      {"text": "Bake 22–25 minutes, until the center is set and the top is lightly browned.", "timerMinutes": 25},
+      {"text": "Cool a few minutes and serve warm."}
+    ],
+    "storage": "Refrigerate leftovers up to 3 days and reheat until warm. Do not leave the finished custard dessert at room temperature for extended periods.",
+    "tags": ["small-batch", "stale bread", "food-rescue", "use it up", "dessert", "something sweet", "bread pudding", "very easy", "cheap"]
+  }
+]
