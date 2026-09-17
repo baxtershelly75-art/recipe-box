@@ -1,22 +1,24 @@
 {
+  "id": "./",
   "name": "Shelly's Recipe Box",
   "short_name": "Recipe Box",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#efe4cf",
   "theme_color": "#efe4cf",
   "description": "A simple, readable recipe box with one-step cooking mode.",
   "icons": [
     {
-      "src": "icon.svg",
+      "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icon.svg",
+      "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ]
