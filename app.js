@@ -74,6 +74,7 @@ function renderBrowse() {
 function recipeCard(r, grocerySelect = false) {
   return `
     <article class="recipe-card">
+      ${grocerySelect ? `<label class="recipe-select"><input type="checkbox" data-grocery-recipe-id="${r.id}"> Add this meal to grocery list</label>` : ``}
       <h3>${r.title}</h3>
       <div class="recipe-meta">
         <span class="meta-pill">${r.totalMinutes} min</span>
@@ -105,7 +106,9 @@ function renderResults() {
   $('#resultsTitle').textContent = state.lastQuery;
   $('#resultsCount').textContent = `${state.results.length} recipe${state.results.length === 1 ? '' : 's'} found`;
   const visible = state.results.slice(0, state.shown);
-  $('#resultsGrid').innerHTML = visible.map(recipeCard).join('') || '<p class="empty">No exact match yet. Try an ingredient or a broader idea like “cheap,” “crockpot,” or “something sweet.”</p>';
+  const isFavoritesView = state.lastQuery === 'Favorites';
+  $('#favoriteGroceryTools').classList.toggle('hidden', !isFavoritesView || !state.results.length);
+  $('#resultsGrid').innerHTML = visible.map(r => recipeCard(r, isFavoritesView)).join('') || '<p class="empty">No exact match yet. Try an ingredient or a broader idea like “cheap,” “crockpot,” or “something sweet.”</p>';
   wireRecipeCards($('#resultsGrid'));
   $('#showMoreBtn').classList.toggle('hidden', state.shown >= state.results.length);
 }
@@ -243,7 +246,8 @@ async function shareGroceryList() {
     $('#groceryMessage').textContent = 'Everything is checked off — there is nothing left to share.';
     return;
   }
-  const text = ['Grocery List', '', ...remaining.map(item => `☐ ${groceryItemText(item)}`)].join('\n');
+  const text = ['Grocery List', '', ...remaining.map(item => `☐ ${groceryItemText(item)}`)].join('
+');
   if (navigator.share) {
     try { await navigator.share({ title: 'Grocery List', text }); }
     catch (err) { if (err.name !== 'AbortError') $('#groceryMessage').textContent = 'Sharing was not available. Try again from another browser.'; }
@@ -470,7 +474,8 @@ $('#showMoreBtn').addEventListener('click', () => {
   state.shown += 8;
   renderResults();
 });
-document.querySelector('[data-action="home"]').addEventListener('click', () => showView('#homeView'));\ndocument.querySelector('[data-action="grocery-home"]').addEventListener('click', () => showView('#homeView'));
+document.querySelector('[data-action="home"]').addEventListener('click', () => showView('#homeView'));
+document.querySelector('[data-action="grocery-home"]').addEventListener('click', () => showView('#homeView'));
 document.querySelector('[data-action="back-results"]').addEventListener('click', () => showView('#resultsView'));
 $('#exitCookBtn').addEventListener('click', () => {
   clearTimerInterval();
