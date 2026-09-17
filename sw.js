@@ -1,6 +1,6 @@
-const CACHE = 'recipe-box-v1-26';
+const CACHE = 'recipe-box-v1-27';
 const RECIPE_ASSETS = Array.from({length:75},(_,i)=>`./data/recipes-${String(i+1).padStart(2,'0')}.json`);
-const ASSETS = ['./','./index.html','./styles.css','./app.js','./manifest.webmanifest',...RECIPE_ASSETS];
+const ASSETS = ['./','./index.html','./styles.css','./app.js','./kitchen-fractions.js','./manifest.webmanifest',...RECIPE_ASSETS];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS))));
 self.addEventListener('activate', event => event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k))))));
 self.addEventListener('fetch', event => {
