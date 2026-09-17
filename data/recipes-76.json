@@ -1,0 +1,55 @@
+[
+  {
+    "id": "chicken-pot-pie-drop-biscuits",
+    "title": "Chicken Pot Pie with Drop Biscuits",
+    "aliases": ["chicken pot pie biscuits", "biscuit chicken pot pie", "easy chicken pot pie"],
+    "description": "Creamy chicken and vegetables under soft golden drop biscuits—classic pot-pie comfort without rolling out pastry.",
+    "servings": 4,
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": ["10-inch oven-safe skillet or 8x8-inch baking dish", "medium bowl"],
+    "ingredients": [
+      {"amount": 2, "unit": "tbsp", "item": "butter for the filling", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "all-purpose flour for the filling", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "chicken broth", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "milk for the filling", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "cooked chicken, shredded or finely chopped", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "frozen mixed vegetables", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "onion powder", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "dried thyme", "optional": true},
+      {"amount": 0.25, "unit": "tsp", "item": "black pepper", "optional": false},
+      {"amount": 1, "unit": "cup", "item": "all-purpose flour for the biscuits", "optional": false},
+      {"amount": 1.5, "unit": "tsp", "item": "baking powder", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "salt", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "cold butter for the biscuits", "optional": false},
+      {"amount": 0.5, "unit": "cup", "item": "milk for the biscuits", "optional": false}
+    ],
+    "substitutions": [
+      "Use cooked turkey instead of chicken.",
+      "Use peas and carrots instead of mixed vegetables.",
+      "For very tender meat, shred the chicken finely rather than leaving larger chunks.",
+      "If you do not have an oven-safe skillet, make the filling on the stove and transfer it to an 8x8-inch baking dish before adding the biscuits."
+    ],
+    "steps": [
+      {"text": "Make a quick creamy chicken-and-vegetable filling."},
+      {"text": "Mix the drop-biscuit dough and spoon it over the hot filling."},
+      {"text": "Bake until the biscuits are golden and cooked through."}
+    ],
+    "cookSteps": [
+      {"text": "Heat the oven to 425°F."},
+      {"text": "Melt {{fillButter}} butter in an oven-safe skillet over medium heat. Stir in {{fillFlour}} flour and cook for about 1 minute, stirring constantly.", "quantities": [{"key": "fillButter", "ingredientIndex": 0}, {"key": "fillFlour", "ingredientIndex": 1}]},
+      {"text": "Slowly whisk in {{broth}} chicken broth and {{fillMilk}} milk. Cook 3–5 minutes, stirring, until the sauce thickens enough to lightly coat a spoon.", "quantities": [{"key": "broth", "ingredientIndex": 2}, {"key": "fillMilk", "ingredientIndex": 3}]},
+      {"text": "Stir in {{chicken}} cooked chicken, {{vegetables}} frozen mixed vegetables, {{onion}} onion powder, thyme if using, and {{pepper}} black pepper. Simmer 3–4 minutes, until the filling is hot. Take the skillet off the heat.", "quantities": [{"key": "chicken", "ingredientIndex": 4}, {"key": "vegetables", "ingredientIndex": 5}, {"key": "onion", "ingredientIndex": 6}, {"key": "pepper", "ingredientIndex": 8}]},
+      {"text": "In a medium bowl, stir together {{biscuitFlour}} flour, {{bakingPowder}} baking powder, and {{salt}} salt.", "quantities": [{"key": "biscuitFlour", "ingredientIndex": 9}, {"key": "bakingPowder", "ingredientIndex": 10}, {"key": "salt", "ingredientIndex": 11}]},
+      {"text": "Cut or rub {{biscuitButter}} cold butter into the flour mixture until you have small crumbly pieces. Stir in {{biscuitMilk}} milk just until a soft, shaggy dough forms. Do not overmix.", "quantities": [{"key": "biscuitButter", "ingredientIndex": 12}, {"key": "biscuitMilk", "ingredientIndex": 13}]},
+      {"text": "Drop the biscuit dough by 6–8 spoonfuls over the hot chicken filling. Leave a little space between the mounds so steam can escape."},
+      {"text": "Bake at 425°F for 18–22 minutes, until the biscuit tops are golden and the centers are cooked through. If the tops brown too quickly, loosely cover with foil for the last few minutes.", "timerMinutes": 18},
+      {"text": "Let the pot pie rest for 5 minutes before serving. The filling will thicken a little as it stands."}
+    ],
+    "storage": "Refrigerate covered up to 4 days. Reheat individual portions until steaming hot; the biscuits are best reheated uncovered in the oven or toaster oven so the tops do not get soggy.",
+    "tags": ["chicken", "pot pie", "biscuits", "comfort food", "dinner", "one-pan", "baking", "family meal"]
+  }
+]
