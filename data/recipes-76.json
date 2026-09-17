@@ -51,5 +51,49 @@
     ],
     "storage": "Refrigerate covered up to 4 days. Reheat individual portions until steaming hot; the biscuits are best reheated uncovered in the oven or toaster oven so the tops do not get soggy.",
     "tags": ["chicken", "pot pie", "biscuits", "comfort food", "dinner", "one-pan", "baking", "family meal"]
+  },
+  {
+    "id": "homemade-macaroni-and-cheese",
+    "title": "Homemade Macaroni and Cheese",
+    "aliases": ["homemade mac and cheese", "macaroni cheese", "creamy mac and cheese", "stovetop mac and cheese"],
+    "description": "Creamy homemade macaroni and cheese with a simple cheddar sauce—rich, cozy, and made from ordinary pantry and fridge staples.",
+    "servings": 4,
+    "prepMinutes": 5,
+    "cookMinutes": 20,
+    "totalMinutes": 25,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["large saucepan", "medium saucepan", "whisk", "colander"],
+    "ingredients": [
+      {"amount": 8, "unit": "oz", "item": "elbow macaroni", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "butter", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "all-purpose flour", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "milk", "optional": false},
+      {"amount": 2, "unit": "cups", "item": "shredded sharp cheddar cheese", "optional": false},
+      {"amount": 0.5, "unit": "tsp", "item": "salt", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "black pepper", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "mustard powder", "optional": true}
+    ],
+    "substitutions": [
+      "Use medium or mild cheddar if you prefer a gentler cheese flavor.",
+      "Use half cheddar and half Monterey Jack for an extra-melty sauce.",
+      "Use shells or another small pasta shape instead of elbows.",
+      "If the sauce gets thicker than you like, stir in a splash of milk before serving."
+    ],
+    "steps": [
+      {"text": "Cook the macaroni until just tender."},
+      {"text": "Make a smooth cheese sauce with butter, flour, milk, and cheddar."},
+      {"text": "Stir the macaroni into the cheese sauce and serve hot."}
+    ],
+    "cookSteps": [
+      {"text": "Bring a large saucepan of salted water to a boil. Add {{macaroni}} elbow macaroni and cook according to the package directions until just tender. Drain well.", "quantities": [{"key": "macaroni", "ingredientIndex": 0}]},
+      {"text": "While the pasta cooks, melt {{butter}} butter in a medium saucepan over medium heat. Whisk in {{flour}} flour and cook for 1 minute, whisking constantly.", "quantities": [{"key": "butter", "ingredientIndex": 1}, {"key": "flour", "ingredientIndex": 2}]},
+      {"text": "Slowly whisk in {{milk}} milk. Keep whisking and cook 4–6 minutes, until the sauce is smooth and thick enough to coat a spoon.", "quantities": [{"key": "milk", "ingredientIndex": 3}], "timerMinutes": 4},
+      {"text": "Turn the heat to low. Add {{salt}} salt, {{pepper}} black pepper, and mustard powder if using. Stir in {{cheddar}} shredded cheddar a handful at a time until completely melted and smooth.", "quantities": [{"key": "salt", "ingredientIndex": 5}, {"key": "pepper", "ingredientIndex": 6}, {"key": "cheddar", "ingredientIndex": 4}]},
+      {"text": "Add the drained macaroni to the cheese sauce and stir until every piece is coated. If it seems too thick, stir in a small splash of milk."},
+      {"text": "Taste, adjust the salt and pepper if needed, and serve while hot and creamy."}
+    ],
+    "storage": "Refrigerate covered up to 4 days. Reheat gently with a splash of milk, stirring often, until steaming hot and creamy again.",
+    "tags": ["macaroni and cheese", "mac and cheese", "pasta", "cheddar", "comfort food", "dinner", "side", "family meal", "cheap"]
   }
 ]
