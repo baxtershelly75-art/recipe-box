@@ -1,6 +1,7 @@
-const CACHE = 'recipe-box-v1-37';
+const CACHE = 'recipe-box-v1-38';
 const RECIPE_ASSETS = Array.from({length:75},(_,i)=>`./data/recipes-${String(i+1).padStart(2,'0')}.json`);
-const ASSETS = ['./','./index.html','./styles.css','./app.js','./kitchen-fractions.js','./recipe-extra-loader.js','./recipe-helpers.js','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png',...RECIPE_ASSETS,'./data/recipes-76.json','./data/recipes-77.json','./data/recipes-78.json','./data/recipes-79.json'];
+const EXTRA_RECIPE_ASSETS = Array.from({length:5},(_,i)=>`./data/recipes-${i+76}.json`);
+const ASSETS = ['./','./index.html','./styles.css','./app.js','./kitchen-fractions.js','./recipe-extra-loader.js','./recipe-helpers.js','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png',...RECIPE_ASSETS,...EXTRA_RECIPE_ASSETS];
 
 self.addEventListener('install', event => {
   event.waitUntil(
