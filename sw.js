@@ -1,4 +1,4 @@
-const CACHE = 'recipe-box-v1-25';
+const CACHE = 'recipe-box-v1-26';
 const RECIPE_ASSETS = Array.from({length:75},(_,i)=>`./data/recipes-${String(i+1).padStart(2,'0')}.json`);
 const ASSETS = ['./','./index.html','./styles.css','./app.js','./manifest.webmanifest',...RECIPE_ASSETS];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS))));
