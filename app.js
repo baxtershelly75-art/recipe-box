@@ -7,7 +7,7 @@ const state = {
 const $ = sel => document.querySelector(sel);
 const views = ['#homeView','#resultsView','#detailView','#cookView'];
 const browseTags = ['15-minute','very easy','cheap','crockpot','one-pot','comfort food','use it up','small batch','sweet','breakfast','dinner','vegetable','pantry'];
-const recipeDataFiles = Array.from({length:71},(_,i)=>`./data/recipes-${String(i+1).padStart(2,'0')}.json`);
+const recipeDataFiles = Array.from({length:73},(_,i)=>`./data/recipes-${String(i+1).padStart(2,'0')}.json`);
 
 function showView(id) { views.forEach(v => $(v).classList.toggle('active', v === id)); window.scrollTo({top:0,behavior:'instant'}); }
 function norm(s='') { return s.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim(); }
@@ -80,35 +80,41 @@ function scaledStepText(text) {
   return out;
 }
 function renderCook() {
-  const r=state.currentRecipe, step=r.cookSteps[state.cookIndex];
+  const r=state.currentRecipe, s=r.cookSteps[state.cookIndex];
   $('#cookRecipeTitle').textContent=r.title;
-  $('#cookProgress').textContent=`Step ${state.cookIndex+1} of ${r.cookSteps.length}`;
-  $('#cookStep').textContent=scaledStepText(step.text);
+  $('#cookProgress').textContent=`STEP ${state.cookIndex+1} OF ${r.cookSteps.length}`;
+  $('#cookStepText').textContent=scaledStepText(s.text);
   $('#cookBack').disabled=state.cookIndex===0;
   $('#cookNext').textContent=state.cookIndex===r.cookSteps.length-1?'DONE':'NEXT';
-  const timerBtn=$('#startTimer'); timerBtn.hidden=!step.timerMinutes; timerBtn.textContent=step.timerMinutes?`START ${step.timerMinutes} MIN TIMER`:'START TIMER';
-  $('#timerDisplay').textContent=''; stopTimer();
+  $('#timerBtn').hidden=!s.timerMinutes;
+  $('#timerBtn').textContent=s.timerMinutes?`START ${s.timerMinutes} MIN TIMER`:'TIMER';
+  resetTimer();
 }
-function stopTimer(){ if(state.timer){clearInterval(state.timer);state.timer=null;} state.timerRunning=false; }
-function startTimer(minutes){ stopTimer(); state.timerRemaining=minutes*60; state.timerOriginal=state.timerRemaining; state.timerRunning=true; const tick=()=>{const m=Math.floor(state.timerRemaining/60),s=state.timerRemaining%60;$('#timerDisplay').textContent=`${m}:${String(s).padStart(2,'0')}`;if(state.timerRemaining<=0){stopTimer();$('#timerDisplay').textContent='DONE';return;}state.timerRemaining--;};tick();state.timer=setInterval(tick,1000); }
-function showFavorites(){ const ids=getFavorites(); state.lastQuery='Favorites';state.results=ids.map(id=>state.recipes.find(r=>r.id===id)).filter(Boolean);state.shown=8;renderResults();showView('#resultsView'); }
-function showRecent(){ let ids=[];try{ids=JSON.parse(localStorage.getItem('recipeBoxRecent')||'[]')}catch{} state.lastQuery='Recently viewed';state.results=ids.map(id=>state.recipes.find(r=>r.id===id)).filter(Boolean);state.shown=8;renderResults();showView('#resultsView'); }
-async function init(){
-  const chunks=await Promise.all(recipeDataFiles.map(f=>fetch(f).then(r=>{if(!r.ok)throw new Error(`Could not load ${f}`);return r.json();})));
-  state.recipes=chunks.flat(); renderBrowse();
-  $('#searchForm').addEventListener('submit',e=>{e.preventDefault();searchRecipes($('#searchInput').value);});
-  $('#surpriseBtn').addEventListener('click',()=>{const r=state.recipes[Math.floor(Math.random()*state.recipes.length)];openRecipe(r.id);});
-  $('#showMore').addEventListener('click',()=>{state.shown+=8;renderResults();});
-  $('#homeBtn').addEventListener('click',()=>showView('#homeView')); $('#resultsHome').addEventListener('click',()=>showView('#homeView')); $('#detailHome').addEventListener('click',()=>showView('#homeView')); $('#cookHome').addEventListener('click',()=>showView('#homeView'));
-  $('#favoriteBtn').addEventListener('click',()=>toggleFavorite(state.currentRecipe.id));
-  $('#favoritesBtn').addEventListener('click',showFavorites); $('#recentBtn').addEventListener('click',showRecent);
-  document.querySelectorAll('[data-scale]').forEach(b=>b.addEventListener('click',()=>{state.scale=Number(b.dataset.scale);renderDetail();}));
-  $('#cookBtn').addEventListener('click',()=>{state.cookIndex=0;renderCook();showView('#cookView');});
-  $('#cookBack').addEventListener('click',()=>{if(state.cookIndex>0){state.cookIndex--;renderCook();}});
-  $('#cookNext').addEventListener('click',()=>{if(state.cookIndex<state.currentRecipe.cookSteps.length-1){state.cookIndex++;renderCook();}else{showView('#detailView');}});
-  $('#cookExit').addEventListener('click',()=>showView('#detailView'));
-  $('#startTimer').addEventListener('click',()=>startTimer(state.currentRecipe.cookSteps[state.cookIndex].timerMinutes));
-  $('#printBtn').addEventListener('click',()=>window.print());
-  if('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js');
+function startCook() { state.cookIndex=0; renderCook(); showView('#cookView'); }
+function resetTimer() { clearInterval(state.timer); state.timer=null; state.timerRunning=false; state.timerRemaining=0; $('#timerDisplay').textContent=''; }
+function startTimer(minutes) {
+  resetTimer(); state.timerOriginal=minutes*60; state.timerRemaining=state.timerOriginal; state.timerRunning=true;
+  const tick=()=>{ const m=Math.floor(state.timerRemaining/60),s=state.timerRemaining%60; $('#timerDisplay').textContent=`${m}:${String(s).padStart(2,'0')}`; if(state.timerRemaining<=0){clearInterval(state.timer);state.timerRunning=false;$('#timerDisplay').textContent='DONE';return;} state.timerRemaining--; };
+  tick(); state.timer=setInterval(tick,1000);
 }
-init().catch(err=>{console.error(err);document.body.insertAdjacentHTML('beforeend','<p class="load-error">Recipe Box could not load its recipe library. Please refresh.</p>');});
+async function loadRecipes() {
+  try {
+    const chunks=await Promise.all(recipeDataFiles.map(f=>fetch(f).then(r=>{if(!r.ok)throw new Error(`Could not load ${f}`);return r.json();})));
+    state.recipes=chunks.flat(); renderBrowse();
+  } catch(err) { $('#loadStatus').textContent='Recipe Box could not load its recipes. Please refresh once you are online.'; console.error(err); }
+}
+$('#searchForm').addEventListener('submit',e=>{e.preventDefault();searchRecipes($('#searchInput').value);});
+$('#browseAll').addEventListener('click',()=>searchRecipes(''));
+$('#showMore').addEventListener('click',()=>{state.shown+=8;renderResults();});
+$('#resultsHome').addEventListener('click',()=>showView('#homeView'));
+$('#detailBack').addEventListener('click',()=>showView('#resultsView'));
+$('#favoriteBtn').addEventListener('click',()=>toggleFavorite(state.currentRecipe.id));
+$('#cookBtn').addEventListener('click',startCook);
+$('#printBtn').addEventListener('click',()=>window.print());
+document.querySelectorAll('[data-scale]').forEach(b=>b.addEventListener('click',()=>{state.scale=Number(b.dataset.scale);renderDetail();}));
+$('#cookExit').addEventListener('click',()=>{resetTimer();showView('#detailView');});
+$('#cookBack').addEventListener('click',()=>{if(state.cookIndex>0){state.cookIndex--;renderCook();}});
+$('#cookNext').addEventListener('click',()=>{const r=state.currentRecipe;if(state.cookIndex<r.cookSteps.length-1){state.cookIndex++;renderCook();}else{resetTimer();showView('#detailView');}});
+$('#timerBtn').addEventListener('click',()=>{const s=state.currentRecipe.cookSteps[state.cookIndex];if(s.timerMinutes)startTimer(s.timerMinutes);});
+if('serviceWorker' in navigator) window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js'));
+loadRecipes();
