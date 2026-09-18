@@ -390,7 +390,14 @@ $('#addMinuteBtn').addEventListener('click', () => {
 $('#resetTimerBtn').addEventListener('click', resetTimer);
 
 if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js'));
+  window.addEventListener('load', async () => {
+    try {
+      const registration = await navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' });
+      await registration.update();
+    } catch (error) {
+      console.warn('Recipe Box service worker update failed:', error);
+    }
+  });
 }
 
 loadRecipes();
