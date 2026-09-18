@@ -544,6 +544,19 @@ loadRecipes();
       window.alert('Sharing is not available in this browser.');
     }
   });
+  const addSelectedBtn = document.getElementById('groceryAddSelectedBtn');
+  if (addSelectedBtn) {
+    addSelectedBtn.addEventListener('click', () => {
+      const selectedRecipes = state.recipes.filter(recipe => state.groceryRecipeIds.has(recipe.id));
+      selectedRecipes.forEach(recipe => {
+        recipe.ingredients.forEach(ingredient => {
+          values.push({ text: ingredientLine(ingredient), checked: false });
+        });
+      });
+      saveItems(values);
+      render(values);
+    });
+  }
   input.addEventListener('keydown', (event) => {
     if (event.key === 'Enter') addItem();
   });
