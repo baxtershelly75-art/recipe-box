@@ -90,10 +90,12 @@
         "text": "Add onion and cook until softened. Stir in flour, then slowly stir in beef broth."
       },
       {
-        "text": "Cover and simmer gently until the beef is tender and the gravy thickens, about 30 minutes."
+        "text": "Cover and simmer gently until the beef is tender and the gravy thickens, about 30 minutes.",
+        "timerMinutes": 30
       },
       {
-        "text": "Meanwhile boil potatoes until fork-tender, about 15 minutes; drain and mash with milk and butter. Serve beef and gravy over potatoes."
+        "text": "Meanwhile boil potatoes until fork-tender, about 15 minutes; drain and mash with milk and butter. Serve beef and gravy over potatoes.",
+        "timerMinutes": 15
       }
     ],
     "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
@@ -191,10 +193,12 @@
         "text": "Cook egg noodles according to package directions; drain."
       },
       {
-        "text": "Melt butter in a large skillet. Brown beef quickly in batches and set aside. Cook onion and mushrooms until tender."
+        "text": "Melt butter in a large skillet. Brown beef quickly in batches and set aside. Cook onion and mushrooms until tender.",
+        "timerMinutes": 6
       },
       {
-        "text": "Stir flour into the vegetables, then slowly add beef broth. Simmer until slightly thickened."
+        "text": "Stir flour into the vegetables, then slowly add beef broth. Simmer until slightly thickened.",
+        "timerMinutes": 3
       },
       {
         "text": "Return beef to the skillet and cook until hot and safely done. Remove from heat, stir in sour cream, and serve over noodles."
@@ -285,16 +289,20 @@
     ],
     "cookSteps": [
       {
-        "text": "Microwave or parboil the potatoes for 6–8 minutes until just beginning to soften; drain well."
+        "text": "Microwave or parboil the potatoes for 6–8 minutes until just beginning to soften; drain well.",
+        "timerMinutes": 7
       },
       {
-        "text": "Heat olive oil in a large skillet and cook potatoes until browned and tender, about 10 minutes. Transfer to a plate."
+        "text": "Heat olive oil in a large skillet and cook potatoes until browned and tender, about 10 minutes. Transfer to a plate.",
+        "timerMinutes": 10
       },
       {
-        "text": "Add steak bites in a single layer and brown, turning until cooked to the household's preferred safe doneness."
+        "text": "Add steak bites in a single layer and brown, turning until cooked to the household's preferred safe doneness.",
+        "timerMinutes": 6
       },
       {
-        "text": "Lower heat, add butter and garlic, then return potatoes to the skillet and toss everything together for 1–2 minutes."
+        "text": "Lower heat, add butter and garlic, then return potatoes to the skillet and toss everything together for 1–2 minutes.",
+        "timerMinutes": 2
       }
     ],
     "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
@@ -389,7 +397,8 @@
         "text": "Drizzle with olive oil, sprinkle with fajita seasoning, and toss well."
       },
       {
-        "text": "Roast 15–20 minutes, stirring once, until vegetables are tender and steak is safely cooked."
+        "text": "Roast 15–20 minutes, stirring once, until vegetables are tender and steak is safely cooked.",
+        "timerMinutes": 18
       },
       {
         "text": "Squeeze lime over the pan and serve in warm tortillas."
@@ -494,16 +503,19 @@
     ],
     "cookSteps": [
       {
-        "text": "Cook rice in water according to package directions."
+        "text": "Cook rice in water according to package directions.",
+        "timerMinutes": 18
       },
       {
         "text": "Whisk soy sauce, brown sugar, cornstarch, and 1/2 cup water until smooth."
       },
       {
-        "text": "Heat oil in a large skillet. Brown beef in batches, then set aside. Add broccoli and a splash of water; cover 3–4 minutes."
+        "text": "Heat oil in a large skillet. Brown beef in batches, then set aside. Add broccoli and a splash of water; cover 3–4 minutes.",
+        "timerMinutes": 4
       },
       {
-        "text": "Return beef, add garlic and sauce, and simmer until thickened and beef is safely cooked. Serve over rice."
+        "text": "Return beef, add garlic and sauce, and simmer until thickened and beef is safely cooked. Serve over rice.",
+        "timerMinutes": 3
       }
     ],
     "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
@@ -599,16 +611,19 @@
     ],
     "cookSteps": [
       {
-        "text": "Heat oven to 400°F. Boil potatoes until tender, then mash with milk and butter."
+        "text": "Heat oven to 400°F. Boil potatoes until tender, then mash with milk and butter.",
+        "timerMinutes": 15
       },
       {
         "text": "Brown ground beef and onion in a skillet; drain excess fat. Stir in tomato paste, vegetables, and beef broth."
       },
       {
-        "text": "Simmer 8–10 minutes until slightly thickened, then spread in a baking dish."
+        "text": "Simmer 8–10 minutes until slightly thickened, then spread in a baking dish.",
+        "timerMinutes": 10
       },
       {
-        "text": "Spoon mashed potatoes over the beef mixture and bake 25 minutes until hot and lightly browned."
+        "text": "Spoon mashed potatoes over the beef mixture and bake 25 minutes until hot and lightly browned.",
+        "timerMinutes": 25
       }
     ],
     "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
@@ -707,7 +722,8 @@
         "text": "Repeat layers, finishing with sauce and cheese."
       },
       {
-        "text": "Bake 25–30 minutes until bubbling and browned around the edges. Rest 5 minutes before serving."
+        "text": "Bake 25–30 minutes until bubbling and browned around the edges. Rest 5 minutes before serving.",
+        "timerMinutes": 28
       }
     ],
     "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
@@ -808,10 +824,12 @@
         "text": "Stir in rice, beans, corn, tomatoes, broth, and taco seasoning."
       },
       {
-        "text": "Bring to a simmer, cover, and cook on low about 20 minutes until rice is tender."
+        "text": "Bring to a simmer, cover, and cook on low about 20 minutes until rice is tender.",
+        "timerMinutes": 20
       },
       {
-        "text": "Sprinkle cheese over the top, cover 2–3 minutes until melted, and serve."
+        "text": "Sprinkle cheese over the top, cover 2–3 minutes until melted, and serve.",
+        "timerMinutes": 3
       }
     ],
     "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
@@ -897,13 +915,15 @@
         "text": "Heat oven to 425°F. Toss potatoes with olive oil, garlic powder, and salt on a sheet pan."
       },
       {
-        "text": "Arrange chicken thighs among the potatoes and roast 25 minutes."
+        "text": "Arrange chicken thighs among the potatoes and roast 25 minutes.",
+        "timerMinutes": 25
       },
       {
         "text": "Brush chicken generously with barbecue sauce, stir potatoes, and return to the oven."
       },
       {
-        "text": "Roast 15–20 minutes more until chicken reaches 165°F in the thickest part and potatoes are tender."
+        "text": "Roast 15–20 minutes more until chicken reaches 165°F in the thickest part and potatoes are tender.",
+        "timerMinutes": 18
       }
     ],
     "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
@@ -1003,10 +1023,12 @@
         "text": "Heat oven to 425°F. Dip chicken in beaten egg, then coat with breadcrumbs mixed with Parmesan."
       },
       {
-        "text": "Place on an oiled sheet pan, drizzle lightly with oil, and bake 15 minutes; turn once."
+        "text": "Place on an oiled sheet pan, drizzle lightly with oil, and bake 15 minutes; turn once.",
+        "timerMinutes": 15
       },
       {
-        "text": "Top chicken with marinara and mozzarella and bake 8–10 minutes more, until chicken reaches 165°F and cheese melts."
+        "text": "Top chicken with marinara and mozzarella and bake 8–10 minutes more, until chicken reaches 165°F and cheese melts.",
+        "timerMinutes": 9
       },
       {
         "text": "Meanwhile cook spaghetti according to package directions. Serve chicken with spaghetti and remaining warm marinara."
@@ -1108,7 +1130,8 @@
         "text": "Spread in the dish and top with remaining cheese."
       },
       {
-        "text": "Bake 30–35 minutes until bubbling and hot throughout."
+        "text": "Bake 30–35 minutes until bubbling and hot throughout.",
+        "timerMinutes": 33
       }
     ],
     "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
@@ -1198,7 +1221,8 @@
     ],
     "cookSteps": [
       {
-        "text": "Heat oven to 375°F. Cook pasta 2 minutes less than package directions; add broccoli for the last 2 minutes and drain."
+        "text": "Heat oven to 375°F. Cook pasta 2 minutes less than package directions; add broccoli for the last 2 minutes and drain.",
+        "timerMinutes": 10
       },
       {
         "text": "Mix pasta, broccoli, chicken, Alfredo sauce, garlic powder, half the mozzarella, and Parmesan."
@@ -1207,7 +1231,8 @@
         "text": "Spread in a baking dish and top with remaining mozzarella."
       },
       {
-        "text": "Bake 25–30 minutes until bubbling and lightly browned."
+        "text": "Bake 25–30 minutes until bubbling and lightly browned.",
+        "timerMinutes": 28
       }
     ],
     "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
@@ -1303,13 +1328,15 @@
     ],
     "cookSteps": [
       {
-        "text": "Cook rice in water according to package directions."
+        "text": "Cook rice in water according to package directions.",
+        "timerMinutes": 18
       },
       {
         "text": "Heat olive oil in a large skillet. Cook chicken with fajita seasoning until browned and it reaches 165°F; transfer to a plate."
       },
       {
-        "text": "Cook peppers and onion in the same skillet until crisp-tender, about 7 minutes."
+        "text": "Cook peppers and onion in the same skillet until crisp-tender, about 7 minutes.",
+        "timerMinutes": 7
       },
       {
         "text": "Return chicken, squeeze lime over everything, and serve over rice."
@@ -1414,7 +1441,8 @@
     ],
     "cookSteps": [
       {
-        "text": "Cook rice in water according to package directions."
+        "text": "Cook rice in water according to package directions.",
+        "timerMinutes": 18
       },
       {
         "text": "Whisk honey, soy sauce, garlic, cornstarch, and 1/2 cup water."
@@ -1423,7 +1451,8 @@
         "text": "Heat oil in a skillet and cook chicken until browned and it reaches 165°F."
       },
       {
-        "text": "Add broccoli and sauce, cover 4–5 minutes, then uncover and simmer until broccoli is tender and sauce thickens. Serve over rice."
+        "text": "Add broccoli and sauce, cover 4–5 minutes, then uncover and simmer until broccoli is tender and sauce thickens. Serve over rice.",
+        "timerMinutes": 5
       }
     ],
     "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
@@ -1528,7 +1557,8 @@
         "text": "Carefully pour off most oil, leaving about 3 tablespoons. Whisk in remaining 1/2 cup flour and cook 1 minute."
       },
       {
-        "text": "Slowly whisk in 2 cups milk and black pepper. Simmer until thickened, then serve gravy over chicken."
+        "text": "Slowly whisk in 2 cups milk and black pepper. Simmer until thickened, then serve gravy over chicken.",
+        "timerMinutes": 5
       }
     ],
     "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
@@ -1624,7 +1654,8 @@
     ],
     "cookSteps": [
       {
-        "text": "Boil potatoes until fork-tender, about 15 minutes; drain and mash with milk and butter."
+        "text": "Boil potatoes until fork-tender, about 15 minutes; drain and mash with milk and butter.",
+        "timerMinutes": 15
       },
       {
         "text": "Heat oil in a skillet and brown pork chops on both sides; transfer to a plate."
@@ -1633,7 +1664,8 @@
         "text": "Cook onion until softened. Stir in flour, then slowly add broth and simmer until smooth."
       },
       {
-        "text": "Return chops to gravy, cover, and simmer gently until pork reaches 145°F; rest 3 minutes before serving with mashed potatoes."
+        "text": "Return chops to gravy, cover, and simmer gently until pork reaches 145°F; rest 3 minutes before serving with mashed potatoes.",
+        "timerMinutes": 10
       }
     ],
     "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
@@ -1722,16 +1754,19 @@
     ],
     "cookSteps": [
       {
-        "text": "Heat oven to 425°F. Toss potatoes and carrots with half the oil, garlic, seasoning, and salt; roast 15 minutes."
+        "text": "Heat oven to 425°F. Toss potatoes and carrots with half the oil, garlic, seasoning, and salt; roast 15 minutes.",
+        "timerMinutes": 15
       },
       {
         "text": "Rub pork with remaining oil and a little seasoning, then place it on the sheet pan with vegetables."
       },
       {
-        "text": "Roast 20–25 minutes more until pork reaches 145°F and vegetables are tender."
+        "text": "Roast 20–25 minutes more until pork reaches 145°F and vegetables are tender.",
+        "timerMinutes": 23
       },
       {
-        "text": "Rest pork at least 3 minutes before slicing."
+        "text": "Rest pork at least 3 minutes before slicing.",
+        "timerMinutes": 3
       }
     ],
     "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
@@ -1826,7 +1861,8 @@
         "text": "Stir barbecue sauce, broth, and brown sugar together and pour over pork."
       },
       {
-        "text": "Cover and cook on LOW about 8 hours, until pork is very tender and safely cooked."
+        "text": "Cover and cook on LOW about 8 hours, until pork is very tender and safely cooked.",
+        "timerMinutes": 480
       },
       {
         "text": "Shred pork with two forks, stir it into the sauce, and serve on buns with coleslaw if desired."
@@ -1912,7 +1948,8 @@
     ],
     "cookSteps": [
       {
-        "text": "Heat oven to 425°F. Toss potatoes with half the olive oil and roast 15 minutes."
+        "text": "Heat oven to 425°F. Toss potatoes with half the olive oil and roast 15 minutes.",
+        "timerMinutes": 15
       },
       {
         "text": "Add sausage, peppers, onion, remaining oil, and Italian seasoning to the pan."
@@ -1921,7 +1958,8 @@
         "text": "Toss well and spread into an even layer."
       },
       {
-        "text": "Roast 18–20 minutes more until potatoes are tender and sausage and vegetables are browned."
+        "text": "Roast 18–20 minutes more until potatoes are tender and sausage and vegetables are browned.",
+        "timerMinutes": 19
       }
     ],
     "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
@@ -2014,7 +2052,8 @@
         "text": "Mix pasta with sausage sauce and ricotta, then spread in a baking dish."
       },
       {
-        "text": "Top with mozzarella and Parmesan and bake 25–30 minutes until bubbling and browned."
+        "text": "Top with mozzarella and Parmesan and bake 25–30 minutes until bubbling and browned.",
+        "timerMinutes": 28
       }
     ],
     "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
@@ -2117,7 +2156,8 @@
         "text": "Add kidney beans, crushed tomatoes, diced tomatoes, and beef broth."
       },
       {
-        "text": "Bring to a simmer and cook uncovered 30–35 minutes, stirring occasionally."
+        "text": "Bring to a simmer and cook uncovered 30–35 minutes, stirring occasionally.",
+        "timerMinutes": 33
       }
     ],
     "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
@@ -2213,7 +2253,8 @@
         "text": "Pat fish dry and season with taco seasoning."
       },
       {
-        "text": "Heat oil in a skillet and cook fish 3–4 minutes per side, until opaque and it reaches 145°F; flake into large pieces."
+        "text": "Heat oil in a skillet and cook fish 3–4 minutes per side, until opaque and it reaches 145°F; flake into large pieces.",
+        "timerMinutes": 7
       },
       {
         "text": "Fill warm tortillas with fish and slaw. Drizzle with remaining lime crema and serve with lime wedges."
@@ -2304,7 +2345,8 @@
     ],
     "cookSteps": [
       {
-        "text": "Heat oven to 425°F. Toss potatoes with half the oil, garlic powder, and salt; roast 18 minutes."
+        "text": "Heat oven to 425°F. Toss potatoes with half the oil, garlic powder, and salt; roast 18 minutes.",
+        "timerMinutes": 18
       },
       {
         "text": "Add green beans to the pan, toss with a little oil, and move vegetables aside for salmon."
@@ -2313,7 +2355,8 @@
         "text": "Place salmon on the pan, drizzle with remaining oil and lemon juice, and season lightly."
       },
       {
-        "text": "Roast 12–15 minutes more until salmon flakes easily and reaches 145°F and vegetables are tender."
+        "text": "Roast 12–15 minutes more until salmon flakes easily and reaches 145°F and vegetables are tender.",
+        "timerMinutes": 14
       }
     ],
     "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
@@ -2418,7 +2461,8 @@
         "text": "Mix spaghetti, turkey, mushrooms, peas, soup, milk, and mozzarella; spread in a baking dish."
       },
       {
-        "text": "Sprinkle with Parmesan and bake 25–30 minutes until bubbling and hot throughout."
+        "text": "Sprinkle with Parmesan and bake 25–30 minutes until bubbling and hot throughout.",
+        "timerMinutes": 28
       }
     ],
     "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
@@ -2518,7 +2562,8 @@
         "text": "Stir in ketchup, mustard, brown sugar, Worcestershire sauce, and water."
       },
       {
-        "text": "Simmer uncovered 10–15 minutes until thick and saucy."
+        "text": "Simmer uncovered 10–15 minutes until thick and saucy.",
+        "timerMinutes": 13
       },
       {
         "text": "Spoon onto hamburger buns and serve."
