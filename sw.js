@@ -1,4 +1,4 @@
-const CACHE = 'recipe-box-v1-43';
+const CACHE = 'recipe-box-v1-44';
 const RECIPE_ASSETS = Array.from({length:75},(_,i)=>`./data/recipes-${String(i+1).padStart(2,'0')}.json`);
 const EXTRA_RECIPE_ASSETS = Array.from({length:6},(_,i)=>`./data/recipes-${i+76}.json`);
 const ASSETS = ['./','./index.html','./styles.css','./app.js','./kitchen-fractions.js','./recipe-extra-loader.js','./recipe-helpers.js','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png',...RECIPE_ASSETS,...EXTRA_RECIPE_ASSETS];
