@@ -412,3 +412,27 @@ loadRecipes();
     app.hidden = false;
   });
 })();
+
+// Manual grocery items — staged in-memory behavior only; persistence comes later.
+(() => {
+  const input = document.getElementById('groceryManualInput');
+  const addBtn = document.getElementById('groceryManualAddBtn');
+  const items = document.getElementById('groceryItems');
+  if (!input || !addBtn || !items) return;
+  const addItem = () => {
+    const value = input.value.trim();
+    if (!value) return;
+    const empty = items.querySelector('p');
+    if (empty && empty.textContent.trim() === 'No grocery items yet.') empty.remove();
+    const row = document.createElement('div');
+    row.className = 'grocery-manual-item';
+    row.textContent = value;
+    items.appendChild(row);
+    input.value = '';
+    input.focus();
+  };
+  addBtn.addEventListener('click', addItem);
+  input.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') addItem();
+  });
+})();
