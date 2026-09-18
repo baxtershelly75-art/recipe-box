@@ -430,10 +430,20 @@ loadRecipes();
   const readItems = () => {
     try {
       const saved = JSON.parse(localStorage.getItem(storageKey) || '[]');
-      return Array.isArray(saved) ? saved.filter(item => typeof item === 'string' && item.trim()) : [];
+      if (!Array.isArray(saved)) return [];
+      return saved.map(item => {
+        if (typeof item === 'string' && item.trim()) return { text: item.trim(), checked: false };
+        if (item && typeof item.text === 'string' && item.text.trim()) {
+          return { text: item.text.trim(), checked: Boolean(item.checked) };
+        }
+        return null;
+      }).filter(Boolean);
     } catch (_) {
       return [];
     }
+  };
+  const saveItems = (values) => {
+    try { localStorage.setItem(storageKey, JSON.stringify(values)); } catch (_) {}
   };
   const render = (values) => {
     items.textContent = '';
@@ -443,18 +453,22 @@ loadRecipes();
       items.appendChild(empty);
       return;
     }
-    values.forEach(value => {
+    values.forEach((item, index) => {
       const row = document.createElement('div');
       row.className = 'grocery-manual-item';
       const label = document.createElement('label');
       const checkbox = document.createElement('input');
       checkbox.type = 'checkbox';
-      checkbox.setAttribute('aria-label', `Mark ${value} as handled`);
+      checkbox.checked = item.checked;
+      checkbox.setAttribute('aria-label', `Mark ${item.text} as handled`);
       checkbox.addEventListener('change', () => {
+        item.checked = checkbox.checked;
         text.style.textDecoration = checkbox.checked ? 'line-through' : '';
+        saveItems(values);
       });
       const text = document.createElement('span');
-      text.textContent = value;
+      text.textContent = item.text;
+      text.style.textDecoration = item.checked ? 'line-through' : '';
       label.append(checkbox, text);
       row.appendChild(label);
       items.appendChild(row);
@@ -465,8 +479,8 @@ loadRecipes();
   const addItem = () => {
     const value = input.value.trim();
     if (!value) return;
-    values.push(value);
-    try { localStorage.setItem(storageKey, JSON.stringify(values)); } catch (_) {}
+    values.push({ text: value, checked: false });
+    saveItems(values);
     render(values);
     input.value = '';
     input.focus();
