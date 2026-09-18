@@ -790,5 +790,187 @@
       "lime",
       "tropical"
     ]
+  },
+  {
+    "id": "banana-granola-peanut-butter-flatbread",
+    "title": "Banana Granola & Peanut Butter Flatbread",
+    "aliases": [
+      "banana granola & peanut butter flatbread"
+    ],
+    "description": "A sweet meal-sized flatbread for breakfast or lunch.",
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "totalMinutes": 20,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": [
+      "sheet pan or toaster oven"
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "naan or meal-size flatbread",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "natural peanut butter",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "small banana, sliced",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "granola",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "cinnamon",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "honey",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Warm flatbread at 375°F until lightly crisp, 4–5 minutes."
+      },
+      {
+        "text": "Spread with peanut butter and top with banana and granola."
+      },
+      {
+        "text": "Sprinkle with cinnamon and drizzle with honey if desired."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Warm flatbread at 375°F until lightly crisp, 4–5 minutes.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Spread with peanut butter and top with banana and granola."
+      },
+      {
+        "text": "Sprinkle with cinnamon and drizzle with honey if desired."
+      }
+    ],
+    "storage": "Best served fresh.",
+    "tags": [
+      "flatbread",
+      "sweet",
+      "breakfast",
+      "banana",
+      "peanut butter",
+      "granola"
+    ]
+  },
+  {
+    "id": "apple-cinnamon-yogurt-flatbread",
+    "title": "Apple Cinnamon Yogurt Crunch Flatbread",
+    "aliases": [
+      "apple cinnamon yogurt crunch flatbread"
+    ],
+    "description": "A sweet meal-sized flatbread for breakfast or lunch.",
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "totalMinutes": 20,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": [
+      "sheet pan or toaster oven"
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "naan or meal-size flatbread",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "small apple, thinly sliced",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "cinnamon",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "butter",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "plain or vanilla Greek yogurt",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "granola",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "honey or maple syrup",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook apple with butter and cinnamon until just tender, 4–5 minutes."
+      },
+      {
+        "text": "Warm flatbread at 375°F until lightly crisp, 4–5 minutes."
+      },
+      {
+        "text": "Top with apples, yogurt, granola, and optional drizzle."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Cook apple with butter and cinnamon until just tender, 4–5 minutes.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Warm flatbread at 375°F until lightly crisp, 4–5 minutes.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Top with apples, yogurt, granola, and optional drizzle."
+      }
+    ],
+    "storage": "Best served fresh.",
+    "tags": [
+      "flatbread",
+      "sweet",
+      "breakfast",
+      "apple",
+      "cinnamon",
+      "yogurt",
+      "granola"
+    ]
   }
 ]
