@@ -20,4 +20,9 @@ jobs:
       - name: Check category coverage
         run: node tests/library-coverage.mjs
       - name: Count recipes
-        run: node -e "const fs=require('fs'); const files=fs.readdirSync('data').filter(f=>/^recipes-\\d+\\.json$/.test(f)); const total=files.reduce((n,f)=>n+JSON.parse(fs.readFileSync('data/'+f,'utf8')).length,0); console.log('AUTHORITATIVE_RECIPE_COUNT='+total);"
+        run: node -e "const fs=require('fs'); const files=fs.readdirSync('data').filter(f=>/^recipes-\\d+\\.json$/.test(f)); const total=files.reduce((n,f)=>n+JSON.parse(fs.readFileSync('data/'+f,'utf8')).length,0); fs.writeFileSync('recipe-count.txt',String(total)); console.log('AUTHORITATIVE_RECIPE_COUNT='+total);"
+      - name: Publish recipe count
+        uses: actions/upload-artifact@v4
+        with:
+          name: recipe-count
+          path: recipe-count.txt
