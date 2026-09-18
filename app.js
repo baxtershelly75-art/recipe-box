@@ -442,8 +442,10 @@ loadRecipes();
       const label = document.createElement('label');
       const checkbox = document.createElement('input');
       checkbox.type = 'checkbox';
-      checkbox.disabled = true;
-      checkbox.setAttribute('aria-label', 'Grocery item checkoff coming next');
+      checkbox.setAttribute('aria-label', `Mark ${value} as handled`);
+      checkbox.addEventListener('change', () => {
+        text.style.textDecoration = checkbox.checked ? 'line-through' : '';
+      });
       const text = document.createElement('span');
       text.textContent = value;
       label.append(checkbox, text);
