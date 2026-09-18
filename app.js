@@ -101,14 +101,24 @@ function wireRecipeCards(container) {
       else renderRecent();
     });
   });
+  const updateGrocerySelectedButton = () => {
+    const button = document.getElementById('groceryAddSelectedBtn');
+    if (!button) return;
+    button.disabled = state.groceryRecipeIds.size === 0;
+    button.textContent = state.groceryRecipeIds.size
+      ? `Add Selected Recipes (${state.groceryRecipeIds.size})`
+      : 'Add Selected Recipes';
+  };
   container.querySelectorAll('[data-grocery-recipe-id]').forEach(box => {
     box.closest('label')?.classList.toggle('active', box.checked);
     box.addEventListener('change', () => {
       if (box.checked) state.groceryRecipeIds.add(box.dataset.groceryRecipeId);
       else state.groceryRecipeIds.delete(box.dataset.groceryRecipeId);
       box.closest('label')?.classList.toggle('active', box.checked);
+      updateGrocerySelectedButton();
     });
   });
+  updateGrocerySelectedButton();
 }
 
 function renderResults() {
@@ -423,6 +433,13 @@ loadRecipes();
   groceryBtn.addEventListener('click', () => {
     app.hidden = true;
     groceryView.hidden = false;
+    const addSelectedBtn = document.getElementById('groceryAddSelectedBtn');
+    if (addSelectedBtn) {
+      addSelectedBtn.disabled = state.groceryRecipeIds.size === 0;
+      addSelectedBtn.textContent = state.groceryRecipeIds.size
+        ? `Add Selected Recipes (${state.groceryRecipeIds.size})`
+        : 'Add Selected Recipes';
+    }
   });
   groceryBackBtn.addEventListener('click', () => {
     groceryView.hidden = true;
