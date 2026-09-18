@@ -1,0 +1,62 @@
+[
+  {
+    "id": "leftover-boiled-potato-breakfast-cakes",
+    "title": "Leftover Boiled Potato Breakfast Cakes",
+    "aliases": ["potato pancakes", "potato cakes", "breakfast potato pancakes", "leftover boiled potato cakes"],
+    "description": "Crisp-edged breakfast potato cakes made from leftover boiled potatoes, egg, flour, and plenty of black pepper.",
+    "servings": 2,
+    "prepMinutes": 8,
+    "cookMinutes": 12,
+    "totalMinutes": 20,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["medium bowl", "fork or potato masher", "skillet", "spatula"],
+    "ingredients": [
+      {"amount": 2, "unit": "cups", "item": "cold leftover boiled potatoes, roughly mashed", "optional": false},
+      {"amount": 1, "unit": "", "item": "large egg", "optional": false},
+      {"amount": 3, "unit": "tbsp", "item": "all-purpose flour", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "black pepper, plus more to taste", "optional": false},
+      {"amount": 0.25, "unit": "tsp", "item": "salt", "optional": false},
+      {"amount": 1, "unit": "tbsp", "item": "butter or cooking oil, plus more if needed", "optional": false},
+      {"amount": 2, "unit": "tbsp", "item": "finely diced onion or green onion", "optional": true}
+    ],
+    "steps": [
+      {"text": "Mash the cold boiled potatoes until mostly smooth, leaving a little texture."},
+      {"text": "Mix in the egg, flour, black pepper, salt, and optional onion until the mixture holds together."},
+      {"text": "Shape into 4 small patties."},
+      {"text": "Heat butter or oil in a skillet over medium heat. Cook the patties until deeply golden on both sides and hot through."}
+    ],
+    "cookSteps": [
+      {
+        "text": "MASH:\n{{q0}} cold leftover boiled potatoes\n\nMash until mostly smooth, leaving a little texture.",
+        "quantities": [{"key": "q0", "ingredientIndex": 0}]
+      },
+      {
+        "text": "MIX IN:\n{{q1}} egg\n{{q2}} flour\n{{q3}} black pepper\n{{q4}} salt\n{{q6}} diced onion or green onion (optional)\n\nStir until the mixture holds together. Shape into 4 small patties.",
+        "quantities": [
+          {"key": "q1", "ingredientIndex": 1},
+          {"key": "q2", "ingredientIndex": 2},
+          {"key": "q3", "ingredientIndex": 3},
+          {"key": "q4", "ingredientIndex": 4},
+          {"key": "q6", "ingredientIndex": 6}
+        ]
+      },
+      {
+        "text": "HEAT SKILLET OVER MEDIUM:\n{{q5}} butter or cooking oil\n\nAdd the potato cakes. Cook until the first side is crisp and golden.",
+        "quantities": [{"key": "q5", "ingredientIndex": 5}],
+        "timerMinutes": 4
+      },
+      {
+        "text": "FLIP THE POTATO CAKES.\n\nCook until the second side is crisp and golden and the centers are hot. Add another little pat of butter or splash of oil if the skillet looks dry.",
+        "timerMinutes": 4
+      }
+    ],
+    "substitutions": [
+      "If the potato mixture feels too soft to shape, stir in 1 more tablespoon flour.",
+      "For extra flavor, add a small handful of shredded cheddar if you have it.",
+      "Serve with an egg on top, sour cream, applesauce, or simply extra black pepper."
+    ],
+    "storage": "Refrigerate cooked potato cakes up to 3 days. Reheat in a skillet or air fryer for the crispiest edges.",
+    "tags": ["breakfast", "potato", "leftovers", "use it up", "20-minute", "skillet", "cheap"]
+  }
+]
