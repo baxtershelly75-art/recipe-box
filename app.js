@@ -263,14 +263,33 @@ function renderDetail() {
 
 function scaledCookStepText(step) {
   let text = step.text;
-  for (const q of (step.quantities || [])) {
+  const quantities = step.quantities || [];
+  for (const q of quantities) {
     const ingredient = state.currentRecipe.ingredients[q.ingredientIndex];
     if (!ingredient) continue;
     const unit = ingredient.unit ? ` ${ingredient.unit}` : '';
     const amount = `${formatAmount(ingredient.amount * state.scale)}${unit}`;
     text = text.replaceAll(`{{${q.key}}}`, amount);
   }
-  return text.replace(/\{\{[^}]+\}\}/g, '');
+  text = text.replace(/\{\{[^}]+\}\}/g, '');
+
+  // Cook With Me readability rule: when a step uses several measured
+  // ingredients, present them as a scan-friendly ingredient block first.
+  // Recipes may opt out with layout: 'prose' or provide their own line breaks.
+  if (step.layout !== 'prose' && !text.includes('\n') && quantities.length >= 3) {
+    const seen = new Set();
+    const lines = [];
+    for (const q of quantities) {
+      if (seen.has(q.ingredientIndex)) continue;
+      seen.add(q.ingredientIndex);
+      const ingredient = state.currentRecipe.ingredients[q.ingredientIndex];
+      if (ingredient) lines.push(ingredientLine(ingredient, state.scale));
+    }
+    if (lines.length >= 3) {
+      return `GET READY:\n${lines.join('\n')}\n\n${text}`;
+    }
+  }
+  return text;
 }
 
 function clearTimerInterval() {
