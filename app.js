@@ -1,5 +1,6 @@
 const state = {
   recipes: [], results: [], shown: 8, currentRecipe: null, scale: 1,
+  groceryRecipeIds: new Set(),
   cookIndex: 0, lastQuery: 'Recipes', timer: null, timerRemaining: 0,
   timerOriginal: 0, timerRunning: false, timerPaused: false
 };
@@ -84,7 +85,7 @@ function recipeCard(r) {
       <div class="card-actions">
         <button class="primary-btn" type="button" data-open-id="${r.id}">OPEN RECIPE</button>
         <button class="secondary-btn icon-btn" type="button" data-favorite-id="${r.id}" aria-label="${isFavorite(r.id) ? 'Remove from favorites' : 'Add to favorites'}">${isFavorite(r.id) ? '★' : '☆'}</button>
-        ${state.lastQuery === 'Favorites' ? `<label class="secondary-btn"><input type="checkbox" data-grocery-recipe-id="${r.id}"> Grocery</label>` : ''}
+        ${state.lastQuery === 'Favorites' ? `<label class="secondary-btn"><input type="checkbox" data-grocery-recipe-id="${r.id}" ${state.groceryRecipeIds.has(r.id) ? 'checked' : ''}> Grocery</label>` : ''}
       </div>
     </article>`;
 }
@@ -101,7 +102,10 @@ function wireRecipeCards(container) {
     });
   });
   container.querySelectorAll('[data-grocery-recipe-id]').forEach(box => {
+    box.closest('label')?.classList.toggle('active', box.checked);
     box.addEventListener('change', () => {
+      if (box.checked) state.groceryRecipeIds.add(box.dataset.groceryRecipeId);
+      else state.groceryRecipeIds.delete(box.dataset.groceryRecipeId);
       box.closest('label')?.classList.toggle('active', box.checked);
     });
   });
