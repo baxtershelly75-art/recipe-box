@@ -246,8 +246,7 @@ async function shareGroceryList() {
     $('#groceryMessage').textContent = 'Everything is checked off — there is nothing left to share.';
     return;
   }
-  const text = ['Grocery List', '', ...remaining.map(item => `☐ ${groceryItemText(item)}`)].join('
-');
+  const text = ['Grocery List', '', ...remaining.map(item => `☐ ${groceryItemText(item)}`)].join('\\n');
   if (navigator.share) {
     try { await navigator.share({ title: 'Grocery List', text }); }
     catch (err) { if (err.name !== 'AbortError') $('#groceryMessage').textContent = 'Sharing was not available. Try again from another browser.'; }
