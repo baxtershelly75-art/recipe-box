@@ -1,6 +1,6 @@
-const CACHE = 'recipe-box-v1-50';
+const CACHE = 'recipe-box-v1-51';
 const RECIPE_ASSETS = Array.from({length:75},(_,i)=>`./data/recipes-${String(i+1).padStart(2,'0')}.json`);
-const EXTRA_RECIPE_ASSETS = Array.from({length:10},(_,i)=>`./data/recipes-${i+76}.json`);
+const EXTRA_RECIPE_ASSETS = Array.from({length:11},(_,i)=>`./data/recipes-${i+76}.json`);
 const ASSETS = ['./','./index.html','./styles.css','./app.js','./kitchen-fractions.js','./recipe-extra-loader.js','./recipe-helpers.js','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png',...RECIPE_ASSETS,...EXTRA_RECIPE_ASSETS];
 
 self.addEventListener('install', event => {
@@ -38,20 +38,18 @@ self.addEventListener('fetch', event => {
     event.respondWith(
       fetch(event.request)
         .then(response => {
-          const clone = response.clone();
-          caches.open(CACHE).then(cache => cache.put(event.request, clone));
+          if (response && response.ok) {
+            const copy = response.clone();
+            caches.open(CACHE).then(cache => cache.put(event.request, copy));
+          }
           return response;
         })
-        .catch(() => caches.match(event.request).then(cached => cached || caches.match('./index.html')))
+        .catch(() => caches.match(event.request).then(hit => hit || caches.match('./index.html')))
     );
     return;
   }
 
   event.respondWith(
-    caches.match(event.request).then(cached => cached || fetch(event.request).then(response => {
-      const clone = response.clone();
-      caches.open(CACHE).then(cache => cache.put(event.request, clone));
-      return response;
-    }).catch(() => caches.match('./index.html')))
+    caches.match(event.request).then(cached => cached || fetch(event.request))
   );
 });
