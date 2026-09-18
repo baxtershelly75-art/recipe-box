@@ -413,21 +413,44 @@ loadRecipes();
   });
 })();
 
-// Manual grocery items — staged in-memory behavior only; persistence comes later.
+// Manual grocery items — persisted locally on this device.
 (() => {
   const input = document.getElementById('groceryManualInput');
   const addBtn = document.getElementById('groceryManualAddBtn');
   const items = document.getElementById('groceryItems');
   if (!input || !addBtn || !items) return;
+  const storageKey = 'recipeBoxManualGroceryItems';
+  const readItems = () => {
+    try {
+      const saved = JSON.parse(localStorage.getItem(storageKey) || '[]');
+      return Array.isArray(saved) ? saved.filter(item => typeof item === 'string' && item.trim()) : [];
+    } catch (_) {
+      return [];
+    }
+  };
+  const render = (values) => {
+    items.textContent = '';
+    if (!values.length) {
+      const empty = document.createElement('p');
+      empty.textContent = 'No grocery items yet.';
+      items.appendChild(empty);
+      return;
+    }
+    values.forEach(value => {
+      const row = document.createElement('div');
+      row.className = 'grocery-manual-item';
+      row.textContent = value;
+      items.appendChild(row);
+    });
+  };
+  let values = readItems();
+  render(values);
   const addItem = () => {
     const value = input.value.trim();
     if (!value) return;
-    const empty = items.querySelector('p');
-    if (empty && empty.textContent.trim() === 'No grocery items yet.') empty.remove();
-    const row = document.createElement('div');
-    row.className = 'grocery-manual-item';
-    row.textContent = value;
-    items.appendChild(row);
+    values.push(value);
+    try { localStorage.setItem(storageKey, JSON.stringify(values)); } catch (_) {}
+    render(values);
     input.value = '';
     input.focus();
   };
