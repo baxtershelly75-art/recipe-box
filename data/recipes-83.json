@@ -972,5 +972,125 @@
       "yogurt",
       "granola"
     ]
+  },
+  {
+    "id": "spicy-breakfast-flatbread",
+    "title": "Spicy Sausage Egg & Avocado Flatbread",
+    "aliases": [
+      "breakfast flatbread"
+    ],
+    "description": "A cafe-inspired breakfast flatbread with a creamy spicy orange sauce.",
+    "servings": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "totalMinutes": 20,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": [
+      "skillet",
+      "toaster oven"
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "meal-size flatbread",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "large egg",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "oz",
+        "item": "breakfast sausage",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "",
+        "item": "avocado, sliced",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "shredded cheddar cheese",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "plain Greek yogurt or mayonnaise",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "sriracha",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "honey",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "lime juice",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook sausage until fully cooked, then crumble."
+      },
+      {
+        "text": "Cook the egg."
+      },
+      {
+        "text": "Mix yogurt or mayonnaise, sriracha, honey, and lime for the sauce."
+      },
+      {
+        "text": "Top flatbread with cheese, sausage, and egg; bake at 400°F for 5 minutes."
+      },
+      {
+        "text": "Add avocado and sauce."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Cook sausage until fully cooked, about 6 minutes.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Cook the egg, about 2 minutes.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Mix yogurt or mayonnaise, sriracha, honey, and lime for the sauce."
+      },
+      {
+        "text": "Top flatbread with cheese, sausage, and egg; bake at 400°F for 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Add avocado and sauce."
+      }
+    ],
+    "storage": "Best served fresh.",
+    "tags": [
+      "flatbread",
+      "breakfast",
+      "sausage",
+      "egg",
+      "avocado",
+      "spicy"
+    ]
   }
 ]
