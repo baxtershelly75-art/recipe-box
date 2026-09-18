@@ -1,6 +1,6 @@
-const CACHE = 'recipe-box-v1-52';
+const CACHE = 'recipe-box-v1-53';
 const RECIPE_ASSETS = Array.from({length:75},(_,i)=>`./data/recipes-${String(i+1).padStart(2,'0')}.json`);
-const EXTRA_RECIPE_ASSETS = Array.from({length:12},(_,i)=>`./data/recipes-${i+76}.json`);
+const EXTRA_RECIPE_ASSETS = Array.from({length:13},(_,i)=>`./data/recipes-${i+76}.json`);
 const ASSETS = ['./','./index.html','./styles.css','./app.js','./kitchen-fractions.js','./recipe-extra-loader.js','./recipe-helpers.js','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png',...RECIPE_ASSETS,...EXTRA_RECIPE_ASSETS];
 
 self.addEventListener('install', event => {
@@ -23,10 +23,9 @@ self.addEventListener('activate', event => {
 function isFreshRecipeAsset(url, request) {
   if (request.mode === 'navigate') return true;
   if (url.pathname.endsWith('/app.js')) return true;
-  if (url.pathname.endsWith('/styles.css')) return true;
   if (url.pathname.endsWith('/recipe-extra-loader.js')) return true;
-  const match = url.pathname.match(/\/data\/recipes-(\d+)\.json$/);
-  return Boolean(match && Number(match[1]) >= 76);
+  if (/\/data\/recipes-(?:8[2-9]|9\d|\d{3,})\.json$/.test(url.pathname)) return true;
+  return false;
 }
 
 self.addEventListener('fetch', event => {
@@ -44,12 +43,18 @@ self.addEventListener('fetch', event => {
           }
           return response;
         })
-        .catch(() => caches.match(event.request).then(hit => hit || caches.match('./index.html')))
+        .catch(() => caches.match(event.request).then(cached => cached || caches.match('./index.html')))
     );
     return;
   }
 
   event.respondWith(
-    caches.match(event.request).then(cached => cached || fetch(event.request))
+    caches.match(event.request).then(cached => cached || fetch(event.request).then(response => {
+      if (response && response.ok) {
+        const copy = response.clone();
+        caches.open(CACHE).then(cache => cache.put(event.request, copy));
+      }
+      return response;
+    }).catch(() => caches.match('./index.html')))
   );
 });
