@@ -425,8 +425,9 @@ loadRecipes();
   const input = document.getElementById('groceryManualInput');
   const addBtn = document.getElementById('groceryManualAddBtn');
   const clearBtn = document.getElementById('groceryClearBtn');
+  const shareBtn = document.getElementById('groceryShareBtn');
   const items = document.getElementById('groceryItems');
-  if (!input || !addBtn || !clearBtn || !items) return;
+  if (!input || !addBtn || !clearBtn || !shareBtn || !items) return;
   const storageKey = 'recipeBoxManualGroceryItems';
   const readItems = () => {
     try {
@@ -493,6 +494,28 @@ loadRecipes();
     values = [];
     saveItems(values);
     render(values);
+  });
+  shareBtn.addEventListener('click', async () => {
+    const unchecked = values.filter(item => !item.checked).map(item => item.text);
+    if (!unchecked.length) {
+      window.alert('There are no unchecked grocery items to share.');
+      return;
+    }
+    const shareText = ['Grocery List', ...unchecked.map(item => `☐ ${item}`)].join('\n');
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: 'Grocery List', text: shareText });
+      } catch (error) {
+        if (error && error.name !== 'AbortError') window.alert('Sharing did not work on this device.');
+      }
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(shareText);
+      window.alert('Grocery list copied to your clipboard.');
+    } catch (_) {
+      window.alert('Sharing is not available in this browser.');
+    }
   });
   input.addEventListener('keydown', (event) => {
     if (event.key === 'Enter') addItem();
