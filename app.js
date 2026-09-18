@@ -548,10 +548,25 @@ loadRecipes();
   if (addSelectedBtn) {
     addSelectedBtn.addEventListener('click', () => {
       const selectedRecipes = state.recipes.filter(recipe => state.groceryRecipeIds.has(recipe.id));
+      const combined = new Map();
       selectedRecipes.forEach(recipe => {
         recipe.ingredients.forEach(ingredient => {
-          values.push({ text: ingredientLine(ingredient), checked: false });
+          const unit = String(ingredient.unit || '').trim();
+          const item = String(ingredient.item || '').trim();
+          const optional = Boolean(ingredient.optional);
+          const key = [norm(item), norm(unit), optional ? 'optional' : 'required'].join('|');
+          const existing = combined.get(key);
+          if (existing) existing.amount += Number(ingredient.amount) || 0;
+          else combined.set(key, { amount: Number(ingredient.amount) || 0, unit, item, optional });
         });
+      });
+      const existingTexts = new Set(values.map(item => norm(item.text)));
+      combined.forEach(ingredient => {
+        const text = ingredientLine(ingredient);
+        if (!existingTexts.has(norm(text))) {
+          values.push({ text, checked: false });
+          existingTexts.add(norm(text));
+        }
       });
       saveItems(values);
       render(values);
