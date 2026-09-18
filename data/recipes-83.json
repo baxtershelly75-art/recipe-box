@@ -1092,5 +1092,373 @@
       "avocado",
       "spicy"
     ]
+  },
+  {
+    "id": "chicken-bacon-ranch-flatbread",
+    "title": "Chicken Bacon Ranch Flatbread",
+    "aliases": [
+      "chicken bacon ranch flatbread"
+    ],
+    "description": "An easy savory meal-sized flatbread.",
+    "servings": 1,
+    "prepMinutes": 8,
+    "cookMinutes": 8,
+    "totalMinutes": 16,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": [
+      "sheet pan or toaster oven"
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "meal-size flatbread",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "cooked diced chicken",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "ranch dressing",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "shredded cheese",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "sliced or diced fresh vegetables",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Arrange the toppings evenly over the flatbread."
+      },
+      {
+        "text": "Bake at 400°F for 7–8 minutes until hot and lightly crisp."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Arrange the toppings evenly over the flatbread."
+      },
+      {
+        "text": "Bake at 400°F for 7–8 minutes until hot and lightly crisp.",
+        "timerMinutes": 7
+      }
+    ],
+    "storage": "Best served fresh.",
+    "tags": [
+      "flatbread",
+      "lunch",
+      "chicken",
+      "bacon",
+      "ranch"
+    ]
+  },
+  {
+    "id": "turkey-avocado-flatbread",
+    "title": "Turkey Avocado Club Flatbread",
+    "aliases": [
+      "turkey avocado club flatbread"
+    ],
+    "description": "An easy savory meal-sized flatbread.",
+    "servings": 1,
+    "prepMinutes": 8,
+    "cookMinutes": 8,
+    "totalMinutes": 16,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": [
+      "sheet pan or toaster oven"
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "meal-size flatbread",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "sliced deli turkey",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "avocado, sliced",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "shredded cheese",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "sliced or diced fresh vegetables",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Arrange the toppings evenly over the flatbread."
+      },
+      {
+        "text": "Bake at 400°F for 7–8 minutes until hot and lightly crisp."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Arrange the toppings evenly over the flatbread."
+      },
+      {
+        "text": "Bake at 400°F for 7–8 minutes until hot and lightly crisp.",
+        "timerMinutes": 7
+      }
+    ],
+    "storage": "Best served fresh.",
+    "tags": [
+      "flatbread",
+      "lunch",
+      "turkey",
+      "avocado"
+    ]
+  },
+  {
+    "id": "mediterranean-chicken-flatbread",
+    "title": "Mediterranean Chicken Flatbread",
+    "aliases": [
+      "mediterranean chicken flatbread"
+    ],
+    "description": "An easy savory meal-sized flatbread.",
+    "servings": 1,
+    "prepMinutes": 8,
+    "cookMinutes": 8,
+    "totalMinutes": 16,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": [
+      "sheet pan or toaster oven"
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "meal-size flatbread",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "cooked diced chicken",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "hummus",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "shredded cheese",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "sliced or diced fresh vegetables",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Arrange the toppings evenly over the flatbread."
+      },
+      {
+        "text": "Bake at 400°F for 7–8 minutes until hot and lightly crisp."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Arrange the toppings evenly over the flatbread."
+      },
+      {
+        "text": "Bake at 400°F for 7–8 minutes until hot and lightly crisp.",
+        "timerMinutes": 7
+      }
+    ],
+    "storage": "Best served fresh.",
+    "tags": [
+      "flatbread",
+      "lunch",
+      "chicken",
+      "hummus",
+      "feta"
+    ]
+  },
+  {
+    "id": "bbq-chicken-flatbread",
+    "title": "BBQ Chicken & Red Onion Flatbread",
+    "aliases": [
+      "bbq chicken & red onion flatbread"
+    ],
+    "description": "An easy savory meal-sized flatbread.",
+    "servings": 1,
+    "prepMinutes": 8,
+    "cookMinutes": 8,
+    "totalMinutes": 16,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": [
+      "sheet pan or toaster oven"
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "meal-size flatbread",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "cooked shredded chicken",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "barbecue sauce",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "shredded cheese",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "sliced or diced fresh vegetables",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Arrange the toppings evenly over the flatbread."
+      },
+      {
+        "text": "Bake at 400°F for 7–8 minutes until hot and lightly crisp."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Arrange the toppings evenly over the flatbread."
+      },
+      {
+        "text": "Bake at 400°F for 7–8 minutes until hot and lightly crisp.",
+        "timerMinutes": 7
+      }
+    ],
+    "storage": "Best served fresh.",
+    "tags": [
+      "flatbread",
+      "lunch",
+      "bbq",
+      "chicken"
+    ]
+  },
+  {
+    "id": "caprese-pesto-flatbread",
+    "title": "Caprese Pesto Flatbread",
+    "aliases": [
+      "caprese pesto flatbread"
+    ],
+    "description": "An easy savory meal-sized flatbread.",
+    "servings": 1,
+    "prepMinutes": 8,
+    "cookMinutes": 8,
+    "totalMinutes": 16,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": [
+      "sheet pan or toaster oven"
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "meal-size flatbread",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "fresh mozzarella, sliced",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "basil pesto",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "shredded cheese",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "sliced or diced fresh vegetables",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Arrange the toppings evenly over the flatbread."
+      },
+      {
+        "text": "Bake at 400°F for 7–8 minutes until hot and lightly crisp."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Arrange the toppings evenly over the flatbread."
+      },
+      {
+        "text": "Bake at 400°F for 7–8 minutes until hot and lightly crisp.",
+        "timerMinutes": 7
+      }
+    ],
+    "storage": "Best served fresh.",
+    "tags": [
+      "flatbread",
+      "lunch",
+      "vegetarian",
+      "pesto",
+      "tomato"
+    ]
   }
 ]
