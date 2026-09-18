@@ -84,7 +84,7 @@ function recipeCard(r) {
       <div class="card-actions">
         <button class="primary-btn" type="button" data-open-id="${r.id}">OPEN RECIPE</button>
         <button class="secondary-btn icon-btn" type="button" data-favorite-id="${r.id}" aria-label="${isFavorite(r.id) ? 'Remove from favorites' : 'Add to favorites'}">${isFavorite(r.id) ? '★' : '☆'}</button>
-        ${state.lastQuery === 'Favorites' ? `<label class="secondary-btn"><input type="checkbox" data-grocery-recipe-id="${r.id}" disabled> Grocery</label>` : ''}
+        ${state.lastQuery === 'Favorites' ? `<label class="secondary-btn"><input type="checkbox" data-grocery-recipe-id="${r.id}"> Grocery</label>` : ''}
       </div>
     </article>`;
 }
@@ -98,6 +98,11 @@ function wireRecipeCards(container) {
       toggleFavorite(b.dataset.favoriteId);
       if (container === $('#resultsGrid')) renderResults();
       else renderRecent();
+    });
+  });
+  container.querySelectorAll('[data-grocery-recipe-id]').forEach(box => {
+    box.addEventListener('change', () => {
+      box.closest('label')?.classList.toggle('active', box.checked);
     });
   });
 }
