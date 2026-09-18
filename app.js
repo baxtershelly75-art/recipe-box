@@ -7,7 +7,7 @@ const state = {
 
 const $ = sel => document.querySelector(sel);
 const views = ['#homeView', '#resultsView', '#detailView', '#cookView'];
-const browseTags = ['15-minute', 'very easy', 'cheap', 'crockpot', 'one-pot', 'comfort food', 'use it up', 'small batch', 'sweet', 'breakfast', 'dinner', 'vegetable', 'pantry'];
+const browseTags = ['15-minute', 'very easy', 'cheap', 'crockpot', 'one-pot', 'comfort food', 'use it up', 'small batch', 'sweet', 'breakfast', 'dinner', 'family dinner', 'vegetable', 'pantry'];
 const recipeDataFiles = Array.from({ length: 75 }, (_, i) => `./data/recipes-${String(i + 1).padStart(2, '0')}.json`);
 
 try {
