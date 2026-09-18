@@ -12,105 +12,23 @@
 </head>
 <body>
   <header class="site-header">
-    <div>
-      <p class="eyebrow">SHELLY'S</p>
-      <h1>Recipe Box</h1>
-      <p class="subtitle">Simple food. Clear steps. No recipe-blog nonsense.</p>
-    </div>
-    <div class="header-actions">
-      <button id="favoritesBtn" class="secondary-btn" type="button">♥ Favorites</button>
-      <button id="groceryBtn" class="secondary-btn" type="button">🛒 Grocery List</button>
-    </div>
+    <div><p class="eyebrow">SHELLY'S</p><h1>Recipe Box</h1><p class="subtitle">Simple food. Clear steps. No recipe-blog nonsense.</p></div>
+    <div class="header-actions"><button id="favoritesBtn" class="secondary-btn" type="button">♥ Favorites</button><button id="groceryBtn" class="secondary-btn" type="button">🛒 Grocery List</button></div>
   </header>
-
   <section id="groceryView" hidden style="max-width:760px;margin:1rem auto;padding:1rem;">
-    <button id="groceryBackBtn" class="secondary-btn" type="button">← Back</button>
-    <button id="groceryAddSelectedBtn" class="secondary-btn" type="button" disabled>Add Selected Recipes</button>
-    <p id="grocerySelectionMessage" class="grocery-message" aria-live="polite"></p>
-    <h2>🛒 Grocery List</h2>
-    <div id="groceryItems" aria-live="polite">
-      <p>No grocery items yet.</p>
-    </div>
-    <div id="groceryManualShell">
-      <label for="groceryManualInput">Add an item</label>
-      <input id="groceryManualInput" type="text" placeholder="Example: coffee creamer">
-      <button id="groceryManualAddBtn" class="secondary-btn" type="button">Add Item</button>
-    </div>
-    <div id="groceryListActions">
-      <button id="groceryClearBtn" class="secondary-btn" type="button">Clear Grocery List</button>
-      <button id="groceryShareBtn" class="secondary-btn" type="button">Share Grocery List</button>
-    </div>
+    <button id="groceryBackBtn" class="secondary-btn" type="button">← Back</button><button id="groceryAddSelectedBtn" class="secondary-btn" type="button" disabled>Add Selected Recipes</button><p id="grocerySelectionMessage" class="grocery-message" aria-live="polite"></p><h2>🛒 Grocery List</h2><div id="groceryItems" aria-live="polite"><p>No grocery items yet.</p></div><div id="groceryManualShell"><label for="groceryManualInput">Add an item</label><input id="groceryManualInput" type="text" placeholder="Example: coffee creamer"><button id="groceryManualAddBtn" class="secondary-btn" type="button">Add Item</button></div><div id="groceryListActions"><button id="groceryClearBtn" class="secondary-btn" type="button">Clear Grocery List</button><button id="groceryShareBtn" class="secondary-btn" type="button">Share Grocery List</button></div>
   </section>
-
   <main id="app" class="shell">
-    <section id="homeView" class="view active">
-      <div class="hero-card">
-        <h2>I know what I want</h2>
-        <label class="sr-only" for="searchInput">Search recipes</label>
-        <input id="searchInput" class="search-input" type="search" autocomplete="off" placeholder="Try cabbage, bread pudding, cheap, 15 minutes…">
-        <button id="searchBtn" class="primary-btn" type="button">SEARCH RECIPES</button>
-      </div>
-
-      <div class="hero-card browse-card">
-        <h2>I'm not sure</h2>
-        <p>Pick what sounds useful right now.</p>
-        <div id="browseChips" class="chips" aria-label="Browse filters"></div>
-      </div>
-
-      <section class="section-block">
-        <div class="section-heading">
-          <h2>Recently viewed</h2>
-        </div>
-        <div id="recentGrid" class="recipe-grid"></div>
-      </section>
-    </section>
-
-    <section id="resultsView" class="view">
-      <button class="back-link" data-action="home" type="button">← HOME</button>
-      <div class="section-heading results-heading">
-        <div><p class="eyebrow">RESULTS</p><h2 id="resultsTitle">Recipes</h2></div>
-        <span id="resultsCount" class="count-badge"></span>
-      </div>
-      <div id="resultsGrid" class="recipe-grid"></div>
-      <button id="showMoreBtn" class="secondary-btn wide hidden" type="button">SHOW MORE</button>
-    </section>
-
-    <section id="detailView" class="view">
-      <button class="back-link" data-action="back-results" type="button">← BACK</button>
-      <article id="recipeDetail" class="detail-card"></article>
-    </section>
-
-    <section id="cookView" class="view cook-view" aria-live="polite">
-      <div class="cook-topbar">
-        <button id="exitCookBtn" class="secondary-btn" type="button">EXIT</button>
-        <span id="cookProgress" class="count-badge"></span>
-      </div>
-      <div class="cook-panel">
-        <p id="cookRecipeTitle" class="cook-recipe-title"></p>
-        <h2 id="cookStep" class="cook-step"></h2>
-        <div id="timerPanel" class="timer-panel hidden">
-          <button id="startTimerBtn" class="timer-start" type="button">START TIMER</button>
-          <div id="timerRunning" class="timer-running hidden">
-            <div id="timerDisplay" class="timer-display">00:00</div>
-            <div class="timer-actions">
-              <button id="pauseTimerBtn" class="secondary-btn" type="button">PAUSE</button>
-              <button id="addMinuteBtn" class="secondary-btn" type="button">+1 MIN</button>
-              <button id="resetTimerBtn" class="secondary-btn" type="button">RESET</button>
-            </div>
-            <p id="timerDoneText" class="timer-done hidden">Timer finished — check the food before moving on.</p>
-          </div>
-        </div>
-        <div class="cook-controls">
-          <button id="cookBackBtn" class="secondary-btn cook-button" type="button">BACK</button>
-          <button id="cookNextBtn" class="primary-btn cook-button" type="button">DONE / NEXT</button>
-        </div>
-      </div>
-    </section>
+    <section id="homeView" class="view active"><div class="hero-card"><h2>I know what I want</h2><label class="sr-only" for="searchInput">Search recipes</label><input id="searchInput" class="search-input" type="search" autocomplete="off" placeholder="Try cabbage, bread pudding, cheap, 15 minutes…"><button id="searchBtn" class="primary-btn" type="button">SEARCH RECIPES</button></div><div class="hero-card browse-card"><h2>I'm not sure</h2><p>Pick what sounds useful right now.</p><div id="browseChips" class="chips" aria-label="Browse filters"></div></div><section class="section-block"><div class="section-heading"><h2>Recently viewed</h2></div><div id="recentGrid" class="recipe-grid"></div></section></section>
+    <section id="resultsView" class="view"><button class="back-link" data-action="home" type="button">← HOME</button><div class="section-heading results-heading"><div><p class="eyebrow">RESULTS</p><h2 id="resultsTitle">Recipes</h2></div><span id="resultsCount" class="count-badge"></span></div><div id="resultsGrid" class="recipe-grid"></div><button id="showMoreBtn" class="secondary-btn wide hidden" type="button">SHOW MORE</button></section>
+    <section id="detailView" class="view"><button class="back-link" data-action="back-results" type="button">← BACK</button><article id="recipeDetail" class="detail-card"></article></section>
+    <section id="cookView" class="view cook-view" aria-live="polite"><div class="cook-topbar"><button id="exitCookBtn" class="secondary-btn" type="button">EXIT</button><span id="cookProgress" class="count-badge"></span></div><div class="cook-panel"><p id="cookRecipeTitle" class="cook-recipe-title"></p><h2 id="cookStep" class="cook-step"></h2><div id="timerPanel" class="timer-panel hidden"><button id="startTimerBtn" class="timer-start" type="button">START TIMER</button><div id="timerRunning" class="timer-running hidden"><div id="timerDisplay" class="timer-display">00:00</div><div class="timer-actions"><button id="pauseTimerBtn" class="secondary-btn" type="button">PAUSE</button><button id="addMinuteBtn" class="secondary-btn" type="button">+1 MIN</button><button id="resetTimerBtn" class="secondary-btn" type="button">RESET</button></div><p id="timerDoneText" class="timer-done hidden">Timer finished — check the food before moving on.</p></div></div><div class="cook-controls"><button id="cookBackBtn" class="secondary-btn cook-button" type="button">BACK</button><button id="cookNextBtn" class="primary-btn cook-button" type="button">DONE / NEXT</button></div></div></section>
   </main>
   <footer class="site-signature" aria-label="Built under chicken supervision">🐔🔧</footer>
   <script src="app.js?v=20260918-6" defer></script>
   <script src="kitchen-fractions.js" defer></script>
-  <script src="recipe-extra-loader.js?v=20260918-6" defer></script>
+  <script src="recipe-extra-loader.js?v=20260918-7" defer></script>
   <script src="recipe-helpers.js" defer></script>
+  <script src="category-chips.js?v=20260918-1" defer></script>
 </body>
 </html>
