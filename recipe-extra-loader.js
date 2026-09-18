@@ -2,7 +2,7 @@
 (async function loadExtraRecipes() {
   try {
     const files = ['./data/recipes-76.json', './data/recipes-77.json', './data/recipes-78.json', './data/recipes-79.json', './data/recipes-80.json', './data/recipes-81.json', './data/recipes-82.json'];
-    const responses = await Promise.all(files.map(path => fetch(path)));
+    const responses = await Promise.all(files.map(path => fetch(path, path.includes('recipes-82.json') ? { cache: 'no-store' } : undefined)));
     for (let i = 0; i < responses.length; i += 1) {
       if (!responses[i].ok) throw new Error(`Could not load ${files[i]}`);
     }
