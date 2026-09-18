@@ -424,8 +424,9 @@ loadRecipes();
 (() => {
   const input = document.getElementById('groceryManualInput');
   const addBtn = document.getElementById('groceryManualAddBtn');
+  const clearBtn = document.getElementById('groceryClearBtn');
   const items = document.getElementById('groceryItems');
-  if (!input || !addBtn || !items) return;
+  if (!input || !addBtn || !clearBtn || !items) return;
   const storageKey = 'recipeBoxManualGroceryItems';
   const readItems = () => {
     try {
@@ -486,6 +487,13 @@ loadRecipes();
     input.focus();
   };
   addBtn.addEventListener('click', addItem);
+  clearBtn.addEventListener('click', () => {
+    if (!values.length) return;
+    if (!window.confirm('Clear everything from your grocery list?')) return;
+    values = [];
+    saveItems(values);
+    render(values);
+  });
   input.addEventListener('keydown', (event) => {
     if (event.key === 'Enter') addItem();
   });
