@@ -439,7 +439,15 @@ loadRecipes();
     values.forEach(value => {
       const row = document.createElement('div');
       row.className = 'grocery-manual-item';
-      row.textContent = value;
+      const label = document.createElement('label');
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.disabled = true;
+      checkbox.setAttribute('aria-label', 'Grocery item checkoff coming next');
+      const text = document.createElement('span');
+      text.textContent = value;
+      label.append(checkbox, text);
+      row.appendChild(label);
       items.appendChild(row);
     });
   };
