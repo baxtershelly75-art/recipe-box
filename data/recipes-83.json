@@ -50,7 +50,7 @@
       {
         "amount": 1,
         "unit": "tsp",
-        "item": "honey or maple syrup, for a sweeter taste",
+        "item": "honey or maple syrup",
         "optional": true
       }
     ],
@@ -59,7 +59,7 @@
         "text": "Add 1 cup frozen mixed berries, 0.5 banana, 0.5 cup plain Greek yogurt, 0.5 cup milk or nondairy milk, and 0.25 cup rolled oats to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
       },
       {
-        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey or maple syrup, for a sweeter taste, as desired, and blend again briefly."
+        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey or maple syrup as desired, and blend again briefly."
       }
     ],
     "cookSteps": [
@@ -67,7 +67,7 @@
         "text": "Add 1 cup frozen mixed berries, 0.5 banana, 0.5 cup plain Greek yogurt, 0.5 cup milk or nondairy milk, and 0.25 cup rolled oats to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
       },
       {
-        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey or maple syrup, for a sweeter taste, as desired, and blend again briefly."
+        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey or maple syrup as desired, and blend again briefly."
       }
     ],
     "storage": "Best served immediately.",
@@ -130,7 +130,7 @@
       {
         "amount": 1,
         "unit": "tsp",
-        "item": "honey, for a sweeter taste",
+        "item": "honey",
         "optional": true
       }
     ],
@@ -139,7 +139,7 @@
         "text": "Add 0.75 cup frozen pineapple, 0.5 cup frozen mango, 1 cup baby spinach, 0.75 cup orange juice or coconut water, and 0.25 avocado to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
       },
       {
-        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey, for a sweeter taste, as desired, and blend again briefly."
+        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey as desired, and blend again briefly."
       }
     ],
     "cookSteps": [
@@ -147,7 +147,7 @@
         "text": "Add 0.75 cup frozen pineapple, 0.5 cup frozen mango, 1 cup baby spinach, 0.75 cup orange juice or coconut water, and 0.25 avocado to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
       },
       {
-        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey, for a sweeter taste, as desired, and blend again briefly."
+        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey as desired, and blend again briefly."
       }
     ],
     "storage": "Best served immediately.",
@@ -203,7 +203,7 @@
       {
         "amount": 1,
         "unit": "tsp",
-        "item": "honey or sugar, for a sweeter taste",
+        "item": "honey or sugar",
         "optional": true
       }
     ],
@@ -212,7 +212,7 @@
         "text": "Add 1.25 cups frozen sliced peaches, 0.5 cup plain Greek yogurt, 0.5 cup milk or nondairy milk, and 0.5 tsp vanilla extract to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
       },
       {
-        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey or sugar, for a sweeter taste, as desired, and blend again briefly."
+        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey or sugar as desired, and blend again briefly."
       }
     ],
     "cookSteps": [
@@ -220,7 +220,7 @@
         "text": "Add 1.25 cups frozen sliced peaches, 0.5 cup plain Greek yogurt, 0.5 cup milk or nondairy milk, and 0.5 tsp vanilla extract to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
       },
       {
-        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey or sugar, for a sweeter taste, as desired, and blend again briefly."
+        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey or sugar as desired, and blend again briefly."
       }
     ],
     "storage": "Best served immediately.",
@@ -282,7 +282,7 @@
       {
         "amount": 1,
         "unit": "tsp",
-        "item": "honey or maple syrup, for a sweeter taste",
+        "item": "honey or maple syrup",
         "optional": true
       }
     ],
@@ -291,7 +291,7 @@
         "text": "Add 1 frozen banana, 1 tbsp natural peanut butter, 1 tbsp unsweetened cocoa powder, 0.75 cup milk or nondairy milk, and 0.25 cup plain Greek yogurt to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
       },
       {
-        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey or maple syrup, for a sweeter taste, as desired, and blend again briefly."
+        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey or maple syrup as desired, and blend again briefly."
       }
     ],
     "cookSteps": [
@@ -299,7 +299,7 @@
         "text": "Add 1 frozen banana, 1 tbsp natural peanut butter, 1 tbsp unsweetened cocoa powder, 0.75 cup milk or nondairy milk, and 0.25 cup plain Greek yogurt to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
       },
       {
-        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey or maple syrup, for a sweeter taste, as desired, and blend again briefly."
+        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey or maple syrup as desired, and blend again briefly."
       }
     ],
     "storage": "Best served immediately.",
@@ -363,29 +363,29 @@
         "amount": 0.5,
         "unit": "tsp",
         "item": "instant espresso powder",
-        "optional": true
+        "optional": false
       },
       {
         "amount": 1,
         "unit": "tsp",
-        "item": "honey or sugar, for a sweeter taste",
+        "item": "honey or sugar",
         "optional": true
       }
     ],
     "steps": [
       {
-        "text": "Add 1 frozen banana, 0.5 cup chilled brewed coffee, 0.5 cup milk or nondairy milk, 0.25 cup rolled oats, and 1 tbsp unsweetened cocoa powder to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
+        "text": "Add 1 frozen banana, 0.5 cup chilled brewed coffee, 0.5 cup milk or nondairy milk, 0.25 cup rolled oats, 1 tbsp unsweetened cocoa powder, and 0.5 tsp instant espresso powder to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
       },
       {
-        "text": "Taste before sweetening. For a sweeter taste, add 0.5 tsp instant espresso powder or 1 tsp honey or sugar, for a sweeter taste, as desired, and blend again briefly."
+        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey or sugar as desired, and blend again briefly."
       }
     ],
     "cookSteps": [
       {
-        "text": "Add 1 frozen banana, 0.5 cup chilled brewed coffee, 0.5 cup milk or nondairy milk, 0.25 cup rolled oats, and 1 tbsp unsweetened cocoa powder to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
+        "text": "Add 1 frozen banana, 0.5 cup chilled brewed coffee, 0.5 cup milk or nondairy milk, 0.25 cup rolled oats, 1 tbsp unsweetened cocoa powder, and 0.5 tsp instant espresso powder to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
       },
       {
-        "text": "Taste before sweetening. For a sweeter taste, add 0.5 tsp instant espresso powder or 1 tsp honey or sugar, for a sweeter taste, as desired, and blend again briefly."
+        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey or sugar as desired, and blend again briefly."
       }
     ],
     "storage": "Best served immediately.",
@@ -442,7 +442,7 @@
       {
         "amount": 1,
         "unit": "tsp",
-        "item": "honey, for a sweeter taste",
+        "item": "honey",
         "optional": true
       }
     ],
@@ -451,7 +451,7 @@
         "text": "Add 1 cup frozen strawberries, 0.5 banana, 0.75 cup plain Greek yogurt, and 0.5 cup milk or nondairy milk to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
       },
       {
-        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey, for a sweeter taste, as desired, and blend again briefly."
+        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey as desired, and blend again briefly."
       }
     ],
     "cookSteps": [
@@ -459,7 +459,7 @@
         "text": "Add 1 cup frozen strawberries, 0.5 banana, 0.75 cup plain Greek yogurt, and 0.5 cup milk or nondairy milk to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
       },
       {
-        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey, for a sweeter taste, as desired, and blend again briefly."
+        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey as desired, and blend again briefly."
       }
     ],
     "storage": "Best served immediately.",
@@ -521,7 +521,7 @@
       {
         "amount": 1,
         "unit": "tsp",
-        "item": "maple syrup, for a sweeter taste",
+        "item": "maple syrup",
         "optional": true
       }
     ],
@@ -530,7 +530,7 @@
         "text": "Add 1 cup frozen blueberries, 1 tbsp almond butter, 0.75 cup milk or nondairy milk, 0.25 cup rolled oats, and 0.25 tsp cinnamon to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
       },
       {
-        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp maple syrup, for a sweeter taste, as desired, and blend again briefly."
+        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp maple syrup as desired, and blend again briefly."
       }
     ],
     "cookSteps": [
@@ -538,7 +538,7 @@
         "text": "Add 1 cup frozen blueberries, 1 tbsp almond butter, 0.75 cup milk or nondairy milk, 0.25 cup rolled oats, and 0.25 tsp cinnamon to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
       },
       {
-        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp maple syrup, for a sweeter taste, as desired, and blend again briefly."
+        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp maple syrup as desired, and blend again briefly."
       }
     ],
     "storage": "Best served immediately.",
@@ -596,29 +596,29 @@
         "amount": 0.25,
         "unit": "tsp",
         "item": "ground ginger",
-        "optional": true
+        "optional": false
       },
       {
         "amount": 1,
         "unit": "tsp",
-        "item": "honey, for a sweeter taste",
+        "item": "honey",
         "optional": true
       }
     ],
     "steps": [
       {
-        "text": "Add 1 cup frozen mango, 0.5 cup finely shredded carrot, 0.75 cup orange juice, and 0.25 cup plain Greek yogurt to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
+        "text": "Add 1 cup frozen mango, 0.5 cup finely shredded carrot, 0.75 cup orange juice, 0.25 cup plain Greek yogurt, and 0.25 tsp ground ginger to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
       },
       {
-        "text": "Taste before sweetening. For a sweeter taste, add 0.25 tsp ground ginger or 1 tsp honey, for a sweeter taste, as desired, and blend again briefly."
+        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey as desired, and blend again briefly."
       }
     ],
     "cookSteps": [
       {
-        "text": "Add 1 cup frozen mango, 0.5 cup finely shredded carrot, 0.75 cup orange juice, and 0.25 cup plain Greek yogurt to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
+        "text": "Add 1 cup frozen mango, 0.5 cup finely shredded carrot, 0.75 cup orange juice, 0.25 cup plain Greek yogurt, and 0.25 tsp ground ginger to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
       },
       {
-        "text": "Taste before sweetening. For a sweeter taste, add 0.25 tsp ground ginger or 1 tsp honey, for a sweeter taste, as desired, and blend again briefly."
+        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey as desired, and blend again briefly."
       }
     ],
     "storage": "Best served immediately.",
@@ -687,7 +687,7 @@
       {
         "amount": 1,
         "unit": "tsp",
-        "item": "maple syrup, for a sweeter taste",
+        "item": "maple syrup",
         "optional": true
       }
     ],
@@ -696,7 +696,7 @@
         "text": "Add 1 small sweet apple, cored and chopped, 0.5 frozen banana, 0.25 cup rolled oats, 0.5 cup plain Greek yogurt, 0.5 cup milk or nondairy milk, and 0.5 tsp cinnamon to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
       },
       {
-        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp maple syrup, for a sweeter taste, as desired, and blend again briefly."
+        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp maple syrup as desired, and blend again briefly."
       }
     ],
     "cookSteps": [
@@ -704,7 +704,7 @@
         "text": "Add 1 small sweet apple, cored and chopped, 0.5 frozen banana, 0.25 cup rolled oats, 0.5 cup plain Greek yogurt, 0.5 cup milk or nondairy milk, and 0.5 tsp cinnamon to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
       },
       {
-        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp maple syrup, for a sweeter taste, as desired, and blend again briefly."
+        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp maple syrup as desired, and blend again briefly."
       }
     ],
     "storage": "Best served immediately.",
@@ -761,7 +761,7 @@
       {
         "amount": 1,
         "unit": "tsp",
-        "item": "honey, for a sweeter taste",
+        "item": "honey",
         "optional": true
       }
     ],
@@ -770,7 +770,7 @@
         "text": "Add 1.25 cups frozen pineapple, 0.75 cup unsweetened coconut milk beverage, 0.25 cup plain Greek yogurt, and 1 tbsp lime juice to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
       },
       {
-        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey, for a sweeter taste, as desired, and blend again briefly."
+        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey as desired, and blend again briefly."
       }
     ],
     "cookSteps": [
@@ -778,7 +778,7 @@
         "text": "Add 1.25 cups frozen pineapple, 0.75 cup unsweetened coconut milk beverage, 0.25 cup plain Greek yogurt, and 1 tbsp lime juice to the blender. Blend until completely smooth; add a small splash of the recipe liquid if you want it thinner."
       },
       {
-        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey, for a sweeter taste, as desired, and blend again briefly."
+        "text": "Taste before sweetening. For a sweeter taste, add 1 tsp honey as desired, and blend again briefly."
       }
     ],
     "storage": "Best served immediately.",
