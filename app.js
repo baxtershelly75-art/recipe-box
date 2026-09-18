@@ -10,6 +10,11 @@ const views = ['#homeView', '#resultsView', '#detailView', '#cookView'];
 const browseTags = ['15-minute', 'very easy', 'cheap', 'crockpot', 'one-pot', 'comfort food', 'use it up', 'small batch', 'sweet', 'breakfast', 'dinner', 'vegetable', 'pantry'];
 const recipeDataFiles = Array.from({ length: 75 }, (_, i) => `./data/recipes-${String(i + 1).padStart(2, '0')}.json`);
 
+try {
+  const savedGroceryRecipeIds = JSON.parse(localStorage.getItem('recipeBoxGroceryRecipeIds') || '[]');
+  if (Array.isArray(savedGroceryRecipeIds)) state.groceryRecipeIds = new Set(savedGroceryRecipeIds.filter(id => typeof id === 'string'));
+} catch (_) {}
+
 function showView(id) {
   views.forEach(v => $(v).classList.toggle('active', v === id));
   window.scrollTo({ top: 0, behavior: 'instant' });
@@ -114,6 +119,7 @@ function wireRecipeCards(container) {
     box.addEventListener('change', () => {
       if (box.checked) state.groceryRecipeIds.add(box.dataset.groceryRecipeId);
       else state.groceryRecipeIds.delete(box.dataset.groceryRecipeId);
+      try { localStorage.setItem('recipeBoxGroceryRecipeIds', JSON.stringify([...state.groceryRecipeIds])); } catch (_) {}
       box.closest('label')?.classList.toggle('active', box.checked);
       updateGrocerySelectedButton();
     });
@@ -551,25 +557,35 @@ loadRecipes();
       const combined = new Map();
       selectedRecipes.forEach(recipe => {
         recipe.ingredients.forEach(ingredient => {
-          const unit = String(ingredient.unit || '').trim();
+          const rawUnit = String(ingredient.unit || '').trim();
           const item = String(ingredient.item || '').trim();
           const optional = Boolean(ingredient.optional);
-          const key = [norm(item), norm(unit), optional ? 'optional' : 'required'].join('|');
+          const unitAliases = { cups: 'cup', tablespoons: 'tbsp', tablespoon: 'tbsp', teaspoons: 'tsp', teaspoon: 'tsp', cans: 'can', ounces: 'oz', ounce: 'oz', pounds: 'lb', pound: 'lb' };
+          const unitKey = unitAliases[norm(rawUnit)] || norm(rawUnit);
+          const key = [norm(item), unitKey, optional ? 'optional' : 'required'].join('|');
           const existing = combined.get(key);
           if (existing) existing.amount += Number(ingredient.amount) || 0;
-          else combined.set(key, { amount: Number(ingredient.amount) || 0, unit, item, optional });
+          else combined.set(key, { amount: Number(ingredient.amount) || 0, unit: rawUnit, unitKey, item, optional });
         });
       });
       const existingTexts = new Set(values.map(item => norm(item.text)));
+      let addedCount = 0;
       combined.forEach(ingredient => {
+        const pluralUnits = { cup: 'cups', can: 'cans', oz: 'oz', lb: 'lb', tbsp: 'tbsp', tsp: 'tsp' };
+        if (ingredient.unitKey && pluralUnits[ingredient.unitKey]) {
+          ingredient.unit = ingredient.amount === 1 ? ingredient.unitKey : pluralUnits[ingredient.unitKey];
+        }
         const text = ingredientLine(ingredient);
         if (!existingTexts.has(norm(text))) {
           values.push({ text, checked: false });
           existingTexts.add(norm(text));
+          addedCount += 1;
         }
       });
       saveItems(values);
       render(values);
+      const message = document.getElementById('grocerySelectionMessage');
+      if (message) message.textContent = addedCount ? `Added ${addedCount} grocery item${addedCount === 1 ? '' : 's'} from ${selectedRecipes.length} selected recipe${selectedRecipes.length === 1 ? '' : 's'}.` : 'Those selected recipe ingredients are already on your grocery list.';
     });
   }
   input.addEventListener('keydown', (event) => {
