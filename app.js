@@ -394,3 +394,21 @@ if ('serviceWorker' in navigator) {
 }
 
 loadRecipes();
+
+
+// Grocery List — staged shell only. No recipe or storage integration yet.
+(() => {
+  const groceryBtn = document.getElementById('groceryBtn');
+  const groceryView = document.getElementById('groceryView');
+  const groceryBackBtn = document.getElementById('groceryBackBtn');
+  const app = document.getElementById('app');
+  if (!groceryBtn || !groceryView || !groceryBackBtn || !app) return;
+  groceryBtn.addEventListener('click', () => {
+    app.hidden = true;
+    groceryView.hidden = false;
+  });
+  groceryBackBtn.addEventListener('click', () => {
+    groceryView.hidden = true;
+    app.hidden = false;
+  });
+})();
