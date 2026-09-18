@@ -271,27 +271,33 @@ function scaledCookStepText(step) {
     const amount = `${formatAmount(ingredient.amount * state.scale)}${unit}`;
     text = text.replaceAll(`{{${q.key}}}`, amount);
   }
-  text = text.replace(/\{\{[^}]+\}\}/g, '');
+  text = text.replace(/\{\{[^}]+\}\}/g, '').trim();
 
-  // Cook With Me readability rule: when a step uses several measured
-  // ingredients, present them as a scan-friendly ingredient block first.
-  // Recipes may opt out with layout: 'prose' or provide their own line breaks.
-  if (step.layout !== 'prose' && !text.includes('\n') && quantities.length >= 3) {
-    const seen = new Set();
-    const lines = [];
-    for (const q of quantities) {
-      if (seen.has(q.ingredientIndex)) continue;
-      seen.add(q.ingredientIndex);
-      const ingredient = state.currentRecipe.ingredients[q.ingredientIndex];
-      if (ingredient) lines.push(ingredientLine(ingredient, state.scale));
-    }
-    if (lines.length >= 3) {
-      return `GET READY:\n${lines.join('\n')}\n\n${text}`;
+  // Explicit recipe formatting wins. This is the preferred format for new recipes.
+  if (text.includes('\n') || step.layout === 'prose') return text;
+
+  // Universal Cook With Me rule: short, scan-friendly lines instead of a wall of prose.
+  // Keep recipe wording intact, but break sentences/actions onto separate lines.
+  const sentences = text.match(/[^.!?]+[.!?]+|[^.!?]+$/g)
+    ?.map(s => s.trim())
+    .filter(Boolean) || [text];
+
+  if (sentences.length > 1) return sentences.join('\n\n');
+
+  // A single long instruction still gets a visual break at common action joins.
+  if (text.length > 90) {
+    const breakWords = [' then ', ' and cook ', ' and bake ', ' and simmer ', ' and stir ', ' and serve ', ' and add '];
+    for (const word of breakWords) {
+      const i = text.toLowerCase().indexOf(word);
+      if (i > 30) {
+        const first = text.slice(0, i).trim().replace(/[;,]$/, '') + '.';
+        const rest = text.slice(i + (word.startsWith(' and ') ? 5 : 1)).trim();
+        return `${first}\n\n${rest.charAt(0).toUpperCase() + rest.slice(1)}`;
+      }
     }
   }
   return text;
 }
-
 function clearTimerInterval() {
   if (state.timer) clearInterval(state.timer);
   state.timer = null;
