@@ -1,0 +1,2535 @@
+[
+  {
+    "id": "beef-tips-gravy",
+    "title": "Beef Tips & Gravy over Mashed Potatoes",
+    "aliases": [
+      "beef tips",
+      "beef and gravy",
+      "steak tips"
+    ],
+    "description": "Tender beef tips simmered in savory gravy and served over mashed potatoes.",
+    "servings": 4,
+    "prepMinutes": 15,
+    "cookMinutes": 45,
+    "totalMinutes": 60,
+    "effort": "medium",
+    "cost": "$$$",
+    "equipment": [
+      "large skillet",
+      "pot"
+    ],
+    "ingredients": [
+      {
+        "amount": 1.5,
+        "unit": "lb",
+        "item": "beef stew meat or sirloin tips",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "vegetable oil",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "cups",
+        "item": "beef broth",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "small onion, diced",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "flour",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "lb",
+        "item": "russet potatoes, peeled and cubed",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "milk",
+        "optional": false
+      },
+      {
+        "amount": 3,
+        "unit": "tbsp",
+        "item": "butter",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Brown the beef in oil in a large skillet; work in batches so it browns instead of steams."
+      },
+      {
+        "text": "Add onion and cook until softened. Stir in flour, then slowly stir in beef broth."
+      },
+      {
+        "text": "Cover and simmer gently until the beef is tender and the gravy thickens, about 30 minutes."
+      },
+      {
+        "text": "Meanwhile boil potatoes until fork-tender, about 15 minutes; drain and mash with milk and butter. Serve beef and gravy over potatoes."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Brown the beef in oil in a large skillet; work in batches so it browns instead of steams."
+      },
+      {
+        "text": "Add onion and cook until softened. Stir in flour, then slowly stir in beef broth."
+      },
+      {
+        "text": "Cover and simmer gently until the beef is tender and the gravy thickens, about 30 minutes."
+      },
+      {
+        "text": "Meanwhile boil potatoes until fork-tender, about 15 minutes; drain and mash with milk and butter. Serve beef and gravy over potatoes."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "medium"
+    ]
+  },
+  {
+    "id": "beef-stroganoff-family",
+    "title": "Homestyle Beef Stroganoff",
+    "aliases": [
+      "beef stroganoff",
+      "stroganoff",
+      "beef noodles"
+    ],
+    "description": "Beef and mushrooms in a creamy savory sauce over egg noodles.",
+    "servings": 4,
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45,
+    "effort": "easy",
+    "cost": "$$$",
+    "equipment": [
+      "large skillet",
+      "pot"
+    ],
+    "ingredients": [
+      {
+        "amount": 1.25,
+        "unit": "lb",
+        "item": "sirloin steak, thinly sliced",
+        "optional": false
+      },
+      {
+        "amount": 8,
+        "unit": "oz",
+        "item": "egg noodles",
+        "optional": false
+      },
+      {
+        "amount": 8,
+        "unit": "oz",
+        "item": "sliced mushrooms",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "small onion, diced",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "cups",
+        "item": "beef broth",
+        "optional": false
+      },
+      {
+        "amount": 0.75,
+        "unit": "cup",
+        "item": "sour cream",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "flour",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "butter",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook egg noodles according to package directions; drain."
+      },
+      {
+        "text": "Melt butter in a large skillet. Brown beef quickly in batches and set aside. Cook onion and mushrooms until tender."
+      },
+      {
+        "text": "Stir flour into the vegetables, then slowly add beef broth. Simmer until slightly thickened."
+      },
+      {
+        "text": "Return beef to the skillet and cook until hot and safely done. Remove from heat, stir in sour cream, and serve over noodles."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Cook egg noodles according to package directions; drain."
+      },
+      {
+        "text": "Melt butter in a large skillet. Brown beef quickly in batches and set aside. Cook onion and mushrooms until tender."
+      },
+      {
+        "text": "Stir flour into the vegetables, then slowly add beef broth. Simmer until slightly thickened."
+      },
+      {
+        "text": "Return beef to the skillet and cook until hot and safely done. Remove from heat, stir in sour cream, and serve over noodles."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "easy"
+    ]
+  },
+  {
+    "id": "garlic-steak-bites-potatoes",
+    "title": "Garlic Butter Steak Bites & Potatoes",
+    "aliases": [
+      "steak bites",
+      "steak and potatoes",
+      "garlic steak"
+    ],
+    "description": "Browned steak bites and crisp-tender potatoes finished with garlic butter.",
+    "servings": 4,
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45,
+    "effort": "easy",
+    "cost": "$$$",
+    "equipment": [
+      "large skillet"
+    ],
+    "ingredients": [
+      {
+        "amount": 1.25,
+        "unit": "lb",
+        "item": "sirloin steak, cut into 1-inch pieces",
+        "optional": false
+      },
+      {
+        "amount": 1.5,
+        "unit": "lb",
+        "item": "baby potatoes, quartered",
+        "optional": false
+      },
+      {
+        "amount": 3,
+        "unit": "tbsp",
+        "item": "butter",
+        "optional": false
+      },
+      {
+        "amount": 3,
+        "unit": "",
+        "item": "garlic cloves, minced",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "olive oil",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "salt",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "black pepper",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Microwave or parboil the potatoes for 6–8 minutes until just beginning to soften; drain well."
+      },
+      {
+        "text": "Heat olive oil in a large skillet and cook potatoes until browned and tender, about 10 minutes. Transfer to a plate."
+      },
+      {
+        "text": "Add steak bites in a single layer and brown, turning until cooked to the household's preferred safe doneness."
+      },
+      {
+        "text": "Lower heat, add butter and garlic, then return potatoes to the skillet and toss everything together for 1–2 minutes."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Microwave or parboil the potatoes for 6–8 minutes until just beginning to soften; drain well."
+      },
+      {
+        "text": "Heat olive oil in a large skillet and cook potatoes until browned and tender, about 10 minutes. Transfer to a plate."
+      },
+      {
+        "text": "Add steak bites in a single layer and brown, turning until cooked to the household's preferred safe doneness."
+      },
+      {
+        "text": "Lower heat, add butter and garlic, then return potatoes to the skillet and toss everything together for 1–2 minutes."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "steak",
+      "easy"
+    ]
+  },
+  {
+    "id": "sheet-pan-steak-fajitas",
+    "title": "Sheet-Pan Steak Fajitas",
+    "aliases": [
+      "steak fajitas",
+      "fajitas",
+      "sheet pan steak"
+    ],
+    "description": "Colorful steak fajitas roasted together on one sheet pan.",
+    "servings": 4,
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35,
+    "effort": "easy",
+    "cost": "$$$",
+    "equipment": [
+      "sheet pan"
+    ],
+    "ingredients": [
+      {
+        "amount": 1.25,
+        "unit": "lb",
+        "item": "flank steak, thinly sliced",
+        "optional": false
+      },
+      {
+        "amount": 3,
+        "unit": "",
+        "item": "bell peppers, sliced",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "large onion, sliced",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "olive oil",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "fajita seasoning",
+        "optional": false
+      },
+      {
+        "amount": 8,
+        "unit": "",
+        "item": "flour tortillas",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "lime",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat oven to 425°F. Spread steak, peppers, and onion on a sheet pan."
+      },
+      {
+        "text": "Drizzle with olive oil, sprinkle with fajita seasoning, and toss well."
+      },
+      {
+        "text": "Roast 15–20 minutes, stirring once, until vegetables are tender and steak is safely cooked."
+      },
+      {
+        "text": "Squeeze lime over the pan and serve in warm tortillas."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Heat oven to 425°F. Spread steak, peppers, and onion on a sheet pan."
+      },
+      {
+        "text": "Drizzle with olive oil, sprinkle with fajita seasoning, and toss well."
+      },
+      {
+        "text": "Roast 15–20 minutes, stirring once, until vegetables are tender and steak is safely cooked."
+      },
+      {
+        "text": "Squeeze lime over the pan and serve in warm tortillas."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "steak",
+      "easy"
+    ]
+  },
+  {
+    "id": "beef-broccoli-rice",
+    "title": "Beef & Broccoli with Rice",
+    "aliases": [
+      "beef broccoli",
+      "beef and broccoli",
+      "stir fry beef"
+    ],
+    "description": "A family-friendly beef and broccoli stir-fry with a simple savory sauce.",
+    "servings": 4,
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "totalMinutes": 40,
+    "effort": "easy",
+    "cost": "$$$",
+    "equipment": [
+      "large skillet",
+      "pot"
+    ],
+    "ingredients": [
+      {
+        "amount": 1.25,
+        "unit": "lb",
+        "item": "sirloin steak, thinly sliced",
+        "optional": false
+      },
+      {
+        "amount": 4,
+        "unit": "cups",
+        "item": "broccoli florets",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "long-grain white rice",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "cups",
+        "item": "water",
+        "optional": false
+      },
+      {
+        "amount": 0.33,
+        "unit": "cup",
+        "item": "soy sauce",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "brown sugar",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "cornstarch",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "vegetable oil",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "item": "garlic cloves, minced",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook rice in water according to package directions."
+      },
+      {
+        "text": "Whisk soy sauce, brown sugar, cornstarch, and 1/2 cup water until smooth."
+      },
+      {
+        "text": "Heat oil in a large skillet. Brown beef in batches, then set aside. Add broccoli and a splash of water; cover 3–4 minutes."
+      },
+      {
+        "text": "Return beef, add garlic and sauce, and simmer until thickened and beef is safely cooked. Serve over rice."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Cook rice in water according to package directions."
+      },
+      {
+        "text": "Whisk soy sauce, brown sugar, cornstarch, and 1/2 cup water until smooth."
+      },
+      {
+        "text": "Heat oil in a large skillet. Brown beef in batches, then set aside. Add broccoli and a splash of water; cover 3–4 minutes."
+      },
+      {
+        "text": "Return beef, add garlic and sauce, and simmer until thickened and beef is safely cooked. Serve over rice."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "easy"
+    ]
+  },
+  {
+    "id": "cottage-pie-family",
+    "title": "Classic Cottage Pie",
+    "aliases": [
+      "cottage pie",
+      "beef shepherd pie",
+      "ground beef potatoes"
+    ],
+    "description": "Seasoned ground beef and vegetables under a golden blanket of mashed potatoes.",
+    "servings": 4,
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "totalMinutes": 60,
+    "effort": "medium",
+    "cost": "$$",
+    "equipment": [
+      "large skillet",
+      "pot",
+      "9x13 baking dish"
+    ],
+    "ingredients": [
+      {
+        "amount": 1.5,
+        "unit": "lb",
+        "item": "ground beef",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "lb",
+        "item": "russet potatoes, peeled and cubed",
+        "optional": false
+      },
+      {
+        "amount": 3,
+        "unit": "cups",
+        "item": "frozen mixed vegetables",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "small onion, diced",
+        "optional": false
+      },
+      {
+        "amount": 1.5,
+        "unit": "cups",
+        "item": "beef broth",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "tomato paste",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "milk",
+        "optional": false
+      },
+      {
+        "amount": 3,
+        "unit": "tbsp",
+        "item": "butter",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat oven to 400°F. Boil potatoes until tender, then mash with milk and butter."
+      },
+      {
+        "text": "Brown ground beef and onion in a skillet; drain excess fat. Stir in tomato paste, vegetables, and beef broth."
+      },
+      {
+        "text": "Simmer 8–10 minutes until slightly thickened, then spread in a baking dish."
+      },
+      {
+        "text": "Spoon mashed potatoes over the beef mixture and bake 25 minutes until hot and lightly browned."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Heat oven to 400°F. Boil potatoes until tender, then mash with milk and butter."
+      },
+      {
+        "text": "Brown ground beef and onion in a skillet; drain excess fat. Stir in tomato paste, vegetables, and beef broth."
+      },
+      {
+        "text": "Simmer 8–10 minutes until slightly thickened, then spread in a baking dish."
+      },
+      {
+        "text": "Spoon mashed potatoes over the beef mixture and bake 25 minutes until hot and lightly browned."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "ground beef",
+      "medium"
+    ]
+  },
+  {
+    "id": "beef-enchilada-casserole",
+    "title": "Beef Enchilada Casserole",
+    "aliases": [
+      "enchilada casserole",
+      "ground beef enchiladas",
+      "beef casserole"
+    ],
+    "description": "Layers of seasoned beef, tortillas, enchilada sauce, and melted cheese.",
+    "servings": 4,
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "totalMinutes": 50,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": [
+      "large skillet",
+      "9x13 baking dish"
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "lb",
+        "item": "ground beef",
+        "optional": false
+      },
+      {
+        "amount": 10,
+        "unit": "",
+        "item": "corn tortillas",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "cups",
+        "item": "red enchilada sauce",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "cups",
+        "item": "shredded cheddar or Mexican-blend cheese",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "small onion, diced",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "15 oz can",
+        "item": "black beans, drained and rinsed",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "taco seasoning",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat oven to 375°F. Brown ground beef and onion; drain, then stir in taco seasoning and black beans."
+      },
+      {
+        "text": "Spread a little enchilada sauce in a baking dish. Layer tortillas, beef mixture, sauce, and cheese."
+      },
+      {
+        "text": "Repeat layers, finishing with sauce and cheese."
+      },
+      {
+        "text": "Bake 25–30 minutes until bubbling and browned around the edges. Rest 5 minutes before serving."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Heat oven to 375°F. Brown ground beef and onion; drain, then stir in taco seasoning and black beans."
+      },
+      {
+        "text": "Spread a little enchilada sauce in a baking dish. Layer tortillas, beef mixture, sauce, and cheese."
+      },
+      {
+        "text": "Repeat layers, finishing with sauce and cheese."
+      },
+      {
+        "text": "Bake 25–30 minutes until bubbling and browned around the edges. Rest 5 minutes before serving."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "ground beef",
+      "easy"
+    ]
+  },
+  {
+    "id": "ground-beef-taco-skillet",
+    "title": "Cheesy Ground Beef Taco Skillet",
+    "aliases": [
+      "taco skillet",
+      "ground beef skillet",
+      "beef tacos"
+    ],
+    "description": "Ground beef, rice, beans, corn, and cheese in an easy one-pan taco dinner.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": [
+      "large deep skillet with lid"
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "lb",
+        "item": "ground beef",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "long-grain white rice",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "15 oz can",
+        "item": "black beans, drained and rinsed",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "frozen corn",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "15 oz can",
+        "item": "diced tomatoes",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "cups",
+        "item": "beef broth",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "taco seasoning",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "shredded cheddar cheese",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Brown ground beef in a deep skillet and drain excess fat."
+      },
+      {
+        "text": "Stir in rice, beans, corn, tomatoes, broth, and taco seasoning."
+      },
+      {
+        "text": "Bring to a simmer, cover, and cook on low about 20 minutes until rice is tender."
+      },
+      {
+        "text": "Sprinkle cheese over the top, cover 2–3 minutes until melted, and serve."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Brown ground beef in a deep skillet and drain excess fat."
+      },
+      {
+        "text": "Stir in rice, beans, corn, tomatoes, broth, and taco seasoning."
+      },
+      {
+        "text": "Bring to a simmer, cover, and cook on low about 20 minutes until rice is tender."
+      },
+      {
+        "text": "Sprinkle cheese over the top, cover 2–3 minutes until melted, and serve."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "ground beef",
+      "easy"
+    ]
+  },
+  {
+    "id": "oven-bbq-chicken-potatoes",
+    "title": "Oven-Baked BBQ Chicken & Potatoes",
+    "aliases": [
+      "bbq chicken",
+      "barbecue chicken",
+      "chicken potatoes"
+    ],
+    "description": "Juicy barbecue chicken with seasoned roasted potatoes for an easy family supper.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 45,
+    "totalMinutes": 55,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": [
+      "sheet pan"
+    ],
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "lb",
+        "item": "bone-in chicken thighs",
+        "optional": false
+      },
+      {
+        "amount": 1.5,
+        "unit": "lb",
+        "item": "baby potatoes, halved",
+        "optional": false
+      },
+      {
+        "amount": 0.75,
+        "unit": "cup",
+        "item": "barbecue sauce",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "olive oil",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "garlic powder",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "salt",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat oven to 425°F. Toss potatoes with olive oil, garlic powder, and salt on a sheet pan."
+      },
+      {
+        "text": "Arrange chicken thighs among the potatoes and roast 25 minutes."
+      },
+      {
+        "text": "Brush chicken generously with barbecue sauce, stir potatoes, and return to the oven."
+      },
+      {
+        "text": "Roast 15–20 minutes more until chicken reaches 165°F in the thickest part and potatoes are tender."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Heat oven to 425°F. Toss potatoes with olive oil, garlic powder, and salt on a sheet pan."
+      },
+      {
+        "text": "Arrange chicken thighs among the potatoes and roast 25 minutes."
+      },
+      {
+        "text": "Brush chicken generously with barbecue sauce, stir potatoes, and return to the oven."
+      },
+      {
+        "text": "Roast 15–20 minutes more until chicken reaches 165°F in the thickest part and potatoes are tender."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "chicken",
+      "easy"
+    ]
+  },
+  {
+    "id": "chicken-parmesan-family",
+    "title": "Chicken Parmesan with Spaghetti",
+    "aliases": [
+      "chicken parmesan",
+      "chicken parm",
+      "breaded chicken pasta"
+    ],
+    "description": "Crispy breaded chicken with marinara and melted cheese served with spaghetti.",
+    "servings": 4,
+    "prepMinutes": 20,
+    "cookMinutes": 35,
+    "totalMinutes": 55,
+    "effort": "medium",
+    "cost": "$$",
+    "equipment": [
+      "sheet pan",
+      "pot",
+      "shallow bowls"
+    ],
+    "ingredients": [
+      {
+        "amount": 1.5,
+        "unit": "lb",
+        "item": "boneless skinless chicken breasts, cut into thin cutlets",
+        "optional": false
+      },
+      {
+        "amount": 8,
+        "unit": "oz",
+        "item": "spaghetti",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "breadcrumbs",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "grated Parmesan",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "egg",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "cups",
+        "item": "marinara sauce",
+        "optional": false
+      },
+      {
+        "amount": 1.5,
+        "unit": "cups",
+        "item": "shredded mozzarella",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "olive oil",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat oven to 425°F. Dip chicken in beaten egg, then coat with breadcrumbs mixed with Parmesan."
+      },
+      {
+        "text": "Place on an oiled sheet pan, drizzle lightly with oil, and bake 15 minutes; turn once."
+      },
+      {
+        "text": "Top chicken with marinara and mozzarella and bake 8–10 minutes more, until chicken reaches 165°F and cheese melts."
+      },
+      {
+        "text": "Meanwhile cook spaghetti according to package directions. Serve chicken with spaghetti and remaining warm marinara."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Heat oven to 425°F. Dip chicken in beaten egg, then coat with breadcrumbs mixed with Parmesan."
+      },
+      {
+        "text": "Place on an oiled sheet pan, drizzle lightly with oil, and bake 15 minutes; turn once."
+      },
+      {
+        "text": "Top chicken with marinara and mozzarella and bake 8–10 minutes more, until chicken reaches 165°F and cheese melts."
+      },
+      {
+        "text": "Meanwhile cook spaghetti according to package directions. Serve chicken with spaghetti and remaining warm marinara."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "chicken",
+      "medium"
+    ]
+  },
+  {
+    "id": "chicken-broccoli-rice-casserole",
+    "title": "Creamy Chicken & Broccoli Rice Casserole",
+    "aliases": [
+      "chicken broccoli casserole",
+      "chicken rice casserole",
+      "broccoli rice"
+    ],
+    "description": "A creamy baked casserole with chicken, broccoli, rice, and cheddar.",
+    "servings": 4,
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": [
+      "large bowl",
+      "9x13 baking dish"
+    ],
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "cups",
+        "item": "cooked diced chicken",
+        "optional": false
+      },
+      {
+        "amount": 3,
+        "unit": "cups",
+        "item": "cooked white rice",
+        "optional": false
+      },
+      {
+        "amount": 3,
+        "unit": "cups",
+        "item": "broccoli florets, lightly steamed",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "10.5 oz can",
+        "item": "cream of chicken soup",
+        "optional": false
+      },
+      {
+        "amount": 0.75,
+        "unit": "cup",
+        "item": "milk",
+        "optional": false
+      },
+      {
+        "amount": 1.5,
+        "unit": "cups",
+        "item": "shredded cheddar cheese",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "garlic powder",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat oven to 375°F and lightly grease a baking dish."
+      },
+      {
+        "text": "Mix chicken, rice, broccoli, soup, milk, garlic powder, and half the cheese."
+      },
+      {
+        "text": "Spread in the dish and top with remaining cheese."
+      },
+      {
+        "text": "Bake 30–35 minutes until bubbling and hot throughout."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Heat oven to 375°F and lightly grease a baking dish."
+      },
+      {
+        "text": "Mix chicken, rice, broccoli, soup, milk, garlic powder, and half the cheese."
+      },
+      {
+        "text": "Spread in the dish and top with remaining cheese."
+      },
+      {
+        "text": "Bake 30–35 minutes until bubbling and hot throughout."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "chicken",
+      "easy"
+    ]
+  },
+  {
+    "id": "chicken-alfredo-bake",
+    "title": "Chicken Alfredo Pasta Bake",
+    "aliases": [
+      "chicken alfredo",
+      "alfredo bake",
+      "chicken pasta bake"
+    ],
+    "description": "Pasta and chicken baked in creamy Alfredo sauce under melted mozzarella.",
+    "servings": 4,
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "totalMinutes": 50,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": [
+      "pot",
+      "9x13 baking dish"
+    ],
+    "ingredients": [
+      {
+        "amount": 12,
+        "unit": "oz",
+        "item": "penne pasta",
+        "optional": false
+      },
+      {
+        "amount": 3,
+        "unit": "cups",
+        "item": "cooked diced chicken",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "cups",
+        "item": "Alfredo sauce",
+        "optional": false
+      },
+      {
+        "amount": 1.5,
+        "unit": "cups",
+        "item": "shredded mozzarella",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "grated Parmesan",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "cups",
+        "item": "broccoli florets",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "garlic powder",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat oven to 375°F. Cook pasta 2 minutes less than package directions; add broccoli for the last 2 minutes and drain."
+      },
+      {
+        "text": "Mix pasta, broccoli, chicken, Alfredo sauce, garlic powder, half the mozzarella, and Parmesan."
+      },
+      {
+        "text": "Spread in a baking dish and top with remaining mozzarella."
+      },
+      {
+        "text": "Bake 25–30 minutes until bubbling and lightly browned."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Heat oven to 375°F. Cook pasta 2 minutes less than package directions; add broccoli for the last 2 minutes and drain."
+      },
+      {
+        "text": "Mix pasta, broccoli, chicken, Alfredo sauce, garlic powder, half the mozzarella, and Parmesan."
+      },
+      {
+        "text": "Spread in a baking dish and top with remaining mozzarella."
+      },
+      {
+        "text": "Bake 25–30 minutes until bubbling and lightly browned."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "chicken",
+      "easy"
+    ]
+  },
+  {
+    "id": "chicken-fajita-rice-bowls",
+    "title": "Chicken Fajita Rice Bowls",
+    "aliases": [
+      "chicken fajitas",
+      "fajita bowls",
+      "chicken rice bowls"
+    ],
+    "description": "Seasoned chicken, peppers, onions, and rice with easy build-your-own-bowl appeal.",
+    "servings": 4,
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "totalMinutes": 40,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": [
+      "large skillet",
+      "pot"
+    ],
+    "ingredients": [
+      {
+        "amount": 1.5,
+        "unit": "lb",
+        "item": "boneless skinless chicken breasts, sliced",
+        "optional": false
+      },
+      {
+        "amount": 3,
+        "unit": "",
+        "item": "bell peppers, sliced",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "large onion, sliced",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "long-grain white rice",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "cups",
+        "item": "water",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "fajita seasoning",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "olive oil",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "lime",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook rice in water according to package directions."
+      },
+      {
+        "text": "Heat olive oil in a large skillet. Cook chicken with fajita seasoning until browned and it reaches 165°F; transfer to a plate."
+      },
+      {
+        "text": "Cook peppers and onion in the same skillet until crisp-tender, about 7 minutes."
+      },
+      {
+        "text": "Return chicken, squeeze lime over everything, and serve over rice."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Cook rice in water according to package directions."
+      },
+      {
+        "text": "Heat olive oil in a large skillet. Cook chicken with fajita seasoning until browned and it reaches 165°F; transfer to a plate."
+      },
+      {
+        "text": "Cook peppers and onion in the same skillet until crisp-tender, about 7 minutes."
+      },
+      {
+        "text": "Return chicken, squeeze lime over everything, and serve over rice."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "chicken",
+      "easy"
+    ]
+  },
+  {
+    "id": "honey-garlic-chicken-rice",
+    "title": "Honey-Garlic Chicken with Rice & Broccoli",
+    "aliases": [
+      "honey garlic chicken",
+      "chicken broccoli rice",
+      "sweet garlic chicken"
+    ],
+    "description": "Tender chicken in a sticky honey-garlic sauce with broccoli and rice.",
+    "servings": 4,
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "totalMinutes": 40,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": [
+      "large skillet",
+      "pot"
+    ],
+    "ingredients": [
+      {
+        "amount": 1.5,
+        "unit": "lb",
+        "item": "boneless skinless chicken thighs, cut into pieces",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "long-grain white rice",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "cups",
+        "item": "water",
+        "optional": false
+      },
+      {
+        "amount": 4,
+        "unit": "cups",
+        "item": "broccoli florets",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "honey",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "soy sauce",
+        "optional": false
+      },
+      {
+        "amount": 3,
+        "unit": "",
+        "item": "garlic cloves, minced",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "cornstarch",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "vegetable oil",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook rice in water according to package directions."
+      },
+      {
+        "text": "Whisk honey, soy sauce, garlic, cornstarch, and 1/2 cup water."
+      },
+      {
+        "text": "Heat oil in a skillet and cook chicken until browned and it reaches 165°F."
+      },
+      {
+        "text": "Add broccoli and sauce, cover 4–5 minutes, then uncover and simmer until broccoli is tender and sauce thickens. Serve over rice."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Cook rice in water according to package directions."
+      },
+      {
+        "text": "Whisk honey, soy sauce, garlic, cornstarch, and 1/2 cup water."
+      },
+      {
+        "text": "Heat oil in a skillet and cook chicken until browned and it reaches 165°F."
+      },
+      {
+        "text": "Add broccoli and sauce, cover 4–5 minutes, then uncover and simmer until broccoli is tender and sauce thickens. Serve over rice."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "chicken",
+      "easy"
+    ]
+  },
+  {
+    "id": "chicken-fried-chicken-gravy",
+    "title": "Chicken-Fried Chicken with Country Gravy",
+    "aliases": [
+      "chicken fried chicken",
+      "country chicken",
+      "fried chicken gravy"
+    ],
+    "description": "Crispy skillet chicken cutlets with creamy peppered country gravy.",
+    "servings": 4,
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "totalMinutes": 55,
+    "effort": "medium",
+    "cost": "$$",
+    "equipment": [
+      "large skillet",
+      "shallow bowls"
+    ],
+    "ingredients": [
+      {
+        "amount": 1.5,
+        "unit": "lb",
+        "item": "boneless skinless chicken breasts, cut into thin cutlets",
+        "optional": false
+      },
+      {
+        "amount": 1.5,
+        "unit": "cups",
+        "item": "flour, divided",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "milk, divided",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "egg",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "vegetable oil",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "cups",
+        "item": "milk for gravy",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "black pepper",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "salt",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Whisk egg with 1 cup milk. Season chicken, dip in egg mixture, then coat in 1 cup flour."
+      },
+      {
+        "text": "Heat oil in a skillet over medium heat. Fry chicken in batches until golden and the center reaches 165°F; drain on a rack or paper towels."
+      },
+      {
+        "text": "Carefully pour off most oil, leaving about 3 tablespoons. Whisk in remaining 1/2 cup flour and cook 1 minute."
+      },
+      {
+        "text": "Slowly whisk in 2 cups milk and black pepper. Simmer until thickened, then serve gravy over chicken."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Whisk egg with 1 cup milk. Season chicken, dip in egg mixture, then coat in 1 cup flour."
+      },
+      {
+        "text": "Heat oil in a skillet over medium heat. Fry chicken in batches until golden and the center reaches 165°F; drain on a rack or paper towels."
+      },
+      {
+        "text": "Carefully pour off most oil, leaving about 3 tablespoons. Whisk in remaining 1/2 cup flour and cook 1 minute."
+      },
+      {
+        "text": "Slowly whisk in 2 cups milk and black pepper. Simmer until thickened, then serve gravy over chicken."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "chicken",
+      "medium"
+    ]
+  },
+  {
+    "id": "pork-chops-onion-gravy",
+    "title": "Pork Chops with Onion Gravy & Mashed Potatoes",
+    "aliases": [
+      "pork chops",
+      "pork gravy",
+      "smothered pork chops"
+    ],
+    "description": "Pan-browned pork chops simmered with onion gravy and served with mashed potatoes.",
+    "servings": 4,
+    "prepMinutes": 20,
+    "cookMinutes": 35,
+    "totalMinutes": 55,
+    "effort": "medium",
+    "cost": "$$",
+    "equipment": [
+      "large skillet",
+      "pot"
+    ],
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "",
+        "item": "boneless pork chops",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "large onion, sliced",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "cups",
+        "item": "chicken broth",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "flour",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "vegetable oil",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "lb",
+        "item": "russet potatoes, peeled and cubed",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "milk",
+        "optional": false
+      },
+      {
+        "amount": 3,
+        "unit": "tbsp",
+        "item": "butter",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Boil potatoes until fork-tender, about 15 minutes; drain and mash with milk and butter."
+      },
+      {
+        "text": "Heat oil in a skillet and brown pork chops on both sides; transfer to a plate."
+      },
+      {
+        "text": "Cook onion until softened. Stir in flour, then slowly add broth and simmer until smooth."
+      },
+      {
+        "text": "Return chops to gravy, cover, and simmer gently until pork reaches 145°F; rest 3 minutes before serving with mashed potatoes."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Boil potatoes until fork-tender, about 15 minutes; drain and mash with milk and butter."
+      },
+      {
+        "text": "Heat oil in a skillet and brown pork chops on both sides; transfer to a plate."
+      },
+      {
+        "text": "Cook onion until softened. Stir in flour, then slowly add broth and simmer until smooth."
+      },
+      {
+        "text": "Return chops to gravy, cover, and simmer gently until pork reaches 145°F; rest 3 minutes before serving with mashed potatoes."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "pork",
+      "medium"
+    ]
+  },
+  {
+    "id": "herb-pork-tenderloin-vegetables",
+    "title": "Garlic-Herb Pork Tenderloin & Roasted Vegetables",
+    "aliases": [
+      "pork tenderloin",
+      "roast pork",
+      "pork vegetables"
+    ],
+    "description": "Roasted pork tenderloin with potatoes and carrots seasoned with garlic and herbs.",
+    "servings": 4,
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55,
+    "effort": "easy",
+    "cost": "$$$",
+    "equipment": [
+      "sheet pan"
+    ],
+    "ingredients": [
+      {
+        "amount": 1.5,
+        "unit": "lb",
+        "item": "pork tenderloin",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "lb",
+        "item": "baby potatoes, halved",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "lb",
+        "item": "carrots, cut into chunks",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "olive oil",
+        "optional": false
+      },
+      {
+        "amount": 3,
+        "unit": "",
+        "item": "garlic cloves, minced",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "Italian seasoning",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "salt",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat oven to 425°F. Toss potatoes and carrots with half the oil, garlic, seasoning, and salt; roast 15 minutes."
+      },
+      {
+        "text": "Rub pork with remaining oil and a little seasoning, then place it on the sheet pan with vegetables."
+      },
+      {
+        "text": "Roast 20–25 minutes more until pork reaches 145°F and vegetables are tender."
+      },
+      {
+        "text": "Rest pork at least 3 minutes before slicing."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Heat oven to 425°F. Toss potatoes and carrots with half the oil, garlic, seasoning, and salt; roast 15 minutes."
+      },
+      {
+        "text": "Rub pork with remaining oil and a little seasoning, then place it on the sheet pan with vegetables."
+      },
+      {
+        "text": "Roast 20–25 minutes more until pork reaches 145°F and vegetables are tender."
+      },
+      {
+        "text": "Rest pork at least 3 minutes before slicing."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "pork",
+      "easy"
+    ]
+  },
+  {
+    "id": "slow-cooker-pulled-pork",
+    "title": "Slow-Cooker BBQ Pulled Pork Sandwiches",
+    "aliases": [
+      "pulled pork",
+      "bbq pork",
+      "slow cooker pork"
+    ],
+    "description": "Tender barbecue pulled pork for easy sandwiches with plenty for a family dinner.",
+    "servings": 4,
+    "prepMinutes": 15,
+    "cookMinutes": 480,
+    "totalMinutes": 495,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": [
+      "slow cooker"
+    ],
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "lb",
+        "item": "boneless pork shoulder",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "small onion, sliced",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "barbecue sauce",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "chicken broth",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "brown sugar",
+        "optional": false
+      },
+      {
+        "amount": 8,
+        "unit": "",
+        "item": "hamburger buns",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "cups",
+        "item": "prepared coleslaw",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Place onion in the slow cooker and set pork shoulder on top."
+      },
+      {
+        "text": "Stir barbecue sauce, broth, and brown sugar together and pour over pork."
+      },
+      {
+        "text": "Cover and cook on LOW about 8 hours, until pork is very tender and safely cooked."
+      },
+      {
+        "text": "Shred pork with two forks, stir it into the sauce, and serve on buns with coleslaw if desired."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Place onion in the slow cooker and set pork shoulder on top."
+      },
+      {
+        "text": "Stir barbecue sauce, broth, and brown sugar together and pour over pork."
+      },
+      {
+        "text": "Cover and cook on LOW about 8 hours, until pork is very tender and safely cooked."
+      },
+      {
+        "text": "Shred pork with two forks, stir it into the sauce, and serve on buns with coleslaw if desired."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "pork",
+      "easy"
+    ]
+  },
+  {
+    "id": "sausage-peppers-potatoes",
+    "title": "Sausage, Peppers & Roasted Potatoes",
+    "aliases": [
+      "sausage peppers",
+      "sausage potatoes",
+      "sheet pan sausage"
+    ],
+    "description": "Smoky sausage, colorful peppers, onions, and potatoes roasted on one pan.",
+    "servings": 4,
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "totalMinutes": 50,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": [
+      "sheet pan"
+    ],
+    "ingredients": [
+      {
+        "amount": 14,
+        "unit": "oz",
+        "item": "smoked sausage, sliced",
+        "optional": false
+      },
+      {
+        "amount": 1.5,
+        "unit": "lb",
+        "item": "baby potatoes, quartered",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "item": "bell peppers, sliced",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "large onion, sliced",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "olive oil",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "Italian seasoning",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat oven to 425°F. Toss potatoes with half the olive oil and roast 15 minutes."
+      },
+      {
+        "text": "Add sausage, peppers, onion, remaining oil, and Italian seasoning to the pan."
+      },
+      {
+        "text": "Toss well and spread into an even layer."
+      },
+      {
+        "text": "Roast 18–20 minutes more until potatoes are tender and sausage and vegetables are browned."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Heat oven to 425°F. Toss potatoes with half the olive oil and roast 15 minutes."
+      },
+      {
+        "text": "Add sausage, peppers, onion, remaining oil, and Italian seasoning to the pan."
+      },
+      {
+        "text": "Toss well and spread into an even layer."
+      },
+      {
+        "text": "Roast 18–20 minutes more until potatoes are tender and sausage and vegetables are browned."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "easy"
+    ]
+  },
+  {
+    "id": "baked-ziti-sausage",
+    "title": "Baked Ziti with Italian Sausage",
+    "aliases": [
+      "baked ziti",
+      "sausage pasta",
+      "Italian sausage casserole"
+    ],
+    "description": "Saucy baked pasta with Italian sausage, ricotta, and plenty of melted cheese.",
+    "servings": 4,
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "totalMinutes": 60,
+    "effort": "medium",
+    "cost": "$$",
+    "equipment": [
+      "large skillet",
+      "pot",
+      "9x13 baking dish"
+    ],
+    "ingredients": [
+      {
+        "amount": 12,
+        "unit": "oz",
+        "item": "ziti or penne pasta",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "lb",
+        "item": "Italian sausage",
+        "optional": false
+      },
+      {
+        "amount": 24,
+        "unit": "oz",
+        "item": "marinara sauce",
+        "optional": false
+      },
+      {
+        "amount": 15,
+        "unit": "oz",
+        "item": "ricotta cheese",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "cups",
+        "item": "shredded mozzarella",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "grated Parmesan",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat oven to 375°F. Cook pasta just shy of al dente and drain."
+      },
+      {
+        "text": "Brown Italian sausage in a skillet until fully cooked; drain excess fat and stir in marinara."
+      },
+      {
+        "text": "Mix pasta with sausage sauce and ricotta, then spread in a baking dish."
+      },
+      {
+        "text": "Top with mozzarella and Parmesan and bake 25–30 minutes until bubbling and browned."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Heat oven to 375°F. Cook pasta just shy of al dente and drain."
+      },
+      {
+        "text": "Brown Italian sausage in a skillet until fully cooked; drain excess fat and stir in marinara."
+      },
+      {
+        "text": "Mix pasta with sausage sauce and ricotta, then spread in a baking dish."
+      },
+      {
+        "text": "Top with mozzarella and Parmesan and bake 25–30 minutes until bubbling and browned."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "medium"
+    ]
+  },
+  {
+    "id": "classic-family-chili",
+    "title": "Classic American Beef Chili",
+    "aliases": [
+      "chili",
+      "beef chili",
+      "ground beef chili"
+    ],
+    "description": "A familiar beef-and-bean chili that's easy to simmer for a weeknight or game day.",
+    "servings": 4,
+    "prepMinutes": 15,
+    "cookMinutes": 45,
+    "totalMinutes": 60,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": [
+      "large pot"
+    ],
+    "ingredients": [
+      {
+        "amount": 1.5,
+        "unit": "lb",
+        "item": "ground beef",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "large onion, diced",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "15 oz cans",
+        "item": "kidney beans, drained and rinsed",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "28 oz can",
+        "item": "crushed tomatoes",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "15 oz can",
+        "item": "diced tomatoes",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "chili powder",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "ground cumin",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "beef broth",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Brown ground beef and onion in a large pot; drain excess fat."
+      },
+      {
+        "text": "Stir in chili powder and cumin and cook 1 minute."
+      },
+      {
+        "text": "Add kidney beans, crushed tomatoes, diced tomatoes, and beef broth."
+      },
+      {
+        "text": "Bring to a simmer and cook uncovered 30–35 minutes, stirring occasionally."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Brown ground beef and onion in a large pot; drain excess fat."
+      },
+      {
+        "text": "Stir in chili powder and cumin and cook 1 minute."
+      },
+      {
+        "text": "Add kidney beans, crushed tomatoes, diced tomatoes, and beef broth."
+      },
+      {
+        "text": "Bring to a simmer and cook uncovered 30–35 minutes, stirring occasionally."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "ground beef",
+      "easy"
+    ]
+  },
+  {
+    "id": "fish-tacos-slaw",
+    "title": "Fish Tacos with Slaw & Lime Crema",
+    "aliases": [
+      "fish tacos",
+      "white fish tacos",
+      "tacos with slaw"
+    ],
+    "description": "Seasoned white fish, crunchy slaw, and lime crema tucked into warm tortillas.",
+    "servings": 4,
+    "prepMinutes": 20,
+    "cookMinutes": 15,
+    "totalMinutes": 35,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": [
+      "large skillet",
+      "mixing bowls"
+    ],
+    "ingredients": [
+      {
+        "amount": 1.25,
+        "unit": "lb",
+        "item": "cod or tilapia fillets",
+        "optional": false
+      },
+      {
+        "amount": 8,
+        "unit": "",
+        "item": "small flour or corn tortillas",
+        "optional": false
+      },
+      {
+        "amount": 3,
+        "unit": "cups",
+        "item": "coleslaw mix",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "sour cream",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "item": "limes",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "taco seasoning",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "vegetable oil",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Stir sour cream with juice from one lime to make the crema. Toss half of it with coleslaw mix."
+      },
+      {
+        "text": "Pat fish dry and season with taco seasoning."
+      },
+      {
+        "text": "Heat oil in a skillet and cook fish 3–4 minutes per side, until opaque and it reaches 145°F; flake into large pieces."
+      },
+      {
+        "text": "Fill warm tortillas with fish and slaw. Drizzle with remaining lime crema and serve with lime wedges."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Stir sour cream with juice from one lime to make the crema. Toss half of it with coleslaw mix."
+      },
+      {
+        "text": "Pat fish dry and season with taco seasoning."
+      },
+      {
+        "text": "Heat oil in a skillet and cook fish 3–4 minutes per side, until opaque and it reaches 145°F; flake into large pieces."
+      },
+      {
+        "text": "Fill warm tortillas with fish and slaw. Drizzle with remaining lime crema and serve with lime wedges."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "easy"
+    ]
+  },
+  {
+    "id": "lemon-salmon-sheet-pan",
+    "title": "Lemon Baked Salmon, Potatoes & Green Beans",
+    "aliases": [
+      "salmon dinner",
+      "baked salmon",
+      "salmon potatoes"
+    ],
+    "description": "A simple sheet-pan salmon dinner with roasted potatoes, green beans, and lemon.",
+    "servings": 4,
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "totalMinutes": 50,
+    "effort": "easy",
+    "cost": "$$$",
+    "equipment": [
+      "sheet pan"
+    ],
+    "ingredients": [
+      {
+        "amount": 1.5,
+        "unit": "lb",
+        "item": "salmon fillets",
+        "optional": false
+      },
+      {
+        "amount": 1.25,
+        "unit": "lb",
+        "item": "baby potatoes, halved",
+        "optional": false
+      },
+      {
+        "amount": 12,
+        "unit": "oz",
+        "item": "fresh green beans, trimmed",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "olive oil",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "lemon",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "garlic powder",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "salt",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat oven to 425°F. Toss potatoes with half the oil, garlic powder, and salt; roast 18 minutes."
+      },
+      {
+        "text": "Add green beans to the pan, toss with a little oil, and move vegetables aside for salmon."
+      },
+      {
+        "text": "Place salmon on the pan, drizzle with remaining oil and lemon juice, and season lightly."
+      },
+      {
+        "text": "Roast 12–15 minutes more until salmon flakes easily and reaches 145°F and vegetables are tender."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Heat oven to 425°F. Toss potatoes with half the oil, garlic powder, and salt; roast 18 minutes."
+      },
+      {
+        "text": "Add green beans to the pan, toss with a little oil, and move vegetables aside for salmon."
+      },
+      {
+        "text": "Place salmon on the pan, drizzle with remaining oil and lemon juice, and season lightly."
+      },
+      {
+        "text": "Roast 12–15 minutes more until salmon flakes easily and reaches 145°F and vegetables are tender."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "easy"
+    ]
+  },
+  {
+    "id": "turkey-tetrazzini-family",
+    "title": "Turkey Tetrazzini Casserole",
+    "aliases": [
+      "turkey tetrazzini",
+      "turkey pasta casserole",
+      "leftover turkey dinner"
+    ],
+    "description": "Creamy pasta with turkey, mushrooms, peas, and a golden Parmesan topping.",
+    "servings": 4,
+    "prepMinutes": 20,
+    "cookMinutes": 35,
+    "totalMinutes": 55,
+    "effort": "medium",
+    "cost": "$$",
+    "equipment": [
+      "large pot",
+      "large skillet",
+      "9x13 baking dish"
+    ],
+    "ingredients": [
+      {
+        "amount": 12,
+        "unit": "oz",
+        "item": "spaghetti, broken in half",
+        "optional": false
+      },
+      {
+        "amount": 3,
+        "unit": "cups",
+        "item": "cooked diced turkey",
+        "optional": false
+      },
+      {
+        "amount": 8,
+        "unit": "oz",
+        "item": "sliced mushrooms",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "frozen peas",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "10.5 oz can",
+        "item": "cream of mushroom soup",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "milk",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "shredded mozzarella",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "grated Parmesan",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat oven to 375°F. Cook spaghetti 2 minutes less than package directions and drain."
+      },
+      {
+        "text": "Cook mushrooms in a lightly greased skillet until softened."
+      },
+      {
+        "text": "Mix spaghetti, turkey, mushrooms, peas, soup, milk, and mozzarella; spread in a baking dish."
+      },
+      {
+        "text": "Sprinkle with Parmesan and bake 25–30 minutes until bubbling and hot throughout."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Heat oven to 375°F. Cook spaghetti 2 minutes less than package directions and drain."
+      },
+      {
+        "text": "Cook mushrooms in a lightly greased skillet until softened."
+      },
+      {
+        "text": "Mix spaghetti, turkey, mushrooms, peas, soup, milk, and mozzarella; spread in a baking dish."
+      },
+      {
+        "text": "Sprinkle with Parmesan and bake 25–30 minutes until bubbling and hot throughout."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "medium"
+    ]
+  },
+  {
+    "id": "classic-sloppy-joes",
+    "title": "Classic Sloppy Joes",
+    "aliases": [
+      "sloppy joes",
+      "ground beef sandwiches",
+      "loose meat sandwiches"
+    ],
+    "description": "Sweet-savory ground beef sandwiches that are fast, familiar, and family friendly.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "totalMinutes": 35,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": [
+      "large skillet"
+    ],
+    "ingredients": [
+      {
+        "amount": 1.25,
+        "unit": "lb",
+        "item": "ground beef",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "small onion, diced",
+        "optional": false
+      },
+      {
+        "amount": 0.75,
+        "unit": "cup",
+        "item": "ketchup",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "item": "yellow mustard",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "brown sugar",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "Worcestershire sauce",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "water",
+        "optional": false
+      },
+      {
+        "amount": 4,
+        "unit": "",
+        "item": "hamburger buns",
+        "optional": false
+      }
+    ],
+    "steps": [
+      {
+        "text": "Brown ground beef and onion in a large skillet until beef is fully cooked; drain excess fat."
+      },
+      {
+        "text": "Stir in ketchup, mustard, brown sugar, Worcestershire sauce, and water."
+      },
+      {
+        "text": "Simmer uncovered 10–15 minutes until thick and saucy."
+      },
+      {
+        "text": "Spoon onto hamburger buns and serve."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Brown ground beef and onion in a large skillet until beef is fully cooked; drain excess fat."
+      },
+      {
+        "text": "Stir in ketchup, mustard, brown sugar, Worcestershire sauce, and water."
+      },
+      {
+        "text": "Simmer uncovered 10–15 minutes until thick and saucy."
+      },
+      {
+        "text": "Spoon onto hamburger buns and serve."
+      }
+    ],
+    "storage": "Refrigerate leftovers promptly in a covered container and use within 3–4 days.",
+    "tags": [
+      "family dinner",
+      "dinner",
+      "ground beef",
+      "easy"
+    ]
+  }
+]
