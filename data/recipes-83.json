@@ -1,0 +1,794 @@
+[
+  {
+    "id": "berry-oat-breakfast-smoothie",
+    "title": "Berry Oat Breakfast Smoothie",
+    "aliases": [
+      "berry smoothie",
+      "oat smoothie"
+    ],
+    "description": "Creamy berries, banana, yogurt, and oats make a filling breakfast smoothie.",
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "totalMinutes": 5,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": [
+      "blender"
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "frozen mixed berries",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "",
+        "item": "banana",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "plain Greek yogurt",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "milk or nondairy milk",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "rolled oats",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "honey or maple syrup, for a sweeter taste",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Blend the main ingredients until completely smooth."
+      },
+      {
+        "text": "Taste before sweetening; add the optional sweetener only if desired."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Blend the main ingredients until completely smooth."
+      },
+      {
+        "text": "Taste before sweetening; add the optional sweetener only if desired."
+      }
+    ],
+    "storage": "Best served immediately.",
+    "tags": [
+      "smoothie",
+      "healthy",
+      "breakfast",
+      "berries",
+      "oats"
+    ]
+  },
+  {
+    "id": "tropical-green-smoothie",
+    "title": "Tropical Green Smoothie",
+    "aliases": [
+      "green smoothie",
+      "pineapple spinach smoothie"
+    ],
+    "description": "Pineapple and mango keep this spinach smoothie bright and fruity.",
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "totalMinutes": 5,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": [
+      "blender"
+    ],
+    "ingredients": [
+      {
+        "amount": 0.75,
+        "unit": "cup",
+        "item": "frozen pineapple",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "frozen mango",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "baby spinach",
+        "optional": false
+      },
+      {
+        "amount": 0.75,
+        "unit": "cup",
+        "item": "orange juice or coconut water",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "",
+        "item": "avocado",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "honey, for a sweeter taste",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Blend the main ingredients until completely smooth."
+      },
+      {
+        "text": "Taste before sweetening; add the optional sweetener only if desired."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Blend the main ingredients until completely smooth."
+      },
+      {
+        "text": "Taste before sweetening; add the optional sweetener only if desired."
+      }
+    ],
+    "storage": "Best served immediately.",
+    "tags": [
+      "smoothie",
+      "healthy",
+      "spinach",
+      "pineapple",
+      "mango"
+    ]
+  },
+  {
+    "id": "peach-vanilla-smoothie",
+    "title": "Peach Vanilla Smoothie",
+    "aliases": [
+      "peach smoothie"
+    ],
+    "description": "Frozen peaches, vanilla, and yogurt make a naturally creamy smoothie.",
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "totalMinutes": 5,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": [
+      "blender"
+    ],
+    "ingredients": [
+      {
+        "amount": 1.25,
+        "unit": "cups",
+        "item": "frozen sliced peaches",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "plain Greek yogurt",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "milk or nondairy milk",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "vanilla extract",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "honey or sugar, for a sweeter taste",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Blend the main ingredients until completely smooth."
+      },
+      {
+        "text": "Taste before sweetening; add the optional sweetener only if desired."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Blend the main ingredients until completely smooth."
+      },
+      {
+        "text": "Taste before sweetening; add the optional sweetener only if desired."
+      }
+    ],
+    "storage": "Best served immediately.",
+    "tags": [
+      "smoothie",
+      "healthy",
+      "peach",
+      "yogurt"
+    ]
+  },
+  {
+    "id": "chocolate-peanut-butter-banana-smoothie",
+    "title": "Chocolate Peanut Butter Banana Smoothie",
+    "aliases": [
+      "chocolate smoothie",
+      "peanut butter smoothie"
+    ],
+    "description": "Banana, cocoa, and peanut butter make this taste indulgent with simple ingredients.",
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "totalMinutes": 5,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": [
+      "blender"
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "frozen banana",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "natural peanut butter",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "unsweetened cocoa powder",
+        "optional": false
+      },
+      {
+        "amount": 0.75,
+        "unit": "cup",
+        "item": "milk or nondairy milk",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "plain Greek yogurt",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "honey or maple syrup, for a sweeter taste",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Blend the main ingredients until completely smooth."
+      },
+      {
+        "text": "Taste before sweetening; add the optional sweetener only if desired."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Blend the main ingredients until completely smooth."
+      },
+      {
+        "text": "Taste before sweetening; add the optional sweetener only if desired."
+      }
+    ],
+    "storage": "Best served immediately.",
+    "tags": [
+      "smoothie",
+      "healthy",
+      "chocolate",
+      "peanut butter",
+      "banana"
+    ]
+  },
+  {
+    "id": "mocha-breakfast-smoothie",
+    "title": "Mocha Breakfast Smoothie",
+    "aliases": [
+      "coffee smoothie",
+      "espresso smoothie"
+    ],
+    "description": "Coffee, cocoa, banana, and oats for mornings that need breakfast and caffeine.",
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "totalMinutes": 5,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": [
+      "blender"
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "frozen banana",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "chilled brewed coffee",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "milk or nondairy milk",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "rolled oats",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "unsweetened cocoa powder",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "instant espresso powder",
+        "optional": true
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "honey or sugar, for a sweeter taste",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Blend the main ingredients until completely smooth."
+      },
+      {
+        "text": "Taste before sweetening; add the optional sweetener only if desired."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Blend the main ingredients until completely smooth."
+      },
+      {
+        "text": "Taste before sweetening; add the optional sweetener only if desired."
+      }
+    ],
+    "storage": "Best served immediately.",
+    "tags": [
+      "smoothie",
+      "healthy",
+      "coffee",
+      "espresso",
+      "mocha",
+      "breakfast"
+    ]
+  },
+  {
+    "id": "strawberry-banana-protein-smoothie",
+    "title": "Strawberry Banana Protein Smoothie",
+    "aliases": [
+      "strawberry smoothie"
+    ],
+    "description": "A classic strawberry-banana smoothie made filling with Greek yogurt.",
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "totalMinutes": 5,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": [
+      "blender"
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "frozen strawberries",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "",
+        "item": "banana",
+        "optional": false
+      },
+      {
+        "amount": 0.75,
+        "unit": "cup",
+        "item": "plain Greek yogurt",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "milk or nondairy milk",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "honey, for a sweeter taste",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Blend the main ingredients until completely smooth."
+      },
+      {
+        "text": "Taste before sweetening; add the optional sweetener only if desired."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Blend the main ingredients until completely smooth."
+      },
+      {
+        "text": "Taste before sweetening; add the optional sweetener only if desired."
+      }
+    ],
+    "storage": "Best served immediately.",
+    "tags": [
+      "smoothie",
+      "healthy",
+      "strawberry",
+      "banana",
+      "protein"
+    ]
+  },
+  {
+    "id": "blueberry-almond-smoothie",
+    "title": "Blueberry Almond Smoothie",
+    "aliases": [
+      "blueberry smoothie"
+    ],
+    "description": "Blueberries, almond butter, cinnamon, and oats make a nutty satisfying smoothie.",
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "totalMinutes": 5,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": [
+      "blender"
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "frozen blueberries",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "almond butter",
+        "optional": false
+      },
+      {
+        "amount": 0.75,
+        "unit": "cup",
+        "item": "milk or nondairy milk",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "rolled oats",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "cinnamon",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "maple syrup, for a sweeter taste",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Blend the main ingredients until completely smooth."
+      },
+      {
+        "text": "Taste before sweetening; add the optional sweetener only if desired."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Blend the main ingredients until completely smooth."
+      },
+      {
+        "text": "Taste before sweetening; add the optional sweetener only if desired."
+      }
+    ],
+    "storage": "Best served immediately.",
+    "tags": [
+      "smoothie",
+      "healthy",
+      "blueberry",
+      "almond",
+      "oats"
+    ]
+  },
+  {
+    "id": "mango-carrot-orange-smoothie",
+    "title": "Mango Carrot Orange Smoothie",
+    "aliases": [
+      "mango smoothie",
+      "carrot smoothie"
+    ],
+    "description": "Sweet mango and orange make carrot an easy bright addition.",
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "totalMinutes": 5,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": [
+      "blender"
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "frozen mango",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "finely shredded carrot",
+        "optional": false
+      },
+      {
+        "amount": 0.75,
+        "unit": "cup",
+        "item": "orange juice",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "plain Greek yogurt",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "ground ginger",
+        "optional": true
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "honey, for a sweeter taste",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Blend the main ingredients until completely smooth."
+      },
+      {
+        "text": "Taste before sweetening; add the optional sweetener only if desired."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Blend the main ingredients until completely smooth."
+      },
+      {
+        "text": "Taste before sweetening; add the optional sweetener only if desired."
+      }
+    ],
+    "storage": "Best served immediately.",
+    "tags": [
+      "smoothie",
+      "healthy",
+      "mango",
+      "carrot",
+      "orange"
+    ]
+  },
+  {
+    "id": "apple-cinnamon-oat-smoothie",
+    "title": "Apple Cinnamon Oat Smoothie",
+    "aliases": [
+      "apple smoothie",
+      "apple pie smoothie"
+    ],
+    "description": "Apple, oats, cinnamon, and yogurt give cozy apple-pie flavor.",
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "totalMinutes": 5,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": [
+      "blender"
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "",
+        "item": "small sweet apple, cored and chopped",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "",
+        "item": "frozen banana",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "rolled oats",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "plain Greek yogurt",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "milk or nondairy milk",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "cinnamon",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "maple syrup, for a sweeter taste",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Blend the main ingredients until completely smooth."
+      },
+      {
+        "text": "Taste before sweetening; add the optional sweetener only if desired."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Blend the main ingredients until completely smooth."
+      },
+      {
+        "text": "Taste before sweetening; add the optional sweetener only if desired."
+      }
+    ],
+    "storage": "Best served immediately.",
+    "tags": [
+      "smoothie",
+      "healthy",
+      "apple",
+      "cinnamon",
+      "oats"
+    ]
+  },
+  {
+    "id": "pineapple-coconut-lime-smoothie",
+    "title": "Pineapple Coconut Lime Smoothie",
+    "aliases": [
+      "pineapple smoothie",
+      "coconut smoothie"
+    ],
+    "description": "Pineapple, coconut, lime, and yogurt make a bright tropical smoothie.",
+    "servings": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "totalMinutes": 5,
+    "effort": "very easy",
+    "cost": "$",
+    "equipment": [
+      "blender"
+    ],
+    "ingredients": [
+      {
+        "amount": 1.25,
+        "unit": "cups",
+        "item": "frozen pineapple",
+        "optional": false
+      },
+      {
+        "amount": 0.75,
+        "unit": "cup",
+        "item": "unsweetened coconut milk beverage",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "plain Greek yogurt",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "lime juice",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "honey, for a sweeter taste",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Blend the main ingredients until completely smooth."
+      },
+      {
+        "text": "Taste before sweetening; add the optional sweetener only if desired."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "Blend the main ingredients until completely smooth."
+      },
+      {
+        "text": "Taste before sweetening; add the optional sweetener only if desired."
+      }
+    ],
+    "storage": "Best served immediately.",
+    "tags": [
+      "smoothie",
+      "healthy",
+      "pineapple",
+      "coconut",
+      "lime",
+      "tropical"
+    ]
+  }
+]
