@@ -1,0 +1,85 @@
+[
+  {
+    "id": "quiche-mushroom-swiss",
+    "title": "Mushroom & Swiss Quiche",
+    "aliases": ["mushroom swiss quiche", "vegetarian quiche", "mushroom quiche"],
+    "description": "An easy savory quiche with sliced mushrooms and Swiss cheese in a store-bought pie crust.",
+    "servings": 6,
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": ["9-inch pie pan", "skillet", "mixing bowl"],
+    "ingredients": [
+      {"amount":"1","unit":"9-inch","item":"refrigerated pie crust","optional":false},
+      {"amount":"8","unit":"oz","item":"sliced white mushrooms","optional":false},
+      {"amount":"1","unit":"tbsp","item":"butter","optional":false},
+      {"amount":"1","unit":"cup","item":"shredded Swiss cheese","optional":false},
+      {"amount":"4","unit":"large","item":"eggs","optional":false},
+      {"amount":"1","unit":"cup","item":"milk","optional":false},
+      {"amount":"1/4","unit":"tsp","item":"salt","optional":false},
+      {"amount":"1/4","unit":"tsp","item":"black pepper","optional":false}
+    ],
+    "steps": [
+      {"text":"Heat oven to 375°F and fit the pie crust into a 9-inch pie pan."},
+      {"text":"Melt butter in a skillet and cook the mushrooms until softened and their extra moisture has cooked away."},
+      {"text":"Spread the mushrooms and Swiss cheese evenly in the crust."},
+      {"text":"Whisk eggs, milk, salt, and black pepper together, then pour over the filling."},
+      {"text":"Bake until the center is set, about 35 to 40 minutes."},
+      {"text":"Let rest 10 minutes before slicing."}
+    ],
+    "cookSteps": [
+      {"text":"Heat oven to 375°F and fit the pie crust into a 9-inch pie pan.","quantities":{"pie crust":0}},
+      {"text":"Melt butter in a skillet and cook the mushrooms until softened and their extra moisture has cooked away.","quantities":{"mushrooms":1,"butter":2},"timerMinutes":7},
+      {"text":"Spread the mushrooms and Swiss cheese evenly in the crust.","quantities":{"mushrooms":1,"Swiss cheese":3}},
+      {"text":"Whisk eggs, milk, salt, and black pepper together, then pour over the filling.","quantities":{"eggs":4,"milk":5,"salt":6,"black pepper":7}},
+      {"text":"Bake until the center is set.","timerMinutes":40},
+      {"text":"Let rest before slicing.","timerMinutes":10}
+    ],
+    "storage": "Refrigerate covered for up to 4 days. Reheat individual slices until hot.",
+    "tags": ["breakfast", "brunch", "vegetarian", "quiche", "make ahead"]
+  },
+  {
+    "id": "quiche-spinach-onion-cheese",
+    "title": "Spinach, Onion & Cheese Quiche",
+    "aliases": ["spinach onion quiche", "spinach cheese quiche", "vegetarian quiche"],
+    "description": "An easy spinach-and-onion quiche with cheddar cheese in a store-bought pie crust.",
+    "servings": 6,
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55,
+    "effort": "easy",
+    "cost": "$",
+    "equipment": ["9-inch pie pan", "skillet", "mixing bowl"],
+    "ingredients": [
+      {"amount":"1","unit":"9-inch","item":"refrigerated pie crust","optional":false},
+      {"amount":"5","unit":"oz","item":"frozen chopped spinach, thawed and squeezed dry","optional":false},
+      {"amount":"1/2","unit":"cup","item":"diced onion","optional":false},
+      {"amount":"1","unit":"tbsp","item":"butter","optional":false},
+      {"amount":"1","unit":"cup","item":"shredded cheddar cheese","optional":false},
+      {"amount":"4","unit":"large","item":"eggs","optional":false},
+      {"amount":"1","unit":"cup","item":"milk","optional":false},
+      {"amount":"1/4","unit":"tsp","item":"salt","optional":false},
+      {"amount":"1/4","unit":"tsp","item":"black pepper","optional":false}
+    ],
+    "steps": [
+      {"text":"Heat oven to 375°F and fit the pie crust into a 9-inch pie pan."},
+      {"text":"Melt butter in a skillet and cook the onion until softened. Make sure the thawed spinach is squeezed very dry."},
+      {"text":"Spread the spinach, onion, and cheddar cheese evenly in the crust."},
+      {"text":"Whisk eggs, milk, salt, and black pepper together, then pour over the filling."},
+      {"text":"Bake until the center is set, about 35 to 40 minutes."},
+      {"text":"Let rest 10 minutes before slicing."}
+    ],
+    "cookSteps": [
+      {"text":"Heat oven to 375°F and fit the pie crust into a 9-inch pie pan.","quantities":{"pie crust":0}},
+      {"text":"Melt butter in a skillet and cook the onion until softened. Squeeze the thawed spinach very dry.","quantities":{"spinach":1,"onion":2,"butter":3},"timerMinutes":5},
+      {"text":"Spread the spinach, onion, and cheddar cheese evenly in the crust.","quantities":{"spinach":1,"onion":2,"cheddar cheese":4}},
+      {"text":"Whisk eggs, milk, salt, and black pepper together, then pour over the filling.","quantities":{"eggs":5,"milk":6,"salt":7,"black pepper":8}},
+      {"text":"Bake until the center is set.","timerMinutes":40},
+      {"text":"Let rest before slicing.","timerMinutes":10}
+    ],
+    "storage": "Refrigerate covered for up to 4 days. Reheat individual slices until hot.",
+    "tags": ["breakfast", "brunch", "vegetarian", "quiche", "make ahead"]
+  }
+]
