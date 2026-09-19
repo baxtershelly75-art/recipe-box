@@ -13,7 +13,7 @@
 <body>
   <header class="site-header">
     <div><p class="eyebrow">SHELLY'S</p><h1>Recipe Box</h1><p class="subtitle">Simple food. Clear steps. No recipe-blog nonsense.</p></div>
-    <div class="header-actions"><button id="favoritesBtn" class="secondary-btn" type="button">♥ Favorites</button><button id="groceryBtn" class="secondary-btn" type="button">🛒 Grocery List</button></div>
+    <div class="header-actions"><button id="favoritesBtn" class="secondary-btn" type="button" onclick="document.getElementById('groceryView').hidden=true;document.getElementById('app').hidden=false;">♥ Favorites</button><button id="groceryBtn" class="secondary-btn" type="button">🛒 Grocery List</button></div>
   </header>
   <section id="groceryView" hidden style="max-width:760px;margin:1rem auto;padding:1rem;">
     <button id="groceryBackBtn" class="secondary-btn" type="button">← Back</button><button id="groceryAddSelectedBtn" class="secondary-btn" type="button" disabled>Add Selected Recipes</button><p id="grocerySelectionMessage" class="grocery-message" aria-live="polite"></p><h2>🛒 Grocery List</h2><div id="groceryItems" aria-live="polite"><p>No grocery items yet.</p></div><div id="groceryManualShell"><label for="groceryManualInput">Add an item</label><input id="groceryManualInput" type="text" placeholder="Example: coffee creamer"><button id="groceryManualAddBtn" class="secondary-btn" type="button">Add Item</button></div><div id="groceryListActions"><button id="groceryClearBtn" class="secondary-btn" type="button">Clear Grocery List</button><button id="groceryShareBtn" class="secondary-btn" type="button">Share Grocery List</button></div>
