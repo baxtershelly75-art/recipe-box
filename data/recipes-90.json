@@ -1,0 +1,58 @@
+[
+  {
+    "id": "progressive-can-survive-without-me-chili-mac",
+    "title": "Progressive Can Survive Without Me Chili Mac",
+    "aliases": ["chili mac", "turkey chili mac", "deluxe chili mac", "easy chili mac"],
+    "description": "The creamy, hearty chili mac that officially beat the headset: deluxe mac and cheese, ground turkey, chili with beans, extra chili powder, and Parmesan on top.",
+    "servings": 6,
+    "prepMinutes": 5,
+    "cookMinutes": 20,
+    "totalMinutes": 25,
+    "effort": "very easy",
+    "cost": "$$",
+    "equipment": ["large skillet", "medium pot", "spoon", "colander"],
+    "ingredients": [
+      {"amount": 1, "unit": "box", "item": "deluxe macaroni and cheese with cheese sauce pouch", "optional": false},
+      {"amount": 1, "unit": "lb", "item": "ground turkey", "optional": false},
+      {"amount": 2, "unit": "cans", "item": "chili with beans", "optional": false},
+      {"amount": 1, "unit": "tsp", "item": "chili powder, plus more to taste", "optional": false},
+      {"amount": 0.25, "unit": "cup", "item": "grated Parmesan cheese for topping", "optional": false}
+    ],
+    "steps": [
+      {"text": "Brown the ground turkey in a large skillet, breaking it up as it cooks."},
+      {"text": "Prepare the deluxe macaroni and cheese according to the box directions, using the included cheese sauce pouch."},
+      {"text": "Stir both cans of chili with beans and the extra chili powder into the cooked turkey. Heat until hot and bubbly."},
+      {"text": "Fold the prepared mac and cheese into the turkey-chili mixture until everything is creamy and evenly combined."},
+      {"text": "Spoon into bowls and top generously with grated Parmesan cheese."}
+    ],
+    "cookSteps": [
+      {
+        "text": "BROWN:\n{{turkey}} ground turkey\n\nBreak it up as it cooks.",
+        "quantities": [{"key": "turkey", "ingredientIndex": 1}],
+        "timerMinutes": 8
+      },
+      {
+        "text": "PREPARE:\n{{mac}} deluxe macaroni and cheese\n\nCook the pasta according to the box directions, drain it, then stir in the included cheese sauce pouch.",
+        "quantities": [{"key": "mac", "ingredientIndex": 0}],
+        "timerMinutes": 10
+      },
+      {
+        "text": "ADD TO THE TURKEY:\n{{chili}} chili with beans\n{{powder}} chili powder\n\nStir and heat until hot and bubbly.",
+        "quantities": [
+          {"key": "chili", "ingredientIndex": 2},
+          {"key": "powder", "ingredientIndex": 3}
+        ],
+        "timerMinutes": 5
+      },
+      {
+        "text": "FOLD the prepared mac and cheese into the hot turkey-chili mixture until creamy and evenly combined."
+      },
+      {
+        "text": "SPOON into bowls.\nTOP WITH:\n{{parm}} grated Parmesan\n\nAdd another shake of chili powder if you want it punchier.",
+        "quantities": [{"key": "parm", "ingredientIndex": 4}]
+      }
+    ],
+    "storage": "Refrigerate leftovers up to 4 days. Reheat gently in the microwave or on the stove; add a small splash of milk if it thickens.",
+    "tags": ["dinner", "comfort food", "very easy", "chili", "mac and cheese", "ground turkey", "family dinner"]
+  }
+]
