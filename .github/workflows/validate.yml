@@ -19,6 +19,8 @@ jobs:
         run: node tests/core-tests.mjs
       - name: Check grocery list grouping
         run: node tests/grocery-helpers.mjs
+      - name: Check browser JavaScript syntax
+        run: node --check app.js && node --check grocery-helpers.js && node --check sw.js
       - name: Check category coverage
         run: node tests/library-coverage.mjs
       - name: Count recipes
