@@ -17,6 +17,8 @@ jobs:
         run: node tests/validate-recipes.mjs
       - name: Check search, scaling, timers, and cook steps
         run: node tests/core-tests.mjs
+      - name: Check grocery list grouping
+        run: node tests/grocery-helpers.mjs
       - name: Check category coverage
         run: node tests/library-coverage.mjs
       - name: Count recipes
