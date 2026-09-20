@@ -485,8 +485,11 @@ loadRecipes();
   const clearBtn = document.getElementById('groceryClearBtn');
   const shareBtn = document.getElementById('groceryShareBtn');
   const items = document.getElementById('groceryItems');
-  if (!input || !addBtn || !clearBtn || !shareBtn || !items) return;
+  const grocery = globalThis.RecipeBoxGrocery;
+  if (!input || !addBtn || !clearBtn || !shareBtn || !items || !grocery) return;
+
   const storageKey = 'recipeBoxManualGroceryItems';
+
   const readItems = () => {
     try {
       const saved = JSON.parse(localStorage.getItem(storageKey) || '[]');
@@ -502,50 +505,80 @@ loadRecipes();
       return [];
     }
   };
-  const saveItems = (values) => {
-    try { localStorage.setItem(storageKey, JSON.stringify(values)); } catch (_) {}
+
+  const saveItems = (nextValues) => {
+    try { localStorage.setItem(storageKey, JSON.stringify(nextValues)); } catch (_) {}
   };
-  const render = (values) => {
+
+  const render = (nextValues) => {
     items.textContent = '';
-    if (!values.length) {
+    const groups = grocery.groupItems(nextValues);
+
+    if (!groups.length) {
       const empty = document.createElement('p');
       empty.textContent = 'No grocery items yet.';
       items.appendChild(empty);
       return;
     }
-    values.forEach((item, index) => {
-      const row = document.createElement('div');
-      row.className = 'grocery-manual-item';
-      const label = document.createElement('label');
-      const checkbox = document.createElement('input');
-      checkbox.type = 'checkbox';
-      checkbox.checked = item.checked;
-      checkbox.setAttribute('aria-label', `Mark ${item.text} as handled`);
-      checkbox.addEventListener('change', () => {
-        item.checked = checkbox.checked;
-        text.style.textDecoration = checkbox.checked ? 'line-through' : '';
-        saveItems(values);
+
+    groups.forEach(group => {
+      const section = document.createElement('section');
+      section.className = 'grocery-section';
+
+      const heading = document.createElement('h3');
+      heading.className = 'grocery-section-title';
+      heading.textContent = group.department;
+
+      const rows = document.createElement('div');
+      rows.className = 'grocery-section-items';
+
+      group.items.forEach(item => {
+        const row = document.createElement('div');
+        row.className = 'grocery-manual-item';
+
+        const label = document.createElement('label');
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.checked = item.checked;
+        checkbox.setAttribute('aria-label', `Mark ${item.text} as handled`);
+
+        const text = document.createElement('span');
+        text.textContent = item.text;
+        text.style.textDecoration = item.checked ? 'line-through' : '';
+
+        checkbox.addEventListener('change', () => {
+          item.checked = checkbox.checked;
+          text.style.textDecoration = checkbox.checked ? 'line-through' : '';
+          saveItems(nextValues);
+        });
+
+        label.append(checkbox, text);
+        row.appendChild(label);
+        rows.appendChild(row);
       });
-      const text = document.createElement('span');
-      text.textContent = item.text;
-      text.style.textDecoration = item.checked ? 'line-through' : '';
-      label.append(checkbox, text);
-      row.appendChild(label);
-      items.appendChild(row);
+
+      section.append(heading, rows);
+      items.appendChild(section);
     });
   };
-  let values = readItems();
+
+  // Clean out old generated zero-quantity lines the next time the list loads.
+  let values = grocery.visibleItems(readItems());
+  saveItems(values);
   render(values);
+
   const addItem = () => {
     const value = input.value.trim();
-    if (!value) return;
+    if (!value || grocery.isZeroQuantityText(value)) return;
     values.push({ text: value, checked: false });
     saveItems(values);
     render(values);
     input.value = '';
     input.focus();
   };
+
   addBtn.addEventListener('click', addItem);
+
   clearBtn.addEventListener('click', () => {
     if (!values.length) return;
     if (!window.confirm('Clear everything from your grocery list?')) return;
@@ -553,13 +586,15 @@ loadRecipes();
     saveItems(values);
     render(values);
   });
+
   shareBtn.addEventListener('click', async () => {
-    const unchecked = values.filter(item => !item.checked).map(item => item.text);
+    const unchecked = grocery.visibleItems(values).filter(item => !item.checked);
     if (!unchecked.length) {
       window.alert('There are no unchecked grocery items to share.');
       return;
     }
-    const shareText = ['Grocery List', ...unchecked.map(item => `☐ ${item}`)].join('\n');
+
+    const shareText = grocery.buildShareText(unchecked);
     if (navigator.share) {
       try {
         await navigator.share({ title: 'Grocery List', text: shareText });
@@ -568,6 +603,7 @@ loadRecipes();
       }
       return;
     }
+
     try {
       await navigator.clipboard.writeText(shareText);
       window.alert('Grocery list copied to your clipboard.');
@@ -575,44 +611,69 @@ loadRecipes();
       window.alert('Sharing is not available in this browser.');
     }
   });
+
   const addSelectedBtn = document.getElementById('groceryAddSelectedBtn');
   if (addSelectedBtn) {
     addSelectedBtn.addEventListener('click', () => {
       const selectedRecipes = state.recipes.filter(recipe => state.groceryRecipeIds.has(recipe.id));
       const combined = new Map();
+
       selectedRecipes.forEach(recipe => {
         recipe.ingredients.forEach(ingredient => {
+          const amount = Number(ingredient.amount);
+          if (Number.isFinite(amount) && amount === 0) return;
+
           const rawUnit = String(ingredient.unit || '').trim();
           const item = String(ingredient.item || '').trim();
           const optional = Boolean(ingredient.optional);
-          const unitAliases = { cups: 'cup', tablespoons: 'tbsp', tablespoon: 'tbsp', teaspoons: 'tsp', teaspoon: 'tsp', cans: 'can', ounces: 'oz', ounce: 'oz', pounds: 'lb', pound: 'lb' };
+          const unitAliases = {
+            cups: 'cup', tablespoons: 'tbsp', tablespoon: 'tbsp',
+            teaspoons: 'tsp', teaspoon: 'tsp', cans: 'can',
+            ounces: 'oz', ounce: 'oz', pounds: 'lb', pound: 'lb'
+          };
           const unitKey = unitAliases[norm(rawUnit)] || norm(rawUnit);
           const key = [norm(item), unitKey, optional ? 'optional' : 'required'].join('|');
+          const amountValue = Number.isFinite(amount) ? amount : 0;
           const existing = combined.get(key);
-          if (existing) existing.amount += Number(ingredient.amount) || 0;
-          else combined.set(key, { amount: Number(ingredient.amount) || 0, unit: rawUnit, unitKey, item, optional });
+
+          if (existing) existing.amount += amountValue;
+          else combined.set(key, { amount: amountValue, unit: rawUnit, unitKey, item, optional });
         });
       });
+
       const existingTexts = new Set(values.map(item => norm(item.text)));
       let addedCount = 0;
+
       combined.forEach(ingredient => {
+        if (ingredient.amount === 0) return;
+
         const pluralUnits = { cup: 'cups', can: 'cans', oz: 'oz', lb: 'lb', tbsp: 'tbsp', tsp: 'tsp' };
         if (ingredient.unitKey && pluralUnits[ingredient.unitKey]) {
           ingredient.unit = ingredient.amount === 1 ? ingredient.unitKey : pluralUnits[ingredient.unitKey];
         }
+
         const text = ingredientLine(ingredient);
+        if (grocery.isZeroQuantityText(text)) return;
+
         if (!existingTexts.has(norm(text))) {
           values.push({ text, checked: false });
           existingTexts.add(norm(text));
           addedCount += 1;
         }
       });
+
       saveItems(values);
       render(values);
+
       const message = document.getElementById('grocerySelectionMessage');
-      if (message) message.textContent = addedCount ? `Added ${addedCount} grocery item${addedCount === 1 ? '' : 's'} from ${selectedRecipes.length} selected recipe${selectedRecipes.length === 1 ? '' : 's'}.` : 'Those selected recipe ingredients are already on your grocery list.';
+      if (message) {
+        message.textContent = addedCount
+          ? `Added ${addedCount} grocery item${addedCount === 1 ? '' : 's'} from ${selectedRecipes.length} selected recipe${selectedRecipes.length === 1 ? '' : 's'}.`
+          : 'Those selected recipe ingredients are already on your grocery list.';
+      }
     });
   }
+
   input.addEventListener('keydown', (event) => {
     if (event.key === 'Enter') addItem();
   });
