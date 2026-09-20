@@ -150,7 +150,10 @@ h3 { font-size: 1.25rem; font-weight: 900; }
 
 /* Grocery List finishing pass */
 #groceryView { background: rgba(255,249,237,.92); border: 2px solid rgba(138,79,56,.2); border-radius: 24px; box-shadow: var(--shadow); }
-#groceryItems { display: grid; gap: 8px; margin: 16px 0 22px; }
+#groceryItems { display: grid; gap: 20px; margin: 16px 0 22px; }
+.grocery-section { display: grid; gap: 8px; }
+.grocery-section-title { margin: 0; padding: 0 2px; font-size: 1.15rem; font-weight: 950; color: var(--ink); }
+.grocery-section-items { display: grid; gap: 4px; }
 .grocery-manual-item label { min-height: 44px; display: flex; align-items: center; gap: 10px; }
 .grocery-manual-item input { width: 22px; height: 22px; flex: 0 0 22px; accent-color: var(--accent); }
 #groceryManualShell { display: grid; grid-template-columns: auto minmax(0,1fr) auto; gap: 10px; align-items: center; margin-top: 20px; }
