@@ -19,7 +19,7 @@
       /\btilapia\b/i, /\bfish\b/i, /\bsalmon\b/i, /\btuna\b/i, /\bshrimp\b/i,
     ],
     canned: [
-      /\bcanned?\b/i, /\bjarred?\b/i, /\bblack beans?\b/i,
+      /\bcanned?\b/i, /\bjarred?\b/i, /\bcans?\s+(?:whole kernel\s+)?corn\b/i, /\bblack beans?\b/i,
       /\brefried beans?\b/i, /\bkidney beans?\b/i, /\bpinto beans?\b/i,
       /\bchickpeas?\b/i, /\bgarbanzo beans?\b/i, /\benchilada sauce\b/i,
       /\bmarinara\b/i, /\bpizza sauce\b/i, /\bspaghetti sauce\b/i,
