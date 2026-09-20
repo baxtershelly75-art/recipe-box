@@ -1,4 +1,4 @@
-const CACHE = 'recipe-box-v1-58';
+const CACHE = 'recipe-box-v1-59';
 const RECIPE_ASSETS = Array.from({length:75},(_,i)=>`./data/recipes-${String(i+1).padStart(2,'0')}.json`);
 const EXTRA_RECIPE_ASSETS = Array.from({length:17},(_,i)=>`./data/recipes-${i+76}.json`);
 const ASSETS = ['./','./index.html','./styles.css','./grocery-helpers.js','./app.js','./kitchen-fractions.js','./recipe-extra-loader.js','./recipe-helpers.js','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png',...RECIPE_ASSETS,...EXTRA_RECIPE_ASSETS];
@@ -22,7 +22,8 @@ self.addEventListener('activate', event => {
 
 function isFreshRecipeAsset(url, request) {
   if (request.mode === 'navigate') return true;
-  if (url.pathname.endsWith('/app.js')) return true;\n  if (url.pathname.endsWith('/grocery-helpers.js')) return true;
+  if (url.pathname.endsWith('/app.js')) return true;
+  if (url.pathname.endsWith('/grocery-helpers.js')) return true;
   if (url.pathname.endsWith('/recipe-extra-loader.js')) return true;
   if (/\/data\/recipes-(?:8[2-9]|9\d|\d{3,})\.json$/.test(url.pathname)) return true;
   return false;
