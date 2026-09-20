@@ -66,6 +66,9 @@
     // Explicit canned/jarred wording wins because those products live together in-store.
     if (matchesAny(value, patterns.canned)) return 'Canned & Jarred';
 
+    // Broth and stock belong in pantry even when their flavor names a meat.
+    if (/\b(?:broth|stock|bouillon)\b/i.test(value)) return 'Pantry & Spices';
+
     // Meat stays together, including frozen meatballs or other explicitly named meat.
     if (matchesAny(value, patterns.meat)) return 'Meat & Seafood';
 
@@ -73,8 +76,10 @@
     if (/\bfrozen\b/i.test(value) || /\bice cream\b/i.test(value)) return 'Frozen';
 
     if (matchesAny(value, patterns.dairy)) return 'Dairy & Eggs';
-    if (matchesAny(value, patterns.produce)) return 'Produce';
+
+    // Check bakery before produce so "corn tortillas" do not become produce.
     if (matchesAny(value, patterns.bread)) return 'Bread & Bakery';
+    if (matchesAny(value, patterns.produce)) return 'Produce';
     if (matchesAny(value, patterns.pantry)) return 'Pantry & Spices';
     return 'Other';
   }
