@@ -17,6 +17,7 @@ assert.equal(grocery.isZeroQuantityText('0.5 cup milk'), false);
 assert.equal(grocery.isZeroQuantityText('½ cup frozen corn'), false);
 
 assert.equal(grocery.departmentForText('1 tsp cumin'), 'Pantry & Spices');
+assert.equal(grocery.departmentForText('4 cups chicken broth'), 'Pantry & Spices');
 assert.equal(grocery.departmentForText('4 oz cream cheese'), 'Dairy & Eggs');
 assert.equal(grocery.departmentForText('6 corn or flour tortillas, cut into strips'), 'Bread & Bakery');
 assert.equal(grocery.departmentForText('1½ cups canned black beans, drained and rinsed'), 'Canned & Jarred');
