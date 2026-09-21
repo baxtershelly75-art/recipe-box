@@ -2,7 +2,11 @@
   {
     "id": "quiche-broccoli-cheddar",
     "title": "Broccoli & Cheddar Quiche",
-    "aliases": ["broccoli cheddar quiche", "broccoli cheese quiche", "vegetarian quiche"],
+    "aliases": [
+      "broccoli cheddar quiche",
+      "broccoli cheese quiche",
+      "vegetarian quiche"
+    ],
     "description": "A cozy, family-friendly quiche with tender broccoli and plenty of cheddar in a flaky pie crust.",
     "servings": 6,
     "prepMinutes": 15,
@@ -10,39 +14,132 @@
     "totalMinutes": 55,
     "effort": "easy",
     "cost": "$",
-    "equipment": ["9-inch pie pan", "small pot or microwave-safe bowl", "mixing bowl"],
+    "equipment": [
+      "9-inch pie pan",
+      "small pot or microwave-safe bowl",
+      "mixing bowl"
+    ],
     "ingredients": [
-      {"amount":"1","unit":"9-inch","item":"refrigerated pie crust","optional":false},
-      {"amount":"1 1/2","unit":"cups","item":"small broccoli florets, fresh or frozen","optional":false},
-      {"amount":"1","unit":"cup","item":"shredded cheddar cheese","optional":false},
-      {"amount":"4","unit":"large","item":"eggs","optional":false},
-      {"amount":"1","unit":"cup","item":"milk","optional":false},
-      {"amount":"1/4","unit":"tsp","item":"salt","optional":false},
-      {"amount":"1/4","unit":"tsp","item":"black pepper","optional":false}
+      {
+        "amount": 1,
+        "unit": "9-inch",
+        "item": "refrigerated pie crust",
+        "optional": false
+      },
+      {
+        "amount": 1.5,
+        "unit": "cups",
+        "item": "small broccoli florets, fresh or frozen",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "shredded cheddar cheese",
+        "optional": false
+      },
+      {
+        "amount": 4,
+        "unit": "large",
+        "item": "eggs",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "milk",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "salt",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "black pepper",
+        "optional": false
+      }
     ],
     "steps": [
-      {"text":"Heat oven to 375°F and fit the pie crust into a 9-inch pie pan."},
-      {"text":"Cook the broccoli just until barely tender, then drain it very well and chop any large pieces."},
-      {"text":"Spread broccoli and cheddar evenly in the crust."},
-      {"text":"Whisk eggs, milk, salt, and black pepper together, then pour over the filling."},
-      {"text":"Bake until the center is set, about 35 to 40 minutes."},
-      {"text":"Let rest 10 minutes before slicing."}
+      {
+        "text": "Heat oven to 375°F and fit the pie crust into a 9-inch pie pan."
+      },
+      {
+        "text": "Cook the broccoli just until barely tender, then drain it very well and chop any large pieces."
+      },
+      {
+        "text": "Spread broccoli and cheddar evenly in the crust."
+      },
+      {
+        "text": "Whisk eggs, milk, salt, and black pepper together, then pour over the filling."
+      },
+      {
+        "text": "Bake until the center is set, about 35 to 40 minutes."
+      },
+      {
+        "text": "Let rest 10 minutes before slicing."
+      }
     ],
     "cookSteps": [
-      {"text":"HEAT OVEN to 375°F and fit the pie crust into a 9-inch pie pan.","quantities":{"pie crust":0}},
-      {"text":"COOK until barely tender, then drain very well:\n{{broccoli}} broccoli florets","quantities":{"broccoli":1},"timerMinutes":4},
-      {"text":"SPREAD IN CRUST:\n{{broccoli}} broccoli\n{{cheddar}} cheddar cheese","quantities":{"broccoli":1,"cheddar":2}},
-      {"text":"WHISK TOGETHER:\n{{eggs}} eggs\n{{milk}} milk\n{{salt}} salt\n{{pepper}} black pepper\n\nPour over filling.","quantities":{"eggs":3,"milk":4,"salt":5,"pepper":6}},
-      {"text":"BAKE at 375°F until the center is set.","timerMinutes":40},
-      {"text":"LET REST before slicing.","timerMinutes":10}
+      {
+        "text": "HEAT OVEN to 375°F and fit the pie crust into a 9-inch pie pan.",
+        "quantities": {
+          "pie crust": 0
+        }
+      },
+      {
+        "text": "COOK until barely tender, then drain very well:\n{{broccoli}} broccoli florets",
+        "quantities": {
+          "broccoli": 1
+        },
+        "timerMinutes": 4
+      },
+      {
+        "text": "SPREAD IN CRUST:\n{{broccoli}} broccoli\n{{cheddar}} cheddar cheese",
+        "quantities": {
+          "broccoli": 1,
+          "cheddar": 2
+        }
+      },
+      {
+        "text": "WHISK TOGETHER:\n{{eggs}} eggs\n{{milk}} milk\n{{salt}} salt\n{{pepper}} black pepper\n\nPour over filling.",
+        "quantities": {
+          "eggs": 3,
+          "milk": 4,
+          "salt": 5,
+          "pepper": 6
+        }
+      },
+      {
+        "text": "BAKE at 375°F until the center is set.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "LET REST before slicing.",
+        "timerMinutes": 10
+      }
     ],
     "storage": "Refrigerate covered for up to 4 days. Reheat individual slices until hot.",
-    "tags": ["breakfast", "brunch", "vegetarian", "quiche", "broccoli", "make ahead"]
+    "tags": [
+      "breakfast",
+      "brunch",
+      "vegetarian",
+      "quiche",
+      "broccoli",
+      "make ahead"
+    ]
   },
   {
     "id": "quiche-ham-swiss",
     "title": "Ham & Swiss Quiche",
-    "aliases": ["ham swiss quiche", "ham quiche", "meat quiche"],
+    "aliases": [
+      "ham swiss quiche",
+      "ham quiche",
+      "meat quiche"
+    ],
     "description": "A simple savory quiche with diced ham and nutty Swiss cheese.",
     "servings": 6,
     "prepMinutes": 10,
@@ -50,38 +147,123 @@
     "totalMinutes": 50,
     "effort": "easy",
     "cost": "$$",
-    "equipment": ["9-inch pie pan", "mixing bowl"],
+    "equipment": [
+      "9-inch pie pan",
+      "mixing bowl"
+    ],
     "ingredients": [
-      {"amount":"1","unit":"9-inch","item":"refrigerated pie crust","optional":false},
-      {"amount":"1","unit":"cup","item":"diced cooked ham","optional":false},
-      {"amount":"1","unit":"cup","item":"shredded Swiss cheese","optional":false},
-      {"amount":"4","unit":"large","item":"eggs","optional":false},
-      {"amount":"1","unit":"cup","item":"milk","optional":false},
-      {"amount":"1/4","unit":"tsp","item":"black pepper","optional":false},
-      {"amount":"1","unit":"tbsp","item":"dijon mustard","optional":true}
+      {
+        "amount": 1,
+        "unit": "9-inch",
+        "item": "refrigerated pie crust",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "diced cooked ham",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "shredded Swiss cheese",
+        "optional": false
+      },
+      {
+        "amount": 4,
+        "unit": "large",
+        "item": "eggs",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "milk",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "black pepper",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "dijon mustard",
+        "optional": true
+      }
     ],
     "steps": [
-      {"text":"Heat oven to 375°F and fit the pie crust into a 9-inch pie pan."},
-      {"text":"Spread the ham and Swiss cheese evenly in the crust."},
-      {"text":"Whisk eggs, milk, black pepper, and optional Dijon mustard together."},
-      {"text":"Pour the egg mixture over the filling."},
-      {"text":"Bake until the center is set, about 35 to 40 minutes."},
-      {"text":"Let rest 10 minutes before slicing."}
+      {
+        "text": "Heat oven to 375°F and fit the pie crust into a 9-inch pie pan."
+      },
+      {
+        "text": "Spread the ham and Swiss cheese evenly in the crust."
+      },
+      {
+        "text": "Whisk eggs, milk, black pepper, and optional Dijon mustard together."
+      },
+      {
+        "text": "Pour the egg mixture over the filling."
+      },
+      {
+        "text": "Bake until the center is set, about 35 to 40 minutes."
+      },
+      {
+        "text": "Let rest 10 minutes before slicing."
+      }
     ],
     "cookSteps": [
-      {"text":"HEAT OVEN to 375°F and fit the pie crust into a 9-inch pie pan.","quantities":{"pie crust":0}},
-      {"text":"SPREAD IN CRUST:\n{{ham}} diced ham\n{{swiss}} Swiss cheese","quantities":{"ham":1,"swiss":2}},
-      {"text":"WHISK TOGETHER:\n{{eggs}} eggs\n{{milk}} milk\n{{pepper}} black pepper\nOPTIONAL: {{dijon}} Dijon mustard\n\nPour over filling.","quantities":{"eggs":3,"milk":4,"pepper":5,"dijon":6}},
-      {"text":"BAKE at 375°F until the center is set.","timerMinutes":40},
-      {"text":"LET REST before slicing.","timerMinutes":10}
+      {
+        "text": "HEAT OVEN to 375°F and fit the pie crust into a 9-inch pie pan.",
+        "quantities": {
+          "pie crust": 0
+        }
+      },
+      {
+        "text": "SPREAD IN CRUST:\n{{ham}} diced ham\n{{swiss}} Swiss cheese",
+        "quantities": {
+          "ham": 1,
+          "swiss": 2
+        }
+      },
+      {
+        "text": "WHISK TOGETHER:\n{{eggs}} eggs\n{{milk}} milk\n{{pepper}} black pepper\nOPTIONAL: {{dijon}} Dijon mustard\n\nPour over filling.",
+        "quantities": {
+          "eggs": 3,
+          "milk": 4,
+          "pepper": 5,
+          "dijon": 6
+        }
+      },
+      {
+        "text": "BAKE at 375°F until the center is set.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "LET REST before slicing.",
+        "timerMinutes": 10
+      }
     ],
     "storage": "Refrigerate covered for up to 4 days. Reheat individual slices until hot.",
-    "tags": ["breakfast", "brunch", "quiche", "ham", "make ahead"]
+    "tags": [
+      "breakfast",
+      "brunch",
+      "quiche",
+      "ham",
+      "make ahead"
+    ]
   },
   {
     "id": "quiche-bacon-onion-cheddar",
     "title": "Bacon, Onion & Cheddar Quiche",
-    "aliases": ["bacon cheddar quiche", "bacon onion quiche", "breakfast quiche"],
+    "aliases": [
+      "bacon cheddar quiche",
+      "bacon onion quiche",
+      "breakfast quiche"
+    ],
     "description": "Smoky bacon, soft onion, and sharp cheddar baked into a rich, familiar quiche.",
     "servings": 6,
     "prepMinutes": 15,
@@ -89,39 +271,130 @@
     "totalMinutes": 55,
     "effort": "easy",
     "cost": "$$",
-    "equipment": ["9-inch pie pan", "skillet", "mixing bowl"],
+    "equipment": [
+      "9-inch pie pan",
+      "skillet",
+      "mixing bowl"
+    ],
     "ingredients": [
-      {"amount":"1","unit":"9-inch","item":"refrigerated pie crust","optional":false},
-      {"amount":"6","unit":"slices","item":"bacon, cooked crisp and crumbled","optional":false},
-      {"amount":"1/2","unit":"cup","item":"diced onion","optional":false},
-      {"amount":"1","unit":"cup","item":"shredded cheddar cheese","optional":false},
-      {"amount":"4","unit":"large","item":"eggs","optional":false},
-      {"amount":"1","unit":"cup","item":"milk","optional":false},
-      {"amount":"1/4","unit":"tsp","item":"black pepper","optional":false}
+      {
+        "amount": 1,
+        "unit": "9-inch",
+        "item": "refrigerated pie crust",
+        "optional": false
+      },
+      {
+        "amount": 6,
+        "unit": "slices",
+        "item": "bacon, cooked crisp and crumbled",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "diced onion",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "shredded cheddar cheese",
+        "optional": false
+      },
+      {
+        "amount": 4,
+        "unit": "large",
+        "item": "eggs",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "milk",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "black pepper",
+        "optional": false
+      }
     ],
     "steps": [
-      {"text":"Heat oven to 375°F and fit the pie crust into a 9-inch pie pan."},
-      {"text":"Cook bacon until crisp. Remove it, then soften the onion in a little of the bacon drippings."},
-      {"text":"Spread bacon, onion, and cheddar evenly in the crust."},
-      {"text":"Whisk eggs, milk, and black pepper together, then pour over the filling."},
-      {"text":"Bake until the center is set, about 35 to 40 minutes."},
-      {"text":"Let rest 10 minutes before slicing."}
+      {
+        "text": "Heat oven to 375°F and fit the pie crust into a 9-inch pie pan."
+      },
+      {
+        "text": "Cook bacon until crisp. Remove it, then soften the onion in a little of the bacon drippings."
+      },
+      {
+        "text": "Spread bacon, onion, and cheddar evenly in the crust."
+      },
+      {
+        "text": "Whisk eggs, milk, and black pepper together, then pour over the filling."
+      },
+      {
+        "text": "Bake until the center is set, about 35 to 40 minutes."
+      },
+      {
+        "text": "Let rest 10 minutes before slicing."
+      }
     ],
     "cookSteps": [
-      {"text":"HEAT OVEN to 375°F and fit the pie crust into a 9-inch pie pan.","quantities":{"pie crust":0}},
-      {"text":"COOK until crisp:\n{{bacon}} bacon\n\nRemove bacon. Soften {{onion}} onion in a little bacon drippings.","quantities":{"bacon":1,"onion":2},"timerMinutes":8},
-      {"text":"SPREAD IN CRUST:\ncrumbled bacon\nsoftened onion\n{{cheddar}} cheddar cheese","quantities":{"cheddar":3}},
-      {"text":"WHISK TOGETHER:\n{{eggs}} eggs\n{{milk}} milk\n{{pepper}} black pepper\n\nPour over filling.","quantities":{"eggs":4,"milk":5,"pepper":6}},
-      {"text":"BAKE at 375°F until the center is set.","timerMinutes":40},
-      {"text":"LET REST before slicing.","timerMinutes":10}
+      {
+        "text": "HEAT OVEN to 375°F and fit the pie crust into a 9-inch pie pan.",
+        "quantities": {
+          "pie crust": 0
+        }
+      },
+      {
+        "text": "COOK until crisp:\n{{bacon}} bacon\n\nRemove bacon. Soften {{onion}} onion in a little bacon drippings.",
+        "quantities": {
+          "bacon": 1,
+          "onion": 2
+        },
+        "timerMinutes": 8
+      },
+      {
+        "text": "SPREAD IN CRUST:\ncrumbled bacon\nsoftened onion\n{{cheddar}} cheddar cheese",
+        "quantities": {
+          "cheddar": 3
+        }
+      },
+      {
+        "text": "WHISK TOGETHER:\n{{eggs}} eggs\n{{milk}} milk\n{{pepper}} black pepper\n\nPour over filling.",
+        "quantities": {
+          "eggs": 4,
+          "milk": 5,
+          "pepper": 6
+        }
+      },
+      {
+        "text": "BAKE at 375°F until the center is set.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "LET REST before slicing.",
+        "timerMinutes": 10
+      }
     ],
     "storage": "Refrigerate covered for up to 4 days. Reheat individual slices until hot.",
-    "tags": ["breakfast", "brunch", "quiche", "bacon", "make ahead"]
+    "tags": [
+      "breakfast",
+      "brunch",
+      "quiche",
+      "bacon",
+      "make ahead"
+    ]
   },
   {
     "id": "quiche-sausage-cheddar",
     "title": "Sausage & Cheddar Quiche",
-    "aliases": ["sausage quiche", "sausage cheddar quiche", "breakfast sausage quiche"],
+    "aliases": [
+      "sausage quiche",
+      "sausage cheddar quiche",
+      "breakfast sausage quiche"
+    ],
     "description": "A hearty breakfast-style quiche with browned sausage and cheddar cheese.",
     "servings": 6,
     "prepMinutes": 15,
@@ -129,38 +402,123 @@
     "totalMinutes": 55,
     "effort": "easy",
     "cost": "$$",
-    "equipment": ["9-inch pie pan", "skillet", "mixing bowl"],
+    "equipment": [
+      "9-inch pie pan",
+      "skillet",
+      "mixing bowl"
+    ],
     "ingredients": [
-      {"amount":"1","unit":"9-inch","item":"refrigerated pie crust","optional":false},
-      {"amount":"1/2","unit":"lb","item":"breakfast sausage","optional":false},
-      {"amount":"1","unit":"cup","item":"shredded cheddar cheese","optional":false},
-      {"amount":"4","unit":"large","item":"eggs","optional":false},
-      {"amount":"1","unit":"cup","item":"milk","optional":false},
-      {"amount":"1/4","unit":"tsp","item":"black pepper","optional":false}
+      {
+        "amount": 1,
+        "unit": "9-inch",
+        "item": "refrigerated pie crust",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "lb",
+        "item": "breakfast sausage",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "shredded cheddar cheese",
+        "optional": false
+      },
+      {
+        "amount": 4,
+        "unit": "large",
+        "item": "eggs",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "milk",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "black pepper",
+        "optional": false
+      }
     ],
     "steps": [
-      {"text":"Heat oven to 375°F and fit the pie crust into a 9-inch pie pan."},
-      {"text":"Brown the sausage in a skillet, breaking it into small crumbles, then drain well."},
-      {"text":"Spread sausage and cheddar evenly in the crust."},
-      {"text":"Whisk eggs, milk, and black pepper together, then pour over the filling."},
-      {"text":"Bake until the center is set, about 35 to 40 minutes."},
-      {"text":"Let rest 10 minutes before slicing."}
+      {
+        "text": "Heat oven to 375°F and fit the pie crust into a 9-inch pie pan."
+      },
+      {
+        "text": "Brown the sausage in a skillet, breaking it into small crumbles, then drain well."
+      },
+      {
+        "text": "Spread sausage and cheddar evenly in the crust."
+      },
+      {
+        "text": "Whisk eggs, milk, and black pepper together, then pour over the filling."
+      },
+      {
+        "text": "Bake until the center is set, about 35 to 40 minutes."
+      },
+      {
+        "text": "Let rest 10 minutes before slicing."
+      }
     ],
     "cookSteps": [
-      {"text":"HEAT OVEN to 375°F and fit the pie crust into a 9-inch pie pan.","quantities":{"pie crust":0}},
-      {"text":"BROWN and crumble:\n{{sausage}} breakfast sausage\n\nDrain well.","quantities":{"sausage":1},"timerMinutes":8},
-      {"text":"SPREAD IN CRUST:\nsausage\n{{cheddar}} cheddar cheese","quantities":{"cheddar":2}},
-      {"text":"WHISK TOGETHER:\n{{eggs}} eggs\n{{milk}} milk\n{{pepper}} black pepper\n\nPour over filling.","quantities":{"eggs":3,"milk":4,"pepper":5}},
-      {"text":"BAKE at 375°F until the center is set.","timerMinutes":40},
-      {"text":"LET REST before slicing.","timerMinutes":10}
+      {
+        "text": "HEAT OVEN to 375°F and fit the pie crust into a 9-inch pie pan.",
+        "quantities": {
+          "pie crust": 0
+        }
+      },
+      {
+        "text": "BROWN and crumble:\n{{sausage}} breakfast sausage\n\nDrain well.",
+        "quantities": {
+          "sausage": 1
+        },
+        "timerMinutes": 8
+      },
+      {
+        "text": "SPREAD IN CRUST:\nsausage\n{{cheddar}} cheddar cheese",
+        "quantities": {
+          "cheddar": 2
+        }
+      },
+      {
+        "text": "WHISK TOGETHER:\n{{eggs}} eggs\n{{milk}} milk\n{{pepper}} black pepper\n\nPour over filling.",
+        "quantities": {
+          "eggs": 3,
+          "milk": 4,
+          "pepper": 5
+        }
+      },
+      {
+        "text": "BAKE at 375°F until the center is set.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "LET REST before slicing.",
+        "timerMinutes": 10
+      }
     ],
     "storage": "Refrigerate covered for up to 4 days. Reheat individual slices until hot.",
-    "tags": ["breakfast", "brunch", "quiche", "sausage", "make ahead"]
+    "tags": [
+      "breakfast",
+      "brunch",
+      "quiche",
+      "sausage",
+      "make ahead"
+    ]
   },
   {
     "id": "quiche-spinach-feta",
     "title": "Spinach & Feta Quiche",
-    "aliases": ["spinach feta quiche", "feta quiche", "vegetarian quiche"],
+    "aliases": [
+      "spinach feta quiche",
+      "feta quiche",
+      "vegetarian quiche"
+    ],
     "description": "A tangy vegetarian quiche with spinach, feta, and a little garlic.",
     "servings": 6,
     "prepMinutes": 15,
@@ -168,40 +526,138 @@
     "totalMinutes": 55,
     "effort": "easy",
     "cost": "$$",
-    "equipment": ["9-inch pie pan", "skillet", "mixing bowl"],
+    "equipment": [
+      "9-inch pie pan",
+      "skillet",
+      "mixing bowl"
+    ],
     "ingredients": [
-      {"amount":"1","unit":"9-inch","item":"refrigerated pie crust","optional":false},
-      {"amount":"5","unit":"oz","item":"frozen chopped spinach, thawed and squeezed very dry","optional":false},
-      {"amount":"3/4","unit":"cup","item":"crumbled feta cheese","optional":false},
-      {"amount":"1","unit":"clove","item":"garlic, minced","optional":false},
-      {"amount":"1","unit":"tsp","item":"olive oil","optional":false},
-      {"amount":"4","unit":"large","item":"eggs","optional":false},
-      {"amount":"1","unit":"cup","item":"milk","optional":false},
-      {"amount":"1/4","unit":"tsp","item":"black pepper","optional":false}
+      {
+        "amount": 1,
+        "unit": "9-inch",
+        "item": "refrigerated pie crust",
+        "optional": false
+      },
+      {
+        "amount": 5,
+        "unit": "oz",
+        "item": "frozen chopped spinach, thawed and squeezed very dry",
+        "optional": false
+      },
+      {
+        "amount": 0.75,
+        "unit": "cup",
+        "item": "crumbled feta cheese",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "clove",
+        "item": "garlic, minced",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "item": "olive oil",
+        "optional": false
+      },
+      {
+        "amount": 4,
+        "unit": "large",
+        "item": "eggs",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "milk",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "black pepper",
+        "optional": false
+      }
     ],
     "steps": [
-      {"text":"Heat oven to 375°F and fit the pie crust into a 9-inch pie pan."},
-      {"text":"Warm olive oil in a skillet and cook the garlic for about 30 seconds. Stir in the very dry spinach just to warm it."},
-      {"text":"Spread spinach and feta evenly in the crust."},
-      {"text":"Whisk eggs, milk, and black pepper together, then pour over the filling."},
-      {"text":"Bake until the center is set, about 35 to 40 minutes."},
-      {"text":"Let rest 10 minutes before slicing."}
+      {
+        "text": "Heat oven to 375°F and fit the pie crust into a 9-inch pie pan."
+      },
+      {
+        "text": "Warm olive oil in a skillet and cook the garlic for about 30 seconds. Stir in the very dry spinach just to warm it."
+      },
+      {
+        "text": "Spread spinach and feta evenly in the crust."
+      },
+      {
+        "text": "Whisk eggs, milk, and black pepper together, then pour over the filling."
+      },
+      {
+        "text": "Bake until the center is set, about 35 to 40 minutes."
+      },
+      {
+        "text": "Let rest 10 minutes before slicing."
+      }
     ],
     "cookSteps": [
-      {"text":"HEAT OVEN to 375°F and fit the pie crust into a 9-inch pie pan.","quantities":{"pie crust":0}},
-      {"text":"WARM {{oil}} olive oil. Cook {{garlic}} garlic briefly, then stir in {{spinach}} very dry spinach.","quantities":{"oil":4,"garlic":3,"spinach":1},"timerMinutes":2},
-      {"text":"SPREAD IN CRUST:\nspinach\n{{feta}} feta cheese","quantities":{"feta":2}},
-      {"text":"WHISK TOGETHER:\n{{eggs}} eggs\n{{milk}} milk\n{{pepper}} black pepper\n\nPour over filling.","quantities":{"eggs":5,"milk":6,"pepper":7}},
-      {"text":"BAKE at 375°F until the center is set.","timerMinutes":40},
-      {"text":"LET REST before slicing.","timerMinutes":10}
+      {
+        "text": "HEAT OVEN to 375°F and fit the pie crust into a 9-inch pie pan.",
+        "quantities": {
+          "pie crust": 0
+        }
+      },
+      {
+        "text": "WARM {{oil}} olive oil. Cook {{garlic}} garlic briefly, then stir in {{spinach}} very dry spinach.",
+        "quantities": {
+          "oil": 4,
+          "garlic": 3,
+          "spinach": 1
+        },
+        "timerMinutes": 2
+      },
+      {
+        "text": "SPREAD IN CRUST:\nspinach\n{{feta}} feta cheese",
+        "quantities": {
+          "feta": 2
+        }
+      },
+      {
+        "text": "WHISK TOGETHER:\n{{eggs}} eggs\n{{milk}} milk\n{{pepper}} black pepper\n\nPour over filling.",
+        "quantities": {
+          "eggs": 5,
+          "milk": 6,
+          "pepper": 7
+        }
+      },
+      {
+        "text": "BAKE at 375°F until the center is set.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "LET REST before slicing.",
+        "timerMinutes": 10
+      }
     ],
     "storage": "Refrigerate covered for up to 4 days. Reheat individual slices until hot.",
-    "tags": ["breakfast", "brunch", "vegetarian", "quiche", "spinach", "make ahead"]
+    "tags": [
+      "breakfast",
+      "brunch",
+      "vegetarian",
+      "quiche",
+      "spinach",
+      "make ahead"
+    ]
   },
   {
     "id": "quiche-roasted-red-pepper-feta",
     "title": "Roasted Red Pepper & Feta Quiche",
-    "aliases": ["red pepper feta quiche", "roasted pepper quiche", "vegetarian quiche"],
+    "aliases": [
+      "red pepper feta quiche",
+      "roasted pepper quiche",
+      "vegetarian quiche"
+    ],
     "description": "A colorful, savory quiche with roasted red peppers and feta—easy because jarred peppers do most of the work.",
     "servings": 6,
     "prepMinutes": 10,
@@ -209,38 +665,125 @@
     "totalMinutes": 50,
     "effort": "very easy",
     "cost": "$$",
-    "equipment": ["9-inch pie pan", "mixing bowl"],
+    "equipment": [
+      "9-inch pie pan",
+      "mixing bowl"
+    ],
     "ingredients": [
-      {"amount":"1","unit":"9-inch","item":"refrigerated pie crust","optional":false},
-      {"amount":"3/4","unit":"cup","item":"jarred roasted red peppers, drained well and chopped","optional":false},
-      {"amount":"3/4","unit":"cup","item":"crumbled feta cheese","optional":false},
-      {"amount":"4","unit":"large","item":"eggs","optional":false},
-      {"amount":"1","unit":"cup","item":"milk","optional":false},
-      {"amount":"1/4","unit":"tsp","item":"black pepper","optional":false},
-      {"amount":"1/2","unit":"tsp","item":"dried Italian seasoning","optional":true}
+      {
+        "amount": 1,
+        "unit": "9-inch",
+        "item": "refrigerated pie crust",
+        "optional": false
+      },
+      {
+        "amount": 0.75,
+        "unit": "cup",
+        "item": "jarred roasted red peppers, drained well and chopped",
+        "optional": false
+      },
+      {
+        "amount": 0.75,
+        "unit": "cup",
+        "item": "crumbled feta cheese",
+        "optional": false
+      },
+      {
+        "amount": 4,
+        "unit": "large",
+        "item": "eggs",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "milk",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "black pepper",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "dried Italian seasoning",
+        "optional": true
+      }
     ],
     "steps": [
-      {"text":"Heat oven to 375°F and fit the pie crust into a 9-inch pie pan."},
-      {"text":"Pat the roasted red peppers dry, then spread them and the feta evenly in the crust."},
-      {"text":"Whisk eggs, milk, black pepper, and optional Italian seasoning together."},
-      {"text":"Pour the egg mixture over the filling."},
-      {"text":"Bake until the center is set, about 35 to 40 minutes."},
-      {"text":"Let rest 10 minutes before slicing."}
+      {
+        "text": "Heat oven to 375°F and fit the pie crust into a 9-inch pie pan."
+      },
+      {
+        "text": "Pat the roasted red peppers dry, then spread them and the feta evenly in the crust."
+      },
+      {
+        "text": "Whisk eggs, milk, black pepper, and optional Italian seasoning together."
+      },
+      {
+        "text": "Pour the egg mixture over the filling."
+      },
+      {
+        "text": "Bake until the center is set, about 35 to 40 minutes."
+      },
+      {
+        "text": "Let rest 10 minutes before slicing."
+      }
     ],
     "cookSteps": [
-      {"text":"HEAT OVEN to 375°F and fit the pie crust into a 9-inch pie pan.","quantities":{"pie crust":0}},
-      {"text":"PAT DRY and spread in crust:\n{{peppers}} roasted red peppers\n{{feta}} feta cheese","quantities":{"peppers":1,"feta":2}},
-      {"text":"WHISK TOGETHER:\n{{eggs}} eggs\n{{milk}} milk\n{{pepper}} black pepper\nOPTIONAL: {{italian}} Italian seasoning\n\nPour over filling.","quantities":{"eggs":3,"milk":4,"pepper":5,"italian":6}},
-      {"text":"BAKE at 375°F until the center is set.","timerMinutes":40},
-      {"text":"LET REST before slicing.","timerMinutes":10}
+      {
+        "text": "HEAT OVEN to 375°F and fit the pie crust into a 9-inch pie pan.",
+        "quantities": {
+          "pie crust": 0
+        }
+      },
+      {
+        "text": "PAT DRY and spread in crust:\n{{peppers}} roasted red peppers\n{{feta}} feta cheese",
+        "quantities": {
+          "peppers": 1,
+          "feta": 2
+        }
+      },
+      {
+        "text": "WHISK TOGETHER:\n{{eggs}} eggs\n{{milk}} milk\n{{pepper}} black pepper\nOPTIONAL: {{italian}} Italian seasoning\n\nPour over filling.",
+        "quantities": {
+          "eggs": 3,
+          "milk": 4,
+          "pepper": 5,
+          "italian": 6
+        }
+      },
+      {
+        "text": "BAKE at 375°F until the center is set.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "LET REST before slicing.",
+        "timerMinutes": 10
+      }
     ],
     "storage": "Refrigerate covered for up to 4 days. Reheat individual slices until hot.",
-    "tags": ["breakfast", "brunch", "vegetarian", "quiche", "red pepper", "make ahead"]
+    "tags": [
+      "breakfast",
+      "brunch",
+      "vegetarian",
+      "quiche",
+      "red pepper",
+      "make ahead"
+    ]
   },
   {
     "id": "quiche-three-cheese",
     "title": "Three-Cheese Quiche",
-    "aliases": ["three cheese quiche", "cheese quiche", "plain quiche", "vegetarian quiche"],
+    "aliases": [
+      "three cheese quiche",
+      "cheese quiche",
+      "plain quiche",
+      "vegetarian quiche"
+    ],
     "description": "A simple no-vegetable quiche with cheddar, Swiss, and Parmesan for maximum cheesy comfort.",
     "servings": 6,
     "prepMinutes": 10,
@@ -248,38 +791,128 @@
     "totalMinutes": 50,
     "effort": "very easy",
     "cost": "$$",
-    "equipment": ["9-inch pie pan", "mixing bowl"],
+    "equipment": [
+      "9-inch pie pan",
+      "mixing bowl"
+    ],
     "ingredients": [
-      {"amount":"1","unit":"9-inch","item":"refrigerated pie crust","optional":false},
-      {"amount":"1/2","unit":"cup","item":"shredded cheddar cheese","optional":false},
-      {"amount":"1/2","unit":"cup","item":"shredded Swiss cheese","optional":false},
-      {"amount":"1/4","unit":"cup","item":"grated Parmesan cheese","optional":false},
-      {"amount":"4","unit":"large","item":"eggs","optional":false},
-      {"amount":"1","unit":"cup","item":"milk","optional":false},
-      {"amount":"1/4","unit":"tsp","item":"salt","optional":false},
-      {"amount":"1/4","unit":"tsp","item":"black pepper","optional":false}
+      {
+        "amount": 1,
+        "unit": "9-inch",
+        "item": "refrigerated pie crust",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "shredded cheddar cheese",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "shredded Swiss cheese",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "grated Parmesan cheese",
+        "optional": false
+      },
+      {
+        "amount": 4,
+        "unit": "large",
+        "item": "eggs",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "milk",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "salt",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "black pepper",
+        "optional": false
+      }
     ],
     "steps": [
-      {"text":"Heat oven to 375°F and fit the pie crust into a 9-inch pie pan."},
-      {"text":"Mix the cheddar, Swiss, and Parmesan together and spread evenly in the crust."},
-      {"text":"Whisk eggs, milk, salt, and black pepper together, then pour over the cheese."},
-      {"text":"Bake until the center is set, about 35 to 40 minutes."},
-      {"text":"Let rest 10 minutes before slicing."}
+      {
+        "text": "Heat oven to 375°F and fit the pie crust into a 9-inch pie pan."
+      },
+      {
+        "text": "Mix the cheddar, Swiss, and Parmesan together and spread evenly in the crust."
+      },
+      {
+        "text": "Whisk eggs, milk, salt, and black pepper together, then pour over the cheese."
+      },
+      {
+        "text": "Bake until the center is set, about 35 to 40 minutes."
+      },
+      {
+        "text": "Let rest 10 minutes before slicing."
+      }
     ],
     "cookSteps": [
-      {"text":"HEAT OVEN to 375°F and fit the pie crust into a 9-inch pie pan.","quantities":{"pie crust":0}},
-      {"text":"MIX AND SPREAD IN CRUST:\n{{cheddar}} cheddar\n{{swiss}} Swiss\n{{parm}} Parmesan","quantities":{"cheddar":1,"swiss":2,"parm":3}},
-      {"text":"WHISK TOGETHER:\n{{eggs}} eggs\n{{milk}} milk\n{{salt}} salt\n{{pepper}} black pepper\n\nPour over cheese.","quantities":{"eggs":4,"milk":5,"salt":6,"pepper":7}},
-      {"text":"BAKE at 375°F until the center is set.","timerMinutes":40},
-      {"text":"LET REST before slicing.","timerMinutes":10}
+      {
+        "text": "HEAT OVEN to 375°F and fit the pie crust into a 9-inch pie pan.",
+        "quantities": {
+          "pie crust": 0
+        }
+      },
+      {
+        "text": "MIX AND SPREAD IN CRUST:\n{{cheddar}} cheddar\n{{swiss}} Swiss\n{{parm}} Parmesan",
+        "quantities": {
+          "cheddar": 1,
+          "swiss": 2,
+          "parm": 3
+        }
+      },
+      {
+        "text": "WHISK TOGETHER:\n{{eggs}} eggs\n{{milk}} milk\n{{salt}} salt\n{{pepper}} black pepper\n\nPour over cheese.",
+        "quantities": {
+          "eggs": 4,
+          "milk": 5,
+          "salt": 6,
+          "pepper": 7
+        }
+      },
+      {
+        "text": "BAKE at 375°F until the center is set.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "LET REST before slicing.",
+        "timerMinutes": 10
+      }
     ],
     "storage": "Refrigerate covered for up to 4 days. Reheat individual slices until hot.",
-    "tags": ["breakfast", "brunch", "vegetarian", "quiche", "cheese", "make ahead"]
+    "tags": [
+      "breakfast",
+      "brunch",
+      "vegetarian",
+      "quiche",
+      "cheese",
+      "make ahead"
+    ]
   },
   {
     "id": "quiche-potato-onion-cheddar",
     "title": "Potato, Onion & Cheddar Quiche",
-    "aliases": ["potato quiche", "potato onion quiche", "vegetarian quiche"],
+    "aliases": [
+      "potato quiche",
+      "potato onion quiche",
+      "vegetarian quiche"
+    ],
     "description": "A hearty meatless quiche with tender potato, soft onion, and cheddar cheese.",
     "servings": 6,
     "prepMinutes": 20,
@@ -287,37 +920,145 @@
     "totalMinutes": 60,
     "effort": "easy",
     "cost": "$",
-    "equipment": ["9-inch pie pan", "skillet", "small pot", "mixing bowl"],
+    "equipment": [
+      "9-inch pie pan",
+      "skillet",
+      "small pot",
+      "mixing bowl"
+    ],
     "ingredients": [
-      {"amount":"1","unit":"9-inch","item":"refrigerated pie crust","optional":false},
-      {"amount":"1","unit":"small","item":"russet potato, peeled and cut in small cubes","optional":false},
-      {"amount":"1/2","unit":"cup","item":"diced onion","optional":false},
-      {"amount":"1","unit":"tbsp","item":"butter","optional":false},
-      {"amount":"1","unit":"cup","item":"shredded cheddar cheese","optional":false},
-      {"amount":"4","unit":"large","item":"eggs","optional":false},
-      {"amount":"1","unit":"cup","item":"milk","optional":false},
-      {"amount":"1/4","unit":"tsp","item":"salt","optional":false},
-      {"amount":"1/4","unit":"tsp","item":"black pepper","optional":false}
+      {
+        "amount": 1,
+        "unit": "9-inch",
+        "item": "refrigerated pie crust",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "small",
+        "item": "russet potato, peeled and cut in small cubes",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "diced onion",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "item": "butter",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "shredded cheddar cheese",
+        "optional": false
+      },
+      {
+        "amount": 4,
+        "unit": "large",
+        "item": "eggs",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "milk",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "salt",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "black pepper",
+        "optional": false
+      }
     ],
     "steps": [
-      {"text":"Heat oven to 375°F and fit the pie crust into a 9-inch pie pan."},
-      {"text":"Boil the potato cubes just until tender, about 5 minutes, then drain very well."},
-      {"text":"Melt butter in a skillet and cook the onion until softened."},
-      {"text":"Spread potato, onion, and cheddar evenly in the crust."},
-      {"text":"Whisk eggs, milk, salt, and black pepper together, then pour over the filling."},
-      {"text":"Bake until the center is set, about 35 to 40 minutes."},
-      {"text":"Let rest 10 minutes before slicing."}
+      {
+        "text": "Heat oven to 375°F and fit the pie crust into a 9-inch pie pan."
+      },
+      {
+        "text": "Boil the potato cubes just until tender, about 5 minutes, then drain very well."
+      },
+      {
+        "text": "Melt butter in a skillet and cook the onion until softened."
+      },
+      {
+        "text": "Spread potato, onion, and cheddar evenly in the crust."
+      },
+      {
+        "text": "Whisk eggs, milk, salt, and black pepper together, then pour over the filling."
+      },
+      {
+        "text": "Bake until the center is set, about 35 to 40 minutes."
+      },
+      {
+        "text": "Let rest 10 minutes before slicing."
+      }
     ],
     "cookSteps": [
-      {"text":"HEAT OVEN to 375°F and fit the pie crust into a 9-inch pie pan.","quantities":{"pie crust":0}},
-      {"text":"BOIL just until tender, then drain very well:\n{{potato}} cubed potato","quantities":{"potato":1},"timerMinutes":5},
-      {"text":"MELT {{butter}} butter and cook {{onion}} onion until softened.","quantities":{"butter":3,"onion":2},"timerMinutes":5},
-      {"text":"SPREAD IN CRUST:\npotato\nonion\n{{cheddar}} cheddar cheese","quantities":{"cheddar":4}},
-      {"text":"WHISK TOGETHER:\n{{eggs}} eggs\n{{milk}} milk\n{{salt}} salt\n{{pepper}} black pepper\n\nPour over filling.","quantities":{"eggs":5,"milk":6,"salt":7,"pepper":8}},
-      {"text":"BAKE at 375°F until the center is set.","timerMinutes":40},
-      {"text":"LET REST before slicing.","timerMinutes":10}
+      {
+        "text": "HEAT OVEN to 375°F and fit the pie crust into a 9-inch pie pan.",
+        "quantities": {
+          "pie crust": 0
+        }
+      },
+      {
+        "text": "BOIL just until tender, then drain very well:\n{{potato}} cubed potato",
+        "quantities": {
+          "potato": 1
+        },
+        "timerMinutes": 5
+      },
+      {
+        "text": "MELT {{butter}} butter and cook {{onion}} onion until softened.",
+        "quantities": {
+          "butter": 3,
+          "onion": 2
+        },
+        "timerMinutes": 5
+      },
+      {
+        "text": "SPREAD IN CRUST:\npotato\nonion\n{{cheddar}} cheddar cheese",
+        "quantities": {
+          "cheddar": 4
+        }
+      },
+      {
+        "text": "WHISK TOGETHER:\n{{eggs}} eggs\n{{milk}} milk\n{{salt}} salt\n{{pepper}} black pepper\n\nPour over filling.",
+        "quantities": {
+          "eggs": 5,
+          "milk": 6,
+          "salt": 7,
+          "pepper": 8
+        }
+      },
+      {
+        "text": "BAKE at 375°F until the center is set.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "LET REST before slicing.",
+        "timerMinutes": 10
+      }
     ],
     "storage": "Refrigerate covered for up to 4 days. Reheat individual slices until hot.",
-    "tags": ["breakfast", "brunch", "vegetarian", "quiche", "potato", "make ahead"]
+    "tags": [
+      "breakfast",
+      "brunch",
+      "vegetarian",
+      "quiche",
+      "potato",
+      "make ahead"
+    ]
   }
 ]
