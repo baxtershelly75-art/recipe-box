@@ -136,9 +136,44 @@ function renderResults() {
   $('#showMoreBtn').classList.toggle('hidden', state.shown >= state.results.length);
 }
 
+function parseIngredientAmount(value) {
+  if (typeof value === 'number') return Number.isFinite(value) ? value : NaN;
+
+  const raw = String(value ?? '').trim();
+  if (!raw) return NaN;
+
+  const plainNumber = Number(raw);
+  if (Number.isFinite(plainNumber)) return plainNumber;
+
+  let match = raw.match(/^(\d+)\s*[- ]\s*(\d+)\/(\d+)$/);
+  if (match) {
+    const denominator = Number(match[3]);
+    return denominator ? Number(match[1]) + (Number(match[2]) / denominator) : NaN;
+  }
+
+  match = raw.match(/^(\d+)\/(\d+)$/);
+  if (match) {
+    const denominator = Number(match[2]);
+    return denominator ? Number(match[1]) / denominator : NaN;
+  }
+
+  const unicodeFractions = {
+    '⅛': 1 / 8, '¼': 1 / 4, '⅜': 3 / 8, '½': 1 / 2,
+    '⅝': 5 / 8, '⅔': 2 / 3, '¾': 3 / 4, '⅞': 7 / 8, '⅓': 1 / 3
+  };
+  match = raw.match(/^(\d+)?\s*([⅛¼⅜½⅝⅔¾⅞⅓])$/);
+  if (match) return Number(match[1] || 0) + unicodeFractions[match[2]];
+
+  return NaN;
+}
+
 function formatAmount(n) {
+  if (!Number.isFinite(n)) return '';
   const rounded = Math.round(n * 100) / 100;
-  const fractions = [[0.25, '¼'], [0.33, '⅓'], [0.5, '½'], [0.67, '⅔'], [0.75, '¾']];
+  const fractions = [
+    [0.125, '⅛'], [0.25, '¼'], [0.33, '⅓'], [0.375, '⅜'],
+    [0.5, '½'], [0.625, '⅝'], [0.67, '⅔'], [0.75, '¾'], [0.875, '⅞']
+  ];
   const whole = Math.floor(rounded);
   const frac = rounded - whole;
   const hit = fractions.find(([v]) => Math.abs(frac - v) < 0.03);
@@ -146,9 +181,17 @@ function formatAmount(n) {
   return Number.isInteger(rounded) ? String(rounded) : String(rounded);
 }
 
+function scaledAmountText(value, scale = 1) {
+  const parsed = parseIngredientAmount(value);
+  if (Number.isFinite(parsed)) return formatAmount(parsed * scale);
+  return String(value ?? '').trim();
+}
+
 function ingredientLine(i, scale = 1) {
+  const amount = scaledAmountText(i.amount, scale);
   const unit = i.unit ? ` ${i.unit}` : '';
-  return `${formatAmount(i.amount * scale)}${unit} ${i.item}${i.optional ? ' (optional)' : ''}`;
+  const quantity = `${amount}${unit}`.trim();
+  return `${quantity ? `${quantity} ` : ''}${i.item}${i.optional ? ' (optional)' : ''}`;
 }
 
 function getFavorites() {
@@ -263,12 +306,15 @@ function renderDetail() {
 
 function scaledCookStepText(step) {
   let text = step.text;
-  const quantities = step.quantities || [];
+  const rawQuantities = step.quantities || [];
+  const quantities = Array.isArray(rawQuantities)
+    ? rawQuantities
+    : Object.entries(rawQuantities).map(([key, ingredientIndex]) => ({ key, ingredientIndex }));
   for (const q of quantities) {
     const ingredient = state.currentRecipe.ingredients[q.ingredientIndex];
     if (!ingredient) continue;
     const unit = ingredient.unit ? ` ${ingredient.unit}` : '';
-    const amount = `${formatAmount(ingredient.amount * state.scale)}${unit}`;
+    const amount = `${scaledAmountText(ingredient.amount, state.scale)}${unit}`;
     text = text.replaceAll(`{{${q.key}}}`, amount);
   }
   text = text.replace(/\{\{[^}]+\}\}/g, '').trim();
@@ -620,7 +666,7 @@ loadRecipes();
 
       selectedRecipes.forEach(recipe => {
         recipe.ingredients.forEach(ingredient => {
-          const amount = Number(ingredient.amount);
+          const amount = parseIngredientAmount(ingredient.amount);
           if (Number.isFinite(amount) && amount === 0) return;
 
           const rawUnit = String(ingredient.unit || '').trim();
