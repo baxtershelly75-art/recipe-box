@@ -69,7 +69,7 @@
         "text": "Heat oven to 375°F and fit the pie crust into a 9-inch pie pan."
       },
       {
-        "text": "Brown the Italian sausage in a skillet, breaking it into very small crumbles. Cook until no pink remains, then drain the grease well."
+        "text": "Brown the Italian sausage in a skillet, breaking it into small crumbles. Cook until no pink remains, drain the grease well, then transfer to a cutting board and chop it very fine for an even texture."
       },
       {
         "text": "Spread the cooked sausage evenly in the crust, then sprinkle the triple cheddar over it."
@@ -92,7 +92,7 @@
         }
       },
       {
-        "text": "BROWN and crumble very finely:\n{{sausage}} Italian sausage\n\nCook until no pink remains, then drain the grease well.",
+        "text": "BROWN and crumble:\n{{sausage}} Italian sausage\n\nCook until no pink remains and drain the grease well. Transfer to a cutting board and CHOP VERY FINE for an even texture.",
         "quantities": {
           "sausage": 1
         },
