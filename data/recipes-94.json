@@ -1,0 +1,135 @@
+[
+  {
+    "id": "quiche-italian-sausage-triple-cheddar",
+    "title": "Italian Sausage & Triple Cheddar Quiche",
+    "aliases": [
+      "italian sausage quiche",
+      "triple cheddar quiche",
+      "sausage triple cheddar quiche",
+      "italian sausage cheddar quiche"
+    ],
+    "description": "A savory quiche with finely crumbled Italian sausage and triple cheddar in a flaky pie crust. The sausage and cheese bring enough salt, so no extra salt is needed.",
+    "servings": 6,
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": [
+      "9-inch pie pan",
+      "skillet",
+      "mixing bowl"
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "9-inch",
+        "item": "refrigerated pie crust",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "lb",
+        "item": "Italian sausage",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "shredded triple cheddar cheese",
+        "optional": false
+      },
+      {
+        "amount": 4,
+        "unit": "large",
+        "item": "eggs",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "milk",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "black pepper",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "garlic powder",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat oven to 375°F and fit the pie crust into a 9-inch pie pan."
+      },
+      {
+        "text": "Brown the Italian sausage in a skillet, breaking it into very small crumbles. Cook until no pink remains, then drain the grease well."
+      },
+      {
+        "text": "Spread the cooked sausage evenly in the crust, then sprinkle the triple cheddar over it."
+      },
+      {
+        "text": "Whisk eggs, milk, black pepper, and optional garlic powder together. Do not add salt; the sausage and cheese provide plenty. Pour over the filling."
+      },
+      {
+        "text": "Bake at 375°F until the edges are set and the center is mostly set with just a slight jiggle, about 35 to 45 minutes."
+      },
+      {
+        "text": "Let rest 10 minutes before slicing so the filling finishes setting."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "HEAT OVEN to 375°F and fit the pie crust into a 9-inch pie pan.",
+        "quantities": {
+          "pie crust": 0
+        }
+      },
+      {
+        "text": "BROWN and crumble very finely:\n{{sausage}} Italian sausage\n\nCook until no pink remains, then drain the grease well.",
+        "quantities": {
+          "sausage": 1
+        },
+        "timerMinutes": 8
+      },
+      {
+        "text": "SPREAD IN CRUST:\ncooked Italian sausage\n{{cheddar}} triple cheddar cheese",
+        "quantities": {
+          "cheddar": 2
+        }
+      },
+      {
+        "text": "WHISK TOGETHER:\n{{eggs}} eggs\n{{milk}} milk\n{{pepper}} black pepper\nOPTIONAL: {{garlic}} garlic powder\n\nNo added salt is needed. Pour over the filling.",
+        "quantities": {
+          "eggs": 3,
+          "milk": 4,
+          "pepper": 5,
+          "garlic": 6
+        }
+      },
+      {
+        "text": "BAKE at 375°F until the edges are set and the center is mostly set with just a slight jiggle. Start checking around 35 minutes.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "LET REST before slicing so the filling finishes setting.",
+        "timerMinutes": 10
+      }
+    ],
+    "storage": "Refrigerate covered for up to 4 days. Reheat individual slices until hot.",
+    "tags": [
+      "breakfast",
+      "brunch",
+      "quiche",
+      "italian sausage",
+      "cheddar",
+      "make ahead"
+    ]
+  }
+]
