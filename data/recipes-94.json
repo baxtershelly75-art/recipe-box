@@ -131,5 +131,179 @@
       "cheddar",
       "make ahead"
     ]
+  },
+  {
+    "id": "creamy-crockpot-chicken-broccoli-rice",
+    "title": "Creamy Crockpot Chicken Broccoli Rice",
+    "aliases": [
+      "creamy chicken broccoli rice",
+      "crockpot chicken broccoli rice",
+      "slow cooker chicken broccoli rice",
+      "cheesy chicken broccoli rice"
+    ],
+    "description": "Tender shredded chicken, rice, broccoli, cream cheese, milk, and cheddar cooked into a creamy slow-cooker dinner.",
+    "servings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 300,
+    "totalMinutes": 310,
+    "effort": "easy",
+    "cost": "$$",
+    "equipment": [
+      "slow cooker",
+      "two forks",
+      "measuring cups and spoons"
+    ],
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "lb",
+        "item": "boneless chicken breasts or thighs",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "cups",
+        "item": "chicken broth",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "long-grain white rice, uncooked",
+        "optional": false
+      },
+      {
+        "amount": 2,
+        "unit": "cups",
+        "item": "small broccoli florets",
+        "optional": false
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "item": "shredded cheddar cheese",
+        "optional": false
+      },
+      {
+        "amount": 4,
+        "unit": "oz",
+        "item": "cream cheese",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "item": "milk",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "garlic powder",
+        "optional": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "item": "salt",
+        "optional": false
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "item": "black pepper",
+        "optional": true
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "item": "extra chicken broth, if needed while rice cooks",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Add the chicken, 2 cups chicken broth, garlic powder, salt, and optional black pepper to the slow cooker."
+      },
+      {
+        "text": "Cover and cook on LOW for 4 to 5 hours or HIGH for 2½ to 3 hours, until the chicken is fully cooked and easy to shred."
+      },
+      {
+        "text": "Shred the chicken with two forks right in the slow cooker."
+      },
+      {
+        "text": "Stir in the uncooked rice. Turn the slow cooker to HIGH, cover, and cook 45 to 75 minutes, checking around 45 minutes. If the mixture looks dry before the rice is tender, add up to ¼ cup extra broth."
+      },
+      {
+        "text": "When the rice is almost tender, stir in the broccoli. Cover and cook 20 to 30 minutes more, until the broccoli and rice are tender."
+      },
+      {
+        "text": "Turn the slow cooker to LOW or WARM. Stir in the cream cheese, milk, and cheddar. Cover for 10 to 15 minutes, then stir until smooth and creamy."
+      },
+      {
+        "text": "Taste and adjust seasoning, then serve warm."
+      }
+    ],
+    "cookSteps": [
+      {
+        "text": "ADD TO SLOW COOKER:\n{{chicken}} boneless chicken\n{{broth}} chicken broth\n{{garlic}} garlic powder\n{{salt}} salt\nOPTIONAL: {{pepper}} black pepper",
+        "quantities": {
+          "chicken": 0,
+          "broth": 1,
+          "garlic": 7,
+          "salt": 8,
+          "pepper": 9
+        }
+      },
+      {
+        "text": "COVER AND COOK until the chicken is fully cooked and easy to shred.\nLOW: 4 to 5 hours\nOR HIGH: 2½ to 3 hours.",
+        "timerMinutes": 180
+      },
+      {
+        "text": "SHRED the chicken with two forks right in the slow cooker."
+      },
+      {
+        "text": "STIR IN {{rice}} uncooked long-grain white rice.\n\nTurn to HIGH, cover, and cook 45 to 75 minutes. CHECK at 45 minutes. If it looks dry before the rice is tender, add up to {{extraBroth}} extra broth.",
+        "quantities": {
+          "rice": 2,
+          "extraBroth": 10
+        },
+        "timerMinutes": 45
+      },
+      {
+        "text": "WHEN THE RICE IS ALMOST TENDER, stir in {{broccoli}} broccoli florets. Cover and cook until the broccoli and rice are tender.",
+        "quantities": {
+          "broccoli": 3
+        },
+        "timerMinutes": 25
+      },
+      {
+        "text": "TURN TO LOW OR WARM. STIR IN:\n{{creamCheese}} cream cheese\n{{milk}} milk\n{{cheddar}} shredded cheddar\n\nCover briefly, then stir until smooth and creamy.",
+        "quantities": {
+          "creamCheese": 5,
+          "milk": 6,
+          "cheddar": 4
+        },
+        "timerMinutes": 10
+      },
+      {
+        "text": "TASTE, adjust seasoning if needed, and serve warm."
+      }
+    ],
+    "storage": "Refrigerate covered for up to 4 days. Freeze cooled individual portions for up to 2 months. Thaw overnight in the refrigerator and reheat gently; add a splash of milk or broth if needed to loosen the sauce.",
+    "tags": [
+      "crockpot",
+      "slow cooker",
+      "dinner",
+      "family dinner",
+      "comfort food",
+      "one-pot",
+      "chicken",
+      "broccoli",
+      "rice",
+      "cheesy",
+      "freezer friendly",
+      "small batch"
+    ]
   }
 ]
